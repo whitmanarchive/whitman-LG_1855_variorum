@@ -9,25 +9,18 @@ default:
   # please fill in the name of your collection here
   # collection:
   collection: whitman_variorum
-  data_base: https://cdrhmedia.unl.edu  # (do not include /data/ in path)
-  media_base: https://cdrhmedia.unl.edu
+  # data_base: https://cdrhmedia.unl.edu  # (do not include /data/ in path)
+  # media_base: https://cdrhmedia.unl.edu
 
   # refer to the documentation for details about overriding the XSL
   # html_html_xsl:
-  # tei_html_xsl: scripts/xslt/tei.xsl
+  tei_html_xsl: scripts/overrides/LOG_variorum.xsl
   # vra_html_xsl:
 
-  variables_html:
-    site_url: override_in_public
-    image_large: 800
-    image_thumb: 150
-
-development:
-  es_index: cdrhapidev-v1
-  es_path: https://cdrhdev1.unl.edu/elastic
-  data_base: https://cather-dev.unl.edu/media
+# development:
+  # es_index: cdrhapidev-v1
+  # es_path: https://cdrhdev1.unl.edu/elastic
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file
   # allowed_files: config/allowed.txt
-
