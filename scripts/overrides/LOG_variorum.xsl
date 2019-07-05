@@ -5,7 +5,7 @@
   
   <xsl:import href="../../config/config.xsl"/>
 
-  <xsl:output method="html" indent="yes" encoding="UTF-8" media-type="text/html"/>
+  <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
