@@ -453,7 +453,7 @@
     </div>
   </xsl:template>
 
-  
+  <!-- todo consult with jess/greg about a good way to do this -->
   <xsl:template name="repository_citation">
     <xsl:if test="contains(@facs, 'loc')">The Charles E. Feinberg Collection of the Papers of Walt
       Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</xsl:if>
