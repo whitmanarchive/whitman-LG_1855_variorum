@@ -7,6 +7,7 @@
   <!-- Temporary while variorum is still in cocoon -->
   <!-- All these variables should move into config.yml -->
   
+  <!-- temporary params so that the site can be viewed live with datura default stylesheets -->
   <xsl:param name="collection">TEMP</xsl:param>
   <xsl:param name="image_thumb">TEMP</xsl:param>
   <xsl:param name=" image_large">TEMP</xsl:param>
