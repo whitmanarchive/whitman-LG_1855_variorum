@@ -7,7 +7,12 @@
   <!-- Temporary while variorum is still in cocoon -->
   <!-- All these variables should move into config.yml -->
   
-  
+  <xsl:param name="collection">TEMP</xsl:param>
+  <xsl:param name="image_thumb">TEMP</xsl:param>
+  <xsl:param name=" image_large">TEMP</xsl:param>
+  <xsl:param name="media_base">TEMP</xsl:param>
+  <xsl:param name="site_url">TEMP</xsl:param>
+  <xsl:variable name="environment">development</xsl:variable>
   
 
   <xsl:variable name="siteroot">https://whitman-dev.unl.edu/</xsl:variable>
