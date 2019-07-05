@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04736">
+    <relations>
+        <work ref="xxx.00048" cert="high">
+            <p>The lines that appear in this printed draft advertisement for the 1855 <hi rend="italic">Leaves of Grass</hi> are drafts of lines in the poem ultimately titled "Song of Myself."</p>
+        </work>
+    </relations>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">An American Poet at last!</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author xml:id="ww">Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04736</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the <hi rend="italic">Walt Whitman Archive</hi> and are licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of the material should credit the <hi rend="italic">Walt Whitman Archive</hi>.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project" target="#dat1">This printed draft advertisement for the first (1855) edition of <hi rend="italic">Leaves of Grass</hi> includes draft lines from the first poem in that edition, titled "Leaves of Grass," ultimately titled "Song of Myself." Whitman probably wrote this ad copy and had it printed while the books were in production. No known published version of the advertisement has been located.</note>             
+            </notesStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Advertisements and announcements, proof sheets [DCN 223]</title>                  
+                    <idno type="callno">MSS18630, Box 20, Reel 12</idno>
+                    <date xml:id="dat1" notBefore="1855-01-01" notAfter="1855-12-31" cert="high">1855</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <note>Transcribed from digital images of the original.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-06-28" who="#nhg">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="printed_slip">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ej.00404.jpg" type="recto"/>
+
+            <head type="main-authorial">An American Poet at last!</head>
+            <p>WALT WHITMAN'S "Leaves of Grass" are the commencement for the literature of the world of a large fresh growth of an American School, in place of the romantic school, and of the classical and aristocratic schools. Enveloping all partial and sectional ideas these new poems are pervaded by the <lb/>
+            Idea of the Kosmos,<lb/>
+            Appropriate to that style which must characterize "the nation of teeming nations." Through the poet's soul runs the perpetual spirit of union and equality. He is 
+            <q type="extract">
+                    <lg type="linegroup">
+                        <l xml:id="l01" corresp="#l330">"A northerner soon as a northerner&#8212;a planter <choice><orig>nonchal-
+                            <lb/>ant</orig><reg>nonchalant</reg></choice> and hospitable,</l>
+                        <l xml:id="l02" corresp="#l331">A Yankee bound his own way, ready for trade, with the<lb/> 
+                            limberest joints of man and the sternest joints of<lb/> 
+                            man,</l>
+                        <l xml:id="l03" corresp="#l333">A boatman over Ontario, Erie, Michigan or Champlain&#8212;<lb/>
+                            a Hoozier, or Badger, or Buckeye,</l>
+                        <l xml:id="l04" corresp="#l334">A Louisianian or Georgian&#8212;a poke-easy from sandhills<lb/> 
+                            and pines,</l>
+                        <l xml:id="l05" corresp="#l335">At home on Canadian snowshoes, or the fishbanks, or up<lb/> 
+                            in the bush,</l>
+                        <l xml:id="l06" corresp="#l336">At home in the fleet of iceboats, sailing with the rest and<lb/> 
+                            tacking,</l>
+                        <l xml:id="l07" corresp="#l337">At home on the hills of Vermont, or in the woods of<lb/> 
+                            Maine, or the Texan ranch,</l>
+                        <l xml:id="l08" corresp="#l338">Comrade of Californians&#8212;comrade of free <choice><orig>Northwest-<lb/>
+                            erners</orig><reg>Northwesterners</reg></choice>&#8212;loving their big proportions,</l>
+                        <l xml:id="l09" corresp="#l339">Comrade of raftsmen&#8212;comrade of all who shake hands<lb/> 
+                            and welcome to drink and meat;</l>
+                        <l xml:id="l10" corresp="#l340">A learner with the simplest, a teacher of the thoughtfulest,</l>
+                        <l xml:id="l11" corresp="#l341">A novice beginning experient of myriads of seasons,</l>
+                        <l xml:id="l12" corresp="#l342">Of every hue and trade and rank&#8212;of every caste and<lb/> 
+                            religion,</l>
+                        <l xml:id="l13" corresp="#l343">Not merely of the New World, but of Africa, Europe or<lb/> 
+                            Asia,</l>
+                        <l xml:id="l14" corresp="#l344 #l345">A farmer, mechanic or artist&#8212;a gentleman, sailor, lover,<lb/>
+                            quaker, prisoner, fancyman, rowdy, lawyer, <choice><orig>phy-<lb/>
+                            sician</orig><reg>physician</reg></choice> or priest."</l>
+                    </lg>
+            </q></p>
+                <p>The "L<hi rend="smallcaps">EAVES of</hi> G<hi rend="smallcaps">RASS</hi> bound in one volume small quarto, green and full gilt, $1.50.</p>
+            <p>&#8212; &#8212; &#8212; street, N. Y.</p>
+        </body>
+        
+        <pb xml:id="leaf001v" facs="loc.04736.002.jpg" type="verso"/>
+    </text>
+</TEI>
