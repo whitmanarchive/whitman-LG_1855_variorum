@@ -11,3 +11,8 @@ config/private.yml
 /output/production/*
 !/output/production/html
 
+# including dev output
+!/output/development
+/output/development/*
+!/output/deveopment/html
+
