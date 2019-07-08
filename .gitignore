@@ -14,5 +14,5 @@ config/private.yml
 # including dev output
 !/output/development
 /output/development/*
-!/output/deveopment/html
+!/output/development/html
 
