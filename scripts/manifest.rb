@@ -117,7 +117,7 @@ pbs.each do |page|
   # TODO fill in more annotation stuff
   annotation = IIIF::Presentation::Annotation.new
   annotation.resource = IIIF::Presentation::ImageResource.create_image_api_image_resource({
-    service_id: "#{iiif_path}%2F#{image_filename}"
+    service_id: "#{iiif_path}%2F#{image_filename.gsub(/\.jpg/, "_hiRes.jpg")}"
   })
   # TODO see this part of documentation for "on": https://iiif.io/api/presentation/2.1/#image-resources
   annotation["on"] = "https://whitmanarchive.org/TODO/#{image_filename}-#{page["id"]}"
