@@ -371,6 +371,18 @@
       <xsl:if
         test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"
         >[Blank]</xsl:if>
+      
+
+      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
+        <br/>
+        <br/>
+        <span class="variant_note">
+          <strong>Note: </strong>
+          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
+        </span>
+      </xsl:if>
+    </span>
+    <span class="tei_rdg_wit">
       <xsl:if test="@facs">
         <a target="_blank">
           <xsl:attribute name="href">
@@ -388,22 +400,15 @@
           <xsl:call-template name="repository_citation"/>
         </span>
       </xsl:if>
-
-      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
-        <br/>
-        <br/>
-        <span class="variant_note">
-          <strong>Note: </strong>
-          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
-        </span>
-      </xsl:if>
+      <span class="open_all"><a href="">View All Copies</a></span>
+      <!--<span>
+        <xsl:for-each select="tokenize(@wit, ' ')">
+          <xsl:value-of select="."/>
+          <xsl:text> </xsl:text>
+        </xsl:for-each>
+      </span>-->
     </span>
-    <span class="tei_rdg_wit">
-      <xsl:for-each select="tokenize(@wit, ' ')">
-        <xsl:value-of select="."/>
-        <xsl:text> </xsl:text>
-      </xsl:for-each>
-    </span>
+    
   </xsl:template>
 
   <xsl:template match="app">
