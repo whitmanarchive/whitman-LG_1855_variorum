@@ -10,11 +10,10 @@
   <!-- temporary params so that the site can be viewed live with datura default stylesheets -->
   <xsl:param name="collection">TEMP</xsl:param>
   <xsl:param name="image_thumb">TEMP</xsl:param>
-  <xsl:param name=" image_large">TEMP</xsl:param>
+  <xsl:param name="image_large">TEMP</xsl:param>
   <xsl:param name="media_base">TEMP</xsl:param>
   <xsl:param name="site_url">TEMP</xsl:param>
   <xsl:variable name="environment">development</xsl:variable>
-  
 
   <xsl:variable name="siteroot">https://whitman-dev.unl.edu/</xsl:variable>
   <xsl:variable name="externalfileroot">http://whitmanarchive.org/</xsl:variable>

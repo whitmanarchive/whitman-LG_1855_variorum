@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="xs"
   version="2.0">
@@ -69,48 +70,6 @@
     </xsl:if>
     <!--</xsl:otherwise>-->
     <!--</xsl:choose>-->
-  </xsl:template>
-  
-  <xsl:template match="del[@rend = 'overstrike']/add">
-    <xsl:if test="@rend = 'insertion'">
-      <sub>^</sub>
-    </xsl:if>
-    <xsl:if test="@rend = 'lasso'">
-      <sub>^</sub>
-    </xsl:if>
-    <xsl:choose>
-      <xsl:when test="@place = 'supralinear'">
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="supralinear overstrike"></xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="overstrike"></xsl:text>
-      </xsl:when>
-      <xsl:when test="@place = 'interlinear'">
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="interlinear overstrike"></xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="overstrike"></xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  
-  <xsl:template match="add/del">
-    <xsl:if test="@rend = 'overstrike'">
-      <span class="overstrike">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-    <xsl:if test="@rend = 'overwrite'">
-      <span class="teiOverwrite">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-    <xsl:if test="@rend = 'erasure'">
-      <span class="erasure">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
   </xsl:template>
   
   <xsl:template match="add" mode="mss">

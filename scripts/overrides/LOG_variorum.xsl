@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-  version="2.0"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xpath-default-namespace="http://www.whitmanarchive.org/namespace">
-  
+
   <xsl:import href="../../config/config.xsl"/>
   <xsl:import href="_tei.xsl"/>
   <xsl:import href="_mss.xsl"/>
-  
+
   <!-- Datura scripts, for comparison -->
   <!--<xsl:import href="../.xslt-datura/tei_to_html/lib/formatting.xsl"/>
   <xsl:import href="../.xslt-datura/tei_to_html/lib/personography_encyclopedia.xsl"/>
@@ -17,7 +15,6 @@
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
-    <!--<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html></xsl:text>-->
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>Walt Whitman Archive - Published Works - Books by Whitman - Leaves of Grass</title>
@@ -40,22 +37,21 @@
   </xsl:template>
   <!-- END: OUTPUT -->
 
-
-
-
   <!-- ===== NAMED TEMPLATES ======= -->
-
+ 
+  <!-- Div visualizing the number of relations -->
   <xsl:template name="related_mss">
     <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
     <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
     <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
-    <xsl:variable name="rel_num"
-      select="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
-    <xsl:variable name="percent_num" select="round($rel_num div 14 * 100)"/>
-    <!--<xsl:value-of select="$percent_num"/><br/>-->
+    <xsl:variable name="rel_num" select="
+      count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
+    <xsl:variable name="divide_by" select="number(14)"/><!-- todo: kmd pull this programatically -->
+    <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
     <div class="relation_num" style="width:{$percent_num}%"/>
   </xsl:template>
-
+  
+  <!-- Related text pulled from manuscripts and notebooks accessed by clicking on "Relations" -->
   <xsl:template name="corresp_table">
     <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
     <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
@@ -147,6 +143,83 @@
       </span>
       <span class="open popup_click">Relations</span>
     </xsl:if>
+  </xsl:template>
+  
+  <!-- Varient text tables, containing images and links to all copies -->
+  <xsl:template name="rdg_builder">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>tei_rdg</xsl:text>
+        <!-- not sure if this is needed anymore -kmd -->
+       <!-- <xsl:choose>
+          <xsl:when test=".[contains(@wit, 'UI_01')]">
+            <xsl:text>variorum_version</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>hidden_later</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>-->
+      </xsl:attribute>
+      <xsl:variable name="varID" select="@xml:id"/>
+      <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
+      <xsl:apply-templates/>
+      <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
+      <xsl:if test="
+        not(contains(@xml:id, 'gr_001')) and 
+        not(child::milestone) and 
+        normalize-space(.) = ''">[Blank]</xsl:if>
+      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
+        <br/>
+        <br/>
+        <span class="variant_note">
+          <strong>Note: </strong>
+          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
+        </span>
+      </xsl:if>
+    </span>
+    <span class="tei_rdg_wit">
+      <xsl:if test="@facs">
+        <a target="_blank">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
+              select="@facs"/></xsl:attribute>
+          <img class="teiFigure">
+            <xsl:attribute name="height">70</xsl:attribute>
+            <xsl:attribute name="src">
+              <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
+                select="@facs"/></xsl:attribute>
+          </img>
+        </a>
+        <span class="variorum_caption">
+          <strong>Image: </strong>
+          <xsl:call-template name="repository_citation"/>
+        </span>
+      </xsl:if>
+      <span class="open_all">
+        <a href="">View All Copies</a>
+      </span>
+      <!--<span>
+        <xsl:for-each select="tokenize(@wit, ' ')">
+          <xsl:value-of select="."/>
+          <xsl:text> </xsl:text>
+        </xsl:for-each>
+      </span>-->
+    </span>
+  </xsl:template>
+  
+  <!-- todo consult with jess/greg about a good way to do this -->
+  <xsl:template name="repository_citation">
+    <xsl:if test="contains(@facs, 'loc')">The Charles E. Feinberg Collection of the Papers of Walt
+      Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</xsl:if>
+    <xsl:if test="contains(@facs, 'ppp')">University of Iowa Special Collections and University
+      Archives</xsl:if>
+    <xsl:if test="contains(@facs, 'uva')">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
+      Library of American Literature, Albert H. Small Special Collections Library, University of
+      Virginia</xsl:if>
+    <xsl:if test="contains(@facs, 'wil')">Williams College</xsl:if>
+    <xsl:if test="contains(@facs, 'duk')">Trent Collection of Whitmaniana, David M. Rubenstein Rare
+      Book &amp; Manuscript Library, Duke University</xsl:if>
+    <xsl:if test="contains(@facs, 'pra')">Providence Athan&#230;um</xsl:if>
   </xsl:template>
 
   <!-- ===== MATCH TEMPLATES ======= -->
@@ -275,7 +348,7 @@
       </xsl:when>
       <xsl:otherwise>
         <div class="tei_l">
-          <xsl:variable name="line_id" select="@xml:id"/>
+          <xsl:variable name="line_id_local" select="@xml:id"/>
           <!--Added to create display tables 8/29/18, nhg-->
           <span class="tei_l_corresp">
             <xsl:call-template name="corresp_table"/>
@@ -284,12 +357,12 @@
           <!--<span class="tei_l_related"></span>-->
           <span class="tei_l_xmlid">
             <xsl:variable name="num">
-              <xsl:value-of select="number(substring-after($line_id, 'l'))"/>
+              <xsl:value-of select="number(substring-after($line_id_local, 'l'))"/>
             </xsl:variable>
             <xsl:value-of select="$num + 1"/>
           </span>
           <span class="variorumLine variorumOuter">
-            <xsl:attribute name="id" select="$line_id"/>
+            <xsl:attribute name="id" select="$line_id_local"/>
             <xsl:apply-templates/>
           </span>
           <span class="tei_l_right">&#160;</span>
@@ -351,66 +424,6 @@
   </xsl:template>
   <!-- END: FIGURES -->
 
-  <xsl:template name="rdg_builder">
-    <span>
-      <xsl:attribute name="class">
-        <xsl:text>tei_rdg</xsl:text>
-        <xsl:choose>
-          <xsl:when test=".[contains(@wit, 'UI_01')]">
-            <xsl:text>variorum_version</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>hidden_later</xsl:text>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <xsl:variable name="varID" select="@xml:id"/>
-      <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
-      <xsl:apply-templates/>
-      <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
-      <xsl:if
-        test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"
-        >[Blank]</xsl:if>
-      
-
-      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
-        <br/>
-        <br/>
-        <span class="variant_note">
-          <strong>Note: </strong>
-          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
-        </span>
-      </xsl:if>
-    </span>
-    <span class="tei_rdg_wit">
-      <xsl:if test="@facs">
-        <a target="_blank">
-          <xsl:attribute name="href">
-            <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-              select="@facs"/></xsl:attribute>
-          <img class="teiFigure">
-            <xsl:attribute name="height">70</xsl:attribute>
-            <xsl:attribute name="src">
-              <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-                select="@facs"/></xsl:attribute>
-          </img>
-        </a>
-        <span class="variorum_caption">
-          <strong>Image: </strong>
-          <xsl:call-template name="repository_citation"/>
-        </span>
-      </xsl:if>
-      <span class="open_all"><a href="">View All Copies</a></span>
-      <!--<span>
-        <xsl:for-each select="tokenize(@wit, ' ')">
-          <xsl:value-of select="."/>
-          <xsl:text> </xsl:text>
-        </xsl:for-each>
-      </span>-->
-    </span>
-    
-  </xsl:template>
-
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div class="tei_app hide">
@@ -457,21 +470,5 @@
       <br/>
     </div>
   </xsl:template>
-
-  <!-- todo consult with jess/greg about a good way to do this -->
-  <xsl:template name="repository_citation">
-    <xsl:if test="contains(@facs, 'loc')">The Charles E. Feinberg Collection of the Papers of Walt
-      Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</xsl:if>
-    <xsl:if test="contains(@facs, 'ppp')">University of Iowa Special Collections and University
-      Archives</xsl:if>
-    <xsl:if test="contains(@facs, 'uva')">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
-      Library of American Literature, Albert H. Small Special Collections Library, University of
-      Virginia</xsl:if>
-    <xsl:if test="contains(@facs, 'wil')">Williams College</xsl:if>
-    <xsl:if test="contains(@facs, 'duk')">Trent Collection of Whitmaniana, David M. Rubenstein Rare
-      Book &amp; Manuscript Library, Duke University</xsl:if>
-    <xsl:if test="contains(@facs, 'pra')">Providence Athan&#230;um</xsl:if>
-  </xsl:template>
-
 
 </xsl:stylesheet>
