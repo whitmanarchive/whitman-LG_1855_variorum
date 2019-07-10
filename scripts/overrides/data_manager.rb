@@ -18,14 +18,16 @@ class Datura::DataManager
   end
 
   def locate_file(file)
+    cocoon_root = File.join(@options["collection_dir"], "..", "..", "..", "cocoon", "whitmanarchive")
     types = {
-      "whitman-manuscripts" => "mss",
-      "whitman-marginalia" => "marg",
-      "whitman-notebooks" => "nb"
+      "marg" => "manuscripts/marginalia/tei",
+      "marg-anno" => "manuscripts/marginalia/tei-annotations",
+      "mss" => "manuscripts/tei",
+      "nb" => "manuscripts/notebooks/tei"
     }
     # scour the directories looking for the matching file
-    types.each do |repo, type|
-      tei_dir = File.join(@options["collection_dir"], "..", repo, "source", "tei")
+    types.each do |type, location|
+      tei_dir = File.join(cocoon_root, location)
       file_path = File.join(tei_dir, file)
       if File.file?(file_path)
         return [ file_path, type ]
@@ -54,7 +56,7 @@ class Datura::DataManager
       works = xml.xpath("/TEI/relations/work")
       works.each do |work|
         ref = work["ref"]
-        certainty = work["certainty"] || work["cert"] || "not marked"
+        certainty = work["certainty"] || work["cert"] || "not_marked"
         if ref
           obj = { id: file, certainty: certainty, type: type }
           add_to_work_ids(ref, obj)
@@ -71,12 +73,12 @@ class Datura::DataManager
     builder = Nokogiri::XML::Builder.new do |xml|
       xml.works {
         xml.files {
-          xml.comment("The following files were not found in the manuscripts repository")
+          xml.comment("The following files were not found in any of the cocoon tei locations")
           @not_found.each do |missing|
             xml.missing(id: missing)
           end
         }
-        xml.comment("This file was generated with the data repo command 'post -x html'")
+        xml.comment("This file was generated with the data repo command 'bundle exec post -x html'")
         @work_ids.each do |work_id, work_info|
           xml.work(id: work_id) {
             work_info.each do |info|
@@ -97,7 +99,7 @@ class Datura::DataManager
     end
 
     puts "generated works list at source/authority/work_list_generated.xml"
-    puts "#{@not_found.length} missing manuscript files"
+    puts "#{@not_found.length} missing cocoon tei files"
   end
 
 end
