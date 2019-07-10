@@ -66,6 +66,34 @@ class Datura::DataManager
       end
     end
 
+    # deduplicate the lists
+    @work_ids.each do |work, files|
+      # this deduplicates anything that's an exact match
+      lines = files.uniq
+      lines = lines.sort_by { |line| line[:id] }
+      # for each one, check if there is another id in the list
+      # that just has a different certainty value
+      # and if there is something that's more certain for the same
+      # id, use that one (absolute > high > low > not_marked)
+      lines.each do |line|
+        if line[:certainty] == "high"
+          if lines.include?({ id: line[:id], type: line[:type], certainty: "absolute" })
+            lines.delete(line)
+          end
+        elsif line[:certainty] == "low"
+          if lines.include?({ id: line[:id], type: line[:type], certainty: "high" })
+            lines.delete(line)
+          end
+        elsif line[:certainty] == "not_marked"
+          if lines.include?({ id: line[:id], type: line[:type], certainty: "low" })
+            lines.delete(line)
+          end
+        end
+      end
+      @work_ids[work] = lines
+    end
+
+
     # output the list as JSON
     # puts work_ids.to_json
 
