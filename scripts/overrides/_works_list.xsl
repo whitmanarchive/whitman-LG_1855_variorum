@@ -45,7 +45,7 @@
                 <xsl:when test="@type='marg'">/marginalia/transcriptions/</xsl:when>
                 <!-- TODO not sure what path is for 'marg-anno' -->
                 <xsl:when test="@type='mss'">/transcriptions/</xsl:when>
-                <xsl:when test="@type='nb'">/notebooks/</xsl:when>
+                <xsl:when test="@type='nb'">/notebooks/transcriptions/</xsl:when>
               </xsl:choose>
               <xsl:value-of select="$id"/>
               <xsl:text>.html</xsl:text>

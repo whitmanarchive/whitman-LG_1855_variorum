@@ -230,7 +230,7 @@
     <div class="tei_div_preface">
       <xsl:call-template name="mss_links">
         <xsl:with-param name="label">preface</xsl:with-param>
-        <xsl:with-param name="work_id">none</xsl:with-param>
+        <xsl:with-param name="work_id">xxx.00526</xsl:with-param>
       </xsl:call-template>
       <!-- this code is shared with poetry below -->
       <xsl:choose>
