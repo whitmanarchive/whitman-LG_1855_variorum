@@ -53,7 +53,7 @@ class Datura::DataManager
       next if path.nil?
 
       xml = File.open(path) { |f| Nokogiri::XML(f).remove_namespaces! }
-      works = xml.xpath("/TEI/relations/work")
+      works = xml.xpath("/TEI//relations/work")
       works.each do |work|
         ref = work["ref"]
         certainty = work["certainty"] || work["cert"] || "not_marked"
