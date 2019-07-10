@@ -69,28 +69,10 @@ class Datura::DataManager
     # deduplicate the lists
     @work_ids.each do |work, files|
       # this deduplicates anything that's an exact match
-      lines = files.uniq
-      lines = lines.sort_by { |line| line[:id] }
-      # for each one, check if there is another id in the list
-      # that just has a different certainty value
-      # and if there is something that's more certain for the same
-      # id, use that one (absolute > high > low > not_marked)
-      lines.each do |line|
-        if line[:certainty] == "high"
-          if lines.include?({ id: line[:id], type: line[:type], certainty: "absolute" })
-            lines.delete(line)
-          end
-        elsif line[:certainty] == "low"
-          if lines.include?({ id: line[:id], type: line[:type], certainty: "high" })
-            lines.delete(line)
-          end
-        elsif line[:certainty] == "not_marked"
-          if lines.include?({ id: line[:id], type: line[:type], certainty: "low" })
-            lines.delete(line)
-          end
-        end
-      end
-      @work_ids[work] = lines
+      files = files.uniq
+      files = select_highest_certainty_file(files)
+      files = files.sort_by { |file| file[:id] }
+      @work_ids[work] = files
     end
 
 
@@ -128,6 +110,24 @@ class Datura::DataManager
 
     puts "generated works list at source/authority/work_list_generated.xml"
     puts "#{@not_found.length} missing cocoon tei files"
+  end
+
+  def select_highest_certainty_file(files)
+    # absolute > high > low > not_marked
+    # if there is something higher up the food chain, then delete everything else
+    ids = files.group_by { |f| f[:id] }
+    ids.each do |id, id_group|
+      if id_group.length > 1
+        if id_group.select { |id| id[:certainty] == "absolute" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "absolute" }
+        elsif id_group.select { |id| id[:certainty] == "high" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "high" }
+        elsif id_group.select { |id| id[:certainty] == "low" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "low" }
+        end
+      end
+    end
+    files
   end
 
 end
