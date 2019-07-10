@@ -175,27 +175,74 @@
          
          <pb facs="ppp.00271.005.jpg" xml:id="leaf002v" type="verso"/>
          
+         <div1 type="letter" xml:id="emerson_letter_55">
+            <app>
+               <rdg xml:id="pt_001a" facs="ppp.00271.005.jpg" wit="#UI_01">
+                  <q>
+                     <floatingText>
+                     <body>
+                        <milestone unit="undeclared" rend="horbar-short-center"/>
+                        <p>"L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>."&#8212;We some time since had occasion to call the attention of our readers to this original and striking collection of poems, by Mr. Whitman of Brooklyn. In so doing we could not avoid noticing certain faults which seemed to us to be prominent in the work. The following opinion, from a distinguished source, views the matter from a more positive and less critical stand-point:</p>
+                        
+                     <q who="Ralph Waldo Emerson">
+                     <floatingText>
+                        <body>
+                           
+                           <dateline rend="right">"<name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass</name>., July 21, 1855.</dateline>
+                           <salute>"D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>:</salute>
+                           <p>I am not blind to the worth of the wonderful gift of 'Leaves of Grass.' I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It makes the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                           <p>"I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                           <p>"I greet you at the beginning of a great career, which yet must have had a long foreground somewhere for such a start. I rubbed my eyes a little to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                           <p>"I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                           <salute>"W<hi rend="smallcaps">ALT</hi>, W<hi rend="smallcaps">HITMAN</hi>."</salute> <signed rend="right">"R. W. EMERSON."</signed>
+                        </body>
+                     </floatingText>
+                  </q></body></floatingText></q>
+               </rdg>
+               <rdg xml:id="pt_001b" facs="uva_nhg.00009.jpg" wit="#UVa_09"> 
+                  <q who="Ralph Waldo Emerson">
+                     <floatingText>
+                        <body>
+                           <del rend="overstrike"><note rend="center">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note></del>
+                           <milestone unit="undeclared" rend="horbar-short-center"/>
+                           <dateline rend="right"><name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass'tts</name>, 21 July, 1855.</dateline>
+                           <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute>
+                           <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                           <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                           <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                           <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                           <signed rend="right">R. W. EMERSON.</signed>
+                           <salute>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</salute>
+                        </body>
+                     </floatingText>
+                  </q>
+               </rdg>
+               <rdg xml:id="pt_001c" facs="wil_nhg.00002.jpg" wit="#WC_02"> 
+                  <q who="Ralph Waldo Emerson">
+                     <floatingText>
+                        <body>
+                           <dateline rend="right"><name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass'tts</name>, 21 July, 1855.</dateline>
+                           <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute>
+                           <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                           <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                           <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                           <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                           <signed rend="right">R. W. EMERSON.</signed>
+                           <salute>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</salute>
+                        </body>
+                     </floatingText>
+                  </q>
+               </rdg>
+               <note type="project" target="#pt_001a">This newspaper clipping is pasted to the page. At the bottom of the clipping in this copy is the note, written in Whitman's hand, "Tribune Oct 10 1855."</note>
+               <note type="project" target="#pt_001b">This printed slip is pasted to the page. The line at the top has been crossed out in pencil on this and other copies.</note>
+            </app>
+         </div1>
+         
          <note type="project">Pasted clipping</note> 
          
          <pb facs="ppp.00271.006.jpg" xml:id="leaf003r" type="recto"/>
          
-        <!-- <div1 type="letter" xml:id="emerson_letter_55">
-            <q who="Ralph Waldo Emerson">
-               <floatingText>
-                  <body>
-                     <note rend="right">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note>
-            <dateline rend="right"><name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass'tts</name>, 21 July, 1855.</dateline>
-                     <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute>
-                     <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
-                     <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
-                     <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
-                     <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
-                     <signed rend="right">R. W. EMERSON.</signed>
-                     <salute>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</salute>
-                  </body>
-               </floatingText>
-            </q>
-         </div1>-->
+         
          
          <pb facs="ppp.00271.007.jpg" xml:id="leaf003v" type="verso"/>
          
