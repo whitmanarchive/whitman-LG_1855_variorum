@@ -195,6 +195,7 @@
     <item id="loc.00389.xml" type="mss" certainty="low"/>
     <item id="loc.00483.xml" type="nb" certainty="low"/>
     <item id="loc.01019.xml" type="mss" certainty="low"/>
+    <item id="loc.05314.xml" type="mss" certainty="low"/>
     <item id="med.00729.xml" type="mss" certainty="high"/>
     <item id="med.00737.xml" type="mss" certainty="low"/>
     <item id="med.00741.xml" type="mss" certainty="high"/>
@@ -278,8 +279,9 @@
   <work id="xxx.00741">
     <item id="loc.00264.xml" type="mss" certainty="high"/>
   </work>
-  <work id="xxx">
-    <item id="loc.05314.xml" type="mss" certainty="high"/>
+  <work id="xxx.00893">
+    <item id="loc.05314.xml" type="mss" certainty="low"/>
+    <item id="nyp.00019.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.00116">
     <item id="loc.07428.xml" type="mss" certainty="not_marked"/>
@@ -290,9 +292,6 @@
   </work>
   <work id="xxx.00157">
     <item id="med.00904.xml" type="mss" certainty="low"/>
-  </work>
-  <work id="xxx.00893">
-    <item id="nyp.00019.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.00149">
     <item id="nyp.00024.xml" type="mss" certainty="low"/>

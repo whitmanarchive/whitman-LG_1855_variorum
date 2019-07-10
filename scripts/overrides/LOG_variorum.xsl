@@ -5,6 +5,7 @@
   <xsl:import href="../../config/config.xsl"/>
   <xsl:import href="_tei.xsl"/>
   <xsl:import href="_mss.xsl"/>
+  <xsl:import href="_works_list.xsl"/>
 
   <!-- Datura scripts, for comparison -->
   <!--<xsl:import href="../.xslt-datura/tei_to_html/lib/formatting.xsl"/>
@@ -227,21 +228,11 @@
   <!--BEGIN: PREFACE-->
   <xsl:template match="//div1[@type = 'preface']">
     <div class="tei_div_preface">
-      <!-- A very sketched in idea of how this might work -kmd -->
-      <div class="mss_links">
-        <strong class="mss_link">
-          <a
-            href="https://whitman-dev.unl.edu/grant_search/search?f%5B%5D=subcategory%7Ctranscriptions&amp;f%5B%5D=date.year%7C1845"
-            target="_blank">MSS</a>
-        </strong>
-        <br/>
-        <strong class="mss_show">Show</strong>
-        <br/>
-        <div class="mss_links_hide"><br/>"Preface"<br/><br/>wwa.00001 <br/>wwa.00002 <br/>wwa.00003
-          <br/>wwa.00004 <br/>wwa.00005 <br/>wwa.00006 <br/>wwa.00007 <br/>wwa.00008 <br/>wwa.00009
-          <br/>wwa.00010 <br/>wwa.00011 <br/>wwa.00012 <br/>wwa.00013 <br/>wwa.00014 <br/>wwa.00015
-          <br/>wwa.00016</div>
-      </div>
+      <xsl:call-template name="mss_links">
+        <xsl:with-param name="label">preface</xsl:with-param>
+        <xsl:with-param name="work_id">none</xsl:with-param>
+      </xsl:call-template>
+      <!-- this code is shared with poetry below -->
       <xsl:choose>
         <xsl:when test="@rend = 'italic'">
           <div class="italic">
@@ -298,21 +289,11 @@
             <xsl:when test="$work_id = 'xxx.00430'">"Great are the Myths"</xsl:when>
           </xsl:choose>
         </xsl:variable>
-        <!-- A very sketched in idea of how this might work -kmd -->
-        <div class="mss_links">
-          <strong class="mss_link">
-            <a
-              href="https://whitman-dev.unl.edu/grant_search/search?f%5B%5D=subcategory%7Ctranscriptions&amp;f%5B%5D=date.year%7C1845"
-              target="_blank">MSS</a>
-          </strong>
-          <br/>
-          <strong class="mss_show">Show</strong>
-          <br/>
-          <div class="mss_links_hide"><br/><xsl:value-of select="$poem_name"/><br/><br/>wwa.00001
-            <br/>wwa.00002 <br/>wwa.00003 <br/>wwa.00004 <br/>wwa.00005 <br/>wwa.00006
-            <br/>wwa.00007 <br/>wwa.00008 <br/>wwa.00009 <br/>wwa.00010 <br/>wwa.00011
-            <br/>wwa.00012 <br/>wwa.00013 <br/>wwa.00014 <br/>wwa.00015 <br/>wwa.00016</div>
-        </div>
+        <xsl:call-template name="mss_links">
+          <xsl:with-param name="label" select="$poem_name"/>
+          <xsl:with-param name="work_id" select="$work_id"/>
+        </xsl:call-template>
+        <!-- this code is the same as preface -->
         <xsl:choose>
           <xsl:when test="@rend = 'italic'">
             <div class="italic">
