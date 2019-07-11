@@ -53,7 +53,7 @@ class Datura::DataManager
       next if path.nil?
 
       xml = File.open(path) { |f| Nokogiri::XML(f).remove_namespaces! }
-      works = xml.xpath("/TEI/relations/work")
+      works = xml.xpath("/TEI//relations/work")
       works.each do |work|
         ref = work["ref"]
         certainty = work["certainty"] || work["cert"] || "not_marked"
@@ -65,6 +65,16 @@ class Datura::DataManager
         end
       end
     end
+
+    # deduplicate the lists
+    @work_ids.each do |work, files|
+      # this deduplicates anything that's an exact match
+      files = files.uniq
+      files = select_highest_certainty_file(files)
+      files = files.sort_by { |file| file[:id] }
+      @work_ids[work] = files
+    end
+
 
     # output the list as JSON
     # puts work_ids.to_json
@@ -100,6 +110,24 @@ class Datura::DataManager
 
     puts "generated works list at source/authority/work_list_generated.xml"
     puts "#{@not_found.length} missing cocoon tei files"
+  end
+
+  def select_highest_certainty_file(files)
+    # absolute > high > low > not_marked
+    # if there is something higher up the food chain, then delete everything else
+    ids = files.group_by { |f| f[:id] }
+    ids.each do |id, id_group|
+      if id_group.length > 1
+        if id_group.select { |id| id[:certainty] == "absolute" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "absolute" }
+        elsif id_group.select { |id| id[:certainty] == "high" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "high" }
+        elsif id_group.select { |id| id[:certainty] == "low" }.length > 0
+          files.delete_if { |file| file[:id] == id && file[:certainty] != "low" }
+        end
+      end
+    end
+    files
   end
 
 end
