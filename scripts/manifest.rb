@@ -20,7 +20,7 @@ manifest = IIIF::Presentation::Manifest.new({
   "attribution" => "Walt Whitman or other attribution",
   "viewingDirection" => "left-to-right",
   "viewingHint" => "paged",
-  "logo" => "#{iiif_path}%2Fppp.00217.001.jpg/#{iiif_thumb}"
+  "logo" => "#{iiif_path}ppp.00271.001.jpg/#{iiif_thumb}"
 })
 
 toc = [
@@ -119,13 +119,21 @@ pbs.each do |page|
   annotation.resource = IIIF::Presentation::ImageResource.create_image_api_image_resource({
     service_id: "#{iiif_path}%2F#{image_filename}"
   })
-  # WARNING: Resource type oa:Annotation should have '@id' set
   # TODO see this part of documentation for "on": https://iiif.io/api/presentation/2.1/#image-resources
   annotation["on"] = "https://whitmanarchive.org/TODO/#{image_filename}-#{page["id"]}"
   annotation["@id"] = "https://whitmanarchive.org/TODO/annotation/#{image_filename}"
   canvas.images << annotation
   canvas.width = annotation.resource.width
   canvas.height = annotation.resource.height
+  # attach an annotation to the frontispiece
+  if image_filename == "ppp.00271.007.jpg"
+    canvas["otherContent"] = [
+      {
+        "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/frontispiece.json",
+        "@type" => "sc:AnnotationList"
+      }
+    ]
+  end
   # output all the canvas methods for inspection
   # puts canvas.methods(false).sort
 
