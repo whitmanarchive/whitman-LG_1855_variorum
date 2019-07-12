@@ -94,31 +94,6 @@
                            </history>
                   </msDesc>
                </witness>
-               <witness xml:id="LC_01">
-                  <msDesc>
-                     <msIdentifier>
-                        <repository>Library of Congress, Washington, D.C.</repository>
-                        <idno>PS3201 1855, copy 3</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>Inserted: a newspaper clipping with notes about purchase of Whitman's "Franklin
-                           Evans" and "Leaves of Grass."</p>
-                        <bindingDesc>
-                           <p>Binding A (BAL). Copyright page, state B; p. iv, state B; frontispiece state A.</p>
-                        </bindingDesc>
-                     </physDesc>
-                     <history>
-                        <provenance>
-                           <p>The volume has the following marking: "W. L. Tiffany | bot in 1855 or 56, of the
-                              Author." A newspaper clipping attached to the first page includes the following listing:
-                              "Whitman's 'Leaves of Grass,' Brooklyn, 1855, first edition, cloth, $41. Bought by E. F.
-                              Bonaventure. Another copy, calf, by Riviere, original covers bound in, $41. Bought by
-                              George D. Smith." Under this clipping is the note: "The above note was made in
-                              Dorchester Mass. | 1900."</p>
-                        </provenance>
-                     </history>
-                  </msDesc>
-               </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -126,6 +101,7 @@
          <handNotes>
             <handNote xml:id="h1" scribeRef="#ww" medium="printed"/>
             <handNote xml:id="h2" scribeRef="#ww" medium="ink"/>
+            <handNote xml:id="h3" scribeRef="#ww" medium="pencil"/>
          </handNotes>
       </profileDesc>
       <encodingDesc>
@@ -176,6 +152,9 @@
          <pb facs="ppp.00271.005.jpg" xml:id="leaf002v" type="verso"/>
          
          <div1 type="letter" xml:id="emerson_letter_55">
+            <relations>
+               <work ref="xxx.01168" cert="absolute"/>
+            </relations>
             <app>
                <rdg xml:id="pt_001a" facs="ppp.00271.005.jpg" wit="#UI_01">
                   <q>
@@ -192,9 +171,9 @@
                            <salute>"D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>:</salute>
                            <p>I am not blind to the worth of the wonderful gift of 'Leaves of Grass.' I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It makes the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
                            <p>"I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
-                           <p>"I greet you at the beginning of a great career, which yet must have had a long foreground somewhere for such a start. I rubbed my eyes a little to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                           <p>"I greet you at the beginning of a great career, which yet must have had a long foreground somewhere for such a start. I rubbed my eyes a little to see if this sunbeam were no illusion; but the <choice><sic>sold</sic><corr>solid</corr></choice> sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
                            <p>"I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
-                           <salute>"W<hi rend="smallcaps">ALT</hi>, W<hi rend="smallcaps">HITMAN</hi>."</salute> <signed rend="right">"R. W. EMERSON."</signed>
+                           <salute>"W<hi rend="smallcaps">ALT</hi>. W<hi rend="smallcaps">HITMAN</hi>."</salute> <signed rend="right">"R. W. EMERSON."</signed>
                         </body>
                      </floatingText>
                   </q></body></floatingText></q>
@@ -203,9 +182,11 @@
                   <q who="Ralph Waldo Emerson">
                      <floatingText>
                         <body>
-                           <del rend="overstrike"><note rend="center">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note></del>
+                           <note type="authorial">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note>
                            <milestone unit="undeclared" rend="horbar-short-center"/>
-                           <dateline rend="right"><name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass'tts</name>, 21 July, 1855.</dateline>
+                           <dateline rend="right">
+                              <name type="place">C<hi rend="smallcaps">ONCORD</hi>, <choice><abbr>Mass'tts</abbr><expan>Massachusetts</expan></choice></name>, 
+                              <date when="1855-07-21">21 July, 1855.</date></dateline>
                            <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute>
                            <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
                            <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
