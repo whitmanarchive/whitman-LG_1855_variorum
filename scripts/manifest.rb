@@ -20,11 +20,7 @@ manifest = IIIF::Presentation::Manifest.new({
   "attribution" => "Walt Whitman or other attribution",
   "viewingDirection" => "left-to-right",
   "viewingHint" => "paged",
-<<<<<<< HEAD
   "logo" => "#{iiif_path}ppp.00271.001.jpg/#{iiif_thumb}"
-=======
-  "logo" => "#{iiif_path}%2Fppp.00217.001.jpg/#{iiif_thumb}"
->>>>>>> working on table of contents for manifest
 })
 
 toc = [
