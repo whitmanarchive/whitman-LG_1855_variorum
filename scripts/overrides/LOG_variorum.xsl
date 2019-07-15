@@ -286,7 +286,7 @@
             <xsl:when test="$work_id = 'xxx.00143'">"A Boston Ballad"</xsl:when>
             <xsl:when test="$work_id = 'xxx.00226'">"There Was a Child Went Forth"</xsl:when>
             <xsl:when test="$work_id = 'xxx.00250'">"Who Learns My Lesson Complete"</xsl:when>
-            <xsl:when test="$work_id = 'xxx.00430'">"Great are the Myths"</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00121'">"Youth, Day, Old Age, and Night"</xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:call-template name="mss_links">
@@ -407,12 +407,13 @@
 
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
-    <div class="tei_app hide">
+    <div class="tei_app ">
       <xsl:attribute name="class">
         <xsl:text>tei_app hide </xsl:text>
         <!-- create class based on rdg xml:id -->
         <xsl:text>var_</xsl:text>
-        <xsl:value-of select="replace(rdg[1]/@xml:id, '[^0-9]', '')"/>
+        <xsl:variable name="length" select="string-length(rdg[1]/@xml:id)"/>
+        <xsl:value-of select="substring(rdg[1]/@xml:id, 1, $length - 1)"/>
       </xsl:attribute>
       <!-- select the rdg from this doc first -->
       <xsl:for-each select="rdg[contains(@wit, 'UI_01')]">
@@ -433,13 +434,16 @@
       <!-- create data-target based on rdg xml:id -->
       <xsl:attribute name="data-target">
         <xsl:text>var_</xsl:text>
-        <xsl:value-of select="replace(@xml:id, '[^0-9]', '')"/>
+        <xsl:variable name="length" select="string-length(@xml:id)"/>
+        <xsl:value-of select="substring(@xml:id, 1, $length - 1)"/>
       </xsl:attribute>
       <xsl:apply-templates/>
-      <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
-      <xsl:if
-        test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"
-        >[Blank]</xsl:if>
+      <!-- todo: put choose back in after talking to Nikki -kmd -->
+     <!-- <xsl:choose>-->
+        <xsl:if test="contains(@xml:id, 'gr_001')"><xsl:text>[Frontispiece]</xsl:text></xsl:if>
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if> <!-- todo: this does not hit. is something wrong? -->
+        <xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if><!-- todo: leave for now, but may not be needed in final -->
+      <!--</xsl:choose>-->
     </span>
   </xsl:template>
 
