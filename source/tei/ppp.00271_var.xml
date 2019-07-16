@@ -155,9 +155,9 @@
          
          <note type="project">Pasted note, recto</note> 
          
-         <pb facs="ppp.00271.004.jpg" xml:id="leaf002v1" type="verso"/>
+         <!--<pb facs="ppp.00271.004.jpg" xml:id="leaf002v1" type="verso"/>
          
-         <note type="project">Pasted note unfolded, verso</note> 
+         <note type="project">Pasted note unfolded, verso</note> -->
          
          <pb facs="ppp.00271.005.jpg" xml:id="leaf002v" type="verso"/>
          
