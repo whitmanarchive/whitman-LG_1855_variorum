@@ -241,9 +241,9 @@
           </xsl:when>
           <xsl:otherwise>
             <span class="bold">
-              <blockquote>
+              <!--<blockquote>-->
                 <xsl:apply-templates/>
-              </blockquote>
+              <!--</blockquote>-->
             </span>
           </xsl:otherwise>
         </xsl:choose>
@@ -565,9 +565,9 @@
   <xsl:template match="//p">
     <xsl:choose>
       <xsl:when test="ancestor::q">
-        <p class="blockquote">
+        <!--<p class="blockquote">-->
           <xsl:apply-templates/>
-        </p>
+        <!--</p>-->
       </xsl:when>
       <xsl:when test="parent::encodingDesc">
         <span>

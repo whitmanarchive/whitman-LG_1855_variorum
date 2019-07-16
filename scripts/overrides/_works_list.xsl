@@ -14,25 +14,13 @@
     <xsl:param name="label">unlabeled</xsl:param>
     <xsl:param name="work_id"/>
 
-    <div class="mss_links" style="width:10em;">
-      <strong class="mss_link">
-<!--         <a
-          href="https://whitman-dev.unl.edu/grant_search/search?f%5B%5D=subcategory%7Ctranscriptions&amp;f%5B%5D=date.year%7C1845"
-          target="_blank">MSS</a> -->
-        <a href="#">Future Link for Related</a>
-      </strong>
-
-      <br/>
-      <br/>
-      <strong class="mss_show">Show</strong>
-      <br/>
-
-      <div class="mss_links_hide" style="text-align:left; margin-left: 1em;">
-        <br/>
+    <div class="mss_links">
+      <div class="mss_links_hide">
+        <strong>
         <xsl:value-of select="$label"/> (<xsl:value-of select="$work_id"/>)
-        <br/>
+        </strong>
 
-        <ul class="mss_links_list" style="list-style:none; margin-left: 0">
+        <ul class="mss_links_list">
           <xsl:variable name="doc" select="document(concat($variorumPathRoot, 'work_list_generated.xml'))"/>
 
           <xsl:for-each select="$doc//work[@id=$work_id]/item">
