@@ -456,4 +456,36 @@
     </div>
   </xsl:template>
 
+<xsl:template match="pb">
+  <xsl:if test="@facs">
+    <!--We will probably want to change how this is done eventually -NHG-->
+    <xsl:variable name="image_path"><xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of select="@facs"/></xsl:variable>
+    <xsl:variable name="thumbnail_path"><xsl:value-of select="$externalfileroot"/>published/LG/thumbnails/<xsl:value-of select="@facs"/></xsl:variable>
+    <span class="teiFigure">
+      <br/>
+      <xsl:if test="not(@xml:id='leaf001r')"><br/> - - - - - - - - - - - - - - - - - - <span class="smalltext"> [page&#160;break]</span> -
+      - - - - - - - - - - - - - - - - - <br/></xsl:if>
+      <br/>
+      <a target="_blank">
+        <xsl:attribute name="href" select="$image_path"/>
+        <img>
+          <xsl:attribute name="width">50</xsl:attribute>
+          <xsl:attribute name="border">2</xsl:attribute>
+          <xsl:attribute name="height">70</xsl:attribute>
+          <xsl:attribute name="src" select="$image_path"/>
+        </img>
+      </a>
+    </span>
+    <br/>
+    <br/>
+  </xsl:if>
+</xsl:template>
+  
+  <!--Temporary: we should move this to css and improve at some point -NHG-->
+  <xsl:template match="div1[@type='review']">
+    <div style="padding: 13px 80px 10px 80px; text-align: left;">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
 </xsl:stylesheet>
