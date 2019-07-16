@@ -5193,8 +5193,13 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l2314">Sure as the stars return again after they merge in the light, death is great as life.</l>
             </lg>
          </lg> 
-      </body>
          <pb facs="ppp.00271.103.jpg" xml:id="leaf051v" type="verso"/> 
+         <pb facs="ppp.00271.104.jpg" xml:id="leaf056r" type="recto"/> 
+         <pb facs="ppp.00271.106.jpg" rend="endpaper" xml:id="leaf056v" type="verso"/> 
+         <pb facs="ppp.00271.105.jpg" rend="endpaper" xml:id="leaf057r" type="recto"/> 
+         <pb facs="ppp.00271.107.jpg" rend="back cover" xml:id="leaf057v" type="verso"/> 
+         <!--<pb facs="ppp.00271.108.jpg" rend="spine" xml:id="leaf058r" type="recto"/>-->
+      </body>
          
          <!--<app>
             <rdg xml:id="pt_002a" wit="#UI_01"/>
@@ -5693,10 +5698,6 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
          
             <!--</rdg>
          </app>-->
-      <pb facs="ppp.00271.104.jpg" xml:id="leaf056r" type="recto"/> 
-      <pb facs="ppp.00271.105.jpg" rend="endpaper" xml:id="leaf056v" type="verso"/> 
-      <pb facs="ppp.00271.106.jpg" rend="endpaper" xml:id="leaf057r" type="recto"/> 
-      <pb facs="ppp.00271.107.jpg" rend="back cover" xml:id="leaf057v" type="verso"/> 
-      <pb facs="ppp.00271.108.jpg" rend="spine" xml:id="leaf058r" type="recto"/>
+      
    </text>
 </TEI>
