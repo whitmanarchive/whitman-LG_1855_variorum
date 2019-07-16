@@ -5196,7 +5196,11 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
       </body>
          <pb facs="ppp.00271.103.jpg" xml:id="leaf051v" type="verso"/> 
          
-         <back>
+         <!--<app>
+            <rdg xml:id="pt_002a" wit="#UI_01"/>
+            <rdg xml:id="pt_002b" wit="#YU_05">
+           -->
+      <back>
             <pb facs="uva_nhg.00016.jpg" xml:id="leaf052r" type="recto"/>
          <div1 type="review">
             <byline rend="right">From the North American Review, January, 1844.</byline>
@@ -5685,8 +5689,10 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
             the sphere of high truth, which minds that deal in proved things 
             only cannot reach.</p> 
          </div1>
-          
-         </back>
+      </back>
+         
+            <!--</rdg>
+         </app>-->
       <pb facs="ppp.00271.104.jpg" xml:id="leaf056r" type="recto"/> 
       <pb facs="ppp.00271.105.jpg" rend="endpaper" xml:id="leaf056v" type="verso"/> 
       <pb facs="ppp.00271.106.jpg" rend="endpaper" xml:id="leaf057r" type="recto"/> 
