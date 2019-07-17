@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/frontispiece.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://whitmanarchive.org/TODO/canvas/Annotation/frontispiece",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Text",
+        "format": "text/html",
+        "chars": "<a href='https://whitmanarchive.org'>Link to the Whitman Archive</a>. Oh hey it's Whitman"
+      },
+      "on": "https://whitmanarchive.org/TODO/ppp.00271.007.jpg-leaf003v1#xywh=261,357,203,368"
+    }
+  ]
+}
