@@ -366,8 +366,8 @@
   <xsl:template match="//l">
     <xsl:choose>
       <xsl:when test="ancestor::div1[@type = 'review']">
-        <div class="tei_l_review">
-          <span class="variorumLine variorum_content">
+        <div class="tei_l_review v_line">
+          <span class="variorum_content">
             <xsl:if test="@xml:id">
               <xsl:attribute name="id" select="substring-after('l', @xml:id)"/>
             </xsl:if>
