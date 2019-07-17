@@ -165,7 +165,7 @@
             <relations>
                <work ref="xxx.01168" cert="absolute"/>
             </relations>
-            <app>
+            <app type="paratext">
                <rdg xml:id="pt_001a" facs="ppp.00271.005.jpg" wit="#UI_01">
                   <q>
                      <floatingText>
@@ -237,7 +237,7 @@
          
          <pb facs="ppp.00271.007.jpg" xml:id="leaf003v" type="verso"/>
          
-         <app>
+         <app type="visual_variant">
             <!--flat--><rdg xml:id="gr_001a" facs="uva_nhg.00024.jpg" wit="#LC_05 #LC_07 #LC_08 #LC_10 #UNCCH_02 #UTA_06 #UTA_07 #UVa_07 #UVa_08"/> 
             <!--enhanced--><rdg xml:id="gr_001b" facs="ppp.00271.007.jpg" wit="#UI_01 #BC_01 #DU_01 #DU_02 #DU_03 #DU_04 #KSU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #LC_14 #PA_01 #PC_03 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10"/>
             <note type="project" target="#gr_001b">These copies feature a frontispiece state with an enhanced crotch. See Ted Genoways, "'One goodshaped and wellhung man': Accented Sexuality and the Uncertain Authorship of the Frontispiece to the 1855 Edition of <hi rend="italic">Leaves of Grass</hi>," in Susan Belasco, Ed Folsom, and Kenneth M. Price, eds., <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi> (Lincoln: University of Nebraska Press, 2007).</note>
@@ -251,7 +251,7 @@
             
             
             <docImprint>
-               <app>
+               <app type="pasteon">
                   <rdg xml:id="vr_001a" facs="ppp.00271.008_cropped.jpg" wit="#GC_01 #RC_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TAMU_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #NSU_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #UNCCH_02 #UNCCH_01 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_02 #NYPL_03 #NYPL_04 #YU_01 #YU_03 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #NYPL_06 #NYPL_07 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #PML_01 #PML_02 #PML_04 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #LU_03 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_02 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #HU_06 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_09 #LC_10 #LC_11 #LC_12 #LC_13 #NCS_01 #NCS_02 #CoU_01 #CoU_02 #CoU_03 #PA_01 #AAS_01 #PC_12 #PC_13 #PC_14 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #DrU_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_01 #HL_02 #PC_16 #PC_18 #PC_19 #PC_02 #PC_03 #PC_04 #PC_05 #PC_06 #PC_07"><milestone unit="undeclared" rend="horbar-short-center"/></rdg>
                   <rdg xml:id="vr_001b" facs="wil_nhg.00001_cropped.jpg" wit="#WC_05 #LC_14 #HL_03 #YU_02 #NYPL_12 #PML_03 #VAM_01 #JHU_01 #PC_17">
                   <add rend="pasteon">
@@ -274,7 +274,9 @@
                   </rdg>
                </app>
                <pubPlace>Brooklyn, New York:</pubPlace>  <docDate>1855. </docDate> 
-               <pb facs="ppp.00271.009.jpg" xml:id="leaf004v" type="verso"/>  <app><rdg type="text" facs="ppp.00271.009_cropped.jpg" xml:id="vr_002a" wit="#GC_01 #RC_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TAMU_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_03 #WC_04 #WC_05 #UNCCH_02 #UNCCH_01 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_02 #NYPL_03 #NYPL_04 #YU_01 #YU_02 #YU_03 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_01 #DU_02 #DU_03 #DU_04 #NYPL_06 #NYPL_07 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #NYPL_12 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #LU_03 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_02 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #HU_06 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_09 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #NCS_01 #NCS_02 #CoU_01 #CoU_02 #CoU_03 #AAS_01 #JHU_01 #PC_12 #PC_13 #PC_14 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #DrU_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #PC_02 #PC_03 #PC_04 #PC_05 #PC_06 #PC_07">Entered according to Act of Congress in the year 1855, by WALTER WHITMAN, in the Clerk's office of the District Court of the United States for the Southern District of New York.</rdg>
+               <pb facs="ppp.00271.009.jpg" xml:id="leaf004v" type="verso"/>  
+               <app type="textual_variant">
+                  <rdg type="text" facs="ppp.00271.009_cropped.jpg" xml:id="vr_002a" wit="#GC_01 #RC_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TAMU_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_03 #WC_04 #WC_05 #UNCCH_02 #UNCCH_01 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_02 #NYPL_03 #NYPL_04 #YU_01 #YU_02 #YU_03 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_01 #DU_02 #DU_03 #DU_04 #NYPL_06 #NYPL_07 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #NYPL_12 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #LU_03 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_02 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #HU_06 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_09 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #NCS_01 #NCS_02 #CoU_01 #CoU_02 #CoU_03 #AAS_01 #JHU_01 #PC_12 #PC_13 #PC_14 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #DrU_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #PC_02 #PC_03 #PC_04 #PC_05 #PC_06 #PC_07">Entered according to Act of Congress in the year 1855, by WALTER WHITMAN, in the Clerk's office of the District Court of the United States for the Southern District of New York.</rdg>
                   <rdg type="text" xml:id="vr_002b" facs="wil_nhg.00004_cropped.jpg" wit="#WC_02"/>
                   <rdg type="text" xml:id="vr_002c" facs="uva_nhg.00004_cropped.jpg" wit="#UVa_10"><handShift new="#h2"/>Entered according to act of Congress in the year 1855, by Walter Whitman in the Clerk's office of the District Court of the United States for the Southern District of New York.<handShift new="#h1"/>
                   </rdg>
@@ -416,14 +418,12 @@
                   peace and formation of the constitution . . . .</seg>
                <seg xml:id="seg33" corresp="#LG91_l6848">the union always surrounded by blatherers and always calm and
                   impregnable—</seg><seg xml:id="pr50" corresp="#LG91_l6847">the perpetual coming of immigrants—</seg><seg
-                  xml:id="pr51" corresp="#LG91_l6860 #LG91_l6859">the wharf hem'd <app>
-                     <rdg xml:id="var002a"
-                        wit="#CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #WC_05 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_03 #NYPL_04 #YU_02 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #DU_04 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_10 #NYPL_11 #NYPL_12 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_02 #CoU_03 #PA_01 #AAS_01 #JHU_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #PC_02 #PC_03 #PC_04 #PC_05 #UNCCH_01"
-                        >cities and</rdg>
-                     <rdg xml:id="var002b"
-                        wit="#LC_09 #GC_01 #RC_01 #TAMU_01 #UNCCH_02 #NYPL_02 #YU_01 #YU_03 #UVa_02 #UVa_10 #DU_01 #NYPL_08 #LU_03 #PU_02 #HU_06 #CoU_01 #PC_14 #DrU_01"
-                        >cities adn</rdg>
-                  </app> superior marine—</seg><seg xml:id="pr52" corresp="#LG91_l6849">the unsurveyed interior—the
+                  xml:id="pr51" corresp="#LG91_l6860 #LG91_l6859">the wharf hem'd 
+                     <app type="textual_variant">
+                     <rdg xml:id="vr_003a" facs="ppp.00271.011.jpg" wit="#CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #WC_05 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_03 #NYPL_04 #YU_02 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #DU_04 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_10 #NYPL_11 #NYPL_12 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_02 #CoU_03 #PA_01 #AAS_01 #JHU_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #PC_02 #PC_03 #PC_04 #PC_05 #UNCCH_01">cities and</rdg>
+                     <rdg xml:id="vr_003b" facs="uva_nhg.00005.jpg" wit="#LC_09 #GC_01 #RC_01 #TAMU_01 #UNCCH_02 #NYPL_02 #YU_01 #YU_03 #UVa_02 #UVa_10 #DU_01 #NYPL_08 #LU_03 #PU_02 #HU_06 #CoU_01 #PC_14 #DrU_01">cities adn</rdg>
+                  </app>
+                     superior marine—</seg><seg xml:id="pr52" corresp="#LG91_l6849">the unsurveyed interior—the
                   loghouses and clearings and wild animals and hunters and trappers . . . .</seg>
                <seg xml:id="pr53" corresp="#LG91_l6859">the free commerce—the fisheries and whaling and
                   gold-digging—</seg><seg xml:id="pr54" corresp="#LG91_l6850 #LG91_l7035">the endless gestation of new
@@ -678,17 +678,16 @@
                   in his style and thoughts.</seg></p>
             <p><seg xml:id="pr164">The art of art, the glory of expression and the sunshine of the
                   light of letters is simplicity.</seg>
-               <seg xml:id="pr165">Nothing is better than simplicity . . . . nothing <app>
-                     <rdg xml:id="var060a"
-                        wit="#UVa_10 #UVa_02 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #PC_03 #UNCCH_01 #UNCCH_02"
-                        >can</rdg>
-                     <rdg xml:id="var060b" wit="#UI_01 #LC_01 #UVa_03">ca</rdg>
-                  </app> make up for excess or for the lack of <app>
-                     <rdg xml:id="var061a"
-                        wit="#UVa_10 #UVa_02 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #PC_03 #UNCCH_01 #UNCCH_02"
-                        >definiteness.</rdg>
-                     <rdg xml:id="var061b" wit="#UI_01 #LC_01 #UVa_03">definiteness</rdg>
-                  </app></seg>
+               <seg xml:id="pr165">Nothing is better than simplicity . . . . nothing 
+                  <app type="textual_variant">
+                     <rdg xml:id="vr_004a" facs="unc_nhg.00003.jpg" wit="#UVa_10 #UVa_02 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #PC_03 #UNCCH_01 #UNCCH_02">can</rdg>
+                     <rdg xml:id="vr_004b" facs="ppp.00271.013.jpg" wit="#UI_01 #LC_01 #UVa_03">ca</rdg>
+                  </app> make up for excess or for the lack of 
+                  <app type="textual_variant">
+                     <rdg xml:id="vr_005a" facs="unc_nhg.00003.jpg" wit="#UVa_10 #UVa_02 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #PC_03 #UNCCH_01 #UNCCH_02">definiteness.</rdg>
+                     <rdg xml:id="vr_005b" facs="ppp.00271.013.jpg" wit="#UI_01 #LC_01 #UVa_03">definiteness</rdg>
+                  </app>
+               </seg>
                <pb facs="ppp.00271.014.jpg" xml:id="leaf007r" n="vii" type="recto"/><fw
                   type="pageNum" place="top">vii</fw>
                <seg xml:id="pr166">To carry on the heave of impulse and pierce intellectual depths
@@ -1363,7 +1362,10 @@
             <lg type="linegroup">
                <l xml:id="l50">I am satisfied . . . . I see, dance, laugh, sing;</l> 
                <pb facs="ppp.00271.022.jpg" xml:id="leaf011r" n="15" type="recto"/>
-               <fw type="header" place="top">Leaves<app><rdg xml:id="drift001a"><ptr target="15_drift001a.jpg"/></rdg><rdg xml:id="drift001b"><ptr target="15_drift001b.jpg"/></rdg></app> of Grass.<ptr target="15_juxtaposed_FINAL.jpg"/></fw>
+               <fw type="header" place="top"><app type="drift">
+                  <rdg xml:id="vr_006a" facs="ppp.00271.022.jpg">Leaves</rdg>
+                  <rdg xml:id="vr_006b" facs="loc_nhg.01021.jpg">Leaves</rdg>
+               </app> of Grass.</fw>
                <fw type="pageNum" place="top right">15</fw>
                <l xml:id="l51">As God comes a loving bedfellow and sleeps at my side all night<!--extra ink from spacer here--> and close on the <lb/>peep of the day,</l>
                <l xml:id="l52">And leaves for me baskets covered with white towels bulging the house with their <lb/>plenty,</l>
@@ -1374,7 +1376,11 @@
             </lg>
             <lg type="linegroup">
                <l xml:id="l57">Trippers and askers surround me,</l>
-               <l xml:id="l58">People I meet . . . . . the effect upon me of my early life . . . . of the <app><rdg xml:id="var003a" wit="#LC_09 #GC_01 #RC_01 #TAMU_01 #UNCC_01 #NYPL_02 #YU_01 #YU_03 #UVa_02 #UVa_10 #NYPL_08 #LU_03 #PU_02 #HU_06 #PC_14 #DrU_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #UNCCH_01 #UNCCH_02 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_04 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_11 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_03 #PA_01 #AAS_01 #JHU_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #NSU_01 #DU_03 #PC_03">ward and city I</rdg><rdg xml:id="var003b" wit="#DU_01 #CoU_01 #CPL_01 #OSU_01 #UCLA_01 #BGSU_01 #WC_05 #NYPL_03 #YU_02 #DU_04 #NYPL_10 #NYPL_12 #CoU_02 #BPL_02">ward and city</rdg></app> <lb/>live in . . . . of the nation,</l>
+               <l xml:id="l58">People I meet . . . . . the effect upon me of my early life . . . . of the 
+                  <app type="textual_variant">
+                     <rdg xml:id="vr_007a" facs="ppp.00271.022.jpg" wit="#LC_09 #GC_01 #RC_01 #TAMU_01 #UNCC_01 #NYPL_02 #YU_01 #YU_03 #UVa_02 #UVa_10 #NYPL_08 #LU_03 #PU_02 #HU_06 #PC_14 #DrU_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #UNCCH_01 #UNCCH_02 #WU_01 #SUNYBu_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_04 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_11 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #BC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_03 #PA_01 #AAS_01 #JHU_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #NSU_01 #DU_03 #PC_03">ward and city I</rdg>
+                     <rdg xml:id="vr_007b" facs="duk_nhg.01401.jpg" wit="#DU_01 #CoU_01 #CPL_01 #OSU_01 #UCLA_01 #BGSU_01 #WC_05 #NYPL_03 #YU_02 #DU_04 #NYPL_10 #NYPL_12 #CoU_02 #BPL_02">ward and city</rdg>
+                  </app> <lb/>live in . . . . of the nation,</l>
                <l xml:id="l59">The latest news . . . . discoveries, inventions, societies . . . . authors old and new,</l>
                <l xml:id="l60">My dinner, dress, associates, looks, business, compliments, dues,</l>
                <l xml:id="l61">The real or fancied indifference of some man or woman I love,</l>
@@ -2259,7 +2265,11 @@ squatter strikes deep with his axe,</l>
                <l xml:id="l600">The orbic flex of his mouth is pouring and filling me full.</l>
             </lg>
             <lg type="linegroup">
-               <l xml:id="l601">I hear the trained soprano . . . . she convulses me like the climax of my <app><rdg xml:id="var008a" wit="#BPL_02 #UP_01 #UP_02 #UP_03 #DrU_01 #AAS_01 #UNL_01 #PC_15 #HSP_01 #LCP_01 #BPL_01 #BrU_01 #BrU_02 #BrU_03 #BrU_04 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #CoU_01 #CoU_02 #LC_09 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_03 #PA_01 #PC_12 #DU_01 #CPL_01 #OSU_01 #WC_05 #NYPL_03 #YU_02 #DU_04 #NYPL_10 #GC_01 #RC_01 #TAMU_01 #UNCC_01 #NYPL_02 #YU_03 #UVa_02 #UVa_10 #LU_03 #PU_02 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #UNCCH_02 #UNCCH_01 #WU_01 #SUNYBu_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_04 #YU_04 #YU_05 #BYU_01 #BaU_01 #BU_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_11 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UCSC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #NSU_01 #DU_03 #PC_03">love-grip;</rdg><rdg xml:id="var008b" wit="#PC_13 #PSU_01 #PC_14 #JHU_01 #UCLA_01 #BGSU_01 #NYPL_12 #YU_01 #NYPL_08 #HU_06 #WFU_02 #UTA_01 #YU_06 #URI_01 #UnC_01 #BC_01">love-grip</rdg></app></l>
+               <l xml:id="l601">I hear the trained soprano . . . . she convulses me like the climax of my 
+                  <app type="textual_variant">
+                     <rdg xml:id="vr_008a" facs="ppp.00271.039.jpg" wit="#BPL_02 #UP_01 #UP_02 #UP_03 #DrU_01 #AAS_01 #UNL_01 #PC_15 #HSP_01 #LCP_01 #BPL_01 #BrU_01 #BrU_02 #BrU_03 #BrU_04 #HL_02 #HL_03 #PC_16 #PC_17 #PC_18 #PC_19 #CoU_01 #CoU_02 #LC_09 #LC_01 #LC_02 #LC_03 #LC_04 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #PC_10 #PC_11 #CoU_03 #PA_01 #PC_12 #DU_01 #CPL_01 #OSU_01 #WC_05 #NYPL_03 #YU_02 #DU_04 #NYPL_10 #GC_01 #RC_01 #TAMU_01 #UNCC_01 #NYPL_02 #YU_03 #UVa_02 #UVa_10 #LU_03 #PU_02 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #KSU_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #UNCCH_02 #UNCCH_01 #WU_01 #SUNYBu_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UTA_06 #UTA_07 #WWH_01 #WWH_02 #NYPL_01 #NYPL_04 #YU_04 #YU_05 #BYU_01 #BaU_01 #BU_01 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_07 #UVa_08 #UVa_09 #DU_02 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_11 #PML_01 #PML_02 #PML_03 #PML_04 #VAM_01 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #UI_01 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UCSC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #NSU_01 #DU_03 #PC_03">love-grip;</rdg>
+                     <rdg xml:id="vr_008b" wit="#PC_13 #PSU_01 #PC_14 #JHU_01 #UCLA_01 #BGSU_01 #NYPL_12 #YU_01 #NYPL_08 #HU_06 #WFU_02 #UTA_01 #YU_06 #URI_01 #UnC_01 #BC_01">love-grip</rdg>
+                  </app></l>
                <l xml:id="l602">The orchestra whirls me wider than Uranus flies,</l>
                <l xml:id="l603">It wrenches unnamable ardors from my breast,</l>
                <l xml:id="l604">It throbs me to gulps of the farthest down horror,</l>
@@ -2928,7 +2938,11 @@ breath . . . . I buoy you up;</l>
                <l xml:id="l1025">In my portfolio placing Manito loose, and Allah on a leaf, and the crucifix engraved,</l>
                <l xml:id="l1026">With Odin, and the hideous-faced Mexitli, and all idols and images,</l>
                <l xml:id="l1027">Honestly taking them all for what they are worth, and not a cent more,</l>
-               <l xml:id="l1028">Admitting they were alive and did the work of their day,<ptr target="45_juxtaposed_FINAL.jpg"/></l> 
+               <l xml:id="l1028"><app type="drift">
+                  <rdg xml:id="vr_009a" facs="ppp.00271.052.jpg">Admitting</rdg>
+                  <rdg xml:id="vr_009b" facs="loc_nhg.01247.jpg">Admitting</rdg>
+                  </app>
+                  they were alive and did the work of their day,</l> 
                <pb facs="ppp.00271.053.jpg" xml:id="leaf026v" n="46" type="verso"/>
                <fw type="pageNum" place="top left">46</fw>
                <fw type="header" place="top">Leaves of Grass.</fw>

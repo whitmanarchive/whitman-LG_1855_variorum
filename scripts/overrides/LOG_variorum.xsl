@@ -49,7 +49,25 @@
       count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
     <xsl:variable name="divide_by" select="number(14)"/><!-- todo: kmd pull this programatically -->
     <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
+    <xsl:if test="$percent_num &gt; 0">
+      <span class="relation_link">
+        <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="substring-after($line_id,'#')"/></xsl:attribute>
+        Relations
+      </span>
+    </xsl:if>
     <div class="relation_num" style="width:{$percent_num}%"/>
+  </xsl:template>
+  
+  <xsl:template name="relation_link">
+   <!-- <xsl:variable name="line_id" select="@xml:id"/>
+    <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
+    <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
+    <xsl:if test="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
+    <span class="relation_link">
+      <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="$line_id"/></xsl:attribute>
+      Relations
+    </span>
+    </xsl:if>-->
   </xsl:template>
   
   <!-- Related text pulled from manuscripts and notebooks accessed by clicking on "Relations" -->
@@ -59,11 +77,7 @@
     <xsl:variable name="line" select="."/>
     <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
     <xsl:if test="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
-      <span class="relation_link">
-        <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="substring-after($line_id,'#')"/></xsl:attribute>
-        Relations
-      </span>
-      <span><!--  class="popup-overlay " -->
+      <div>
         <xsl:attribute name="class">
           <xsl:text>hide </xsl:text>
           <xsl:text>relation_data line_</xsl:text>
@@ -73,8 +87,6 @@
           <xsl:text>line_</xsl:text>
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
-        <!--<span class="popup-content">
-          <span class="close">x</span>-->
           <table>
             <tr>
               <th scope="col">
@@ -154,7 +166,7 @@
             <a target="_blank" href="https://www.whitmanarchive.org">Open all in tabs</a>
           </span>
         <!--</span>-->
-      </span>
+      </div>
     </xsl:if>
   </xsl:template>
   
@@ -225,6 +237,7 @@
     <xsl:param name="xmlid"/>
     <xsl:param name="outer"/>
     <xsl:param name="right"/>
+    <xsl:param name="after"/>
     
     <div class="v_container">
       <div class="v_corresp">
@@ -243,6 +256,7 @@
         <xsl:copy-of select="$right"/>
       </div>
     </div>
+    <xsl:copy-of select="$after"/>
   </xsl:template>
   
   <!-- todo consult with jess/greg about a good way to do this -->
@@ -264,13 +278,13 @@
 
   <!--BEGIN: PREFACE-->
   <!-- This does not seem to be hitting todo: ask nikki -->
-  <!--<xsl:template match="//div1[@type = 'preface']">
+  <xsl:template match="//div1[@type = 'preface']">
     <div class="tei_div_preface">
       <xsl:call-template name="mss_links">
         <xsl:with-param name="label">preface</xsl:with-param>
         <xsl:with-param name="work_id">xxx.00526</xsl:with-param>
       </xsl:call-template>
-      <!-\- this code is shared with poetry below -\->
+      <!-- this code is shared with poetry below -->
       <xsl:choose>
         <xsl:when test="@rend = 'italic'">
           <div class="italic">
@@ -289,7 +303,7 @@
         <br/>
       </xsl:if>
     </div>
-  </xsl:template>-->
+  </xsl:template>
 
   <!-- BEGIN: POETRY, Variorum specific -->
   <xsl:template match="//lg[@type = 'poem']">
@@ -367,16 +381,10 @@
         </div>
       </xsl:when>
       <xsl:otherwise>
-        <!--<xsl:call-template name="grid_builder">
-          <xsl:with-param name="corresp"/>
-          <xsl:with-param name="xmlid"/>
-          <xsl:with-param name="outer"/>
-          <xsl:with-param name="right"/>
-        </xsl:call-template>-->
         <xsl:variable name="line_id_local" select="@xml:id"/>
         <xsl:call-template name="grid_builder">
           <xsl:with-param name="corresp">
-            <xsl:call-template name="corresp_table"/>
+            <xsl:call-template name="relation_link"/>
             <xsl:call-template name="related_mss"/>
           </xsl:with-param>
           <xsl:with-param name="xmlid">
@@ -392,22 +400,10 @@
           <xsl:with-param name="right">
             &#160;
           </xsl:with-param>
+          <xsl:with-param name="after">
+            <xsl:call-template name="corresp_table"/>
+          </xsl:with-param>
         </xsl:call-template>
-        <!--<div class="tei_l v_container">-->
-          
-          <!--Added to create display tables 8/29/18, nhg-->
-          <!--<span class="tei_l_corresp v_corresp">
-            
-          </span>-->
-          <!--<span class="tei_l_xmlid v_xmlid">-->
-            
-          <!--</span>-->
-          <!--<span class="variorumLine variorumOuter">
-            <xsl:attribute name="id" select="$line_id_local"/>
-            <xsl:apply-templates/>
-          </span>-->
-          <!--<span class="tei_l_right v_right"></span>-->
-        <!--</div>-->
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -417,7 +413,7 @@
   <xsl:template match="//seg">
     <xsl:call-template name="grid_builder">
       <xsl:with-param name="corresp">
-        <xsl:call-template name="corresp_table"/>
+        <xsl:call-template name="relation_link"/>
         <xsl:call-template name="related_mss"/>
       </xsl:with-param>
       <xsl:with-param name="xmlid">
@@ -431,25 +427,10 @@
       <xsl:with-param name="right">
         &#160;
       </xsl:with-param>
-    </xsl:call-template>
-    
-    <!--<div class="tei_seg">-->
-      <!--Added to create display tables 8/29/18, nhg-->
-      <!--<span class="tei_seg_corresp v_corresp">
+      <xsl:with-param name="after">
         <xsl:call-template name="corresp_table"/>
-        <xsl:call-template name="related_mss"/>
-      </span>-->
-      <!-- <span class="tei_seg_related"><xsl:call-template name="related_mss"/></span>-->
-      <!--<span class="tei_seg_xmlid v_xmlid">
-        <xsl:if test="@xml:id">
-          <xsl:attribute name="id" select="@xml:id"/>
-        </xsl:if>
-      </span>-->
-     <!-- <span class="variorumSeg variorumOuter">
-        <xsl:apply-templates/>
-      </span>
-      <span class="tei_seg_right v_right">&#160;</span>-->
-    <!--</div>-->
+      </xsl:with-param>
+    </xsl:call-template>
   </xsl:template>
   <!-- END: SEG -->
 
@@ -525,7 +506,7 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="div1[@type = 'review']">[[[
+  <xsl:template match="div1[@type = 'review']">
     <div class="tei_div1_type_review">
       <br/>
       <br/>
