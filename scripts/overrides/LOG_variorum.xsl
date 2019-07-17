@@ -143,12 +143,6 @@
                 </tr>
               </xsl:if>
             </xsl:for-each>
-            <tr>
-              <td><!--ppp.00271--><i>Leaves of Grass</i> (1855)</td>
-              <td>
-                <xsl:apply-templates mode="mss" select="$line"/>
-              </td>
-            </tr>
           </table>
           <span class="open_all">
             <a target="_blank" href="https://www.whitmanarchive.org">Open all in tabs</a>
