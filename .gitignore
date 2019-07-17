@@ -15,4 +15,4 @@ config/private.yml
 !/output/development
 /output/development/*
 !/output/development/html
-
+!/output/development/manifests

@@ -1,0 +1,3236 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/leaves_of_grass.json",
+  "@type": "sc:Manifest",
+  "label": "Leaves of Grass 1855 First Edition",
+  "description": [
+    {
+      "@value": "This is a description",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Walt Whitman or other attribution",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "logo": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.001.jpg/full/!150,150/0/default.jpg",
+  "structures": [
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/front_cover",
+      "@type": "sc:Canvas",
+      "label": "Front Cover",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.001.jpg-leaf001r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/emerson",
+      "@type": "sc:Canvas",
+      "label": "Emerson Letter",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.005.jpg-leaf002v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/frontispiece",
+      "@type": "sc:Canvas",
+      "label": "Frontispiece",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.007.jpg-leaf003v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/title",
+      "@type": "sc:Canvas",
+      "label": "Title Page",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.008.jpg-leaf004r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/copyright",
+      "@type": "sc:Canvas",
+      "label": "Copyright Page",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.009.jpg-leaf004v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/preface",
+      "@type": "sc:Canvas",
+      "label": "Preface",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.010.jpg-leaf005r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log1",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [1] (\"Song of Myself\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.020.jpg-leaf010r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log2",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [2] (\"A Song for Occupations\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.064.jpg-leaf032r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log3",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [3], (\"To Think of Time\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.072.jpg-leaf036r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log4",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [4], (\"The Sleepers\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.077.jpg-leaf038v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log5",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [5], (\"I Sing the Body Electric\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.084.jpg-leaf042r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/log6",
+      "@type": "sc:Canvas",
+      "label": "Leaves of Grass [6], (\"Faces\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.089.jpg-leaf044v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled1",
+      "@type": "sc:Canvas",
+      "label": "Untitled [1], (\"Song of the Answerer\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.092.jpg-leaf046r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled2",
+      "@type": "sc:Canvas",
+      "label": "Untitled [2], (\"Europe, The 72d and 73d Years of these States\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.094.jpg-leaf047r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled3",
+      "@type": "sc:Canvas",
+      "label": "Untitled [3], (\"A Boston Ballad\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.096.jpg-leaf048r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled4",
+      "@type": "sc:Canvas",
+      "label": "Untitled [4], (\"There Was a Child Went Forth\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.097.jpg-leaf048v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled5",
+      "@type": "sc:Canvas",
+      "label": "Untitled [5], (\"Who Learns My Lesson Complete\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.099.jpg-leaf049v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/untitled6",
+      "@type": "sc:Canvas",
+      "label": "Untitled [6], (\"Youth, Day, Old Age and Night\")",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.100.jpg-leaf050r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/review1",
+      "@type": "sc:Canvas",
+      "label": "Review [1]",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf053r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/ww1",
+      "@type": "sc:Canvas",
+      "label": "\"Walt Whitman, A Brooklyn Boy\"",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf053r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/ww2",
+      "@type": "sc:Canvas",
+      "label": "\"Walt Whitman and His Poems\"",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf053v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/review2",
+      "@type": "sc:Canvas",
+      "label": "Review [2]",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf054v"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/review3",
+      "@type": "sc:Canvas",
+      "label": "Review [3]",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf055r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/ww3",
+      "@type": "sc:Canvas",
+      "label": "\"An English and an American Poet\"",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf055r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/ww4",
+      "@type": "sc:Canvas",
+      "label": "\"Have Great Poets Become Impossible\"",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf056r"
+      ]
+    },
+    {
+      "@id": "https://whitmanarchive.org/TODO/structure/ww5",
+      "@type": "sc:Canvas",
+      "label": "\"Extracts from Letters and Reviews\"",
+      "canvases": [
+        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf056v"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "Page Order",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.001.jpg-leaf001r",
+          "@type": "sc:Canvas",
+          "label": "front cover leaf001r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.001.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.001.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.001_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2642,
+                "height": 3491,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.001_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.001.jpg-leaf001r"
+            }
+          ],
+          "width": 2642,
+          "height": 3491
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.002.jpg-leaf001v",
+          "@type": "sc:Canvas",
+          "label": " leaf001v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.002.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.002.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.002_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2459,
+                "height": 3461,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.002_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.002.jpg-leaf001v"
+            }
+          ],
+          "width": 2459,
+          "height": 3461
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.003.jpg-leaf002r",
+          "@type": "sc:Canvas",
+          "label": " leaf002r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.003.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.003.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.003_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2459,
+                "height": 3461,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.003_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.003.jpg-leaf002r"
+            }
+          ],
+          "width": 2459,
+          "height": 3461
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.004.jpg-leaf002v1",
+          "@type": "sc:Canvas",
+          "label": " leaf002v1",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.004.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.004.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.004_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2730,
+                "height": 2159,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.004_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.004.jpg-leaf002v1"
+            }
+          ],
+          "width": 2730,
+          "height": 2159
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.005.jpg-leaf002v",
+          "@type": "sc:Canvas",
+          "label": " leaf002v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.005.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.005.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.005_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2459,
+                "height": 3461,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.005_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.005.jpg-leaf002v"
+            }
+          ],
+          "width": 2459,
+          "height": 3461
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.006.jpg-leaf003r",
+          "@type": "sc:Canvas",
+          "label": " leaf003r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.006.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.006.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.006_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2481,
+                "height": 3461,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.006_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.006.jpg-leaf003r"
+            }
+          ],
+          "width": 2481,
+          "height": 3461
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.007.jpg-leaf003v",
+          "@type": "sc:Canvas",
+          "label": " leaf003v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.007.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.007.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.007_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.007_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.007.jpg-leaf003v"
+            }
+          ],
+          "width": 2276,
+          "height": 3315,
+          "otherContent": [
+            {
+              "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/frontispiece.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.008.jpg-leaf004r",
+          "@type": "sc:Canvas",
+          "label": " leaf004r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.008.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.008.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.008_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.008_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.008.jpg-leaf004r"
+            }
+          ],
+          "width": 2276,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.009.jpg-leaf004v",
+          "@type": "sc:Canvas",
+          "label": " leaf004v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.009.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.009.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.009_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.009_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.009.jpg-leaf004v"
+            }
+          ],
+          "width": 2276,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.010.jpg-leaf005r",
+          "@type": "sc:Canvas",
+          "label": " leaf005r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.010.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.010.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.010_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.010_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.010.jpg-leaf005r"
+            }
+          ],
+          "width": 2276,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.011.jpg-leaf005v",
+          "@type": "sc:Canvas",
+          "label": " leaf005v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.011.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.011.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.011_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.011_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.011.jpg-leaf005v"
+            }
+          ],
+          "width": 2276,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.012.jpg-leaf006r",
+          "@type": "sc:Canvas",
+          "label": " leaf006r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.012.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.012.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.012_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2298,
+                "height": 3308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.012_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.012.jpg-leaf006r"
+            }
+          ],
+          "width": 2298,
+          "height": 3308
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.013.jpg-leaf006v",
+          "@type": "sc:Canvas",
+          "label": " leaf006v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.013.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.013.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.013_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2298,
+                "height": 3308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.013_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.013.jpg-leaf006v"
+            }
+          ],
+          "width": 2298,
+          "height": 3308
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.014.jpg-leaf007r",
+          "@type": "sc:Canvas",
+          "label": " leaf007r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.014.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.014.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.014_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2298,
+                "height": 3308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.014_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.014.jpg-leaf007r"
+            }
+          ],
+          "width": 2298,
+          "height": 3308
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.015.jpg-leaf007v",
+          "@type": "sc:Canvas",
+          "label": " leaf007v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.015.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.015.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.015_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.015_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.015.jpg-leaf007v"
+            }
+          ],
+          "width": 2276,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.016.jpg-leaf008r",
+          "@type": "sc:Canvas",
+          "label": " leaf008r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.016.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.016.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.016_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.016_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.016.jpg-leaf008r"
+            }
+          ],
+          "width": 2305,
+          "height": 3308
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.017.jpg-leaf008v",
+          "@type": "sc:Canvas",
+          "label": " leaf008v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.017.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.017.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.017_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.017_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.017.jpg-leaf008v"
+            }
+          ],
+          "width": 2334,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.018.jpg-leaf009r",
+          "@type": "sc:Canvas",
+          "label": " leaf009r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.018.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.018.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.018_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.018_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.018.jpg-leaf009r"
+            }
+          ],
+          "width": 2334,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.019.jpg-leaf009v",
+          "@type": "sc:Canvas",
+          "label": " leaf009v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.019.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.019.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.019_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.019_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.019.jpg-leaf009v"
+            }
+          ],
+          "width": 2327,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.020.jpg-leaf010r",
+          "@type": "sc:Canvas",
+          "label": " leaf010r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.020.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.020.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.020_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.020_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.020.jpg-leaf010r"
+            }
+          ],
+          "width": 2349,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.021.jpg-leaf010v",
+          "@type": "sc:Canvas",
+          "label": " leaf010v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.021.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.021.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.021_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.021_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.021.jpg-leaf010v"
+            }
+          ],
+          "width": 2327,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.022.jpg-leaf011r",
+          "@type": "sc:Canvas",
+          "label": " leaf011r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.022.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.022.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.022_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3293,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.022_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.022.jpg-leaf011r"
+            }
+          ],
+          "width": 2313,
+          "height": 3293
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.023.jpg-leaf011v",
+          "@type": "sc:Canvas",
+          "label": " leaf011v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.023.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.023.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.023_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.023_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.023.jpg-leaf011v"
+            }
+          ],
+          "width": 2305,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.024.jpg-leaf012r",
+          "@type": "sc:Canvas",
+          "label": " leaf012r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.024.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.024.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.024_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.024_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.024.jpg-leaf012r"
+            }
+          ],
+          "width": 2320,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.025.jpg-leaf012v",
+          "@type": "sc:Canvas",
+          "label": " leaf012v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.025.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.025.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.025_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.025_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.025.jpg-leaf012v"
+            }
+          ],
+          "width": 2313,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.026.jpg-leaf013r",
+          "@type": "sc:Canvas",
+          "label": " leaf013r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.026.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.026.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.026_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.026_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.026.jpg-leaf013r"
+            }
+          ],
+          "width": 2342,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.027.jpg-leaf013v",
+          "@type": "sc:Canvas",
+          "label": " leaf013v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.027.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.027.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.027_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.027_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.027.jpg-leaf013v"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.028.jpg-leaf014r",
+          "@type": "sc:Canvas",
+          "label": " leaf014r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.028.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.028.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.028_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.028_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.028.jpg-leaf014r"
+            }
+          ],
+          "width": 2313,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.029.jpg-leaf014v",
+          "@type": "sc:Canvas",
+          "label": " leaf014v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.029.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.029.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.029_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.029_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.029.jpg-leaf014v"
+            }
+          ],
+          "width": 2327,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.030.jpg-leaf015r",
+          "@type": "sc:Canvas",
+          "label": " leaf015r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.030.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.030.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.030_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.030_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.030.jpg-leaf015r"
+            }
+          ],
+          "width": 2313,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.031.jpg-leaf015v",
+          "@type": "sc:Canvas",
+          "label": " leaf015v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.031.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.031.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.031_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2276,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.031_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.031.jpg-leaf015v"
+            }
+          ],
+          "width": 2276,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.032.jpg-leaf016r",
+          "@type": "sc:Canvas",
+          "label": " leaf016r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.032.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.032.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.032_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.032_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.032.jpg-leaf016r"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.033.jpg-leaf016v",
+          "@type": "sc:Canvas",
+          "label": " leaf016v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.033.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.033.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.033_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.033_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.033.jpg-leaf016v"
+            }
+          ],
+          "width": 2334,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.034.jpg-leaf017r",
+          "@type": "sc:Canvas",
+          "label": " leaf017r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.034.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.034.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.034_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3344,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.034_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.034.jpg-leaf017r"
+            }
+          ],
+          "width": 2349,
+          "height": 3344
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.035.jpg-leaf017v",
+          "@type": "sc:Canvas",
+          "label": " leaf017v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.035.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.035.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.035_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.035_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.035.jpg-leaf017v"
+            }
+          ],
+          "width": 2313,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.036.jpg-leaf018r",
+          "@type": "sc:Canvas",
+          "label": " leaf018r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.036.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.036.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.036_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.036_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.036.jpg-leaf018r"
+            }
+          ],
+          "width": 2342,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.037.jpg-leaf018v",
+          "@type": "sc:Canvas",
+          "label": " leaf018v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.037.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.037.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.037_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.037_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.037.jpg-leaf018v"
+            }
+          ],
+          "width": 2313,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.038.jpg-leaf019r",
+          "@type": "sc:Canvas",
+          "label": " leaf019r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.038.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.038.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.038_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3351,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.038_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.038.jpg-leaf019r"
+            }
+          ],
+          "width": 2320,
+          "height": 3351
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.039.jpg-leaf019v",
+          "@type": "sc:Canvas",
+          "label": " leaf019v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.039.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.039.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.039_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2291,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.039_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.039.jpg-leaf019v"
+            }
+          ],
+          "width": 2291,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.040.jpg-leaf020r",
+          "@type": "sc:Canvas",
+          "label": " leaf020r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.040.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.040.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.040_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3359,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.040_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.040.jpg-leaf020r"
+            }
+          ],
+          "width": 2349,
+          "height": 3359
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.041.jpg-leaf020v",
+          "@type": "sc:Canvas",
+          "label": " leaf020v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.041.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.041.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.041_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.041_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.041.jpg-leaf020v"
+            }
+          ],
+          "width": 2320,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.042.jpg-leaf021r",
+          "@type": "sc:Canvas",
+          "label": " leaf021r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.042.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.042.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.042_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3366,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.042_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.042.jpg-leaf021r"
+            }
+          ],
+          "width": 2349,
+          "height": 3366
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.043.jpg-leaf021v",
+          "@type": "sc:Canvas",
+          "label": " leaf021v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.043.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.043.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.043_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3359,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.043_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.043.jpg-leaf021v"
+            }
+          ],
+          "width": 2349,
+          "height": 3359
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.044.jpg-leaf022r",
+          "@type": "sc:Canvas",
+          "label": " leaf022r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.044.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.044.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.044_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.044_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.044.jpg-leaf022r"
+            }
+          ],
+          "width": 2349,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.045.jpg-leaf022v",
+          "@type": "sc:Canvas",
+          "label": " leaf022v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.045.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.045.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.045_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.045_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.045.jpg-leaf022v"
+            }
+          ],
+          "width": 2327,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.046.jpg-leaf023r",
+          "@type": "sc:Canvas",
+          "label": " leaf023r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.046.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.046.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.046_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3344,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.046_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.046.jpg-leaf023r"
+            }
+          ],
+          "width": 2334,
+          "height": 3344
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.047.jpg-leaf023v",
+          "@type": "sc:Canvas",
+          "label": " leaf023v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.047.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.047.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.047_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.047_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.047.jpg-leaf023v"
+            }
+          ],
+          "width": 2334,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.048.jpg-leaf024r",
+          "@type": "sc:Canvas",
+          "label": " leaf024r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.048.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.048.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.048_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.048_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.048.jpg-leaf024r"
+            }
+          ],
+          "width": 2349,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.049.jpg-leaf024v",
+          "@type": "sc:Canvas",
+          "label": " leaf024v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.049.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.049.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.049_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.049_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.049.jpg-leaf024v"
+            }
+          ],
+          "width": 2342,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.050.jpg-leaf025r",
+          "@type": "sc:Canvas",
+          "label": " leaf025r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.050.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.050.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.050_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.050_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.050.jpg-leaf025r"
+            }
+          ],
+          "width": 2334,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.051.jpg-leaf025v",
+          "@type": "sc:Canvas",
+          "label": " leaf025v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.051.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.051.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.051_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.051_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.051.jpg-leaf025v"
+            }
+          ],
+          "width": 2342,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.052.jpg-leaf026r",
+          "@type": "sc:Canvas",
+          "label": " leaf026r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.052.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.052.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.052_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2356,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.052_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.052.jpg-leaf026r"
+            }
+          ],
+          "width": 2356,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.053.jpg-leaf026v",
+          "@type": "sc:Canvas",
+          "label": " leaf026v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.053.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.053.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.053_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2357,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.053_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.053.jpg-leaf026v"
+            }
+          ],
+          "width": 2357,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.054.jpg-leaf027r",
+          "@type": "sc:Canvas",
+          "label": " leaf027r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.054.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.054.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.054_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2371,
+                "height": 3300,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.054_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.054.jpg-leaf027r"
+            }
+          ],
+          "width": 2371,
+          "height": 3300
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.055.jpg-leaf027v",
+          "@type": "sc:Canvas",
+          "label": " leaf027v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.055.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.055.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.055_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.055_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.055.jpg-leaf027v"
+            }
+          ],
+          "width": 2342,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.056.jpg-leaf028r",
+          "@type": "sc:Canvas",
+          "label": " leaf028r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.056.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.056.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.056_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2371,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.056_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.056.jpg-leaf028r"
+            }
+          ],
+          "width": 2371,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.057.jpg-leaf028v",
+          "@type": "sc:Canvas",
+          "label": " leaf028v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.057.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.057.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.057_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.057_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.057.jpg-leaf028v"
+            }
+          ],
+          "width": 2327,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.058.jpg-leaf029r",
+          "@type": "sc:Canvas",
+          "label": " leaf029r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.058.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.058.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.058_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.058_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.058.jpg-leaf029r"
+            }
+          ],
+          "width": 2327,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.059.jpg-leaf029v",
+          "@type": "sc:Canvas",
+          "label": " leaf029v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.059.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.059.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.059_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3366,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.059_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.059.jpg-leaf029v"
+            }
+          ],
+          "width": 2342,
+          "height": 3366
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.060.jpg-leaf030r",
+          "@type": "sc:Canvas",
+          "label": " leaf030r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.060.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.060.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.060_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3351,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.060_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.060.jpg-leaf030r"
+            }
+          ],
+          "width": 2349,
+          "height": 3351
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.061.jpg-leaf030v",
+          "@type": "sc:Canvas",
+          "label": " leaf030v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.061.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.061.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.061_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3359,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.061_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.061.jpg-leaf030v"
+            }
+          ],
+          "width": 2349,
+          "height": 3359
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.062.jpg-leaf031r",
+          "@type": "sc:Canvas",
+          "label": " leaf031r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.062.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.062.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.062_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.062_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.062.jpg-leaf031r"
+            }
+          ],
+          "width": 2334,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.063.jpg-leaf031v",
+          "@type": "sc:Canvas",
+          "label": " leaf031v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.063.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.063.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.063_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3374,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.063_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.063.jpg-leaf031v"
+            }
+          ],
+          "width": 2327,
+          "height": 3374
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.064.jpg-leaf032r",
+          "@type": "sc:Canvas",
+          "label": " leaf032r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.064.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.064.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.064_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.064_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.064.jpg-leaf032r"
+            }
+          ],
+          "width": 2327,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.065.jpg-leaf032v",
+          "@type": "sc:Canvas",
+          "label": " leaf032v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.065.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.065.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.065_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.065_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.065.jpg-leaf032v"
+            }
+          ],
+          "width": 2327,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.066.jpg-leaf033r",
+          "@type": "sc:Canvas",
+          "label": " leaf033r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.066.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.066.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.066_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3344,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.066_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.066.jpg-leaf033r"
+            }
+          ],
+          "width": 2334,
+          "height": 3344
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.067.jpg-leaf033v",
+          "@type": "sc:Canvas",
+          "label": " leaf033v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.067.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.067.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.067_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.067_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.067.jpg-leaf033v"
+            }
+          ],
+          "width": 2334,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.068.jpg-leaf034r",
+          "@type": "sc:Canvas",
+          "label": " leaf034r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.068.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.068.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.068_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2349,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.068_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.068.jpg-leaf034r"
+            }
+          ],
+          "width": 2349,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.069.jpg-leaf034v",
+          "@type": "sc:Canvas",
+          "label": " leaf034v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.069.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.069.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.069_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2342,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.069_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.069.jpg-leaf034v"
+            }
+          ],
+          "width": 2342,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.070.jpg-leaf035r",
+          "@type": "sc:Canvas",
+          "label": " leaf035r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.070.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.070.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.070_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.070_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.070.jpg-leaf035r"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.071.jpg-leaf035v",
+          "@type": "sc:Canvas",
+          "label": " leaf035v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.071.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.071.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.071_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2298,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.071_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.071.jpg-leaf035v"
+            }
+          ],
+          "width": 2298,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.072.jpg-leaf036r",
+          "@type": "sc:Canvas",
+          "label": " leaf036r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.072.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.072.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.072_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.072_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.072.jpg-leaf036r"
+            }
+          ],
+          "width": 2320,
+          "height": 3330
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.073.jpg-leaf036v",
+          "@type": "sc:Canvas",
+          "label": " leaf036v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.073.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.073.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.073_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.073_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.073.jpg-leaf036v"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.074.jpg-leaf037r",
+          "@type": "sc:Canvas",
+          "label": " leaf037r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.074.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.074.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.074_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.074_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.074.jpg-leaf037r"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.075.jpg-leaf037v",
+          "@type": "sc:Canvas",
+          "label": " leaf037v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.075.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.075.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.075_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.075_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.075.jpg-leaf037v"
+            }
+          ],
+          "width": 2313,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.076.jpg-leaf038r",
+          "@type": "sc:Canvas",
+          "label": " leaf038r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.076.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.076.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.076_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.076_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.076.jpg-leaf038r"
+            }
+          ],
+          "width": 2313,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.077.jpg-leaf038v",
+          "@type": "sc:Canvas",
+          "label": " leaf038v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.077.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.077.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.077_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.077_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.077.jpg-leaf038v"
+            }
+          ],
+          "width": 2327,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.078.jpg-leaf039r",
+          "@type": "sc:Canvas",
+          "label": " leaf039r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.078.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.078.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.078_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2298,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.078_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.078.jpg-leaf039r"
+            }
+          ],
+          "width": 2298,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.079.jpg-leaf039v",
+          "@type": "sc:Canvas",
+          "label": " leaf039v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.079.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.079.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.079_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.079_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.079.jpg-leaf039v"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.080.jpg-leaf040r",
+          "@type": "sc:Canvas",
+          "label": " leaf040r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.080.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.080.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.080_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.080_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.080.jpg-leaf040r"
+            }
+          ],
+          "width": 2313,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.081.jpg-leaf040v",
+          "@type": "sc:Canvas",
+          "label": " leaf040v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.081.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.081.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.081_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2312,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.081_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.081.jpg-leaf040v"
+            }
+          ],
+          "width": 2312,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.082.jpg-leaf041r",
+          "@type": "sc:Canvas",
+          "label": " leaf041r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.082.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.082.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.082_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.082_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.082.jpg-leaf041r"
+            }
+          ],
+          "width": 2313,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.083.jpg-leaf041v",
+          "@type": "sc:Canvas",
+          "label": " leaf041v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.083.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.083.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.083_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.083_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.083.jpg-leaf041v"
+            }
+          ],
+          "width": 2334,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.084.jpg-leaf042r",
+          "@type": "sc:Canvas",
+          "label": " leaf042r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.084.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.084.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.084_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2327,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.084_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.084.jpg-leaf042r"
+            }
+          ],
+          "width": 2327,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.085.jpg-leaf042v",
+          "@type": "sc:Canvas",
+          "label": " leaf042v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.085.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.085.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.085_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.085_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.085.jpg-leaf042v"
+            }
+          ],
+          "width": 2334,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.086.jpg-leaf043r",
+          "@type": "sc:Canvas",
+          "label": " leaf043r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.086.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.086.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.086_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.086_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.086.jpg-leaf043r"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.087.jpg-leaf043v",
+          "@type": "sc:Canvas",
+          "label": " leaf043v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.087.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.087.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.087_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.087_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.087.jpg-leaf043v"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.088.jpg-leaf044r",
+          "@type": "sc:Canvas",
+          "label": " leaf044r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.088.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.088.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.088_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2291,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.088_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.088.jpg-leaf044r"
+            }
+          ],
+          "width": 2291,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.089.jpg-leaf044v",
+          "@type": "sc:Canvas",
+          "label": " leaf044v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.089.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.089.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.089_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.089_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.089.jpg-leaf044v"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.090.jpg-leaf045r",
+          "@type": "sc:Canvas",
+          "label": " leaf045r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.090.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.090.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.090_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.090_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.090.jpg-leaf045r"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.091.jpg-leaf045v",
+          "@type": "sc:Canvas",
+          "label": " leaf045v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.091.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.091.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.091_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.091_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.091.jpg-leaf045v"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.092.jpg-leaf046r",
+          "@type": "sc:Canvas",
+          "label": " leaf046r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.092.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.092.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.092_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.092_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.092.jpg-leaf046r"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.093.jpg-leaf046v",
+          "@type": "sc:Canvas",
+          "label": " leaf046v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.093.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.093.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.093_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.093_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.093.jpg-leaf046v"
+            }
+          ],
+          "width": 2320,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.094.jpg-leaf047r",
+          "@type": "sc:Canvas",
+          "label": " leaf047r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.094.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.094.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.094_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.094_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.094.jpg-leaf047r"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.095.jpg-leaf047v",
+          "@type": "sc:Canvas",
+          "label": " leaf047v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.095.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.095.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.095_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.095_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.095.jpg-leaf047v"
+            }
+          ],
+          "width": 2305,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.096.jpg-leaf048r",
+          "@type": "sc:Canvas",
+          "label": " leaf048r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.096.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.096.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.096_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2291,
+                "height": 3337,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.096_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.096.jpg-leaf048r"
+            }
+          ],
+          "width": 2291,
+          "height": 3337
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.097.jpg-leaf048v",
+          "@type": "sc:Canvas",
+          "label": " leaf048v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.097.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.097.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.097_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.097_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.097.jpg-leaf048v"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.098.jpg-leaf049r",
+          "@type": "sc:Canvas",
+          "label": " leaf049r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.098.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.098.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.098_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2320,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.098_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.098.jpg-leaf049r"
+            }
+          ],
+          "width": 2320,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.099.jpg-leaf049v",
+          "@type": "sc:Canvas",
+          "label": " leaf049v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.099.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.099.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.099_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2313,
+                "height": 3322,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.099_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.099.jpg-leaf049v"
+            }
+          ],
+          "width": 2313,
+          "height": 3322
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.100.jpg-leaf050r",
+          "@type": "sc:Canvas",
+          "label": " leaf050r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.100.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.100.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.100_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2312,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.100_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.100.jpg-leaf050r"
+            }
+          ],
+          "width": 2312,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.101.jpg-leaf050v",
+          "@type": "sc:Canvas",
+          "label": " leaf050v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.101.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.101.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.101_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.101_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.101.jpg-leaf050v"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.102.jpg-leaf051r",
+          "@type": "sc:Canvas",
+          "label": " leaf051r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.102.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.102.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.102_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.102_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.102.jpg-leaf051r"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.103.jpg-leaf051v",
+          "@type": "sc:Canvas",
+          "label": " leaf051v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.103.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.103.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.103_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2305,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.103_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.103.jpg-leaf051v"
+            }
+          ],
+          "width": 2305,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.104.jpg-leaf056r",
+          "@type": "sc:Canvas",
+          "label": " leaf056r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.104.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.104.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.104_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2334,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.104_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.104.jpg-leaf056r"
+            }
+          ],
+          "width": 2334,
+          "height": 3315
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf056v",
+          "@type": "sc:Canvas",
+          "label": "endpaper leaf056v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.106.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.106.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.106_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2517,
+                "height": 3491,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.106_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf056v"
+            }
+          ],
+          "width": 2517,
+          "height": 3491
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.105.jpg-leaf057r",
+          "@type": "sc:Canvas",
+          "label": "endpaper leaf057r",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.105.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.105.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.105_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2517,
+                "height": 3468,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.105_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.105.jpg-leaf057r"
+            }
+          ],
+          "width": 2517,
+          "height": 3468
+        },
+        {
+          "@id": "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf057v",
+          "@type": "sc:Canvas",
+          "label": "back cover leaf057v",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.107.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/ppp.00271.107.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.107_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2642,
+                "height": 3491,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.107_hiRes.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf057v"
+            }
+          ],
+          "width": 2642,
+          "height": 3491
+        }
+      ]
+    }
+  ]
+}
