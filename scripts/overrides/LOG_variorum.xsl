@@ -40,7 +40,7 @@
 
   <!-- ===== NAMED TEMPLATES ======= -->
  
-  <!-- Div visualizing the number of relations -->
+  <!-- Creates the "relation" link as well as the div visualizing the number of relations -->
   <xsl:template name="related_mss">
     <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
     <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
@@ -56,18 +56,6 @@
       </span>
     </xsl:if>
     <div class="relation_num" style="width:{$percent_num}%"/>
-  </xsl:template>
-  
-  <xsl:template name="relation_link">
-   <!-- <xsl:variable name="line_id" select="@xml:id"/>
-    <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
-    <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
-    <xsl:if test="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
-    <span class="relation_link">
-      <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="$line_id"/></xsl:attribute>
-      Relations
-    </span>
-    </xsl:if>-->
   </xsl:template>
   
   <!-- Related text pulled from manuscripts and notebooks accessed by clicking on "Relations" -->
@@ -175,15 +163,6 @@
     <span>
       <xsl:attribute name="class">
         <xsl:text>tei_rdg</xsl:text>
-        <!-- not sure if this is needed anymore -kmd -->
-       <!-- <xsl:choose>
-          <xsl:when test=".[contains(@wit, 'UI_01')]">
-            <xsl:text>variorum_version</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>hidden_later</xsl:text>
-          </xsl:otherwise>
-        </xsl:choose>-->
       </xsl:attribute>
       <xsl:variable name="varID" select="@xml:id"/>
       <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
@@ -223,12 +202,6 @@
       <span class="open_all">
         <a href="">View All Copies</a>
       </span>
-      <!--<span>
-        <xsl:for-each select="tokenize(@wit, ' ')">
-          <xsl:value-of select="."/>
-          <xsl:text> </xsl:text>
-        </xsl:for-each>
-      </span>-->
     </span>
   </xsl:template>
   
@@ -238,8 +211,30 @@
     <xsl:param name="outer"/>
     <xsl:param name="right"/>
     <xsl:param name="after"/>
-    
-    <div class="v_container">
+    <div>
+      <!-- adding ID -->
+      <xsl:attribute name="class">
+        <xsl:text>v_container </xsl:text>
+        <xsl:choose>
+          <xsl:when test="name() = 'l'">
+            <xsl:text>v_line</xsl:text>
+          </xsl:when>
+          <xsl:otherwise><xsl:text>v_seg</xsl:text></xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:attribute name="id">
+        <xsl:choose>
+          <!-- Pad the variorum line numbers by 1 to match the visible line numbers -->
+          <xsl:when test="starts-with(@xml:id,'l')">
+            <xsl:text>l</xsl:text>
+            <xsl:variable name="line_num" select="number(substring-after(@xml:id,'l'))"/>
+            <xsl:value-of select="$line_num + 1"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="@xml:id"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
       <div class="v_corresp">
         <xsl:copy-of select="$corresp"/>
       </div>
@@ -248,7 +243,7 @@
       </div>
       <div>
         <xsl:attribute name="class">
-          <xsl:text>variorumOuter</xsl:text>
+          <xsl:text>variorum_content</xsl:text>
         </xsl:attribute>
         <xsl:copy-of select="$outer"/>
       </div>
@@ -259,7 +254,7 @@
     <xsl:copy-of select="$after"/>
   </xsl:template>
   
-  <!-- todo consult with jess/greg about a good way to do this -->
+  <!-- todo move into seperate file -->
   <xsl:template name="repository_citation">
     <xsl:if test="contains(@facs, 'loc')">The Charles E. Feinberg Collection of the Papers of Walt
       Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</xsl:if>
@@ -372,7 +367,7 @@
     <xsl:choose>
       <xsl:when test="ancestor::div1[@type = 'review']">
         <div class="tei_l_review">
-          <span class="variorumLine variorumOuter">
+          <span class="variorumLine variorum_content">
             <xsl:if test="@xml:id">
               <xsl:attribute name="id" select="substring-after('l', @xml:id)"/>
             </xsl:if>
@@ -384,7 +379,6 @@
         <xsl:variable name="line_id_local" select="@xml:id"/>
         <xsl:call-template name="grid_builder">
           <xsl:with-param name="corresp">
-            <xsl:call-template name="relation_link"/>
             <xsl:call-template name="related_mss"/>
           </xsl:with-param>
           <xsl:with-param name="xmlid">
@@ -413,13 +407,9 @@
   <xsl:template match="//seg">
     <xsl:call-template name="grid_builder">
       <xsl:with-param name="corresp">
-        <xsl:call-template name="relation_link"/>
         <xsl:call-template name="related_mss"/>
       </xsl:with-param>
       <xsl:with-param name="xmlid">
-        <!--<xsl:if test="@xml:id">
-          <xsl:attribute name="id" select="@xml:id"/>
-        </xsl:if>-->
       </xsl:with-param>
       <xsl:with-param name="outer">
         <xsl:apply-templates/>
@@ -455,9 +445,7 @@
   <xsl:template match="//figure">
     <p>
       <img class="teiFigure">
-        <xsl:attribute name="src"><xsl:value-of select="$externalfileroot"
-            />published/LG/figures/<xsl:value-of select="@entity"/>.jpg</xsl:attribute>
-        <!-- added variable -KMD -->
+        <xsl:attribute name="src"><xsl:value-of select="$externalfileroot"/></xsl:attribute>
       </img>
       <xsl:apply-templates/>
     </p>
@@ -500,7 +488,7 @@
       <!-- todo: put choose back in after talking to Nikki -kmd -->
      <!-- <xsl:choose>-->
         <xsl:if test="contains(@xml:id, 'gr_001')"><xsl:text>[Frontispiece]</xsl:text></xsl:if>
-        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if> <!-- todo: this does not hit. is something wrong? -->
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
         <xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if><!-- todo: leave for now, but may not be needed in final -->
       <!--</xsl:choose>-->
     </span>
