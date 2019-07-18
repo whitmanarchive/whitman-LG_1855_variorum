@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0151b.json",
+  "@type": "sc:Manifest",
+  "label": "\"the ward and city\"",
+  "description": [
+    {
+      "@value": "\"the ward and city\" (vr_0151b)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Walt Whitman or other attribution",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "logo": "https://whitmanarchive.org/iiif/2ppp.00271.001.jpg/full/!150,150/0/default.jpg",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0151b",
+          "@type": "sc:Canvas",
+          "label": "\"the ward and city\"",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01401.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0151b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01401.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 506,
+                "height": 779,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01401.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/snippets/vr_0151b"
+            }
+          ],
+          "width": 506,
+          "height": 779
+        }
+      ]
+    }
+  ]
+}

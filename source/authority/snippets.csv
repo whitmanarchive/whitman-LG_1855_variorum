@@ -1,64 +1,77 @@
-Group Name,manifest id,File location,Cropped File location,File Label,App Type (for now),Action
-Front Cover,front-cover-001,published/LG/figures/ppp.00271.001.jpg,,First state binding,N/A,variant / image server?
-Front Cover,front-cover-002,Image pending,,Second state binding,N/A,variant / image server?
-Front Cover,front-cover-003,published/LG/figures/uva_nhg.00011.jpg,,Third state binding,N/A,variant / image server?
-Front Cover,front-cover-004,Image pending,,Third state binding,N/A,variant / image server?
-Front Endpaper,front-endpaper-001,published/LG/figures/ppp.00271.002.jpg,,Marbled endpaper,N/A,variant / image server?
-Front Endpaper,front-endpaper-002,published/LG/figures/loc_nhg.01207.jpg,,Marbled endpaper,N/A,variant / image server?
-Front Endpaper,front-endpaper-003,published/LG/figures/loc_nhg.01042.jpg,,Yellow endpaper,N/A,variant / image server?
-Front Endpaper,front-endpaper-004,published/LG/figures/loc_nhg.01080.jpg,,White endpaper,N/A,variant / image server?
-Emerson letter,emerson-001,published/LG/figures/uva_nhg.00009.jpg,,Printed version of Emerson letter,paratext,variant? separate page? image server? Juxta?
-Emerson letter,emerson-002,published/LG/figures/wil_nhg.00002.jpg,,Printed version of Emerson letter,paratext,variant? separate page? image server? Juxta?
-Emerson letter,emerson-003,published/LG/figures/ppp.00271.005.jpg,,Newspaper version of Emerson letter,paratext,variant? separate page? image server? Juxta?
-Frontispiece,frontispiece-001,published/LG/figures/ppp.00271.007.jpg,,Frontispiece with big crotch,visual_variant,variant / image server?
-Frontispiece,frontispiece-002,published/LG/figures/uva_nhg.00024.jpg,,Frontispiece with small crotch,visual_variant,variant / image server?
-Title Page,title-001,published/LG/figures/duk_nhg.01402.jpg,published/LG/figures/duk_nhg.01402_cropped.jpg,London label below ornament,pasteon,variant / image server?
-Title Page,title-002,published/LG/figures/wil_nhg.00001.jpg,published/LG/figures/wil_nhg.00001_cropped.jpg,London label over ornament,pasteon,variant / image server?
-Title Page,title-003,published/LG/figures/ppp.00271.008.jpg,published/LG/figures/ppp.00271.008_cropped.jpg,No London label,pasteon,variant / image server?
-Copyright Page,copyright-001,published/LG/figures/wil_nhg.00004.jpg,published/LG/figures/wil_nhg.00004_cropped.jpg,Blank,textual_variant,variant / image server?
-Copyright Page,copyright-002,published/LG/figures/uva_nhg.00004.jpg,published/LG/figures/uva_nhg.00004_cropped.jpg,Handwritten copyright notice,textual_variant,variant / image server?
-Copyright Page,copyright-003,published/LG/figures/pra_nhg.00001.jpg,published/LG/figures/pra_nhg.00001_cropped.jpg,Handwritten copyright notice,textual_variant,variant / image server?
-Copyright Page,copyright-004,published/LG/figures/ppp.00271.009.jpg,published/LG/figures/ppp.00271.009_cropped.jpg,Printed copyright notice,textual_variant,variant / image server?
-Page iv,iv-001,published/LG/figures/uva_nhg.00005.jpg,,"""cities adn""",textual_variant,variant / image server?
-Page iv,iv-002,published/LG/figures/ppp.00271.011.jpg,,"""cities and""",textual_variant,variant / image server?
-Page vi,vi-001,published/LG/figures/unc_nhg.00003.jpg,,"""nothing can"" and ""definiteness.""",textual_variant,variant / image server?
-Page vi,vi-002,published/LG/figures/ppp.00271.013.jpg,,"""nothing ca"" and ""definiteness""",textual_variant,variant / image server?
-Page 15,15-001,published/LG/figures/ppp.00271.022.jpg,,"""the ward and city I""",textual_variant,variant / image server?
-Page 15,15-002,published/LG/figures/duk_nhg.01401.jpg,,"""the ward and city""",textual_variant,variant / image server?
-Page 15,15-003,published/LG/figures/loc_nhg.01021.jpg,,Running head spacing wider,drift,variant? / image server?
-Page 15,15-004,published/LG/figures/ppp.00271.022.jpg,,Running head spacing narrower,drift,variant? / image server?
-Page 32,32-001,published/LG/figures/ppp.00271.039.jpg,,"""my love-grip;"" ",textual_variant,variant / image server?
-Page 32,32-002,Image pending,,"""my love-grip""",textual_variant,variant / image server?
-Page 45,45-001,published/LG/figures/ppp.00271.052.jpg,,"""Admitting"" in line",drift,variant? / image server?
-Page 45,45-002,published/LG/figures/loc_nhg.01247.jpg,,"""Admitting"" lower",drift,variant? / image server?
-Page 47,47-001,published/LG/figures/ppp.00271.054.jpg,,"wider spacing of ""politics, churches, newspapers""",drift,variant? / image server?
-Page 47,47-002,published/LG/figures/loc_nhg.01249.jpg,,"narrower spacing of ""politics, churches, newspapers""",drift,variant? / image server?
-Page 49,49-001,published/LG/figures/loc_nhg.01251.jpg,,"""And the night""",textual_variant,variant / image server?
-Page 49,49-002,published/LG/figures/ppp.00271.056.jpg,,"""And the day and night""",textual_variant,variant / image server?
-Page 56,56-001,Image pending,,"""...waiting for you.""",textual_variant,variant / image server?
-Page 56,56-002,published/LG/figures/ppp.00271.063.jpg,,"""...waiting for you""",textual_variant,variant / image server?
-Page 66,66-001,published/LG/figures/ppp.00271.073.jpg,,"""Witty"" in line with text block",drift,variant? / image server?
-Page 66,66-002,published/LG/figures/loc_nhg.01010.jpg,,"""Witty"" shifted to right",drift,variant? / image server?
-Page 85,85-001,published/LG/figures/loc_nhg.01287.jpg,,"""ocean"" fully inked",inking,variant? / image server?
-Page 85,85-002,published/LG/figures/ppp.00271.092.jpg,,"""ocean"" partially inked",inking,variant? / image server?
-Page 93,93-001,published/LG/figures/ppp.00271.100.jpg,,"""Wealth"" narrower spacing",drift,variant? / image server?
-Page 93,93-002,published/LG/figures/loc_nhg.01002.jpg,,"""Wealth"" wider spacing",drift,variant? / image server?
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Reviews,,,,Advertisements and reviews insertion,paratext,separate page/Juxta
-Back Endpaper,,,,Marbled endpaper,N/A,variant / image server?
-Back Endpaper,,,,Marbled endpaper,N/A,variant / image server?
-Back Endpaper,,,,Yellow endpaper,N/A,variant / image server?
-Back Endpaper,,,,White endpaper,N/A,variant / image server?
-Back Cover,back-cover-001,published/LG/figures/ppp.00271.107.jpg,,First state binding,N/A,variant / image server?
-Back Cover,back-cover-002,Image pending,,Second state binding,N/A,variant / image server?
-Back Cover,back-cover-003,published/LG/figures/uva_nhg.00012_large.jpg,,Third state binding,N/A,variant / image server?
-Back Cover,back-cover-004,Image pending,,Third state binding,N/A,variant / image server?
-Spine,spine-001,published/LG/figures/ppp.00271.108.jpg,,First state binding,N/A,variant / image server?
-Spine,spine-002,Image pending,,Second state binding,N/A,variant / image server?
-Spine,spine-003,published/LG/figures/uva_nhg.00010_large.jpg,,Third state binding,N/A,variant / image server?
+Group Name,manifest id,ID in variorum file,File location,Cropped File location,File Label,App Type (for now),Action
+Front Cover,front-cover-001,bd_0010a,published/LG/figures/ppp.00271.001.jpg,,First state binding,binding_variant,variant / image server?
+Front Cover,front-cover-002,bd_0010b,published/LG/figures/loc_nhg.01027.jpg,,Second state binding,binding_variant,variant / image server?
+Front Cover,front-cover-003,bd_0010c,published/LG/figures/uva_nhg.00011.jpg,,Third state binding,binding_variant,variant / image server?
+Front Cover,front-cover-004,bd_0010ca,Image pending,,Third state binding,binding_variant,variant / image server?
+Front Endpaper,front-endpaper-001,bd_0020a,published/LG/figures/ppp.00271.002.jpg,,Marbled endpaper,binding_variant,variant / image server?
+Front Endpaper,front-endpaper-002,bd_0020aa,published/LG/figures/loc_nhg.01207.jpg,,Marbled endpaper,binding_variant,variant / image server?
+Front Endpaper,front-endpaper-003,bd_0020ba,published/LG/figures/loc_nhg.01030.jpg,,Yellow endpaper,binding_variant,variant / image server?
+Front Endpaper,front-endpaper-004,bd_0020b,published/LG/figures/loc_nhg.01080.jpg,,White endpaper,binding_variant,variant / image server?
+Front Flyleaf,,bd_0030a,published/LG/figures/ppp.00271.003.jpg,,Marbled paper,,
+Front Flyleaf,,bd_0030b,published/LG/figures/loc_nhg.01031.jpg,,White paper,,
+Emerson letter,emerson-001,pt_0010b,published/LG/figures/uva_nhg.00009.jpg,,Printed version of Emerson letter,paratext,variant? separate page? image server? Juxta?
+Emerson letter,emerson-002,pt_0010c,published/LG/figures/wil_nhg.00002.jpg,,Printed version of Emerson letter,paratext,variant? separate page? image server? Juxta?
+Emerson letter,emerson-003,pt_0010a,published/LG/figures/ppp.00271.005.jpg,,Newspaper version of Emerson letter,paratext,variant? separate page? image server? Juxta?
+Frontispiece,frontispiece-001,gr_0010b,published/LG/figures/ppp.00271.007.jpg,,Frontispiece with big crotch,visual_variant,variant / image server?
+Frontispiece,frontispiece-002,gr_0010a,published/LG/figures/uva_nhg.00024.jpg,,Frontispiece with small crotch,visual_variant,variant / image server?
+Title Page,title-001,vr_0010c,published/LG/figures/duk_nhg.01402.jpg,published/LG/figures/duk_nhg.01402_cropped.jpg,London label below ornament,pasteon,variant / image server?
+Title Page,title-002,vr_0010b,published/LG/figures/wil_nhg.00001.jpg,published/LG/figures/wil_nhg.00001_cropped.jpg,London label over ornament,pasteon,variant / image server?
+Title Page,title-003,vr_0010a,published/LG/figures/ppp.00271.008.jpg,published/LG/figures/ppp.00271.008_cropped.jpg,No London label,pasteon,variant / image server?
+Copyright Page,copyright-001,vr_0020b,published/LG/figures/wil_nhg.00004.jpg,published/LG/figures/wil_nhg.00004_cropped.jpg,Blank,textual_variant,variant / image server?
+Copyright Page,copyright-002,vr_0020c,published/LG/figures/uva_nhg.00004.jpg,published/LG/figures/uva_nhg.00004_cropped.jpg,Handwritten copyright notice,textual_variant,variant / image server?
+Copyright Page,copyright-003,vr_0020d,published/LG/figures/pra_nhg.00001.jpg,published/LG/figures/pra_nhg.00001_cropped.jpg,Handwritten copyright notice,textual_variant,variant / image server?
+Copyright Page,copyright-004,vr_0020a,published/LG/figures/ppp.00271.009.jpg,published/LG/figures/ppp.00271.009_cropped.jpg,Printed copyright notice,textual_variant,variant / image server?
+Page iv,iv-001,vr_0040b,published/LG/figures/uva_nhg.00005.jpg,,"""cities adn""",textual_variant,variant / image server?
+Page iv,iv-002,vr_0040a,published/LG/figures/ppp.00271.011.jpg,,"""cities and""",textual_variant,variant / image server?
+Page vi,vi-001,vr_0060b,published/LG/figures/unc_nhg.00003.jpg,,"""nothing can""",textual_variant,variant / image server?
+Page vi,vi-002,vr_0060a,published/LG/figures/ppp.00271.013.jpg,,"""nothing ca""",textual_variant,variant / image server?
+Page vi,,vr_0061a,published/LG/figures/unc_nhg.00003.jpg,,"""definiteness.""",textual_variant,variant / image server?
+Page vi,,vr_0061b,published/LG/figures/ppp.00271.013.jpg,,"""definiteness""",textual_variant,variant / image server?
+Page 15,15-003,vr_0150b,published/LG/figures/loc_nhg.01021.jpg,,Running head spacing wider,drift,variant? / image server?
+Page 15,15-004,vr_0150a,published/LG/figures/ppp.00271.022.jpg,,Running head spacing narrower,drift,variant? / image server?
+Page 15,15-001,vr_0151a,published/LG/figures/ppp.00271.022.jpg,,"""the ward and city I""",textual_variant,variant / image server?
+Page 15,15-002,vr_0151b,published/LG/figures/duk_nhg.01401.jpg,,"""the ward and city""",textual_variant,variant / image server?
+Page 16,,vr_0160a,Image pending,,Grass.,textual_variant,variant / image server?
+Page 16,,vr_0160b,published/LG/figures/ppp.00271.023.jpg,,"Grass,",textual_variant,variant / image server?
+Page 23,,vr_0230a,published/LG/figures/ppp.00271.030.jpg,Not confirmed; do not include,abode,textual_variant,variant / image server?
+Page 23,,vr_0230b,Image pending,Not confirmed; do not include,adobe,textual_variant,variant / image server?
+Page 24,,vr_0240a,Image pending,,Grass.,textual_variant,variant / image server?
+Page 24,,vr_0240b,published/LG/figures/ppp.00271.031.jpg,,"Grass,",textual_variant,variant / image server?
+Page 32,32-001,vr_0320a,published/LG/figures/ppp.00271.039.jpg,,"""my love-grip;"" ",textual_variant,variant / image server?
+Page 32,32-002,vr_0320b,Image pending,,"""my love-grip""",textual_variant,variant / image server?
+Page 45,45-001,vr_0450a,published/LG/figures/ppp.00271.052.jpg,,"""Admitting"" in line",drift,variant? / image server?
+Page 45,45-002,vr_0450b,published/LG/figures/loc_nhg.01247.jpg,,"""Admitting"" lower",drift,variant? / image server?
+Page 47,47-001,vr_0470a,published/LG/figures/ppp.00271.054.jpg,,"wider spacing of ""politics, churches, newspapers""",drift,variant? / image server?
+Page 47,47-002,vr_0470b,published/LG/figures/loc_nhg.01249.jpg,,"narrower spacing of ""politics, churches, newspapers""",drift,variant? / image server?
+Page 49,49-001,vr_0490a,published/LG/figures/loc_nhg.01251.jpg,,"""And the night""",textual_variant,variant / image server?
+Page 49,49-002,vr_0490b,published/LG/figures/ppp.00271.056.jpg,,"""And the day and night""",textual_variant,variant / image server?
+Page 56,56-001,vr_0560a,Image pending,,"""...waiting for you.""",textual_variant,variant / image server?
+Page 56,56-002,vr_0560b,published/LG/figures/ppp.00271.063.jpg,,"""...waiting for you""",textual_variant,variant / image server?
+Page 56,,vr_0560aa,Image pending,,"""...waiting for you.""",textual_variant,variant / image server?
+Page 56,,vr_0560ba,published/LG/figures/loc_nhg.01258.jpg,,"""...waiting for you""",textual_variant,variant / image server?
+Page 66,66-001,vr_0660a,published/LG/figures/ppp.00271.073.jpg,,"""Witty"" in line with text block",drift,variant? / image server?
+Page 66,66-002,vr_0660b,published/LG/figures/loc_nhg.01010.jpg,,"""Witty"" shifted to right",drift,variant? / image server?
+Page 85,85-001,vr_0850a,published/LG/figures/loc_nhg.01287.jpg,,"""ocean"" fully inked",ink_variant,variant? / image server?
+Page 85,85-002,vr_0850b,published/LG/figures/ppp.00271.092.jpg,,"""ocean"" partially inked",ink_variant,variant? / image server?
+Page 93,93-001,vr_0930a,published/LG/figures/ppp.00271.100.jpg,,"""Wealth"" narrower spacing",drift,variant? / image server?
+Page 93,93-002,vr_0930b,published/LG/figures/loc_nhg.01002.jpg,,"""Wealth"" wider spacing",drift,variant? / image server?
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00016.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00017.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00018.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00019.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00020.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00021.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00022.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Reviews,,pt_0020a,published/LG/figures/uva_nhg.00023.jpg,Do not include,Advertisements and reviews insertion,paratext,separate page/Juxta
+Back flyleaf,,bd_0070a,published/LG/figures/ppp.00271.106.jpg,,Marbled paper,binding_variant,variant / image server?
+Back flyleaf,,bd_0070b,published/LG/figures/loc_nhg.01034.jpg,,Yellow paper,binding_variant,variant / image server?
+Back endpaper,,bd_0080a,published/LG/figures/ppp.00271.105.jpg,,Marbled endpaper,binding_variant,variant / image server?
+Back endpaper,,bd_0080b,published/LG/figures/loc_nhg.01035.jpg,,Yellow endpaper,binding_variant,variant / image server?
+Back endpaper,,bd_0080ba,Image pending,,White endpaper,binding_variant,variant / image server?
+Back Cover,back-cover-001,bd_0090a,published/LG/figures/ppp.00271.107.jpg,,First state binding,binding_variant,variant / image server?
+Back Cover,back-cover-002,bd_0090b,published/LG/figures/loc_nhg.01028.jpg,,Second state binding,binding_variant,variant / image server?
+Back Cover,back-cover-003,bd_0090c,published/LG/figures/uva_nhg.00012.jpg,,Third state binding,binding_variant,variant / image server?
+Back Cover,back-cover-004,bd_0090ca,Image pending,,Third state binding,binding_variant,variant / image server?
+Spine,spine-001,bd_0100a,published/LG/figures/ppp.00271.108.jpg,,First state binding,binding_variant,variant / image server?
+Spine,spine-002,bd_0100b,published/LG/figures/loc_nhg.01029.jpg,,Second state binding,binding_variant,variant / image server?
+Spine,spine-003,bd_0100c,published/LG/figures/uva_nhg.00010.jpg,,Third state binding,binding_variant,variant / image server?

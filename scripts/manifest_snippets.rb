@@ -1,5 +1,7 @@
-# GENERATES ONE MANIFEST PER SNIPPET SO THAT THEY
-# CAN BE COMPARED SIDE BY SIDE
+# This file does two things:
+# - generates a manifest for each snippet
+# - generates an index file describing how each
+#   manifest should be called for a custom website
 
 require "csv"
 require "fileutils"
@@ -11,23 +13,33 @@ iiif_path = "https://whitmanarchive.org/iiif/2"
 iiif_end = "full/full/0/default.jpg"
 iiif_thumb = "full/!150,150/0/default.jpg"
 
+groups = {}
+
 csv_filepath = File.join(
   File.dirname(__FILE__), "..", "source", "authority", "snippets.csv"
 )
 
+# TODO if this is inside the datura scripts at some point, then use @options["environment"]
+output_dir = File.join(
+  File.dirname(__FILE__), "..", "output", "development", "manifests", "snippets"
+)
+FileUtils.mkdir_p(output_dir)
+
 csv = CSV.read(csv_filepath, headers: true)
 
 csv.each do |row|
-  id = row["manifest id"]
+  id = row["ID in variorum file"]
   next if !id
   puts id
   label = "#{row["Group Name"]} #{id}"
+
+  # CREATE A MANIFEST FOR EACH ROW OF THE CSV
 
   manifest = IIIF::Presentation::Manifest.new({
     "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/#{id}.json",
     "label" => row["File Label"],
     "description" => [
-      "@value" => row["File Label"],
+      "@value" => "#{row["File Label"]} (#{id})",
       "@language" => "en"
     ],
     # "license" => "some license information here",
@@ -78,12 +90,30 @@ csv.each do |row|
   manifest.sequences << sequence_primary
   # puts manifest.to_json(pretty: true)
 
-  # TODO if this is inside the datura scripts at some point, then use @options["environment"]
-  output_dir = File.join(
-    File.dirname(__FILE__), "..", "output", "development", "manifests", "snippets"
-  )
-  FileUtils.mkdir_p(output_dir)
   File.open(File.join(output_dir, "#{id}.json"), "w") do |f|
     f.write(manifest.to_json(pretty: true))
   end
+
+  # ADD EACH ROW OF THE CSV TO ITS GROUP, ORDER OF ARRAY MATTERS
+  # group = row["Group Name"].downcase.gsub(" ", "-")
+  group = row["Group Name"]
+  if groups.key?(group)
+    groups[group] << id
+  else
+    groups[group] = [id]
+  end
+end
+
+# create a JSON index file that is used to associate the manifests
+snippets = []
+groups.each do |group, ids|
+  snippets << {
+    label: group,
+    link: group.downcase.gsub(" ", "-"),
+    ids: ids
+  }
+end
+
+File.open(File.join(output_dir, "index.js"), "w") do |f|
+  f.write("var snippets = #{snippets.to_json(pretty: true)}")
 end

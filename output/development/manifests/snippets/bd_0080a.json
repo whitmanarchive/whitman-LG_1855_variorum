@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0080a.json",
+  "@type": "sc:Manifest",
+  "label": "Marbled endpaper",
+  "description": [
+    {
+      "@value": "Marbled endpaper (bd_0080a)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Walt Whitman or other attribution",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "logo": "https://whitmanarchive.org/iiif/2ppp.00271.001.jpg/full/!150,150/0/default.jpg",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/TODO/snippets/bd_0080a",
+          "@type": "sc:Canvas",
+          "label": "Marbled endpaper",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/bd_0080a",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2517,
+                "height": 3468,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/snippets/bd_0080a"
+            }
+          ],
+          "width": 2517,
+          "height": 3468
+        }
+      ]
+    }
+  ]
+}
