@@ -295,6 +295,8 @@
     <xsl:if test="contains(@facs, 'duk')">Trent Collection of Whitmaniana, David M. Rubenstein Rare
       Book &amp; Manuscript Library, Duke University</xsl:if>
     <xsl:if test="contains(@facs, 'pra')">Providence Athan&#230;um</xsl:if>
+    <xsl:if test="contains(@facs, 'unc')">Rare Book Collection, Wilson Special Collections Library, UNC-Chapel Hill</xsl:if>
+    <xsl:if test="contains(@facs, 'yal')">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</xsl:if>
   </xsl:template>
 
   <!-- ===== MATCH TEMPLATES ======= -->
