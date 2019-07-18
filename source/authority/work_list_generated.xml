@@ -38,7 +38,7 @@
     <item id="loc.00025.xml" type="nb" certainty="high"/>
     <item id="loc.00042.xml" type="mss" certainty="high"/>
     <item id="loc.00141.xml" type="nb" certainty="high"/>
-    <item id="loc.00142.xml" type="nb" certainty="absolute"/>
+    <item id="loc.00142.xml" type="nb" certainty="high"/>
     <item id="loc.00158.xml" type="nb" certainty="high"/>
     <item id="loc.00162.xml" type="mss" certainty="low"/>
     <item id="loc.00163.xml" type="mss" certainty="high"/>
@@ -47,7 +47,7 @@
     <item id="loc.00387.xml" type="mss" certainty="low"/>
     <item id="loc.00507.xml" type="mss" certainty="high"/>
     <item id="loc.01019.xml" type="mss" certainty="high"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="loc.05705.xml" type="mss" certainty="high"/>
     <item id="loc.05935.xml" type="nb" certainty="high"/>
     <item id="med.00726.xml" type="mss" certainty="high"/>
@@ -157,7 +157,7 @@
     <item id="duk.00878.xml" type="mss" certainty="high"/>
     <item id="loc.00141.xml" type="nb" certainty="low"/>
     <item id="loc.00346.xml" type="nb" certainty="low"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="nyp.00085.xml" type="mss" certainty="high"/>
     <item id="nyp.00116.xml" type="mss" certainty="high"/>
     <item id="nyp.00524.xml" type="mss" certainty="low"/>
@@ -196,7 +196,7 @@
     <item id="loc.00024.xml" type="nb" certainty="low"/>
     <item id="loc.00141.xml" type="nb" certainty="high"/>
     <item id="loc.00142.xml" type="nb" certainty="high"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="nyp.00029.xml" type="mss" certainty="high"/>
     <item id="nyp.00057.xml" type="mss" certainty="low"/>
     <item id="nyp.00129.xml" type="nb" certainty="high"/>
@@ -233,14 +233,14 @@
     <item id="loc.00483.xml" type="nb" certainty="low"/>
     <item id="loc.01019.xml" type="mss" certainty="low"/>
     <item id="loc.05314.xml" type="mss" certainty="low"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="med.00729.xml" type="mss" certainty="high"/>
     <item id="med.00737.xml" type="mss" certainty="low"/>
     <item id="med.00741.xml" type="mss" certainty="high"/>
     <item id="med.00746.xml" type="mss" certainty="high"/>
     <item id="med.00782.xml" type="mss" certainty="high"/>
     <item id="med.00903.xml" type="mss" certainty="low"/>
-    <item id="nyp.00117.xml" type="mss" certainty="high"/>
+    <item id="nyp.00117.xml" type="mss" certainty="low"/>
     <item id="nyp.00129.xml" type="nb" certainty="low"/>
     <item id="prc.00127.xml" type="mss" certainty="low"/>
     <item id="rut.00010.xml" type="mss" certainty="low"/>
@@ -304,7 +304,7 @@
   <work id="xxx.00110">
     <item id="duk.00884.xml" type="mss" certainty="low"/>
     <item id="duk.00886.xml" type="mss" certainty="high"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="nyp.00110.xml" type="mss" certainty="high"/>
     <item id="uva.00289.xml" type="mss" certainty="low"/>
     <item id="yal.00081.xml" type="mss" certainty="high"/>
@@ -330,7 +330,7 @@
   <work id="xxx.00226">
     <item id="loc.00005.xml" type="nb" certainty="high"/>
     <item id="loc.00141.xml" type="nb" certainty="low"/>
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="uva.00265.xml" type="mss" certainty="high"/>
   </work>
   <work id="xxx.00112">
@@ -350,7 +350,7 @@
   </work>
   <work id="xxx.00232">
     <item id="loc.00141.xml" type="nb" certainty="low"/>
-    <item id="med.00729.xml" type="mss" certainty="not_marked"/>
+    <item id="med.00729.xml" type="mss" certainty="high"/>
   </work>
   <work id="xxx.00229">
     <item id="loc.00141.xml" type="nb" certainty="low"/>
@@ -391,7 +391,7 @@
     <item id="nyp.00129.xml" type="nb" certainty="high"/>
   </work>
   <work id="xxx.00450">
-    <item id="loc.05589.xml" type="nb" certainty="absolute"/>
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
   </work>
   <work id="xxx.00116">
     <item id="loc.05589.xml" type="nb" certainty="low"/>
