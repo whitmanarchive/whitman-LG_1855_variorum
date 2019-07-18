@@ -1369,7 +1369,7 @@
                <pb facs="ppp.00271.022.jpg" xml:id="leaf011r" n="15" type="recto"/>
                <fw type="header" place="top">
                   <app type="drift">
-                  <rdg xml:id="vr_0150a" facs="ppp.00271.022.jpg">Leaves</rdg>
+                  <rdg xml:id="vr_0150a" facs="ppp.00271.022.jpg" wit="#UI_01">Leaves</rdg>
                   <rdg xml:id="vr_0150b" facs="loc_nhg.01021.jpg">Leaves</rdg>
                </app> of Grass.</fw>
                <fw type="pageNum" place="top right">15</fw>
@@ -2955,7 +2955,7 @@ breath . . . . I buoy you up;</l>
                <l xml:id="l1026">With Odin, and the hideous-faced Mexitli, and all idols and images,</l>
                <l xml:id="l1027">Honestly taking them all for what they are worth, and not a cent more,</l>
                <l xml:id="l1028"><app type="drift">
-                  <rdg xml:id="vr_0450a" facs="ppp.00271.052.jpg">Admitting</rdg>
+                  <rdg xml:id="vr_0450a" facs="ppp.00271.052.jpg" wit="#UI_01">Admitting</rdg>
                   <rdg xml:id="vr_0450b" facs="loc_nhg.01247.jpg">Admitting</rdg>
                   </app>
                   they were alive and did the work of their day,</l> 
@@ -3021,7 +3021,7 @@ breath . . . . I buoy you up;</l>
             <lg type="linegroup">
                <l xml:id="l1069">This is the city . . . . and I am one of the citizens;</l>
                <l xml:id="l1070"><app type="drift">
-                  <rdg xml:id="vr_0470a" facs="ppp.00271.054.jpg">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
+                  <rdg xml:id="vr_0470a" facs="ppp.00271.054.jpg" wit="#UI_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
                   <rdg xml:id="vr_0470b" facs="loc_nhg.01249.jpg">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
                </app> <lb/>schools,</l>
                <l xml:id="l1071">Benevolent societies, improvements, banks, tariffs, steamships, factories, markets,</l>
@@ -3863,7 +3863,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l1556">Freemouthed, quicktempered, not badlooking, able to take his own part,</l>
                <l xml:id="l1557">
                   <app type="drift">
-                     <rdg xml:id="vr_0660a" facs="ppp.00371.073.jpg">Witty</rdg>
+                     <rdg xml:id="vr_0660a" facs="ppp.00371.073.jpg" wit="#UI_01">Witty</rdg>
                   <rdg xml:id="vr_0660b" facs="loc_nhg.01010.jpg">Witty</rdg></app>, sensitive to a slight, ready with life or death for a friend,</l>
                <l xml:id="l1558">Fond of women, . . played some . . eat hearty and drank hearty,</l>
                <l xml:id="l1559">Had known what it was to be flush . . grew lowspirited toward the last . . sickened <lb/> . . was helped by a contribution,</l>
