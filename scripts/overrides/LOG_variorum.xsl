@@ -299,7 +299,7 @@
     <xsl:if test="contains(@facs, 'yal')">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</xsl:if>
     <xsl:if test="contains(@facs, 'pri')">Department of Rare Books and Special Collections, Princeton University Library</xsl:if>
   </xsl:template>
-
+ 
   <!-- ===== MATCH TEMPLATES ======= -->
 
   <!--BEGIN: PREFACE-->
@@ -307,7 +307,7 @@
   <xsl:template match="//div1[@type = 'preface']">
     <div class="tei_div_preface">
       <xsl:call-template name="mss_links">
-        <xsl:with-param name="label">preface</xsl:with-param>
+        <xsl:with-param name="label">Preface</xsl:with-param>
         <xsl:with-param name="work_id">xxx.00526</xsl:with-param>
       </xsl:call-template>
       <!-- this code is shared with poetry below -->
