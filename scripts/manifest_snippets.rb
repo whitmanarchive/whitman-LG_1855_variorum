@@ -48,7 +48,6 @@ csv.each do |row|
   # TODO placeholder for image pending
   if row["File location"] && row["File location"] != "Image pending"
     item_loc = row["File location"].gsub("/", "%2F")
-    item_loc = item_loc.gsub(/\.jpg$/, "_hiRes.jpg") if item_loc.include?("ppp.")
   else
     item_loc = "test.jpg"
   end

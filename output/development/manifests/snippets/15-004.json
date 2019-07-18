@@ -22,29 +22,29 @@
           "@id": "https://whitmanarchive.org/TODO/snippets/15-004",
           "@type": "sc:Canvas",
           "label": "Running head spacing narrower",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022_hiRes.jpg/full/!150,150/0/default.jpg",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitmanarchive.org/TODO/annotation/15-004",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2313,
-                "height": 3293,
+                "width": 767,
+                "height": 1094,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022_hiRes.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.022.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on": "https://whitmanarchive.org/TODO/snippets/15-004"
             }
           ],
-          "width": 2313,
-          "height": 3293
+          "width": 767,
+          "height": 1094
         }
       ]
     }
