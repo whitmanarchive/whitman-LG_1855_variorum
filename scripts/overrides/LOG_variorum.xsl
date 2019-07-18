@@ -3,6 +3,7 @@
   xpath-default-namespace="http://www.whitmanarchive.org/namespace">
 
   <xsl:import href="../../config/config.xsl"/>
+  <xsl:import href="_datura_overrides.xsl"/>
   <xsl:import href="_name_reference.xsl"/>
   <xsl:import href="_mss.xsl"/>
   <xsl:import href="_tei.xsl"/>
@@ -515,20 +516,39 @@
 <xsl:template match="pb">
   <xsl:if test="@facs">
     <!--We will probably want to change how this is done eventually -NHG-->
-    <xsl:variable name="image_path"><xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of select="@facs"/></xsl:variable>
-    <xsl:variable name="thumbnail_path"><xsl:value-of select="$externalfileroot"/>published/LG/thumbnails/<xsl:value-of select="@facs"/></xsl:variable>
+    <!-- is the IIIF path what you were thinking, Nikki? Or do you want to change how that smalltext class stuff is working? jvd -->
+    <xsl:variable name="iiif_path_local">
+      <xsl:text>published%2FLG%2Ffigures</xsl:text>
+    </xsl:variable>
+    <xsl:variable name="figure_id_local">
+      <xsl:value-of select="substring-before(@facs, '.jpg')"/>
+    </xsl:variable>
+
     <span class="teiFigure">
       <br/>
-      <xsl:if test="not(@xml:id='leaf001r')"><br/> - - - - - - - - - - - - - - - - - - <span class="smalltext"> [page&#160;break]</span> -
-      - - - - - - - - - - - - - - - - - <br/></xsl:if>
+      <xsl:if test="not(@xml:id='leaf001r')">
+        <br/> - - - - - - - - - - - - - - - - - -
+        <span class="smalltext"> [page&#160;break]</span>
+        - - - - - - - - - - - - - - - - - - <br/>
+      </xsl:if>
       <br/>
-      <a target="_blank">
-        <xsl:attribute name="href" select="$image_path"/>
+      <a target="_blank" rel="noopener nofollow">
+        <xsl:attribute name="href">
+          <xsl:call-template name="url_builder">
+            <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
+            <xsl:with-param name="image_size_local" select="800"/>
+            <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+          </xsl:call-template>
+        </xsl:attribute>
         <img>
-          <xsl:attribute name="width">50</xsl:attribute>
-          <xsl:attribute name="border">2</xsl:attribute>
-          <xsl:attribute name="height">70</xsl:attribute>
-          <xsl:attribute name="src" select="$image_path"/>
+          <xsl:attribute name="src">
+            <xsl:call-template name="url_builder">
+              <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
+              <xsl:with-param name="image_size_local" select="70"/>
+              <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+            </xsl:call-template>
+          </xsl:attribute>
+          <xsl:attribute name="border" select="2"/>
         </img>
       </a>
     </span>
