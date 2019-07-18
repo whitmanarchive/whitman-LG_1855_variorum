@@ -81,6 +81,9 @@
                 <strong>document</strong>
               </th>
               <th scope="col">
+                <strong>location</strong>
+              </th>
+              <th scope="col">
                 <strong>text</strong>
               </th>
             </tr>
@@ -100,10 +103,41 @@
                 <xsl:variable name="otherFile" select="document($otherPath)"/>
                 <!--/TEMPORARY LOCATION-->
                 <xsl:variable name="cert" select="@cert"/>
+                <xsl:variable name="precedingTargets">
+                  <xsl:for-each select="preceding-sibling::link/@target">
+                    <xsl:value-of select="."/>
+                  </xsl:for-each>
+                </xsl:variable>
                 <tr>
                   <xsl:if test="$cert = 'low'">
                     <xsl:attribute name="style">background-color: #e6e6e6</xsl:attribute>
                   </xsl:if>
+                  <td>
+                    <xsl:choose>
+                      <xsl:when test="not(contains($precedingTargets,$uri_line_id))">
+                        <a target="_blank">
+                      <xsl:choose>
+                        <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
+                          <xsl:attribute name="href"
+                            select="concat($msPathHTMLRoot, $fileIDhtml)"/>
+                        </xsl:when>
+                        <!--TEMPORARY LOCATION-->
+                        <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
+                          <xsl:attribute name="href"
+                            select="concat($variorumPathHTMLRoot, $fileIDhtml)"/>
+                        </xsl:when>
+                        <!--/TEMPORARY LOCATION-->
+                        <xsl:otherwise>
+                          <xsl:attribute name="href"
+                            select="concat($nbPathHTMLRoot, $fileIDhtml)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                      <xsl:value-of select="substring-before($fileID, '.xml')"/>
+                    </a>
+                    </xsl:when>
+                    <xsl:otherwise/>
+                    </xsl:choose>
+                  </td>
                   <td>
                     <a target="_blank">
                       <xsl:choose>
@@ -122,7 +156,7 @@
                             select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
                         </xsl:otherwise>
                       </xsl:choose>
-                      <xsl:value-of select="substring-before($fileID, '.xml')"/>
+                      <xsl:value-of select="concat('#',$msID)"/>
                     </a>
                   </td>
                   <td>
