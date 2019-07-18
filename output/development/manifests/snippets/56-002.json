@@ -22,29 +22,29 @@
           "@id": "https://whitmanarchive.org/TODO/snippets/56-002",
           "@type": "sc:Canvas",
           "label": "\"...waiting for you\"",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_hiRes.jpg/full/!150,150/0/default.jpg",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitmanarchive.org/TODO/annotation/56-002",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_hiRes.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2327,
-                "height": 3374,
+                "width": 744,
+                "height": 1098,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_hiRes.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on": "https://whitmanarchive.org/TODO/snippets/56-002"
             }
           ],
-          "width": 2327,
-          "height": 3374
+          "width": 744,
+          "height": 1098
         }
       ]
     }
