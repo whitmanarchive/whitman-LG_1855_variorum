@@ -13,11 +13,18 @@
   <xsl:template name="mss_links">
     <xsl:param name="label">unlabeled</xsl:param>
     <xsl:param name="work_id"/>
+    <xsl:param name="lg55title"/>
 
     <div class="mss_links">
       <div class="mss_links_hide">
         <strong>
-        <xsl:value-of select="$label"/> (<xsl:value-of select="$work_id"/>)
+          Related Manuscripts
+          <br/> 
+          <xsl:choose>
+            <xsl:when test="$work_id = 'xxx.00526'"><xsl:value-of select="$label"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="$lg55title"/><br/>
+        (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></xsl:otherwise>
+          </xsl:choose>
         </strong>
 
         <ul class="mss_links_list">

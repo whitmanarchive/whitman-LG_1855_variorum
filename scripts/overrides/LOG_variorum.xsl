@@ -367,9 +367,26 @@
             <xsl:when test="$work_id = 'xxx.00121'">"Youth, Day, Old Age, and Night"</xsl:when>
           </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="lg55title">
+          <xsl:choose>
+            <xsl:when test="$work_id = 'xxx.00048'">"Leaves of Grass" [1]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00119'">"Leaves of Grass" [2]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00266'">"Leaves of Grass" [3]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00264'">"Leaves of Grass" [4]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00052'">"Leaves of Grass" [5]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00271'">"Leaves of Grass" [6]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00113'">[Untitled]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00144'">[Untitled]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00143'">[Untitled]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00226'">[Untitled]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00250'">[Untitled]</xsl:when>
+            <xsl:when test="$work_id = 'xxx.00121'">[Untitled]</xsl:when>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:call-template name="mss_links">
           <xsl:with-param name="label" select="$poem_name"/>
           <xsl:with-param name="work_id" select="$work_id"/>
+          <xsl:with-param name="lg55title" select="$lg55title"/>
         </xsl:call-template>
         <!-- this code is the same as preface -->
         <xsl:choose>
