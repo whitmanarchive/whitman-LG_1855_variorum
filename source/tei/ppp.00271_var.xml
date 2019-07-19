@@ -3023,6 +3023,7 @@ breath . . . . I buoy you up;</l>
                <l xml:id="l1070"><app type="drift">
                   <rdg xml:id="vr_0470a" facs="ppp.00271.054_cropped.jpg" wit="#UI_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
                   <rdg xml:id="vr_0470b" facs="loc_nhg.01249_cropped.jpg">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
+               <note type="project" target="vr_0470a">In some copies, this line has wider spacing. For a clearer comparison, see <ref target="http://whitmanarchive.org/published/LG/figures/47_overlay.jpg">overlay image</ref>.</note>
                </app> <lb/>schools,</l>
                <l xml:id="l1071">Benevolent societies, improvements, banks, tariffs, steamships, factories, markets,</l>
                <l xml:id="l1072">Stocks and stores and real estate and personal estate.</l>
