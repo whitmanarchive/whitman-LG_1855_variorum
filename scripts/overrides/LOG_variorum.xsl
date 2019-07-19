@@ -77,47 +77,44 @@
           <xsl:text>line_</xsl:text>
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
-          <table>
+        <table>
+          <tr>
+            <th scope="col">
+              <strong>document</strong>
+            </th>
+            <th scope="col">
+              <strong>location</strong>
+            </th>
+            <th scope="col">
+              <strong>text</strong>
+            </th>
+          </tr>
+          <xsl:for-each select="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
+            <xsl:variable name="fileID" select="ancestor::linkGrp/@corresp"/>
+            <xsl:variable name="fileIDhtml"
+              select="concat(substring-before($fileID, '.xml'), '.html')"/>
+            <xsl:variable name="msID"
+              select="substring-after(substring-after(@target, '#'), '#')"/>
+            <xsl:variable name="nbPath" select="concat($nbPathRoot, $fileID)"/>
+            <xsl:variable name="msPath" select="concat($msPathRoot, $fileID)"/>
+            <xsl:variable name="msFile" select="document($msPath)"/>
+            <!--TEMPORARY LOCATION-->
+            <xsl:variable name="otherPath" select="concat($variorumPathRoot, $fileID)"/>
+            <!--/TEMPORARY LOCATION-->
+            <xsl:variable name="cert" select="@cert"/>
+            <xsl:variable name="precedingTargets">
+              <xsl:for-each select="preceding-sibling::link/@target">
+                <xsl:value-of select="."/>
+              </xsl:for-each>
+            </xsl:variable>
             <tr>
-              <th scope="col">
-                <strong>document</strong>
-              </th>
-              <th scope="col">
-                <strong>location</strong>
-              </th>
-              <th scope="col">
-                <strong>text</strong>
-              </th>
-            </tr>
-            <xsl:for-each select="$corresp_doc//link">
-              <xsl:if test="contains(@target, concat($uri_line_id, ' '))">
-                <xsl:variable name="fileID" select="ancestor::linkGrp/@corresp"/>
-                <xsl:variable name="fileIDhtml"
-                  select="concat(substring-before($fileID, '.xml'), '.html')"/>
-                <xsl:variable name="msID"
-                  select="substring-after(substring-after(@target, '#'), '#')"/>
-                <xsl:variable name="nbPath" select="concat($nbPathRoot, $fileID)"/>
-                <xsl:variable name="nbFile" select="document($nbPath)"/>
-                <xsl:variable name="msPath" select="concat($msPathRoot, $fileID)"/>
-                <xsl:variable name="msFile" select="document($msPath)"/>
-                <!--TEMPORARY LOCATION-->
-                <xsl:variable name="otherPath" select="concat($variorumPathRoot, $fileID)"/>
-                <xsl:variable name="otherFile" select="document($otherPath)"/>
-                <!--/TEMPORARY LOCATION-->
-                <xsl:variable name="cert" select="@cert"/>
-                <xsl:variable name="precedingTargets">
-                  <xsl:for-each select="preceding-sibling::link/@target">
-                    <xsl:value-of select="."/>
-                  </xsl:for-each>
-                </xsl:variable>
-                <tr>
-                  <xsl:if test="$cert = 'low'">
-                    <xsl:attribute name="style">background-color: #e6e6e6</xsl:attribute>
-                  </xsl:if>
-                  <td>
-                    <xsl:choose>
-                      <xsl:when test="not(contains($precedingTargets,$uri_line_id))">
-                        <a target="_blank">
+              <xsl:if test="$cert = 'low'">
+                <xsl:attribute name="style">background-color: #e6e6e6</xsl:attribute>
+              </xsl:if>
+              <td class="relation_document">
+                <xsl:choose>
+                  <xsl:when test="not(contains($precedingTargets,$uri_line_id))">
+                    <a target="_blank">
                       <xsl:choose>
                         <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
                           <xsl:attribute name="href"
@@ -136,59 +133,61 @@
                       </xsl:choose>
                       <xsl:value-of select="substring-before($fileID, '.xml')"/>
                     </a>
+                  </xsl:when>
+                  <xsl:otherwise/>
+                </xsl:choose>
+              </td>
+              <td class="relation_location">
+                <a target="_blank" rel="nofollow noreferrer">
+                  <xsl:choose>
+                    <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
+                      <xsl:attribute name="href"
+                        select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
                     </xsl:when>
-                    <xsl:otherwise/>
-                    </xsl:choose>
-                  </td>
-                  <td>
-                    <a target="_blank">
-                      <xsl:choose>
-                        <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
-                          <xsl:attribute name="href"
-                            select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
-                        </xsl:when>
-                        <!--TEMPORARY LOCATION-->
-                        <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
-                          <xsl:attribute name="href"
-                            select="concat($variorumPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
-                        </xsl:when>
-                        <!--/TEMPORARY LOCATION-->
-                        <xsl:otherwise>
-                          <xsl:attribute name="href"
-                            select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                      <xsl:value-of select="concat('#',$msID)"/>
-                    </a>
-                  </td>
-                  <td>
-                    <xsl:choose>
-                      <xsl:when test="doc-available($nbPath)">
-                        <xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/>
-                      </xsl:when>
-                      <!--TEMPORARY LOCATION-->
-                      <xsl:when test="doc-available($otherPath)">
-                        <xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/>
-                      </xsl:when>
-                      <!--/TEMPORARY LOCATION-->
-                      <xsl:otherwise>
-                        <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
-                      </xsl:otherwise>
-                    </xsl:choose>
-                  </td>
-                </tr>
-              </xsl:if>
-            </xsl:for-each>
-          </table>
+                    <!--TEMPORARY LOCATION-->
+                    <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
+                      <xsl:attribute name="href"
+                        select="concat($variorumPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                    </xsl:when>
+                    <!--/TEMPORARY LOCATION-->
+                    <xsl:otherwise>
+                      <xsl:attribute name="href"
+                        select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                  <xsl:value-of select="concat('#',$msID)"/>
+                </a>
+              </td>
+              <td>
+                <xsl:choose>
+                  <xsl:when test="doc-available($nbPath)">
+                    <xsl:variable name="nbFile" select="document($nbPath)"/>
+                    <xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/>
+                  </xsl:when>
+                  <!--TEMPORARY LOCATION-->
+                  <xsl:when test="doc-available($otherPath)">
+                    <xsl:variable name="otherFile" select="document($otherPath)"/>
+                    <xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/>
+                  </xsl:when>
+                  <!--/TEMPORARY LOCATION-->
+                  <xsl:otherwise>
+                    <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </td>
+            </tr>
+          </xsl:for-each>
+        </table>
+        <xsl:if test="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]) > 1">
           <span class="open_all">
-            <a target="_blank" href="https://www.whitmanarchive.org">Open all in tabs</a>
+            <button class="open_tabs">Open all in tabs (<xsl:value-of select="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>)</button>
           </span>
-        <!--</span>-->
+        </xsl:if>
       </div>
     </xsl:if>
   </xsl:template>
   
-  <!-- Varient text tables, containing images and links to all copies -->
+  <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <span>
       <xsl:attribute name="class">
