@@ -41,25 +41,7 @@
   <!-- END: OUTPUT -->
 
   <!-- ===== NAMED TEMPLATES ======= -->
- 
-  <!-- Creates the "relation" link as well as the div visualizing the number of relations -->
-  <xsl:template name="related_mss">
-    <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
-    <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
-    <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
-    <xsl:variable name="rel_num" select="
-      count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
-    <xsl:variable name="divide_by" select="number(14)"/><!-- todo: kmd pull this programatically -->
-    <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
-    <xsl:if test="$percent_num &gt; 0">
-      <span class="relation_link">
-        <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="substring-after($line_id,'#')"/></xsl:attribute>
-        Relations
-      </span>
-    </xsl:if>
-    <div class="relation_num" style="width:{$percent_num}%"/>
-  </xsl:template>
-  
+
   <!-- Related text pulled from manuscripts and notebooks accessed by clicking on "Relations" -->
   <xsl:template name="corresp_table">
     <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
@@ -186,54 +168,7 @@
       </div>
     </xsl:if>
   </xsl:template>
-  
-  <!-- Variant text tables, containing images and links to all copies -->
-  <xsl:template name="rdg_builder">
-    <span>
-      <xsl:attribute name="class">
-        <xsl:text>tei_rdg</xsl:text>
-      </xsl:attribute>
-      <xsl:variable name="varID" select="@xml:id"/>
-      <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
-      <xsl:apply-templates/>
-      <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
-      <xsl:if test="
-        not(contains(@xml:id, 'gr_001')) and 
-        not(child::milestone) and 
-        normalize-space(.) = ''">[Blank]</xsl:if>
-      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
-        <br/>
-        <br/>
-        <span class="variant_note">
-          <strong>Note: </strong>
-          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
-        </span>
-      </xsl:if>
-    </span>
-    <span class="tei_rdg_wit">
-      <xsl:if test="@facs">
-        <a target="_blank">
-          <xsl:attribute name="href">
-            <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-              select="@facs"/></xsl:attribute>
-          <img class="teiFigure">
-            <xsl:attribute name="height">70</xsl:attribute>
-            <xsl:attribute name="src">
-              <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-                select="@facs"/></xsl:attribute>
-          </img>
-        </a>
-        <span class="variorum_caption">
-          <strong>Image: </strong>
-          <xsl:call-template name="repository_citation"/>
-        </span>
-      </xsl:if>
-      <span class="open_all">
-        <a href="">View All Copies</a>
-      </span>
-    </span>
-  </xsl:template>
-  
+
   <xsl:template name="grid_builder">
     <xsl:param name="corresp"/>
     <xsl:param name="xmlid"/>
@@ -283,8 +218,74 @@
     <xsl:copy-of select="$after"/>
   </xsl:template>
 
+  <!-- Variant text tables, containing images and links to all copies -->
+  <xsl:template name="rdg_builder">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:text>tei_rdg</xsl:text>
+      </xsl:attribute>
+      <xsl:variable name="varID" select="@xml:id"/>
+      <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
+      <xsl:apply-templates/>
+      <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
+      <xsl:if test="
+        not(contains(@xml:id, 'gr_001')) and 
+        not(child::milestone) and 
+        normalize-space(.) = ''">[Blank]</xsl:if>
+      <xsl:if test="following-sibling::note[contains(@target, $varID)]">
+        <br/>
+        <br/>
+        <span class="variant_note">
+          <strong>Note: </strong>
+          <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
+        </span>
+      </xsl:if>
+    </span>
+    <span class="tei_rdg_wit">
+      <xsl:if test="@facs">
+        <a target="_blank">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
+              select="@facs"/></xsl:attribute>
+          <img class="teiFigure">
+            <xsl:attribute name="height">70</xsl:attribute>
+            <xsl:attribute name="src">
+              <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
+                select="@facs"/></xsl:attribute>
+          </img>
+        </a>
+        <span class="variorum_caption">
+          <strong>Image: </strong>
+          <xsl:call-template name="repository_citation"/>
+        </span>
+      </xsl:if>
+      <span class="open_all">
+        <a href="">View All Copies</a>
+      </span>
+    </span>
+  </xsl:template>
+
+  <!-- Creates the "relation" link as well as the div visualizing the number of relations -->
+  <xsl:template name="related_mss">
+    <xsl:variable name="line_id" select="concat('#', @xml:id)"/>
+    <xsl:variable name="uri_line_id" select="concat('ppp.00271_var.xml', $line_id)"/>
+    <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
+    <xsl:variable name="rel_num" select="
+      count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
+    <xsl:variable name="divide_by" select="number(14)"/><!-- todo: kmd pull this programatically -->
+    <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
+    <xsl:if test="$percent_num &gt; 0">
+      <span class="relation_link">
+        <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="substring-after($line_id,'#')"/></xsl:attribute>
+        Relations
+      </span>
+    </xsl:if>
+    <div class="relation_num" style="width:{$percent_num}%"/>
+  </xsl:template>
+
 
   <!-- ===== MATCH TEMPLATES ======= -->
+
 
   <!--BEGIN: PREFACE-->
   <!-- This does not seem to be hitting todo: ask nikki -->
@@ -555,7 +556,7 @@
     <br/>
   </xsl:if>
 </xsl:template>
-  
+
   <!--Temporary: we should move this to css and improve at some point -NHG-->
   <xsl:template match="div1[@type='review']">
     <div style="padding: 13px 80px 10px 80px; text-align: left;">
