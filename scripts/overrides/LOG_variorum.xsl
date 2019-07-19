@@ -16,6 +16,10 @@
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
 
+  <!-- variables -->
+  <!-- TODO pull dynamically from mss -->
+  <xsl:variable name="mss_max_count">14</xsl:variable>
+
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -90,34 +94,32 @@
               </xsl:for-each>
             </xsl:variable>
             <tr>
-              <xsl:if test="$cert = 'low'">
-                <xsl:attribute name="style">background-color: #e6e6e6</xsl:attribute>
-              </xsl:if>
+              <xsl:attribute name="class">
+                <xsl:text>certainty_</xsl:text>
+                <xsl:value-of select="$cert"/>
+              </xsl:attribute>
               <td class="relation_document">
-                <xsl:choose>
-                  <xsl:when test="not(contains($precedingTargets,$uri_line_id))">
-                    <a target="_blank">
-                      <xsl:choose>
-                        <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
-                          <xsl:attribute name="href"
-                            select="concat($msPathHTMLRoot, $fileIDhtml)"/>
-                        </xsl:when>
-                        <!--TEMPORARY LOCATION-->
-                        <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
-                          <xsl:attribute name="href"
-                            select="concat($variorumPathHTMLRoot, $fileIDhtml)"/>
-                        </xsl:when>
-                        <!--/TEMPORARY LOCATION-->
-                        <xsl:otherwise>
-                          <xsl:attribute name="href"
-                            select="concat($nbPathHTMLRoot, $fileIDhtml)"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                      <xsl:value-of select="substring-before($fileID, '.xml')"/>
-                    </a>
-                  </xsl:when>
-                  <xsl:otherwise/>
-                </xsl:choose>
+                <xsl:if test="not(contains($precedingTargets,$uri_line_id))">
+                  <a target="_blank" rel="nofollow noreferrer">
+                    <xsl:choose>
+                      <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
+                        <xsl:attribute name="href"
+                          select="concat($msPathHTMLRoot, $fileIDhtml)"/>
+                      </xsl:when>
+                      <!--TEMPORARY LOCATION-->
+                      <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
+                        <xsl:attribute name="href"
+                          select="concat($variorumPathHTMLRoot, $fileIDhtml)"/>
+                      </xsl:when>
+                      <!--/TEMPORARY LOCATION-->
+                      <xsl:otherwise>
+                        <xsl:attribute name="href"
+                          select="concat($nbPathHTMLRoot, $fileIDhtml)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:value-of select="substring-before($fileID, '.xml')"/>
+                  </a>
+                </xsl:if>
               </td>
               <td class="relation_location">
                 <a target="_blank" rel="nofollow noreferrer">
@@ -183,7 +185,9 @@
           <xsl:when test="name() = 'l'">
             <xsl:text>v_line</xsl:text>
           </xsl:when>
-          <xsl:otherwise><xsl:text>v_seg</xsl:text></xsl:otherwise>
+          <xsl:otherwise>
+            <xsl:text>v_seg</xsl:text>
+          </xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="id">
@@ -225,7 +229,9 @@
         <xsl:text>tei_rdg</xsl:text>
       </xsl:attribute>
       <xsl:variable name="varID" select="@xml:id"/>
-      <xsl:if test=".[contains(@wit, 'UI_01')]">(This Copy)<xsl:text> </xsl:text></xsl:if>
+      <xsl:if test=".[contains(@wit, 'UI_01')]">
+        <xsl:text>(This Copy) </xsl:text>
+      </xsl:if>
       <xsl:apply-templates/>
       <xsl:if test="contains(@xml:id, 'gr_001')">[Frontispiece]</xsl:if>
       <xsl:if test="
@@ -272,11 +278,14 @@
     <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
     <xsl:variable name="rel_num" select="
       count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
-    <xsl:variable name="divide_by" select="number(14)"/><!-- todo: kmd pull this programatically -->
+    <xsl:variable name="divide_by" select="number($mss_max_count)"/>
     <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
     <xsl:if test="$percent_num &gt; 0">
       <span class="relation_link">
-        <xsl:attribute name="data-target"><xsl:text>line_</xsl:text><xsl:value-of select="substring-after($line_id,'#')"/></xsl:attribute>
+        <xsl:attribute name="data-target">
+          <xsl:text>line_</xsl:text>
+          <xsl:value-of select="substring-after($line_id,'#')"/>
+        </xsl:attribute>
         Relations
       </span>
     </xsl:if>
@@ -513,55 +522,55 @@
     </div>
   </xsl:template>
 
-<xsl:template match="pb">
-  <xsl:if test="@facs">
-    <!--We will probably want to change how this is done eventually -NHG-->
-    <!-- is the IIIF path what you were thinking, Nikki? Or do you want to change how that smalltext class stuff is working? jvd -->
-    <xsl:variable name="iiif_path_local">
-      <xsl:text>published%2FLG%2Ffigures</xsl:text>
-    </xsl:variable>
-    <xsl:variable name="figure_id_local">
-      <xsl:value-of select="substring-before(@facs, '.jpg')"/>
-    </xsl:variable>
+  <xsl:template match="pb">
+    <xsl:if test="@facs">
+      <!--We will probably want to change how this is done eventually -NHG-->
+      <!-- is the IIIF path what you were thinking, Nikki? Or do you want to change how that smalltext class stuff is working? jvd -->
+      <xsl:variable name="iiif_path_local">
+        <xsl:text>published%2FLG%2Ffigures</xsl:text>
+      </xsl:variable>
+      <xsl:variable name="figure_id_local">
+        <xsl:value-of select="substring-before(@facs, '.jpg')"/>
+      </xsl:variable>
 
-    <span class="teiFigure">
-      <br/>
-      <xsl:if test="not(@xml:id='leaf001r')">
-        <br/> - - - - - - - - - - - - - - - - - -
-        <span class="smalltext"> [page&#160;break]</span>
-        - - - - - - - - - - - - - - - - - - <br/>
-      </xsl:if>
-      <br/>
-      <a target="_blank" rel="noopener nofollow">
-        <xsl:attribute name="href">
-          <xsl:call-template name="url_builder">
-            <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-            <xsl:with-param name="image_size_local" select="800"/>
-            <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
-          </xsl:call-template>
-        </xsl:attribute>
-        <img>
-          <xsl:attribute name="src">
+      <span class="teiFigure">
+        <br/>
+        <xsl:if test="not(@xml:id='leaf001r')">
+          <br/> - - - - - - - - - - - - - - - - - -
+          <span class="smalltext"> [page&#160;break]</span>
+          - - - - - - - - - - - - - - - - - - <br/>
+        </xsl:if>
+        <br/>
+        <a target="_blank" rel="noopener nofollow">
+          <xsl:attribute name="href">
             <xsl:call-template name="url_builder">
               <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-              <xsl:with-param name="image_size_local" select="70"/>
+              <xsl:with-param name="image_size_local" select="800"/>
               <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
             </xsl:call-template>
           </xsl:attribute>
-          <xsl:attribute name="border" select="2"/>
-        </img>
-      </a>
-    </span>
-    <br/>
-    <br/>
-  </xsl:if>
-</xsl:template>
+          <img>
+            <xsl:attribute name="src">
+              <xsl:call-template name="url_builder">
+                <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
+                <xsl:with-param name="image_size_local" select="70"/>
+                <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+              </xsl:call-template>
+            </xsl:attribute>
+            <xsl:attribute name="border" select="2"/>
+          </img>
+        </a>
+      </span>
+      <br/>
+      <br/>
+    </xsl:if>
+  </xsl:template>
 
-  <!--Temporary: we should move this to css and improve at some point -NHG-->
   <xsl:template match="div1[@type='review']">
-    <div style="padding: 13px 80px 10px 80px; text-align: left;">
+    <div class="review">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
+
 
 </xsl:stylesheet>
