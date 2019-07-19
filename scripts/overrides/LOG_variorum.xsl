@@ -99,7 +99,8 @@
                 <xsl:value-of select="$cert"/>
               </xsl:attribute>
               <td class="relation_document">
-                <xsl:if test="not(contains($precedingTargets,$uri_line_id))">
+                <xsl:choose>
+                  <xsl:when test="not(contains($precedingTargets,concat($uri_line_id,' ')))">
                   <a target="_blank" rel="nofollow noreferrer">
                     <xsl:choose>
                       <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
@@ -119,7 +120,9 @@
                     </xsl:choose>
                     <xsl:value-of select="substring-before($fileID, '.xml')"/>
                   </a>
-                </xsl:if>
+                </xsl:when>
+                  <xsl:otherwise/>
+                </xsl:choose>
               </td>
               <td class="relation_location">
                 <a target="_blank" rel="nofollow noreferrer">
