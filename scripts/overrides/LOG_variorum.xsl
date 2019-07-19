@@ -165,11 +165,13 @@
             </tr>
           </xsl:for-each>
         </table>
-        <xsl:if test="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]) > 1">
+        
+        <!--commenting out for now b/c of browser issue; can add back later as needed -NHG-->
+        <!--<xsl:if test="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]) > 1">
           <span class="open_all">
             <button class="open_tabs">Open all in tabs (<xsl:value-of select="count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>)</button>
           </span>
-        </xsl:if>
+        </xsl:if>-->
       </div>
     </xsl:if>
   </xsl:template>
