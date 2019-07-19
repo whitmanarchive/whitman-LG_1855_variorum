@@ -21,9 +21,9 @@
           Related Manuscripts
           <br/> 
           <xsl:choose>
-            <xsl:when test="$work_id = 'xxx.00526'"><xsl:value-of select="$label"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="$lg55title"/><br/>
-        (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></xsl:otherwise>
+            <xsl:when test="$work_id = 'xxx.00526'"><span class="mss_links_title"><xsl:value-of select="$label"/></span></xsl:when>
+            <xsl:otherwise><span class="mss_links_title"><xsl:value-of select="$lg55title"/><br/>
+        (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></span></xsl:otherwise>
           </xsl:choose>
         </strong>
 
