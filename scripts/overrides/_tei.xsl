@@ -6,49 +6,6 @@
   <!-- TEI RULES -->
   <!-- Later we will want to combine this with whitman-scripts tei rules -->
   
-  <xsl:template match="del[@rend = 'overstrike']/add">
-    <xsl:if test="@rend = 'insertion'">
-      <sub>^</sub>
-    </xsl:if>
-    <xsl:if test="@rend = 'lasso'">
-      <sub>^</sub>
-    </xsl:if>
-    <xsl:choose>
-      <xsl:when test="@place = 'supralinear'">
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="supralinear overstrike"></xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="overstrike"></xsl:text>
-      </xsl:when>
-      <xsl:when test="@place = 'interlinear'">
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="interlinear overstrike"></xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text disable-output-escaping="yes">&lt;/span> &lt;span class="overstrike"></xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  
-  <xsl:template match="add/del">
-    <xsl:if test="@rend = 'overstrike'">
-      <span class="overstrike">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-    <xsl:if test="@rend = 'overwrite'">
-      <span class="teiOverwrite">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-    <xsl:if test="@rend = 'erasure'">
-      <span class="erasure">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-  </xsl:template>
-  
-
   <!-- Poetry  -->
 
   <xsl:template match="//lg[@type = 'linegroup']">

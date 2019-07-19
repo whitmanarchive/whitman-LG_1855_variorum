@@ -9,23 +9,23 @@
   <!-- ====================================================================== -->
   
   <xsl:template match="choice" mode="mss">
-    <xsl:apply-templates/>
+    <xsl:apply-templates mode="mss"/>
   </xsl:template>
   
   <xsl:template match="orig" mode="mss">
-    <xsl:apply-templates/>
+    <xsl:apply-templates mode="mss"/>
   </xsl:template>
   
   <xsl:template match="reg" mode="mss"> </xsl:template>
   
   <xsl:template match="abbr" mode="mss">
-    <xsl:apply-templates/>
+    <xsl:apply-templates mode="mss"/>
   </xsl:template>
   
   <xsl:template match="expan" mode="mss"> </xsl:template>
   
   <xsl:template match="sic" mode="mss">
-    <xsl:apply-templates/>
+    <xsl:apply-templates mode="mss"/>
   </xsl:template>
   
   <xsl:template match="corr" mode="mss"> </xsl:template>
@@ -38,33 +38,33 @@
     <xsl:if test="@rend = 'overstrike'">
       <xsl:choose>
         <xsl:when test="descendant::l/seg">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </xsl:when>
         <!--Added this as temporary measure to remove two of three overstrike classes being applied here, but we will need to streamline the deletion treatment(s) at some point, nhg 1/25/17-->
         <xsl:when test="descendant::add[@place = 'interlinear']">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </xsl:when>
         <xsl:otherwise>
           <span class="overstrike">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode="mss"/>
           </span>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:if>
-    <!--<xsl:if test="ancestor::*[@rend = 'overstrike']"><span class="overstrike"><xsl:apply-templates/></span></xsl:if>-->
+    <!--<xsl:if test="ancestor::*[@rend = 'overstrike']"><span class="overstrike"><xsl:apply-templates mode="mss"/></span></xsl:if>-->
     <xsl:if test="@rend = 'overwrite'">
       <span class="teiOverwrite">
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="mss"/>
       </span>
     </xsl:if>
     <xsl:if test="@rend = 'hashmark'">
       <span class="overstrike">
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="mss"/>
       </span>
     </xsl:if>
     <xsl:if test="@rend = 'erasure'">
       <span class="erasure">
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="mss"/>
       </span>
     </xsl:if>
     <!--</xsl:otherwise>-->
@@ -81,29 +81,29 @@
     <xsl:choose>
       <xsl:when test="@place = 'inline'">
         <span class="inline">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </span>
       </xsl:when>
       <xsl:when test="@place = 'supralinear'">
         <span class="supralinear">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </span>
       </xsl:when>
       <xsl:when test="@place = 'interlinear'">
         <span class="interlinear">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </span>
       </xsl:when>
       <xsl:when test="@place = 'infralinear'">
         <span class="infralinear">
-          <xsl:apply-templates/>
+          <xsl:apply-templates mode="mss"/>
         </span>
       </xsl:when>
       <xsl:when test="@place = 'over'">
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="mss"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="mss"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -114,7 +114,7 @@
   
   <xsl:template match="hi[@rend = 'underline']" mode="mss">
     <span class="underline">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="mss"/>
     </span>
   </xsl:template>
   
@@ -132,10 +132,10 @@
   </xsl:template>
   
   <xsl:template match="supplied" mode="mss">[<span class="supplied"
-    ><xsl:apply-templates/></span>]</xsl:template>
+    ><xsl:apply-templates mode="mss"/></span>]</xsl:template>
   
   <xsl:template match="unclear" mode="mss">
-    <span class="unclear">[<xsl:apply-templates/>?]</span>
+    <span class="unclear">[<xsl:apply-templates mode="mss"/>?]</span>
   </xsl:template>
   
   <!--/MSS styling-->
