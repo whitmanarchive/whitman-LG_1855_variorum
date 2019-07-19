@@ -142,7 +142,7 @@
                   <xsl:value-of select="concat('#',$msID)"/>
                 </a>
               </td>
-              <td>
+              <td class="relation_text">
                 <xsl:choose>
                   <xsl:when test="doc-available($nbPath)">
                     <xsl:variable name="nbFile" select="document($nbPath)"/>
