@@ -48,12 +48,12 @@
       <xsl:when test="$work_id = 'xxx.00264'">"Leaves of Grass" [4]</xsl:when>
       <xsl:when test="$work_id = 'xxx.00052'">"Leaves of Grass" [5]</xsl:when>
       <xsl:when test="$work_id = 'xxx.00271'">"Leaves of Grass" [6]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00113'">[Untitled]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00144'">[Untitled]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00143'">[Untitled]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00226'">[Untitled]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00250'">[Untitled]</xsl:when>
-      <xsl:when test="$work_id = 'xxx.00121'">[Untitled]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00113'">[Untitled] [1]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00144'">[Untitled] [2]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00143'">[Untitled] [3]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00226'">[Untitled] [4]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00250'">[Untitled] [5]</xsl:when>
+      <xsl:when test="$work_id = 'xxx.00121'">[Untitled] [6]</xsl:when>
     </xsl:choose>
   </xsl:template>
 
