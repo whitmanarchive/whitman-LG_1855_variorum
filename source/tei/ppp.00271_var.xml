@@ -3021,8 +3021,8 @@ breath . . . . I buoy you up;</l>
             <lg type="linegroup">
                <l xml:id="l1069">This is the city . . . . and I am one of the citizens;</l>
                <l xml:id="l1070"><app type="drift">
-                  <rdg xml:id="vr_0470a" facs="ppp.00271.054.jpg" wit="#UI_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
-                  <rdg xml:id="vr_0470b" facs="loc_nhg.01249.jpg">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
+                  <rdg xml:id="vr_0470a" facs="ppp.00271.054_cropped.jpg" wit="#UI_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
+                  <rdg xml:id="vr_0470b" facs="loc_nhg.01249_cropped.jpg">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
                </app> <lb/>schools,</l>
                <l xml:id="l1071">Benevolent societies, improvements, banks, tariffs, steamships, factories, markets,</l>
                <l xml:id="l1072">Stocks and stores and real estate and personal estate.</l>
@@ -3863,8 +3863,8 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l1556">Freemouthed, quicktempered, not badlooking, able to take his own part,</l>
                <l xml:id="l1557">
                   <app type="drift">
-                     <rdg xml:id="vr_0660a" facs="ppp.00371.073.jpg" wit="#UI_01">Witty</rdg>
-                  <rdg xml:id="vr_0660b" facs="loc_nhg.01010.jpg">Witty</rdg></app>, sensitive to a slight, ready with life or death for a friend,</l>
+                     <rdg xml:id="vr_0660a" facs="ppp.00271.073_cropped.jpg" wit="#UI_01">Witty,</rdg>
+                  <rdg xml:id="vr_0660b" facs="loc_nhg.01010_cropped.jpg">Witty,</rdg></app> sensitive to a slight, ready with life or death for a friend,</l>
                <l xml:id="l1558">Fond of women, . . played some . . eat hearty and drank hearty,</l>
                <l xml:id="l1559">Had known what it was to be flush . . grew lowspirited toward the last . . sickened <lb/> . . was helped by a contribution,</l>
                <l xml:id="l1560">Died aged forty-one years . . and that was his funeral.</l>
@@ -5163,8 +5163,8 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
             </lg>
             <lg type="linegroup">
                <l xml:id="l2270"><app type="drift">
-                  <rdg xml:id="vr_0930a" facs="ppp.00271.100.jpg" wit="#UI_01">Wealth</rdg>
-                  <rdg xml:id="vr_0930b" facs="loc_nhg.01002.jpg">Wealth</rdg>
+                  <rdg xml:id="vr_0930a" facs="ppp.00271.100_cropped.jpg" wit="#UI_01">Wealth</rdg>
+                  <rdg xml:id="vr_0930b" facs="loc_nhg.01002_cropped.jpg">Wealth</rdg>
                </app> with the flush hand and fine clothes and hospitality:</l> 
                <pb facs="ppp.00271.101.jpg" xml:id="leaf050v" n="94" type="verso"/>
                <fw type="pageNum" place="top left">94</fw>
