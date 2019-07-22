@@ -332,9 +332,11 @@
                 <link cert="low" target="ppp.00271_var.xml#l2299 #l01"/>
             </linkGrp>
             <linkGrp type="relation" corresp="duk.00905.xml">
-                <link cert="low" target="ppp.00271_var.xml#l2011 #l01"/>
-                <link cert="low" target="ppp.00271_var.xml#l2012 #l02"/>
-                <link cert="low" target="ppp.00271_var.xml#l2013 #l02"/>
+                <link cert="low" target="ppp.00271_var.xml#l1998 #l01"/>
+                <link cert="low" target="ppp.00271_var.xml#l1999 #l02"/>
+                <link cert="low" target="ppp.00271_var.xml#l2011 #l03"/>
+                <link cert="low" target="ppp.00271_var.xml#l2012 #l04"/>
+                <link cert="low" target="ppp.00271_var.xml#l2013 #l04"/>
             </linkGrp>
             <linkGrp type="relation" corresp="duk.00942.xml">
                 <link cert="low" target="ppp.00271_var.xml#l1217 #l27"/>
