@@ -270,8 +270,43 @@
           <xsl:call-template name="repository_citation"/>
         </span>
       </xsl:if>
+      <!-- TODO decide if this should actually display by default and be hidden
+           by initializing javascript for greater accessibility -->
+      <xsl:variable name="wits" select="tokenize(@wit, ' ')"/>
+      <!-- display all ids -->
+      <span class="tei_rdg_wit hide">
+       <xsl:for-each select="$wits">
+        <xsl:sort select="."/>
+        <a target="_blank" rel="nofollow noreferrer">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$siteroot"/>
+            <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
+            <xsl:text>#</xsl:text>
+            <xsl:value-of select="substring-after(., '#')"/>
+          </xsl:attribute>
+          <xsl:value-of select="substring-after(., '#')"/>
+        </a>
+        <xsl:text> </xsl:text>
+       </xsl:for-each>
+      </span>
       <span class="open_all">
-        <a href="">View All Copies</a>
+        <!-- toggle tei_rdg_wit visibility -->
+        <button class="open_all_rdg">
+          Show / hide list of all copies ( <xsl:value-of select="count($wits)"/> )
+        </button>
+        <!-- link out to bibliography -->
+        <a target="_blank" rel="nofollow noreferrer">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$siteroot"/>
+            <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
+            <xsl:text>#</xsl:text>
+            <xsl:for-each select="$wits">
+              <xsl:value-of select="substring-after(., '#')"/>
+              <xsl:text>,</xsl:text>
+            </xsl:for-each>
+          </xsl:attribute>
+          Open all copies in bibliography (new window)
+        </a>
       </span>
     </span>
   </xsl:template>
@@ -500,7 +535,11 @@
   <xsl:template match="rdg" mode="inline">
     <span>
       <xsl:attribute name="class">
-        <xsl:text>inline_tei_rdg</xsl:text>
+        <xsl:choose>
+          <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift</xsl:text></xsl:when>
+          <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
+          <xsl:otherwise><xsl:text>inline_tei_rdg</xsl:text></xsl:otherwise>
+        </xsl:choose>
       </xsl:attribute>
       <!-- create data-target based on rdg xml:id -->
       <xsl:attribute name="data-target">
@@ -510,11 +549,12 @@
       </xsl:attribute>
       <xsl:apply-templates/>
       <!-- todo: put choose back in after talking to Nikki -kmd -->
-     <!-- <xsl:choose>-->
-        <xsl:if test="contains(@xml:id, 'gr_001')"><xsl:text>[Frontispiece]</xsl:text></xsl:if>
-        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
-        <xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if><!-- todo: leave for now, but may not be needed in final -->
-      <!--</xsl:choose>-->
+        <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
+       <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
+      <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>
+      <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
+      <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
+<!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
     </span>
   </xsl:template>
 
