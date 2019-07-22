@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="ppp.01878"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt> 
+                <title level="m" type="main">Printed copy of letter from Ralph Waldo Emerson to Walt Whitman, 21 July 1855</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author xml:id="ww">Walt Whitman</author>
+                <editor role="general">Ed Folsom</editor>
+                <editor role="general">Kenneth M. Price</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text of the original item is in the public domain.</p><p>The text encoding was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of this material should credit the <title level="m">Walt Whitman Archive</title>.</p>
+                </availability>
+                <idno>ppp.01878</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="UI_01">
+                        <msDesc>
+                            <msIdentifier>
+                                <repository>University of Iowa Libraries, Special Collections &amp; University
+                                    Archives</repository>
+                                <idno>FOLIO PS3201 1855, copy 1</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <bibl>
+                                        <author>Walt Whitman</author>
+                                        <title>Leaves of Grass</title>
+                                        <date cert="high" when="1855" xml:id="dat1">1855</date>
+                                        <pubPlace>Brooklyn, New York</pubPlace>
+                                    </bibl>
+                                </msItem>
+                            </msContents>
+                            <physDesc>
+                                <p>A newspaper clipping titled "Leaves of Grass," marked "Tribune Oct 10
+                                    1855," and including a transcription of Emerson's letter to Whitman. The clipping is 
+                                    attached to the flyleaf in this copy.</p>
+                                <objectDesc form="codex">
+                                    <supportDesc>
+                                        <support>
+                                            <p>Wove paper.</p>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="inch">
+                                                <height>11</height>
+                                                <width>7 3/4</width>
+                                            </dimensions>
+                                        </extent>
+                                        <collation>[i]-xii, [13]-95. [1-12]^4.</collation>
+                                    </supportDesc>
+                                </objectDesc>
+                                <bindingDesc>
+                                    <p>Binding A (BAL). Copyright page, state B; p. iv, state B; frontispiece state A.</p>
+                                </bindingDesc>
+                            </physDesc>
+                            <history>
+                                <provenance>
+                                    <p>The volume has the following markings: "<choice><orig>Dr. Weir S.
+                                        Mitchel</orig><reg>Dr. S. Weir Mitchell</reg></choice> | Compliments | of | A. K.
+                                        Brown"; "Given to my son | Langdon | March | 1887."</p>
+                                </provenance>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#nhg" when="2019-07-18">created new file from ppp.00271_var.xml</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="emerson_letter_55">
+        <body>
+            <div1 type="letter">
+                <relations>
+                    <work ref="xxx.01168" cert="absolute"/>
+                </relations>
+                <app type="paratext">
+                    <rdg xml:id="pt_0010a" facs="ppp.00271.005.jpg" wit="#UI_01">
+                        <q>
+                            <floatingText>
+                                <body>
+                                    <milestone unit="undeclared" rend="horbar-short-center"/>
+                                    <p>"L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>."&#8212;We some time since had occasion to call the attention of our readers to this original and striking collection of poems, by Mr. Whitman of Brooklyn. In so doing we could not avoid noticing certain faults which seemed to us to be prominent in the work. The following opinion, from a distinguished source, views the matter from a more positive and less critical stand-point:</p>
+                                    
+                                    <q who="Ralph Waldo Emerson">
+                                        <floatingText>
+                                            <body>
+                                                
+                                                <opener>
+                                                    <dateline rend="right">"<name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass</name>., July 21, 1855.</dateline>
+                                                <salute>"D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>:</salute>
+                                                </opener>
+                                                <p>I am not blind to the worth of the wonderful gift of 'Leaves of Grass.' I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It makes the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                                                <p>"I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                                                <p>"I greet you at the beginning of a great career, which yet must have had a long foreground somewhere for such a start. I rubbed my eyes a little to see if this sunbeam were no illusion; but the <choice><sic>sold</sic><corr>solid</corr></choice> sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                                                <p>"I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                                                <closer>
+                                                    <salute>"W<hi rend="smallcaps">ALT</hi>. W<hi rend="smallcaps">HITMAN</hi>."</salute> <signed rend="right">"R. W. EMERSON."</signed>
+                                                </closer>
+                                            </body>
+                                        </floatingText>
+                                    </q></body></floatingText></q>
+                    </rdg>
+                    <rdg xml:id="pt_0010b" facs="uva_nhg.00009.jpg" wit="#UVa_09"> 
+                        <q who="Ralph Waldo Emerson">
+                            <floatingText>
+                                <body>
+                                    <note type="authorial">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note>
+                                    <milestone unit="undeclared" rend="horbar-short-center"/>
+                                    <opener><dateline rend="right">
+                                        <name type="place">C<hi rend="smallcaps">ONCORD</hi>, <choice><abbr>Mass'tts</abbr><expan>Massachusetts</expan></choice></name>, 
+                                        <date when="1855-07-21">21 July, 1855.</date></dateline>
+                                    <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute></opener>
+                                    <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                                    <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                                    <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                                    <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                                    <closer><signed rend="right">R. W. EMERSON.</signed>
+                                    <salute>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</salute></closer>
+                                </body>
+                            </floatingText>
+                        </q>
+                    </rdg>
+                    <rdg xml:id="pt_0010c" facs="wil_nhg.00002.jpg" wit="#WC_02"> 
+                        <q who="Ralph Waldo Emerson">
+                            <floatingText>
+                                <body>
+                                    <opener><dateline rend="right"><name type="place">C<hi rend="smallcaps">ONCORD</hi>, Mass'tts</name>, 21 July, 1855.</dateline>
+                                    <salute>D<hi rend="smallcaps">EAR</hi> S<hi rend="smallcaps">IR</hi>,</salute></opener>
+                                    <p>I am not blind to the worth of the wonderful gift of "L<hi rend="smallcaps">EAVES OF</hi> G<hi rend="smallcaps">RASS</hi>." I find it the most extraordinary piece of wit and wisdom that America has yet contributed. I am very happy in reading it, as great power makes us happy. It meets the demand I am always making of what seemed the sterile and stingy nature, as if too much handiwork, or too much lymph in the temperament, were making our western wits fat and mean.</p>
+                                    <p>I give you joy of your free and brave thought. I have great joy in it. I find incomparable things said incomparably well, as they must be. I find the courage of treatment which so delights us, and which large perception only can inspire.</p>
+                                    <p>I greet you at the beginning of a great career, which yet must have had a long foreground somewhere, for such a start. I rubbed my eyes a little, to see if this sunbeam were no illusion; but the solid sense of the book is a sober certainty. It has the best merits, namely, of fortifying and encouraging.</p>
+                                    <p>I did not know until I last night saw the book advertised in a newspaper that I could trust the name as real and available for a post-office. I wish to see my benefactor, and have felt much like striking my tasks and visiting New-York to pay you my respects.</p>
+                                    <closer><signed rend="right">R. W. EMERSON.</signed>
+                                    <salute>W<hi rend="smallcaps">ALT</hi> W<hi rend="smallcaps">HITMAN</hi>.</salute></closer>
+                                </body>
+                            </floatingText>
+                        </q>
+                    </rdg>
+                    <note type="project" target="#pt_0010a">This newspaper clipping is pasted to the page. At the bottom of the clipping in this copy is the note, written in Whitman's hand, "Tribune Oct 10 1855."</note>
+                    <note type="project" target="#pt_0010b">This printed slip is pasted to the page. The line at the top has been crossed out in pencil on this and other copies.</note>
+                </app>
+            </div1>
+        </body>
+    </text>
+</TEI>
