@@ -301,8 +301,11 @@
             <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
             <xsl:text>#</xsl:text>
             <xsl:for-each select="$wits">
+              <xsl:sort select="."/>
               <xsl:value-of select="substring-after(., '#')"/>
-              <xsl:text>,</xsl:text>
+              <xsl:if test="position() != count($wits)">
+                <xsl:text>,</xsl:text>
+              </xsl:if>
             </xsl:for-each>
           </xsl:attribute>
           Open all copies in bibliography (new window)
