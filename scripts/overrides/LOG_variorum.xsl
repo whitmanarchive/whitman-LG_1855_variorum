@@ -6,6 +6,7 @@
   <xsl:import href="_tei.xsl"/>
   <xsl:import href="_mss.xsl"/>
   <xsl:import href="_works_list.xsl"/>
+  <xsl:import href="_key.xsl"/>
 
   <!-- Datura scripts, for comparison -->
   <!--<xsl:import href="../.xslt-datura/tei_to_html/lib/formatting.xsl"/>
@@ -24,8 +25,15 @@
       <body>
         <!-- set up document -->
         <div class="variorum_header">
-          <a href="variorum/index.html">Back to Variorum Main Page</a>
-          <h1>1855 <i>Leaves of Grass</i> Variorum</h1>
+          <h1>1855 <em>Leaves of Grass</em> Variorum</h1>
+          <div class="v_header_options">
+            <a href="variorum/index.html">Back to Variorum Main Page</a>
+            <span class="v_show_hide">
+            <button class="v_pin_key">pin key</button>
+            <button class="v_show_key">show key</button>
+            </span>
+          </div>
+          <xsl:call-template name="key"/>
         </div>
 
         <xsl:apply-templates select="/TEI/text/front"/>
