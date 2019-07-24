@@ -81,6 +81,9 @@
               <strong>location</strong>
             </th>
             <th scope="col">
+              <strong>certainty</strong>
+            </th>
+            <th scope="col">
               <strong>text</strong>
             </th>
           </tr>
@@ -153,6 +156,9 @@
                   </xsl:choose>
                   <xsl:value-of select="concat('#',$msID)"/>
                 </a>
+              </td>
+              <td class="relation_text">
+                <xsl:value-of select="$cert"/>
               </td>
               <td class="relation_text">
                 <xsl:choose>
