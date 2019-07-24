@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/gr_0010a.json",
   "@type": "sc:Manifest",
-  "label": "Frontispiece with small crotch",
+  "label": "Frontispiece with flat crotch",
   "description": [
     {
-      "@value": "Frontispiece with small crotch (gr_0010a)",
+      "@value": "Frontispiece with flat crotch (gr_0010a)",
       "@language": "en"
     }
   ],
@@ -19,9 +19,37 @@
       "label": "No Label Yet",
       "canvases": [
         {
+          "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010a-cropped",
+          "@type": "sc:Canvas",
+          "label": "Frontispiece with flat crotch",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/gr_0010a-cropped",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 825,
+                "height": 1104,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/snippets/gr_0010a-cropped"
+            }
+          ],
+          "width": 825,
+          "height": 1104
+        },
+        {
           "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010a",
           "@type": "sc:Canvas",
-          "label": "Frontispiece with small crotch",
+          "label": "Frontispiece with flat crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

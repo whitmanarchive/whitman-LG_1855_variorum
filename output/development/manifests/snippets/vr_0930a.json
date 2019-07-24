@@ -19,6 +19,34 @@
       "label": "No Label Yet",
       "canvases": [
         {
+          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0930a-cropped",
+          "@type": "sc:Canvas",
+          "label": "\"Wealth\" narrower spacing",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0930a-cropped",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 626,
+                "height": 163,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/snippets/vr_0930a-cropped"
+            }
+          ],
+          "width": 626,
+          "height": 163
+        },
+        {
           "@id": "https://whitmanarchive.org/TODO/snippets/vr_0930a",
           "@type": "sc:Canvas",
           "label": "\"Wealth\" narrower spacing",

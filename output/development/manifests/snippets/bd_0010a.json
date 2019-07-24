@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0010a.json",
   "@type": "sc:Manifest",
-  "label": "First state binding",
+  "label": "State A binding",
   "description": [
     {
-      "@value": "First state binding (bd_0010a)",
+      "@value": "State A binding (bd_0010a)",
       "@language": "en"
     }
   ],
@@ -21,7 +21,7 @@
         {
           "@id": "https://whitmanarchive.org/TODO/snippets/bd_0010a",
           "@type": "sc:Canvas",
-          "label": "First state binding",
+          "label": "State A binding",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.001.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

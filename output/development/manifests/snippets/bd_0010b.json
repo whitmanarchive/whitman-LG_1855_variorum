@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0010b.json",
   "@type": "sc:Manifest",
-  "label": "Second state binding",
+  "label": "State B binding",
   "description": [
     {
-      "@value": "Second state binding (bd_0010b)",
+      "@value": "State B binding (bd_0010b)",
       "@language": "en"
     }
   ],
@@ -21,7 +21,7 @@
         {
           "@id": "https://whitmanarchive.org/TODO/snippets/bd_0010b",
           "@type": "sc:Canvas",
-          "label": "Second state binding",
+          "label": "State B binding",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01027.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

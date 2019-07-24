@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0240a.json",
   "@type": "sc:Manifest",
-  "label": "Grass.",
+  "label": "\"Grass.\"",
   "description": [
     {
-      "@value": "Grass. (vr_0240a)",
+      "@value": "\"Grass.\" (vr_0240a)",
       "@language": "en"
     }
   ],
@@ -21,7 +21,7 @@
         {
           "@id": "https://whitmanarchive.org/TODO/snippets/vr_0240a",
           "@type": "sc:Canvas",
-          "label": "Grass.",
+          "label": "\"Grass.\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/test.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

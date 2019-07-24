@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0100b.json",
+  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0040a.json",
   "@type": "sc:Manifest",
-  "label": "State B binding",
+  "label": "State A frontispiece",
   "description": [
     {
-      "@value": "State B binding (bd_0100b)",
+      "@value": "State A frontispiece (bd_0040a)",
       "@language": "en"
     }
   ],
@@ -19,32 +19,32 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/bd_0100b",
+          "@id": "https://whitmanarchive.org/TODO/snippets/bd_0040a",
           "@type": "sc:Canvas",
-          "label": "State B binding",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01029.jpg/full/!150,150/0/default.jpg",
+          "label": "State A frontispiece",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/bd_0100b",
+              "@id": "https://whitmanarchive.org/TODO/annotation/bd_0040a",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01029.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 326,
-                "height": 4077,
+                "width": 767,
+                "height": 1117,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01029.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/bd_0100b"
+              "on": "https://whitmanarchive.org/TODO/snippets/bd_0040a"
             }
           ],
-          "width": 326,
-          "height": 4077
+          "width": 767,
+          "height": 1117
         }
       ]
     }

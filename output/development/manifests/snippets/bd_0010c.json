@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0010c.json",
   "@type": "sc:Manifest",
-  "label": "Third state binding",
+  "label": "State C binding",
   "description": [
     {
-      "@value": "Third state binding (bd_0010c)",
+      "@value": "State C binding (bd_0010c)",
       "@language": "en"
     }
   ],
@@ -21,7 +21,7 @@
         {
           "@id": "https://whitmanarchive.org/TODO/snippets/bd_0010c",
           "@type": "sc:Canvas",
-          "label": "Third state binding",
+          "label": "State C binding",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00011.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

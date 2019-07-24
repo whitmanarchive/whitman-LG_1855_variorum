@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/gr_0010b.json",
   "@type": "sc:Manifest",
-  "label": "Frontispiece with big crotch",
+  "label": "Frontispiece with enhanced crotch",
   "description": [
     {
-      "@value": "Frontispiece with big crotch (gr_0010b)",
+      "@value": "Frontispiece with enhanced crotch (gr_0010b)",
       "@language": "en"
     }
   ],
@@ -19,9 +19,37 @@
       "label": "No Label Yet",
       "canvases": [
         {
+          "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010b-cropped",
+          "@type": "sc:Canvas",
+          "label": "Frontispiece with enhanced crotch",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/TODO/annotation/gr_0010b-cropped",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 837,
+                "height": 1089,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/TODO/snippets/gr_0010b-cropped"
+            }
+          ],
+          "width": 837,
+          "height": 1089
+        },
+        {
           "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010b",
           "@type": "sc:Canvas",
-          "label": "Frontispiece with big crotch",
+          "label": "Frontispiece with enhanced crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
