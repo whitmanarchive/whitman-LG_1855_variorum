@@ -5,8 +5,6 @@
   <xsl:template name="key">
     <div class="v_page_key">
       <div class="v_page_key_inner">
-        <!--<div class="v_items_key">-->
-          <!--<div class="v_key_container">-->
           <div class="v_printed_text_key">
             <div class="v_key_left">
               <h2>Printed Text (Copy) Variations</h2>
@@ -28,7 +26,6 @@
               <p>Clicking on "relations" displays related text from Whitman manuscripts. The length of the line is a visualization fo the number of relations there are, the longer the line the more variations there are. </p>
             </div>
           </div>
-          <!--</div>-->
           <div class="v_related_works_key">
             <div class="v_key_left">
               <h2>Related Works</h2>
@@ -44,12 +41,11 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div><!-- / v_key_left -->
             <div class="v_key_right">
               <p>Each poem is marked with a line on the right hand side, with a box next to it with information and links. Manuscripts that contain some part of the poem are linked in the box, along with a certainty (low or high) about how sure we are about the poem relation.</p>
             </div>
-          </div>
-        <!--</div>--><!-- / v_items_key -->
+          </div><!-- / v_related_works_key -->
         <div class="v_instructions_key">
           <h2>Instructions</h2>
           <p>Proin dictum, erat vitae ultrices interdum, lectus nunc ultrices nunc, sit amet dictum urna erat id justo. Morbi hendrerit fermentum ipsum, vitae porta ipsum finibus id. Cras pretium purus lacus, vel sollicitudin leo lobortis nec. Vestibulum odio leo, venenatis at molestie non, euismod et risus.  </p>
