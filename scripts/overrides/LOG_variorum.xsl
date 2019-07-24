@@ -580,15 +580,6 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="div1[@type = 'review']">
-    <div class="tei_div1_type_review">
-      <br/>
-      <br/>
-      <xsl:apply-templates/>
-      <br/>
-    </div>
-  </xsl:template>
-
   <xsl:template match="pb">
     <xsl:if test="@facs">
       <!--We will probably want to change how this is done eventually -NHG-->
