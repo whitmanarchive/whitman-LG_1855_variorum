@@ -120,9 +120,11 @@ module ManifestSnippets
     # create a JSON index file that is used to associate the manifests
     snippets = []
     groups.each do |group, ids|
+      link = ids.first[0,7]
+      puts link
       snippets << {
         label: group,
-        link: group.downcase.gsub(" ", "-"),
+        link: link,
         ids: ids
       }
     end
