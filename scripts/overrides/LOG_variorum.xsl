@@ -275,8 +275,13 @@
         </xsl:if>
         <a target="_blank">
           <xsl:attribute name="href">
-            <xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
-              select="substring-before(@facs,'_cropped')"/>.jpg/full/full/0/default.jpg</xsl:attribute>
+            <xsl:choose> 
+              <xsl:when test="contains(@facs,'_cropped')"><xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
+              select="substring-before(@facs,'_cropped')"/>.jpg/full/full/0/default.jpg</xsl:when>
+              <xsl:otherwise><xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
+                select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>
+              </xsl:choose>
+          </xsl:attribute>
           <img class="teiFigure">
             <xsl:attribute name="height">70</xsl:attribute>
             <xsl:attribute name="src">
