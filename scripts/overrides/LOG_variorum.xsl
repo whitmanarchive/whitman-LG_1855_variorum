@@ -275,7 +275,7 @@
         <a target="_blank">
           <xsl:attribute name="href">
             <xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
-              select="@facs"/>/full/full/0/default.jpg</xsl:attribute>
+              select="substring-before(@facs,'_cropped')"/>.jpg/full/full/0/default.jpg</xsl:attribute>
           <img class="teiFigure">
             <xsl:attribute name="height">70</xsl:attribute>
             <xsl:attribute name="src">
