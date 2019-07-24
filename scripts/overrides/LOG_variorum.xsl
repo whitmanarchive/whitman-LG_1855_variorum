@@ -262,15 +262,25 @@
     </span>
     <span class="tei_rdg_wit">
       <xsl:if test="@facs">
+        <xsl:if test="contains(@wit,'UI_01')">
+          <a target="_blank">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$siteroot"/>
+            <xsl:text>published/LG/1855/variorum/manuscript_comparison_viewer.html?base=</xsl:text>
+            <xsl:value-of select="substring(@xml:id,1,7)"/>
+          </xsl:attribute>
+          <span style="text-align:right;">View side-by-side images</span>
+        </a>
+        </xsl:if>
         <a target="_blank">
           <xsl:attribute name="href">
-            <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-              select="@facs"/></xsl:attribute>
+            <xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
+              select="@facs"/>/full/full/0/default.jpg</xsl:attribute>
           <img class="teiFigure">
             <xsl:attribute name="height">70</xsl:attribute>
             <xsl:attribute name="src">
-              <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-                select="@facs"/></xsl:attribute>
+              <xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
+                select="@facs"/>/full/full/0/default.jpg</xsl:attribute>
           </img>
         </a>
         <span class="variorum_caption">
@@ -318,6 +328,7 @@
           </xsl:attribute>
           Open all copies in bibliography (new window)
         </a>
+        
       </span>
     </span>
   </xsl:template>
