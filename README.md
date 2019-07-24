@@ -7,24 +7,21 @@ same_dir/cocoon/whitmanarchive
 same_dir/data/collections/whitman-variorum
 ```
 
-Run `bundle exec post -x html` to generate a list of works and files which reference them and the variorum HTML itself.
+Run `bundle exec post -x html` to generate a list of works and files which reference them, manifests for Leaves of Grass and snippets for comparison, as well as the variorum HTML itself.
 
-To update those files which are being searched for works, please edit `source/authority/files_with_works.txt`.
+## Works
+
+To update those files which are being searched for works, please edit `source/authority/files_with_works.txt`, then re-run the post script. Results will be output to `source/authority/work_list_generated.xml`.
 
 ## Manifests
 
-Currently the manifests are being generated separately from the post script and are only available for the development environment. To update the Leaves of Grass manifest, run this command:
+To update the snippets, download the snippets spreadsheet as a CSV and stick it in the data repo at `source/authority/snippets.csv`. Then re-run the post script.
 
-```
-ruby scripts/leaves_of_grass.rb
-```
+Two types of manifests will be created:
 
-The resulting file is written to `output/development/manifests/leaves_of_grass.json`. You will need to put this file on the cdrh production server to see the changes, currently.
+- a single manifest for the Leaves of Grass edition, with table of contents
+- multiple manifests, one for each snippet, which may include more than one image (clip + original page)
 
-To update the snippets, download the snippets spreadsheet as a CSV and put it at `source/authority/snippets.csv`. Then run:
+The snippets process also creates a JS file, `output/[environment]/manifests/snippets/index.js` which contains information about how to relate all of the manifests.
 
-```
-ruby scripts/manifest_snippets.rb
-```
-
-That generates JSON files for each image, and then a JS file which describes how all the manifests should be displayed in `output/development/manifests/snippets`. These files will also need to be on the cdrh production server to see your changes in the temporary html sites on that same server.
+If you are pulling the data repository changes to the server that the pages which use the manifests are calling, you should see the changes upon refreshing.
