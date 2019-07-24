@@ -41,12 +41,13 @@
           </div>
           <xsl:call-template name="key"/>
         </div>
-
-        <xsl:apply-templates select="/TEI/text/front"/>
-        <xsl:apply-templates select="/TEI/text/body"/>
-        <xsl:if test="/TEI/text/back">
-          <xsl:apply-templates select="/TEI/text/back"/>
-        </xsl:if>
+        <div id="variorum_body">
+          <xsl:apply-templates select="/TEI/text/front"/>
+          <xsl:apply-templates select="/TEI/text/body"/>
+          <xsl:if test="/TEI/text/back">
+            <xsl:apply-templates select="/TEI/text/back"/>
+          </xsl:if>
+        </div>
       </body>
     </html>
   </xsl:template>
