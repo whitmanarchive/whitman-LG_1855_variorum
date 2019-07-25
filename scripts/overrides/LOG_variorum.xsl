@@ -164,15 +164,21 @@
                 <xsl:choose>
                   <xsl:when test="doc-available($nbPath)">
                     <xsl:variable name="nbFile" select="document($nbPath)"/>
+                    <xsl:variable name="parentEl" select="$nbFile//*[child::*[@xml:id = $msID]]"/>
+                   <xsl:if test="$parentEl = del[@rend='overstrike']"><span style="color:red;">DEL</span></xsl:if>
                     <xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/>
                   </xsl:when>
                   <!--TEMPORARY LOCATION-->
                   <xsl:when test="doc-available($otherPath)">
                     <xsl:variable name="otherFile" select="document($otherPath)"/>
+                    <xsl:variable name="parentEl" select="$otherFile//*[child::*[@xml:id = $msID]]"/>
+                    <xsl:if test="$parentEl = del[@rend='overstrike']"><span style="color:red;">DEL</span></xsl:if>
                     <xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/>
                   </xsl:when>
                   <!--/TEMPORARY LOCATION-->
                   <xsl:otherwise>
+                    <xsl:variable name="parentEl" select="$msFile//*[child::*[@xml:id = $msID]]"/>
+                    <!--<xsl:if test="$parentEl = del">--><span style="color:red;"><xsl:value-of select="$parentEl"/></span><!--</xsl:if>-->
                     <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
                   </xsl:otherwise>
                 </xsl:choose>
@@ -375,7 +381,7 @@
   <xsl:template match="//div1[@type = 'preface']">
     <div class="tei_div_preface">
       <xsl:call-template name="mss_links">
-        <xsl:with-param name="label">Preface</xsl:with-param>
+        <xsl:with-param name="label">[Preface]</xsl:with-param>
         <xsl:with-param name="work_id">xxx.00526</xsl:with-param>
       </xsl:call-template>
       <!-- this code is shared with poetry below -->

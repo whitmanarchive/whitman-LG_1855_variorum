@@ -65,6 +65,7 @@
     <item id="nyp.00085.xml" type="mss" certainty="high"/>
     <item id="nyp.00088.xml" type="mss" certainty="low"/>
     <item id="nyp.00089.xml" type="mss" certainty="low"/>
+    <item id="nyp.00102.xml" type="mss" certainty="low"/>
     <item id="nyp.00112.xml" type="mss" certainty="high"/>
     <item id="nyp.00113.xml" type="mss" certainty="low"/>
     <item id="nyp.00116.xml" type="mss" certainty="low"/>
@@ -100,6 +101,7 @@
     <item id="uva.00273.xml" type="mss" certainty="low"/>
     <item id="uva.00278.xml" type="mss" certainty="low"/>
     <item id="uva.00280.xml" type="mss" certainty="high"/>
+    <item id="uva.00287.xml" type="mss" certainty="low"/>
     <item id="uva.00561.xml" type="mss" certainty="high"/>
     <item id="uva.00568.xml" type="mss" certainty="high"/>
     <item id="uva.00570.xml" type="mss" certainty="high"/>
@@ -202,6 +204,7 @@
     <item id="nyp.00129.xml" type="nb" certainty="high"/>
     <item id="nyp.00733.xml" type="mss" certainty="low"/>
     <item id="tex.00057.xml" type="mss" certainty="low"/>
+    <item id="tex.00079.xml" type="mss" certainty="low"/>
     <item id="tex.00088.xml" type="mss" certainty="low"/>
     <item id="uva.00251.xml" type="mss" certainty="low"/>
     <item id="uva.00516.xml" type="mss" certainty="low"/>
