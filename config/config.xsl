@@ -33,11 +33,11 @@
   <!-- HTML paths -->
   <xsl:param name="nbPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/notebooks/transcriptions_var/</xsl:text>
+    <xsl:text>manuscripts/notebooks/transcriptions/</xsl:text>
   </xsl:param>
   <xsl:param name="msPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/transcriptions_var/</xsl:text>
+    <xsl:text>manuscripts/transcriptions/</xsl:text>
   </xsl:param>
   <xsl:param name="variorumPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
