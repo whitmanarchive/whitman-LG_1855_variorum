@@ -85,9 +85,20 @@
         </span>
       </xsl:when>
       <xsl:when test="@place = 'supralinear'">
-        <span class="supralinear">
+        <xsl:choose>
+          <xsl:when test="parent::del[@rend='overstrike']">
+            <span class="noline">
+              <span class="supralinear overstrike">
+              <xsl:apply-templates mode="mss"/>
+            </span>
+            </span>
+          </xsl:when>
+          <xsl:otherwise>
+            <span class="supralinear">
           <xsl:apply-templates mode="mss"/>
         </span>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:when test="@place = 'interlinear'">
         <span class="interlinear">
