@@ -9,6 +9,12 @@
   <xsl:import href="_tei.xsl"/>
   <xsl:import href="_works_list.xsl"/>
   <xsl:import href="_key.xsl"/>
+  
+  <!-- is the IIIF path what you were thinking, Nikki? Or do you want to change how that smalltext class stuff is working? jvd -->
+  <!-- moved this to the top so I can call it in another template -->
+  <xsl:variable name="iiif_path_local">
+    <xsl:text>published%2FLG%2Ffigures</xsl:text>
+  </xsl:variable>
 
   <!-- Datura scripts, for comparison -->
   <!--<xsl:import href="../.xslt-datura/tei_to_html/lib/formatting.xsl"/>
@@ -250,12 +256,32 @@
 
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
+    <xsl:if test="contains(@wit,'UI_01')">
+      <span class="variant_viewer_link">
+        <a target="_blank">
+          <xsl:attribute name="href">
+            <xsl:value-of select="$siteroot"/>
+            <xsl:text>published/LG/1855/variorum/manuscript_comparison_viewer.html?base=</xsl:text>
+            <xsl:value-of select="substring(@xml:id,1,7)"/>
+          </xsl:attribute>
+          <span class="variant_viewer_view">View side-by-side images (new window)</span>
+        </a>
+      </span>
+    </xsl:if>
     <div class="tei_rdg">
       <xsl:variable name="varID" select="@xml:id"/>
-      <span class="variant_text">
-       <xsl:if test=".[contains(@wit, 'UI_01')]">
-         <xsl:text>(This Copy) </xsl:text>
-       </xsl:if>
+      <span>
+        <xsl:attribute name="class">
+          <xsl:text>variant_text_click </xsl:text>
+          <xsl:choose>
+            <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift_display</xsl:text></xsl:when>
+            <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding_display</xsl:text></xsl:when>
+            <xsl:otherwise><xsl:text>inline_tei_rdg_display</xsl:text></xsl:otherwise>
+          </xsl:choose>
+          <xsl:if test=".[contains(@wit, 'UI_01')]">
+            <xsl:text> variant_text_indicator</xsl:text>
+          </xsl:if>
+        </xsl:attribute>
        <xsl:apply-templates/>
        <xsl:if test="contains(@xml:id, 'gr_001')">
          <xsl:text>[Frontispiece]</xsl:text>
@@ -267,47 +293,42 @@
          <xsl:text>[Blank]</xsl:text>
        </xsl:if>
       </span>
-      <span class="variant_note">
         <xsl:if test="following-sibling::note[contains(@target, $varID)]">
           <span class="variant_note">
             <strong>Note: </strong>
             <xsl:apply-templates select="following-sibling::note[contains(@target, $varID)]"/>
           </span>
         </xsl:if>
-      </span>
-      
+     
       <!-- Image and image caption -->
       <xsl:if test="@facs">
-        <xsl:if test="contains(@wit,'UI_01')">
-          <span class="variant_viewer_link">
-            <a target="_blank">
-              <xsl:attribute name="href">
-                <xsl:choose> 
-                  <xsl:when test="contains(@facs,'_cropped')"><xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
-                    select="substring-before(@facs,'_cropped')"/>.jpg/full/full/0/default.jpg</xsl:when>
-                  <xsl:otherwise><xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
-                    select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>
-                </xsl:choose>
-              </xsl:attribute>
-              <img class="teiFigure">
-                <xsl:attribute name="height">70</xsl:attribute>
-                <xsl:attribute name="src">
-                  <xsl:value-of select="$externalfileroot"/>iiif/2/published%2FLG%2Ffigures%2F<xsl:value-of
-                    select="@facs"/>/full/full/0/default.jpg</xsl:attribute>
-              </img>
-            </a>
-          </span>
-        </xsl:if>
+       
         <span class="variant_image_container">
           <span class="variant_image">
             <a target="_blank">
               <xsl:attribute name="href">
-                <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-                  select="@facs"/></xsl:attribute>
+                <xsl:variable name="figure_id_local">
+                  <xsl:choose> 
+                    <xsl:when test="contains(@facs,'_cropped')">
+                      <xsl:value-of select="substring-before(@facs,'_cropped')"/></xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:variable>
+                <xsl:call-template name="url_builder">
+                  <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
+                  <xsl:with-param name="image_size_local" select="full"/>
+                  <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                </xsl:call-template>
+              </xsl:attribute>
               <img class="teiFigure">
                 <xsl:attribute name="src">
-                  <xsl:value-of select="$externalfileroot"/>published/LG/figures/<xsl:value-of
-                    select="@facs"/></xsl:attribute>
+                  <xsl:call-template name="url_builder">
+                    <xsl:with-param name="figure_id_local" select="@facs"/>
+                    <xsl:with-param name="image_size_local" select="500"/>
+                    <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                  </xsl:call-template>
+                </xsl:attribute>
               </img>
             </a>
           </span>
@@ -323,8 +344,8 @@
        <xsl:variable name="wits" select="tokenize(@wit, ' ')"/>
       <span class="variant_open_all">
         <!-- toggle tei_rdg_wit visibility -->
-        <button class="open_all_rdg">
-          Show / hide list of all copies ( <xsl:value-of select="count($wits)"/> )
+        <button class="open_all_rdg open_all_closed">
+          <span>Show</span> list of all copies ( <xsl:value-of select="count($wits)"/> )
         </button>
         <!-- link out to bibliography -->
         <a target="_blank" rel="nofollow noreferrer">
@@ -587,6 +608,7 @@
   <xsl:template match="rdg" mode="inline">
     <span>
       <xsl:attribute name="class">
+        <xsl:text>variant_text_click </xsl:text>
         <xsl:choose>
           <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift</xsl:text></xsl:when>
           <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
@@ -613,10 +635,6 @@
   <xsl:template match="pb">
     <xsl:if test="@facs">
       <!--We will probably want to change how this is done eventually -NHG-->
-      <!-- is the IIIF path what you were thinking, Nikki? Or do you want to change how that smalltext class stuff is working? jvd -->
-      <xsl:variable name="iiif_path_local">
-        <xsl:text>published%2FLG%2Ffigures</xsl:text>
-      </xsl:variable>
       <xsl:variable name="figure_id_local">
         <xsl:value-of select="substring-before(@facs, '.jpg')"/>
       </xsl:variable>
