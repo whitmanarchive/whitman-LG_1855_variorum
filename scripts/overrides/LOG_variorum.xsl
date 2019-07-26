@@ -165,21 +165,42 @@
                   <xsl:when test="doc-available($nbPath)">
                     <xsl:variable name="nbFile" select="document($nbPath)"/>
                     <xsl:variable name="parentEl" select="$nbFile//*[child::*[@xml:id = $msID]]"/>
-                   <xsl:if test="$parentEl = del[@rend='overstrike']"><span style="color:red;">DEL</span></xsl:if>
+                    <xsl:variable name="grandparentEl" select="$nbFile//*[child::*[child::*[@xml:id=$msID]]]"/>
+                    <xsl:choose>
+                      <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
+                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/></span>
+                      </xsl:when>
+                      <xsl:otherwise>
                     <xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </xsl:when>
                   <!--TEMPORARY LOCATION-->
                   <xsl:when test="doc-available($otherPath)">
                     <xsl:variable name="otherFile" select="document($otherPath)"/>
                     <xsl:variable name="parentEl" select="$otherFile//*[child::*[@xml:id = $msID]]"/>
-                    <xsl:if test="$parentEl = del[@rend='overstrike']"><span style="color:red;">DEL</span></xsl:if>
+                    <xsl:variable name="grandparentEl" select="$otherFile//*[child::*[child::*[@xml:id=$msID]]]"/>
+                    <xsl:choose>
+                      <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
+                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/></span>
+                      </xsl:when>
+                      <xsl:otherwise>
                     <xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </xsl:when>
                   <!--/TEMPORARY LOCATION-->
                   <xsl:otherwise>
                     <xsl:variable name="parentEl" select="$msFile//*[child::*[@xml:id = $msID]]"/>
-                    <!--<xsl:if test="$parentEl = del">--><span style="color:red;"><xsl:value-of select="$parentEl"/></span><!--</xsl:if>-->
-                    <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
+                    <xsl:variable name="grandparentEl" select="$msFile//*[child::*[child::*[@xml:id=$msID]]]"/>
+                    <xsl:choose>
+                      <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
+                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/></span>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </xsl:otherwise>
                 </xsl:choose>
               </td>
