@@ -93,7 +93,7 @@
             </span>
             </span>
           </xsl:when>
-          <xsl:otherwise>
+          <xsl:otherwise> 
             <span class="supralinear">
           <xsl:apply-templates mode="mss"/>
         </span>
