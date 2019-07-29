@@ -19,7 +19,15 @@
     <xsl:value-of select="$iiif_path_local"/>
     <xsl:text>%2F</xsl:text>
     <xsl:value-of select="$figure_id_local"/>
-    <xsl:text>.jpg/full/!</xsl:text>
+    <xsl:choose>
+      <xsl:when test="ends-with($figure_id_local,'.jpg')">
+        <!-- no text because it's already there -->
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>.jpg</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>/full/!</xsl:text>
     <xsl:value-of select="$image_size_local"/>
     <xsl:text>,</xsl:text>
     <xsl:value-of select="$image_size_local"/>
