@@ -102,6 +102,9 @@
          </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review">
+               <relations>
+                  <work ref="xxx.00892" cert="high"/>
+               </relations>
                <byline rend="right">From the Brooklyn Daily Times.</byline>
                <head type="main-authorial">WALT WHITMAN, A BROOKLYN BOY.</head>
                <ab><hi rend="italic">Leaves of Grass</hi>, A volume of Poems, just published.</ab>
@@ -122,6 +125,9 @@
             </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review"> 
+               <relations>
+                  <work ref="xxx.00893" cert="high"/>
+               </relations>
                <byline rend="right">From the United States Review.</byline>
                <head type="main-authorial">WALT WHITMAN AND HIS POEMS.</head> 
                <p>An American bard at last! <seg xml:id="rev08">One of the roughs, large, proud, affectionate, eating, drinking, and breeding, his costume manly and free, his face sunburnt and bearded, his posture strong and erect, his voice bringing hope and prophecy to the generous races of young and old.</seg> We shall cease shamming and be what we really are. <seg xml:id="rev11">We shall start an athletic and defiant literature.</seg> We realize now how it is, and what was most lacking. The interior American republic shall also be declared free and independent.</p>
@@ -376,6 +382,9 @@
             </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review">
+               <relations>
+                  <work ref="xxx.00798" cert="high"/>
+               </relations>
                <byline rend="right">From the American Phrenological Journal.</byline>
                <head type="main-authorial">AN ENGLISH AND AN AMERICAN POET.</head>
                
