@@ -38,8 +38,11 @@
         <!-- set up document -->
         <div class="variorum_header">
           <h1>1855 <em>Leaves of Grass</em> Variorum</h1>
-          <div class="v_header_options">
-            <a href="variorum/index.html">Back to Variorum Main Page</a>
+          <div class="v_header_options"> 
+            <a href="variorum/index.html">Table of Contents</a>
+            <xsl:if test="not(/TEI[@xml:id='ppp.00271'])"><a href="variorum.html">Variorum</a></xsl:if>
+            <xsl:if test="not(/TEI[@xml:id='ppp.01878'])"><a href="emerson.html">Ralph Waldo Emerson Letter</a></xsl:if>
+            <xsl:if test="not(/TEI[@xml:id='ppp.01879'])"><a href="reviews.html">Reviews and Advertisements</a></xsl:if>
             <span class="v_show_hide">
             <button class="v_pin_key">pin key</button>
             <button class="v_show_key">show key</button>
@@ -305,8 +308,10 @@
         </xsl:attribute>
        <xsl:apply-templates/>
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
-        <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
-        <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>
+       <!--EMERSON/REVIEWS-->
+        <!-- <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>-->
+        <!--EMERSON/REVIEWS-->
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
         <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
@@ -604,7 +609,23 @@
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div>
-      <xsl:attribute name="class">
+      <xsl:choose>
+        <!--EMERSON/REVIEWS-->
+        <xsl:when test="@type='paratext' and ancestor::TEI[@xml:id='ppp.00271']">
+          <xsl:if test="descendant::ref/@target = '#ppp.01878.xml'">
+            <span class="inline_tei_rdg_binding"><a target="_blank">
+            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/emerson.html</xsl:attribute>
+          [Ralph Waldo Emerson letter]</a></span>
+          </xsl:if>
+          <xsl:if test="descendant::ref/@target = '#ppp.01879.xml'">
+            <span class="inline_tei_rdg_binding"><a target="_blank">
+            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/reviews.html</xsl:attribute>
+          [Reviews and advertisements]</a></span>
+          </xsl:if>
+        </xsl:when>
+        <!--/EMERSON/REVIEWS-->
+        <xsl:otherwise>
+          <xsl:attribute name="class">
         <xsl:text>tei_app </xsl:text>
         <!-- create class based on rdg xml:id -->
         <xsl:text>var_</xsl:text>
@@ -619,11 +640,17 @@
       <xsl:for-each select="rdg[not(contains(@wit, 'UI_01'))]">
         <xsl:call-template name="rdg_builder"/>
       </xsl:for-each>
+        </xsl:otherwise>
+      </xsl:choose>
     </div>
   </xsl:template>
 
   <xsl:template match="rdg" mode="inline">
-    <span>
+    <xsl:choose>
+      <!--EMERSON/REVIEWS-->
+      <xsl:when test="contains(@xml:id, 'pt_0') and ancestor::TEI[@xml:id='ppp.00271']"/>
+      <!--/EMERSON/REVIEWS-->
+      <xsl:otherwise><span>
       <xsl:attribute name="class">
         <xsl:text>variant_text_click </xsl:text>
         <xsl:choose>
@@ -641,12 +668,10 @@
       <xsl:apply-templates/>
       <!-- todo: put choose back in after talking to Nikki -kmd -->
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
-       <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
-      <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>
       <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
       <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
-    </span>
+    </span></xsl:otherwise></xsl:choose>
   </xsl:template>
 
   <xsl:template match="pb">
