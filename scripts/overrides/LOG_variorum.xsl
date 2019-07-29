@@ -304,15 +304,11 @@
           </xsl:if>
         </xsl:attribute>
        <xsl:apply-templates/>
-       <xsl:if test="contains(@xml:id, 'gr_001')">
-         <xsl:text>[Frontispiece]</xsl:text>
-       </xsl:if>
-       <xsl:if test="
-         not(contains(@xml:id, 'gr_001')) and 
-         not(child::milestone) and 
-         normalize-space(.) = ''">
-         <xsl:text>[Blank]</xsl:text>
-       </xsl:if>
+        <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
         <xsl:if test="following-sibling::note[contains(@target, $varID)]">
           <span class="variant_note">
