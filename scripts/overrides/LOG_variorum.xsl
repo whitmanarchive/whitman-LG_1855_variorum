@@ -37,10 +37,10 @@
       <body>
         <!-- set up document -->
         <div class="variorum_header">
-          <h1>1855 <em>Leaves of Grass</em> Variorum</h1>
+          <h1><a href="{$siteroot}" title="Home"><img style="width: 70px;" alt="The Walt Whitman Archive" src="{$siteroot}shared/WWA_logo.gif" /></a><em>Leaves of Grass</em> (1855) Variorum</h1>
           <div class="v_header_options"> 
             <a href="variorum/index.html">Table of Contents</a>
-            <xsl:if test="not(/TEI[@xml:id='ppp.00271'])"><a href="variorum.html">Variorum</a></xsl:if>
+            <xsl:if test="not(/TEI[@xml:id='ppp.00271'])"><a href="variorum.html">Main Text</a></xsl:if>
             <xsl:if test="not(/TEI[@xml:id='ppp.01878'])"><a href="emerson.html">Ralph Waldo Emerson Letter</a></xsl:if>
             <xsl:if test="not(/TEI[@xml:id='ppp.01879'])"><a href="reviews.html">Reviews and Advertisements</a></xsl:if>
             <span class="v_show_hide">
