@@ -44,6 +44,9 @@
         <xsl:when test="descendant::add[@place = 'interlinear']">
           <xsl:apply-templates mode="mss"/>
         </xsl:when>
+        <xsl:when test="ancestor::del[@rend='overstrike']">
+          <xsl:apply-templates mode="mss"/>
+        </xsl:when>
         <xsl:otherwise>
           <span class="overstrike">
             <xsl:apply-templates mode="mss"/>
@@ -88,7 +91,7 @@
         <xsl:choose>
           <xsl:when test="parent::del[@rend='overstrike']">
             <span class="noline">
-              <span class="supralinear overstrike">
+            <span class="supralinear overstrike">
               <xsl:apply-templates mode="mss"/>
             </span>
             </span>
