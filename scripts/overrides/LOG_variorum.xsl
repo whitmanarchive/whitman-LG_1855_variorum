@@ -174,7 +174,7 @@
                     <xsl:variable name="grandparentEl" select="$nbFile//*[child::*[child::*[@xml:id=$msID]]]"/>
                     <xsl:choose>
                       <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
-                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/></span>
+                        <span class="overstrike"><xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/></span>
                       </xsl:when>
                       <xsl:otherwise>
                     <xsl:apply-templates mode="mss" select="$nbFile//*[@xml:id = $msID]"/>
@@ -188,7 +188,7 @@
                     <xsl:variable name="grandparentEl" select="$otherFile//*[child::*[child::*[@xml:id=$msID]]]"/>
                     <xsl:choose>
                       <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
-                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/></span>
+                        <span class="overstrike"><xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/></span>
                       </xsl:when>
                       <xsl:otherwise>
                     <xsl:apply-templates mode="mss" select="$otherFile//*[@xml:id = $msID]"/>
@@ -201,7 +201,7 @@
                     <xsl:variable name="grandparentEl" select="$msFile//*[child::*[child::*[@xml:id=$msID]]]"/>
                     <xsl:choose>
                       <xsl:when test="$parentEl/@rend='overstrike' or $grandparentEl/@rend='overstrike'">
-                        <span class="overstrike" style="color:red;"><xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/></span>
+                        <span class="overstrike"><xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/></span>
                       </xsl:when>
                       <xsl:otherwise>
                         <xsl:apply-templates mode="mss" select="$msFile//*[@xml:id = $msID]"/>
@@ -366,7 +366,7 @@
       <span class="variant_open_all">
         <!-- toggle tei_rdg_wit visibility -->
         <button class="open_all_rdg open_all_closed">
-          <span>Show</span> list of all copies ( <xsl:value-of select="count($wits)"/> )
+          <span>Show</span> list of copies ( <xsl:value-of select="count($wits)"/> )
         </button>
         <!-- link out to bibliography -->
         <a target="_blank" rel="nofollow noreferrer">
@@ -382,7 +382,7 @@
               </xsl:if>
             </xsl:for-each>
           </xsl:attribute>
-          <xsl:text>Open all copies in bibliography (new window)</xsl:text>
+          <xsl:text>Open copies in bibliography (new window)</xsl:text>
         </a>
         
       </span>
