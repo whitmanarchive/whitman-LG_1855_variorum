@@ -308,10 +308,8 @@
         </xsl:attribute>
        <xsl:apply-templates/>
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
-       <!--EMERSON/REVIEWS-->
         <!-- <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
         <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>-->
-        <!--EMERSON/REVIEWS-->
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
         <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
@@ -610,7 +608,6 @@
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div>
       <xsl:choose>
-        <!--EMERSON/REVIEWS-->
         <xsl:when test="@type='paratext' and ancestor::TEI[@xml:id='ppp.00271']">
           <xsl:if test="descendant::ref/@target = '#ppp.01878.xml'">
             <span class="inline_tei_rdg_binding"><a target="_blank">
@@ -623,7 +620,6 @@
           [Reviews and advertisements]</a></span>
           </xsl:if>
         </xsl:when>
-        <!--/EMERSON/REVIEWS-->
         <xsl:otherwise>
           <xsl:attribute name="class">
         <xsl:text>tei_app </xsl:text>
@@ -647,9 +643,7 @@
 
   <xsl:template match="rdg" mode="inline">
     <xsl:choose>
-      <!--EMERSON/REVIEWS-->
       <xsl:when test="contains(@xml:id, 'pt_0') and ancestor::TEI[@xml:id='ppp.00271']"/>
-      <!--/EMERSON/REVIEWS-->
       <xsl:otherwise><span>
       <xsl:attribute name="class">
         <xsl:text>variant_text_click </xsl:text>
@@ -716,6 +710,15 @@
 
   <xsl:template match="div1[@type='review']">
     <div class="review">
+      <span><xsl:if test="descendant::work[@ref='xxx.00798']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">[View Periodical Version]</a><br/>
+        <a href="LINK">Compare to Periodical Version</a></xsl:if>
+      <xsl:if test="descendant::work[@ref='xxx.00892']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">[View Periodical Version]</a><br/>
+        <a href="http://juxtacommons.org/shares/kROFEh">[Compare to Periodical Version]</a></xsl:if>
+      <xsl:if test="descendant::work[@ref='xxx.00893']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">[View Periodical Version]</a><br/>
+        <a href="http://juxtacommons.org/shares/15Fhp9">[Compare to Periodical Version]</a></xsl:if></span>
       <xsl:apply-templates/>
     </div>
   </xsl:template>
