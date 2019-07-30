@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/leaves_of_grass.json",
   "@type": "sc:Manifest",
-  "label": "Leaves of Grass 1855 First Edition",
+  "label": "Leaves of Grass (1855)",
   "attribution": "University of Iowa Libraries, Special Collections &amp; University Archives",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",

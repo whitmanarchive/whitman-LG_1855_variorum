@@ -13,7 +13,7 @@ module ManifestLog
 
     manifest = IIIF::Presentation::Manifest.new({
       "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/leaves_of_grass.json",
-      "label" => "Leaves of Grass 1855 First Edition",
+      "label" => "Leaves of Grass (1855)",
       #"description" => [
       #  "@value" => "This is a description",
       #  "@language" => "en"
