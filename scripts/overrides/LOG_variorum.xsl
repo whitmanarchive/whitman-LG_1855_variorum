@@ -119,6 +119,7 @@
                 <xsl:text>certainty_</xsl:text>
                 <xsl:value-of select="$cert"/>
               </xsl:attribute>
+              <!-- document column -->
               <td class="relation_document">
                 <xsl:choose>
                   <xsl:when test="not(contains($precedingTargets,concat($uri_line_id,' ')))">
@@ -145,6 +146,7 @@
                   <xsl:otherwise/>
                 </xsl:choose>
               </td>
+              <!-- location column -->
               <td class="relation_location">
                 <a target="_blank" rel="nofollow noreferrer">
                   <xsl:choose>
@@ -166,9 +168,11 @@
                   <xsl:value-of select="concat('#',$msID)"/>
                 </a>
               </td>
+              <!-- certainty column -->
               <td class="relation_text">
                 <xsl:value-of select="$cert"/>
               </td>
+              <!-- text column -->
               <td class="relation_text">
                 <xsl:choose>
                   <xsl:when test="doc-available($nbPath)">
@@ -281,6 +285,14 @@
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <xsl:if test="contains(@wit,'UI_01')">
+      <span>
+        <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
+        Scroll to Previous Variant
+      </span>
+      <span>
+        <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
+        Scroll to Next Variant
+      </span>
       <span class="variant_viewer_link">
         <a target="_blank">
           <xsl:attribute name="href">
@@ -646,7 +658,9 @@
       <xsl:when test="contains(@xml:id, 'pt_0') and ancestor::TEI[@xml:id='ppp.00271']"/>
       <xsl:otherwise><span>
       <xsl:attribute name="class">
-        <xsl:text>variant_text_click </xsl:text>
+        <xsl:text>variant_text_expand variant_text_click </xsl:text>
+        <!-- TODO JESS -->
+        <!-- <xsl:value-of select="concat('variant_id_', @xml:id, ' ')"/> -->
         <xsl:choose>
           <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift</xsl:text></xsl:when>
           <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
