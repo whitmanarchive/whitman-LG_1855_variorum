@@ -51,6 +51,31 @@
     <text>
     <body>
         <ab>
+            <linkGrp type="relation" corresp="yal.00081.xml">
+                <link cert="low" target="ppp.00271_var.xml#l828 #l40"/>
+                <link cert="low" target="ppp.00271_var.xml#l936 #l41"/>
+                <link cert="low" target="ppp.00271_var.xml#seg11 #l42"/>
+                <link cert="low" target="ppp.00271_var.xml#l827 #l43"/>
+                <link cert="low" target="ppp.00271_var.xml#l828 #l43"/>
+                <link cert="low" target="ppp.00271_var.xml#l1607 #l56"/>
+                <link cert="low" target="ppp.00271_var.xml#l1608 #l56"/>
+                <link cert="low" target="ppp.00271_var.xml#l1612 #l57"/>
+                <link cert="low" target="ppp.00271_var.xml#l1774 #l64"/>
+                <link cert="low" target="ppp.00271_var.xml#l1774 #l65"/>
+                <link cert="low" target="ppp.00271_var.xml#l729 #l72"/>
+                <link cert="low" target="ppp.00271_var.xml#l257 #l74"/>
+                <link cert="low" target="ppp.00271_var.xml#l212 #l74"/>
+                <link cert="low" target="ppp.00271_var.xml#l213 #l74"/>
+                <link cert="low" target="ppp.00271_var.xml#l216 #l74"/>
+                <link cert="low" target="ppp.00271_var.xml#l753 #l94"/>
+                <link cert="low" target="ppp.00271_var.xml#l498 #l100"/>
+                <link cert="low" target="ppp.00271_var.xml#pr28 #l118"/>
+                <link cert="low" target="ppp.00271_var.xml#pr28 #l119"/>
+                <link cert="low" target="ppp.00271_var.xml#pr147 #l123"/>
+                <link cert="low" target="ppp.00271_var.xml#l1398 #l123"/>
+                <link cert="low" target="ppp.00271_var.xml#pr147 #l124"/>
+                <link cert="low" target="ppp.00271_var.xml#l1398 #l124"/>
+            </linkGrp>
             <linkGrp type="relation" corresp="nyp.00019.xml">
                 <link cert="low" target="ppp.00271_var.xml#rev09 #ab01"/>
                 <link cert="low" target="ppp.00271_var.xml#rev10 #ab01"/>
