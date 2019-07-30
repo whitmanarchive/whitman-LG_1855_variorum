@@ -50,7 +50,16 @@
           </div>
           <xsl:call-template name="key"/>
         </div>
-        <div id="variorum_body">
+        <div>
+          <xsl:attribute name="id">
+            <xsl:text>variorum_body</xsl:text>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:choose>
+              <xsl:when test="/TEI/@xml:id = 'ppp.01879'">v_reviews</xsl:when>
+              <xsl:otherwise>v_main</xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
           <xsl:apply-templates select="/TEI/text/front"/>
           <xsl:apply-templates select="/TEI/text/body"/>
           <xsl:if test="/TEI/text/back">
@@ -557,22 +566,28 @@
 
   <!-- BEGIN: SEG -->
   <xsl:template match="//seg">
-    <xsl:call-template name="grid_builder">
-      <xsl:with-param name="corresp">
-        <xsl:call-template name="related_mss"/>
-      </xsl:with-param>
-      <xsl:with-param name="xmlid">
-      </xsl:with-param>
-      <xsl:with-param name="outer">
-        <xsl:apply-templates/>
-      </xsl:with-param>
-      <!--<xsl:with-param name="right">
-        &#160;
-      </xsl:with-param>-->
-      <xsl:with-param name="after">
-        <xsl:call-template name="corresp_table"/>
-      </xsl:with-param>
-    </xsl:call-template>
+    <!--<xsl:choose>
+      <xsl:when test="/TEI/@xml:id = 'ppp.01879'">
+        <class style="tei_seg"><xsl:apply-templates/></class>
+      </xsl:when>
+      <xsl:otherwise>-->
+        <xsl:call-template name="grid_builder">
+          <xsl:with-param name="corresp">
+            <xsl:call-template name="related_mss"/>
+          </xsl:with-param>
+          <xsl:with-param name="xmlid">
+          </xsl:with-param>
+          <xsl:with-param name="outer">
+            <xsl:apply-templates/>
+          </xsl:with-param>
+          <xsl:with-param name="after">
+            <xsl:call-template name="corresp_table"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      <!--</xsl:otherwise>
+    </xsl:choose>-->
+    
+    
   </xsl:template>
   <!-- END: SEG -->
 
