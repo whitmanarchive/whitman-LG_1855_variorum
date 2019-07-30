@@ -12,12 +12,12 @@ module ManifestLog
     # create a manifest with basic LoG stuff
 
     manifest = IIIF::Presentation::Manifest.new({
-      "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{options["environment"]}/manifests/leaves_of_grass.json",
+      "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/leaves_of_grass.json",
       "label" => "Leaves of Grass 1855 First Edition",
-      "description" => [
-        "@value" => "This is a description",
-        "@language" => "en"
-      ],
+      #"description" => [
+      #  "@value" => "This is a description",
+      #  "@language" => "en"
+      # ],
       # "license" => "some license information here",
       "attribution" => "University of Iowa Libraries, Special Collections &amp; University Archives",
       "viewingDirection" => "left-to-right",
