@@ -60,7 +60,7 @@
               <xsl:otherwise>v_main</xsl:otherwise>
             </xsl:choose>
           </xsl:attribute>
-          <xsl:apply-templates select="/TEI/text/front"/>
+          <div class="tei_front"><xsl:apply-templates select="/TEI/text/front"/></div>
           <xsl:apply-templates select="/TEI/text/body"/>
           <xsl:if test="/TEI/text/back">
             <xsl:apply-templates select="/TEI/text/back"/>
