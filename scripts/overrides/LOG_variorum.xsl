@@ -285,14 +285,14 @@
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <xsl:if test="contains(@wit,'UI_01')">
-      <span>
+      <button>
         <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
         Scroll to Previous Variant
-      </span>
-      <span>
+      </button>
+      <button>
         <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
         Scroll to Next Variant
-      </span>
+      </button>
       <span class="variant_viewer_link">
         <a target="_blank">
           <xsl:attribute name="href">
