@@ -1,18 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/leaves_of_grass.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/leaves_of_grass.json",
   "@type": "sc:Manifest",
-  "label": "Leaves of Grass 1855 First Edition",
-  "description": [
-    {
-      "@value": "This is a description",
-      "@language": "en"
-    }
-  ],
-  "attribution": "Walt Whitman or other attribution",
+  "label": "Leaves of Grass (1855)",
+  "attribution": "University of Iowa Libraries, Special Collections &amp; University Archives",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
-  "logo": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.001.jpg/full/!150,150/0/default.jpg",
   "structures": [
     {
       "@id": "https://whitmanarchive.org/TODO/structure/front_cover",
@@ -20,14 +13,6 @@
       "label": "Front Cover",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.001.jpg-leaf001r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/emerson",
-      "@type": "sc:Canvas",
-      "label": "Emerson Letter",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.005.jpg-leaf002v"
       ]
     },
     {
@@ -65,7 +50,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log1",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [1] (\"Song of Myself\")",
+      "label": "Leaves of Grass [1]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.020.jpg-leaf010r"
       ]
@@ -73,7 +58,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log2",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [2] (\"A Song for Occupations\")",
+      "label": "Leaves of Grass [2]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.064.jpg-leaf032r"
       ]
@@ -81,7 +66,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log3",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [3], (\"To Think of Time\")",
+      "label": "Leaves of Grass [3]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.072.jpg-leaf036r"
       ]
@@ -89,7 +74,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log4",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [4], (\"The Sleepers\")",
+      "label": "Leaves of Grass [4]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.077.jpg-leaf038v"
       ]
@@ -97,7 +82,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log5",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [5], (\"I Sing the Body Electric\")",
+      "label": "Leaves of Grass [5]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.084.jpg-leaf042r"
       ]
@@ -105,7 +90,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/log6",
       "@type": "sc:Canvas",
-      "label": "Leaves of Grass [6], (\"Faces\")",
+      "label": "Leaves of Grass [6]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.089.jpg-leaf044v"
       ]
@@ -113,7 +98,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled1",
       "@type": "sc:Canvas",
-      "label": "Untitled [1], (\"Song of the Answerer\")",
+      "label": "Untitled [1]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.092.jpg-leaf046r"
       ]
@@ -121,7 +106,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled2",
       "@type": "sc:Canvas",
-      "label": "Untitled [2], (\"Europe, The 72d and 73d Years of these States\")",
+      "label": "Untitled [2]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.094.jpg-leaf047r"
       ]
@@ -129,7 +114,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled3",
       "@type": "sc:Canvas",
-      "label": "Untitled [3], (\"A Boston Ballad\")",
+      "label": "Untitled [3]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.096.jpg-leaf048r"
       ]
@@ -137,7 +122,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled4",
       "@type": "sc:Canvas",
-      "label": "Untitled [4], (\"There Was a Child Went Forth\")",
+      "label": "Untitled [4]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.097.jpg-leaf048v"
       ]
@@ -145,7 +130,7 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled5",
       "@type": "sc:Canvas",
-      "label": "Untitled [5], (\"Who Learns My Lesson Complete\")",
+      "label": "Untitled [5]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.099.jpg-leaf049v"
       ]
@@ -153,73 +138,17 @@
     {
       "@id": "https://whitmanarchive.org/TODO/structure/untitled6",
       "@type": "sc:Canvas",
-      "label": "Untitled [6], (\"Youth, Day, Old Age and Night\")",
+      "label": "Untitled [6]",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.100.jpg-leaf050r"
       ]
     },
     {
-      "@id": "https://whitmanarchive.org/TODO/structure/review1",
+      "@id": "https://whitmanarchive.org/TODO/structure/back_cover",
       "@type": "sc:Canvas",
-      "label": "Review [1]",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf053r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/ww1",
-      "@type": "sc:Canvas",
-      "label": "\"Walt Whitman, A Brooklyn Boy\"",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.106.jpg-leaf053r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/ww2",
-      "@type": "sc:Canvas",
-      "label": "\"Walt Whitman and His Poems\"",
+      "label": "Back Cover",
       "canvases": [
         "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf053v"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/review2",
-      "@type": "sc:Canvas",
-      "label": "Review [2]",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf054v"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/review3",
-      "@type": "sc:Canvas",
-      "label": "Review [3]",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf055r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/ww3",
-      "@type": "sc:Canvas",
-      "label": "\"An English and an American Poet\"",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf055r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/ww4",
-      "@type": "sc:Canvas",
-      "label": "\"Have Great Poets Become Impossible\"",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf056r"
-      ]
-    },
-    {
-      "@id": "https://whitmanarchive.org/TODO/structure/ww5",
-      "@type": "sc:Canvas",
-      "label": "\"Extracts from Letters and Reviews\"",
-      "canvases": [
-        "https://whitmanarchive.org/TODO/ppp.00271.107.jpg-leaf056v"
       ]
     }
   ],
@@ -371,7 +300,7 @@
         {
           "@id": "https://whitmanarchive.org/TODO/ppp.00271.007.jpg-leaf003v",
           "@type": "sc:Canvas",
-          "label": "Frontispiece leafb leaf003v",
+          "label": "Frontispiece leaf leaf003v",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.007.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
