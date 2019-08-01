@@ -16,11 +16,6 @@
     <xsl:text>published%2FLG%2Ffigures</xsl:text>
   </xsl:variable>
 
-  <!-- Datura scripts, for comparison -->
-  <!--<xsl:import href="../.xslt-datura/tei_to_html/lib/formatting.xsl"/>
-  <xsl:import href="../.xslt-datura/tei_to_html/lib/personography_encyclopedia.xsl"/>
-  <xsl:import href="../.xslt-datura/tei_to_html/lib/cdrh.xsl"/>-->
-
   <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
 
   <!-- variables -->
@@ -29,36 +24,28 @@
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
-        <title>Walt Whitman Archive - Published Works - Books by Whitman - Leaves of Grass</title>
-      </head>
-
-      <body>
-        <!-- set up document -->
-        <div class="variorum_header">
-          <h1><!--<a href="{$siteroot}" title="Home"><img alt="The Walt Whitman Archive" src="{$siteroot}shared/h1_bg.jpg" /></a>--><a href="{$siteroot}" title="Home"><img style="width: 70px;" alt="The Walt Whitman Archive" src="{$siteroot}shared/WWA_logo.gif" /></a><em>Leaves of Grass</em> (1855) Variorum</h1>
-          <div class="v_header_options"> 
-            <a href="variorum/index.html">Table of Contents</a>
-            <xsl:if test="not(/TEI[@xml:id='ppp.00271'])"><a href="variorum.html">Main Text</a></xsl:if>
-            <xsl:if test="not(/TEI[@xml:id='ppp.01878'])"><a href="emerson.html">Ralph Waldo Emerson Letter</a></xsl:if>
-            <xsl:if test="not(/TEI[@xml:id='ppp.01879'])"><a href="reviews.html">Reviews and Advertisements</a></xsl:if>
-            <span class="v_show_hide">
-            <button class="v_pin_key">pin key</button>
-            <button class="v_show_key">show key</button>
-            </span>
-          </div>
-          <xsl:call-template name="key"/>
-        </div>
-        <div id="variorum_body">
-          <xsl:apply-templates select="/TEI/text/front"/>
-          <xsl:apply-templates select="/TEI/text/body"/>
-          <xsl:if test="/TEI/text/back">
-            <xsl:apply-templates select="/TEI/text/back"/>
-          </xsl:if>
-        </div>
-      </body>
-    </html>
+    <!-- the variroum header is being applied in LOG_wrapper_variorum.xsl in cocoon/whitmanarchive/xslt -->
+    <div>
+      <div class="variorum_key">
+        <xsl:call-template name="key"/>
+      </div>
+      <div>
+        <xsl:attribute name="id">
+          <xsl:text>variorum_body</xsl:text>
+        </xsl:attribute>
+        <xsl:attribute name="class">
+          <xsl:choose>
+            <xsl:when test="/TEI/@xml:id = 'ppp.01879'">v_reviews</xsl:when>
+            <xsl:otherwise>v_main</xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute>
+        <div class="tei_front"><xsl:apply-templates select="/TEI/text/front"/></div>
+        <xsl:apply-templates select="/TEI/text/body"/>
+        <xsl:if test="/TEI/text/back">
+          <xsl:apply-templates select="/TEI/text/back"/>
+        </xsl:if>
+      </div>
+     </div>
   </xsl:template>
   <!-- END: OUTPUT -->
 
@@ -569,22 +556,28 @@
 
   <!-- BEGIN: SEG -->
   <xsl:template match="//seg">
-    <xsl:call-template name="grid_builder">
-      <xsl:with-param name="corresp">
-        <xsl:call-template name="related_mss"/>
-      </xsl:with-param>
-      <xsl:with-param name="xmlid">
-      </xsl:with-param>
-      <xsl:with-param name="outer">
-        <xsl:apply-templates/>
-      </xsl:with-param>
-      <!--<xsl:with-param name="right">
-        &#160;
-      </xsl:with-param>-->
-      <xsl:with-param name="after">
-        <xsl:call-template name="corresp_table"/>
-      </xsl:with-param>
-    </xsl:call-template>
+    <!--<xsl:choose>
+      <xsl:when test="/TEI/@xml:id = 'ppp.01879'">
+        <class style="tei_seg"><xsl:apply-templates/></class>
+      </xsl:when>
+      <xsl:otherwise>-->
+        <xsl:call-template name="grid_builder">
+          <xsl:with-param name="corresp">
+            <xsl:call-template name="related_mss"/>
+          </xsl:with-param>
+          <xsl:with-param name="xmlid">
+          </xsl:with-param>
+          <xsl:with-param name="outer">
+            <xsl:apply-templates/>
+          </xsl:with-param>
+          <xsl:with-param name="after">
+            <xsl:call-template name="corresp_table"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      <!--</xsl:otherwise>
+    </xsl:choose>-->
+    
+    
   </xsl:template>
   <!-- END: SEG -->
 
