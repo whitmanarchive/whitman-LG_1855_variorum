@@ -307,7 +307,6 @@
         </xsl:attribute>
        <xsl:apply-templates/>
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
-         <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Ralph Waldo Emerson letter]</xsl:text></xsl:if>
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
         <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
