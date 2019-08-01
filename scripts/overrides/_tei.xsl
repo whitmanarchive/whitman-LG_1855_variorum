@@ -637,12 +637,11 @@
   <!-- end notes -->
 
   <!-- begin ref -->
-  <xsl:template match="//body//ref">
-    <span>
-      <sup>
+  <xsl:template match="//ref">
+    <a target="_blank">
+      <xsl:attribute name="href" select="@target"/>
         <xsl:value-of select="."/>
-      </sup>
-    </span>
+    </a>
   </xsl:template>
 
   <!-- end ref -->
@@ -805,6 +804,11 @@
     </xsl:choose>
   </xsl:template>
 
+<!--CHOICE-->
+  
+  <xsl:template match="//expan"/>
+  <xsl:template match="//corr"/>
+  <xsl:template match="//reg"/>
 
 
   <!-- BEGIN: TABLE OF CONTENTS -->
