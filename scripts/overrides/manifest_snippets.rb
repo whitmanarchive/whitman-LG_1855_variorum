@@ -81,10 +81,10 @@ module ManifestSnippets
           "@language" => "en"
         ],
         # "license" => "some license information here",
-        "attribution" => "Walt Whitman or other attribution",
+        "attribution" => "Walt Whitman Archive",
         "viewingDirection" => "left-to-right",
         "viewingHint" => "paged",
-        "logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
+        #"logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
       })
 
       # still has to be a sequence even for one image
