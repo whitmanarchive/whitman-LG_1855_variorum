@@ -274,11 +274,11 @@
     <xsl:if test="contains(@wit,'UI_01')">
       <button>
         <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Scroll to Previous Variant
+        Go to Previous
       </button>
       <button>
         <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Scroll to Next Variant
+        Go to Next
       </button>
       <span class="variant_viewer_link">
         <a target="_blank">
@@ -331,12 +331,13 @@
                     <xsl:when test="contains(@facs,'_cropped')">
                       <xsl:value-of select="substring-before(@facs,'_cropped')"/></xsl:when>
                     <xsl:otherwise>
-                      <xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>
+                      <!--<xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>-->
+                      <xsl:value-of select="@facs"/></xsl:otherwise>
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:call-template name="url_builder">
                   <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-                  <xsl:with-param name="image_size_local" select="full"/>
+                  <xsl:with-param name="image_size_local" select="800"/>
                   <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
                 </xsl:call-template>
               </xsl:attribute>
@@ -622,7 +623,7 @@
           <xsl:if test="descendant::ref/@target = '#ppp.01879.xml'">
             <span class="inline_tei_rdg_binding"><a target="_blank">
             <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/reviews.html</xsl:attribute>
-          [Reviews and advertisements]</a></span>
+          [Reviews and extracts]</a></span>
           </xsl:if>
         </xsl:when>
         <xsl:otherwise>
