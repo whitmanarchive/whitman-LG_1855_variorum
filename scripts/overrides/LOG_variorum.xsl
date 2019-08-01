@@ -272,15 +272,18 @@
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <xsl:if test="contains(@wit,'UI_01')">
+      <!--<xsl:if test="not(@xml:id='bd_0010a')">-->
       <button>
         <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
         Go to Previous
       </button>
-      <button>
+    <!--</xsl:if>-->
+      <!--<xsl:if test="not(@xml:id='bd_0100a')">--><button>
         <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
         Go to Next
       </button>
-      <span class="variant_viewer_link">
+    <!--</xsl:if>-->
+      <xsl:if test="not(@xml:id='pt_0020a')"><span class="variant_viewer_link">
         <a target="_blank">
           <xsl:attribute name="href">
             <xsl:value-of select="$siteroot"/>
@@ -289,7 +292,7 @@
           </xsl:attribute>
           <span class="variant_viewer_view">View side-by-side images (new window)</span>
         </a>
-      </span>
+      </span></xsl:if>
     </xsl:if>
     <div class="tei_rdg">
       <xsl:variable name="varID" select="@xml:id"/>
@@ -305,10 +308,12 @@
             <xsl:text> variant_text_indicator</xsl:text>
           </xsl:if>
         </xsl:attribute>
-       <xsl:apply-templates/>
+        <!--added this class to span for now to align-left; need to adjust this b/c it is not working -NHG-->
+       <span class="tei_l_review"><xsl:apply-templates/></span>
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'pt_0020b')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
-        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(contains(@xml:id,'pt_0020b')) and not(contains(@xml:id,'pt_0010b')) and not(contains(@xml:id,'pt_0010a')) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
         <xsl:if test="following-sibling::note[contains(@target, $varID)]">
           <span class="variant_note">
@@ -611,21 +616,6 @@
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div>
-      <xsl:choose>
-       <!-- <xsl:when test="@type='paratext' and ancestor::TEI[@xml:id='ppp.00271']">-->
-        <xsl:when test="@type='paratext' and descendant::ref/@target = '#ppp.01879.xml'">
-<!--          <xsl:if test="descendant::ref/@target = '#ppp.01878.xml'">
-            <span class="inline_tei_rdg_binding"><a target="_blank">
-            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/emerson.html</xsl:attribute>
-          [Ralph Waldo Emerson letter]</a></span>
-          </xsl:if>-->
-          <!--<xsl:if test="descendant::ref/@target = '#ppp.01879.xml'">-->
-            <span class="inline_tei_rdg_binding"><a target="_blank">
-            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/reviews.html</xsl:attribute>
-          [Reviews and extracts]</a></span>
-          <!--</xsl:if>-->
-        </xsl:when>
-        <xsl:otherwise>
           <xsl:attribute name="class">
         <xsl:text>tei_app </xsl:text>
         <!-- create class based on rdg xml:id -->
@@ -641,15 +631,11 @@
       <xsl:for-each select="rdg[not(contains(@wit, 'UI_01'))]">
         <xsl:call-template name="rdg_builder"/>
       </xsl:for-each>
-        </xsl:otherwise>
-      </xsl:choose>
     </div>
   </xsl:template>
 
   <xsl:template match="rdg" mode="inline">
-    <xsl:choose>
-      <xsl:when test="contains(@xml:id, 'pt_0020') and ancestor::TEI[@xml:id='ppp.00271']"/>
-      <xsl:otherwise><span>
+    <span>
       <xsl:attribute name="class">
         <xsl:text>variant_text_expand variant_text_click </xsl:text>
         <!-- TODO JESS -->
@@ -671,9 +657,10 @@
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
       <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
         <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Ralph Waldo Emerson letter]</xsl:text></xsl:if>
+      <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
       <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
-    </span></xsl:otherwise></xsl:choose>
+    </span>
   </xsl:template>
 
   <xsl:template match="pb">
