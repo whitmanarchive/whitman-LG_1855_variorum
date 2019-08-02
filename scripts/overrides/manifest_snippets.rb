@@ -17,7 +17,7 @@ module ManifestSnippets
     if image_path && image_path != "Image pending"
       item_loc = image_path.gsub("/", "%2F")
     else
-      item_loc = "test.jpg"
+      item_loc = "whitman-fallback.jpg"
     end
     full_url = "#{@iiif_path}/#{item_loc}/#{@iiif_end}"
     thumb_url = "#{@iiif_path}/#{item_loc}/#{@iiif_thumb}"
