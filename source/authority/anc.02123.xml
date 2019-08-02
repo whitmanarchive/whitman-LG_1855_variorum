@@ -4231,7 +4231,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Embossing on the frontispiece is noted as a plate mark. Presentation copy signed by Whitman to Samuel Hollyer. 2 letters from Hollyer to Mr. Ford transferred from this copy to MA 5111. 1st? bound copy identifying Rome as printer.</p>
+<p>Purchased with the Laurens Maynard collection. Presentation copy signed by Whitman to Samuel Hollyer. Two letters from Hollyer to Mr. Ford and a printed advertisement for Hollyer's gallery, previously laid in, now cataloged separately. Plate signed by Hollyer.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4252,7 +4252,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName></provenance>
+  <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Maynard, Laurens">Laurens Maynard</persName>; <persName key="Morgan, John Pierpont">J. Pierpont Morgan</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4273,7 +4273,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p></p>
+<p>Bequest of Gordon N. Ray, 1987.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4294,7 +4294,7 @@
  <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+ <provenance><persName key="Ray, Gordon Norton">Gordon N. Ray</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4315,7 +4315,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>London label affixed to title page. Ownership inscription "Hodgson[?]"; bookplates of "Alfred M Kahn" and others.</p>
+  <p>Gift of Mrs. Charles W. Engelhard, 1980. London label affixed to title page. Ownership inscription "Hodgson[?]" on front free endpaper dated 1855. Bookplates of Alfred M. Kahn, E. Hubert Lichfield (armorial), and E.H.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4336,7 +4336,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Kahn, Alfred M.">Alfred M. Kahn</persName>; <persName key="Hodgson[?]">Hodgson[?]</persName></provenance>
+  <provenance><persName key="Kahn, Alfred M.">Alfred M. Kahn</persName>; <persName key="Hodgson[?]">Hodgson[?]</persName>; <persName key="Lichfield, Edward Hubert">E. Hubert Lichfield</persName>; <persName key="Englehard, Jane">Jane Englehard</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4357,7 +4357,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p></p>
+<p>Purchased with the Theodore Irwin collection, 1900.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4378,7 +4378,7 @@
  <bindingDesc><p>rebound</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+ <provenance><persName key="Irwin, Theodore">Theodore Irwin</persName>; <persName key="Morgan, John Pierpont">J. Pierpont Morgan</persName></provenance>
  </history>
  </msDesc>
  </witness>
