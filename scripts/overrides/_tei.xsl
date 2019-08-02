@@ -468,6 +468,7 @@
   <!-- added priority -->
   <xsl:template match="//corr"/>
   <xsl:template match="//reg"/>
+  <xsl:template match="//expan"/>
   <!-- END: ORIG/REG -->
 
 
@@ -805,11 +806,6 @@
   </xsl:template>
 
 <!--CHOICE-->
-  
-  <xsl:template match="//expan"/>
-  <xsl:template match="//corr"/>
-  <xsl:template match="//reg"/>
-
 
   <!-- BEGIN: TABLE OF CONTENTS -->
   <!-- Not sure if this is needed, commenting out for now -kmd -->
