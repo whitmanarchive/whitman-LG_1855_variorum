@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0020aa.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/bd_0020aa.json",
   "@type": "sc:Manifest",
   "label": "Marbled endpaper",
   "description": [
@@ -9,10 +9,9 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman or other attribution",
+  "attribution": "The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
-  "logo": "https://whitmanarchive.org/iiif/2ppp.00271.001.jpg/full/!150,150/0/default.jpg",
   "sequences": [
     {
       "@type": "sc:Sequence",

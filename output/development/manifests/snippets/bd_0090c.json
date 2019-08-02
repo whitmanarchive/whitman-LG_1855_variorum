@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/bd_0090c.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/bd_0090c.json",
   "@type": "sc:Manifest",
   "label": "State C binding",
   "description": [
@@ -9,10 +9,9 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman or other attribution",
+  "attribution": "Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
-  "logo": "https://whitmanarchive.org/iiif/2ppp.00271.001.jpg/full/!150,150/0/default.jpg",
   "sequences": [
     {
       "@type": "sc:Sequence",

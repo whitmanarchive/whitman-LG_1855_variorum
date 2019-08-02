@@ -17,7 +17,7 @@ module ManifestSnippets
     if image_path && image_path != "Image pending"
       item_loc = image_path.gsub("/", "%2F")
     else
-      item_loc = "test.jpg"
+      item_loc = "whitman-fallback.jpg"
     end
     full_url = "#{@iiif_path}/#{item_loc}/#{@iiif_end}"
     thumb_url = "#{@iiif_path}/#{item_loc}/#{@iiif_thumb}"
@@ -74,17 +74,17 @@ module ManifestSnippets
       # as a canvas in the manifest
 
       manifest = IIIF::Presentation::Manifest.new({
-        "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{options["environment"]}/manifests/snippets/#{id}.json",
+        "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/snippets/#{id}.json",
         "label" => row["File Label"],
         "description" => [
           "@value" => "#{row["File Label"]} (#{id})",
           "@language" => "en"
         ],
         # "license" => "some license information here",
-        "attribution" => "Walt Whitman or other attribution",
+        "attribution" => row["Repository"],
         "viewingDirection" => "left-to-right",
         "viewingHint" => "paged",
-        "logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
+        #"logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
       })
 
       # still has to be a sequence even for one image

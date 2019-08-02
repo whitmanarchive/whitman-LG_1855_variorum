@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0450a.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/vr_0450a.json",
   "@type": "sc:Manifest",
   "label": "\"Admitting\" in line",
   "description": [
@@ -9,10 +9,9 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman or other attribution",
+  "attribution": "University of Iowa Special Collections and University Archives",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
-  "logo": "https://whitmanarchive.org/iiif/2ppp.00271.001.jpg/full/!150,150/0/default.jpg",
   "sequences": [
     {
       "@type": "sc:Sequence",

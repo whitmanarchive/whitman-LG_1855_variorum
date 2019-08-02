@@ -474,6 +474,7 @@
   <!-- added priority -->
   <xsl:template match="//corr"/>
   <xsl:template match="//reg"/>
+  <xsl:template match="//expan"/>
   <!-- END: ORIG/REG -->
 
 
@@ -643,12 +644,11 @@
   <!-- end notes -->
 
   <!-- begin ref -->
-  <xsl:template match="//body//ref">
-    <span>
-      <sup>
+  <xsl:template match="//ref">
+    <a target="_blank">
+      <xsl:attribute name="href" select="@target"/>
         <xsl:value-of select="."/>
-      </sup>
-    </span>
+    </a>
   </xsl:template>
 
   <!-- end ref -->
@@ -811,7 +811,7 @@
     </xsl:choose>
   </xsl:template>
 
-
+<!--CHOICE-->
 
   <!-- BEGIN: TABLE OF CONTENTS -->
   <!-- Not sure if this is needed, commenting out for now -kmd -->
