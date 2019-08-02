@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0020b.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/vr_0020b.json",
   "@type": "sc:Manifest",
   "label": "Blank",
   "description": [
@@ -9,7 +9,7 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman Archive",
+  "attribution": "Williams College",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [

@@ -81,7 +81,7 @@ module ManifestSnippets
           "@language" => "en"
         ],
         # "license" => "some license information here",
-        "attribution" => row["Attribution"],
+        "attribution" => row["Repository"],
         "viewingDirection" => "left-to-right",
         "viewingHint" => "paged",
         #"logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"

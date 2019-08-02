@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0060b.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/vr_0060b.json",
   "@type": "sc:Manifest",
   "label": "\"nothing can\"",
   "description": [
@@ -9,7 +9,7 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman Archive",
+  "attribution": "Rare Book Collection, Wilson Special Collections Library, UNC-Chapel Hill",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [

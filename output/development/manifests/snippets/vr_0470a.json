@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://cdrhmedia.unl.edu/data/whitman-variorum/output/development/manifests/snippets/vr_0470a.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/manifests/snippets/vr_0470a.json",
   "@type": "sc:Manifest",
   "label": "wider spacing of \"politics, churches, newspapers\"",
   "description": [
@@ -9,7 +9,7 @@
       "@language": "en"
     }
   ],
-  "attribution": "Walt Whitman Archive",
+  "attribution": "University of Iowa Special Collections and University Archives",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
