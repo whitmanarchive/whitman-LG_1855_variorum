@@ -74,14 +74,14 @@ module ManifestSnippets
       # as a canvas in the manifest
 
       manifest = IIIF::Presentation::Manifest.new({
-        "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{options["environment"]}/manifests/snippets/#{id}.json",
+        "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/snippets/#{id}.json",
         "label" => row["File Label"],
         "description" => [
           "@value" => "#{row["File Label"]} (#{id})",
           "@language" => "en"
         ],
         # "license" => "some license information here",
-        "attribution" => "Walt Whitman Archive",
+        "attribution" => row["Attribution"],
         "viewingDirection" => "left-to-right",
         "viewingHint" => "paged",
         #"logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
