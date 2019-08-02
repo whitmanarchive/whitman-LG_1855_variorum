@@ -7,6 +7,12 @@
   <!-- Later we will want to combine this with whitman-scripts tei rules -->
   
   <!-- Poetry  -->
+  
+ <!-- <xsl:template match="p">
+    <p>
+      <xsl:apply-templates></xsl:apply-templates>
+    </p>
+  </xsl:template>-->
 
   <xsl:template match="//lg[@type = 'linegroup']">
     <xsl:choose>
@@ -533,7 +539,7 @@
       </xsl:when>
       <xsl:otherwise>
         <br/>
-        <span>
+        <span class="paragraph">
           <xsl:apply-templates/>
         </span>
       </xsl:otherwise>
