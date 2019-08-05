@@ -42,7 +42,7 @@ class Datura::DataManager
       # this deduplicates anything that's an exact match
       files = files.uniq
       files = select_highest_certainty_file(files)
-      files = files.sort_by { |file| file[:id] }
+      files = files.sort_by { |file| [ file[:certainty], file[:id] ] }
       @work_ids[work] = files
     end
 
