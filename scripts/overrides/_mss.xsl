@@ -89,7 +89,7 @@
       </xsl:when>
       <xsl:when test="@place = 'supralinear'">
         <xsl:choose>
-          <xsl:when test="parent::del[@rend='overstrike']">
+          <xsl:when test="ancestor::del[@rend='overstrike']">
             <span class="noline">
             <span class="supralinear overstrike">
               <xsl:apply-templates mode="mss"/>
