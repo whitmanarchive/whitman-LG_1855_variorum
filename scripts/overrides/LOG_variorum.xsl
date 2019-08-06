@@ -666,7 +666,8 @@
         <xsl:variable name="length" select="string-length(@xml:id)"/>
         <xsl:value-of select="substring(@xml:id, 1, $length - 1)"/>
       </xsl:attribute>
-      <xsl:apply-templates/>
+      <xsl:attribute name="id" select="@xml:id"/>
+        <xsl:if test="not(contains(@xml:id, 'pt_0010'))"><xsl:apply-templates/></xsl:if>
       <!-- todo: put choose back in after talking to Nikki -kmd -->
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
       <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
