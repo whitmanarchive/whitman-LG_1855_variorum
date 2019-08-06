@@ -156,7 +156,7 @@
                 </a>
               </td>
               <!-- certainty column -->
-              <td class="relation_text">
+              <td class="relation_certainty">
                 <xsl:value-of select="$cert"/>
               </td>
               <!-- text column -->
@@ -275,12 +275,12 @@
       <!--<xsl:if test="not(@xml:id='bd_0010a')">-->
       <button>
         <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Go to Previous
+        <xsl:text>Scroll to Previous Variant</xsl:text>
       </button>
     <!--</xsl:if>-->
       <!--<xsl:if test="not(@xml:id='bd_0100a')">--><button>
         <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Go to Next
+        <xsl:text>Scroll to Next Variant</xsl:text>
       </button>
     <!--</xsl:if>-->
       <xsl:if test="not(@xml:id='pt_0020a')"><span class="variant_viewer_link">
