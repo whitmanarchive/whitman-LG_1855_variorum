@@ -156,7 +156,7 @@
                 </a>
               </td>
               <!-- certainty column -->
-              <td class="relation_text">
+              <td class="relation_certainty">
                 <xsl:value-of select="$cert"/>
               </td>
               <!-- text column -->
@@ -272,18 +272,15 @@
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <xsl:if test="contains(@wit,'UI_01')">
-      <!--<xsl:if test="not(@xml:id='bd_0010a')">-->
       <button>
         <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Go to Previous
+        Scroll to Previous Variant
       </button>
-    <!--</xsl:if>-->
-      <!--<xsl:if test="not(@xml:id='bd_0100a')">--><button>
+      <button>
         <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
-        Go to Next
+        Scroll to Next Variant
       </button>
-    <!--</xsl:if>-->
-      <xsl:if test="not(@xml:id='pt_0020a')"><span class="variant_viewer_link">
+      <span class="variant_viewer_link">
         <a target="_blank">
           <xsl:attribute name="href">
             <xsl:value-of select="$siteroot"/>
@@ -292,7 +289,7 @@
           </xsl:attribute>
           <span class="variant_viewer_view">View side-by-side images (new window)</span>
         </a>
-      </span></xsl:if>
+      </span>
     </xsl:if>
     <div class="tei_rdg">
       <xsl:variable name="varID" select="@xml:id"/>
@@ -308,12 +305,12 @@
             <xsl:text> variant_text_indicator</xsl:text>
           </xsl:if>
         </xsl:attribute>
-        <!--added this class to span for now to align-left; need to adjust this b/c it is not working -NHG-->
-       <span class="tei_l_review"><xsl:apply-templates/></span>
+       <xsl:apply-templates/>
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
-        <xsl:if test="contains(@xml:id, 'pt_0020b')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
+        <!-- <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Emerson letter]</xsl:text></xsl:if>
+        <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and advertisements]</xsl:text></xsl:if>-->
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
-        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(contains(@xml:id,'pt_0020b')) and not(contains(@xml:id,'pt_0010b')) and not(contains(@xml:id,'pt_0010a')) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
         <xsl:if test="following-sibling::note[contains(@target, $varID)]">
           <span class="variant_note">
@@ -334,13 +331,12 @@
                     <xsl:when test="contains(@facs,'_cropped')">
                       <xsl:value-of select="substring-before(@facs,'_cropped')"/></xsl:when>
                     <xsl:otherwise>
-                      <!--<xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>-->
-                      <xsl:value-of select="@facs"/></xsl:otherwise>
+                      <xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>
                   </xsl:choose>
                 </xsl:variable>
                 <xsl:call-template name="url_builder">
                   <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-                  <xsl:with-param name="image_size_local" select="800"/>
+                  <xsl:with-param name="image_size_local" select="full"/>
                   <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
                 </xsl:call-template>
               </xsl:attribute>
@@ -616,6 +612,20 @@
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div>
+      <xsl:choose>
+        <xsl:when test="@type='paratext' and ancestor::TEI[@xml:id='ppp.00271']">
+          <xsl:if test="descendant::ref/@target = '#ppp.01878.xml'">
+            <span class="inline_tei_rdg_binding"><a target="_blank">
+            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/emerson.html</xsl:attribute>
+          [Ralph Waldo Emerson letter]</a></span>
+          </xsl:if>
+          <xsl:if test="descendant::ref/@target = '#ppp.01879.xml'">
+            <span class="inline_tei_rdg_binding"><a target="_blank">
+            <xsl:attribute name="href"><xsl:value-of select="$siteroot"/>/published/LG/1855/reviews.html</xsl:attribute>
+          [Reviews and advertisements]</a></span>
+          </xsl:if>
+        </xsl:when>
+        <xsl:otherwise>
           <xsl:attribute name="class">
         <xsl:text>tei_app </xsl:text>
         <!-- create class based on rdg xml:id -->
@@ -631,11 +641,15 @@
       <xsl:for-each select="rdg[not(contains(@wit, 'UI_01'))]">
         <xsl:call-template name="rdg_builder"/>
       </xsl:for-each>
+        </xsl:otherwise>
+      </xsl:choose>
     </div>
   </xsl:template>
 
   <xsl:template match="rdg" mode="inline">
-    <span>
+    <xsl:choose>
+      <xsl:when test="contains(@xml:id, 'pt_0') and ancestor::TEI[@xml:id='ppp.00271']"/>
+      <xsl:otherwise><span>
       <xsl:attribute name="class">
         <xsl:text>variant_text_expand variant_text_click </xsl:text>
         <!-- TODO JESS -->
@@ -652,15 +666,13 @@
         <xsl:variable name="length" select="string-length(@xml:id)"/>
         <xsl:value-of select="substring(@xml:id, 1, $length - 1)"/>
       </xsl:attribute>
-        <xsl:if test="not(contains(@xml:id, 'pt_0010'))"><xsl:apply-templates/></xsl:if>
+      <xsl:apply-templates/>
       <!-- todo: put choose back in after talking to Nikki -kmd -->
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
       <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
-        <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Ralph Waldo Emerson letter]</xsl:text></xsl:if>
-      <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
       <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
-    </span>
+    </span></xsl:otherwise></xsl:choose>
   </xsl:template>
 
   <xsl:template match="pb">
@@ -704,18 +716,16 @@
   </xsl:template>
 
   <xsl:template match="div1[@type='review']">
-      <div class="tei_div_preface">
-      <xsl:if test="descendant::work[@ref='xxx.00798']"><div class="mss_links">
-        <a target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
-        <a target="_blank" href="LINK">Compare to Periodical Version</a></div></xsl:if>
-      <xsl:if test="descendant::work[@ref='xxx.00892']"><div class="mss_links">
-        <a target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">View Periodical Version</a><br/>
-        <a target="_blank" href="http://juxtacommons.org/shares/kROFEh">Compare to Periodical Version</a></div></xsl:if>
-      <xsl:if test="descendant::work[@ref='xxx.00893']"><div class="mss_links">
-        <a target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">View Periodical Version</a><br/>
-        <a target="_blank" href="http://juxtacommons.org/shares/15Fhp9">Compare to Periodical Version</a></div></xsl:if>
-      </div>
     <div class="review">
+      <span><xsl:if test="descendant::work[@ref='xxx.00798']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">[View Periodical Version]</a><br/>
+        <a href="LINK">Compare to Periodical Version</a></xsl:if>
+      <xsl:if test="descendant::work[@ref='xxx.00892']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">[View Periodical Version]</a><br/>
+        <a href="http://juxtacommons.org/shares/kROFEh">[Compare to Periodical Version]</a></xsl:if>
+      <xsl:if test="descendant::work[@ref='xxx.00893']">
+        <a href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">[View Periodical Version]</a><br/>
+        <a href="http://juxtacommons.org/shares/15Fhp9">[Compare to Periodical Version]</a></xsl:if></span>
       <xsl:apply-templates/>
     </div>
   </xsl:template>
