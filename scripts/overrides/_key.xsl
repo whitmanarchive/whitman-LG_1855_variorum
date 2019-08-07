@@ -15,9 +15,9 @@
           <xsl:otherwise>
             <div class="v_printed_text_key">
               <h2>Printed Copy Variations</h2>
-              <span class="inline_tei_rdg">Textual and Graphical Variants</span><br/>
-              <span class="inline_tei_rdg_binding">Bindings and Insertions</span><br/>
-              <span class="inline_tei_rdg_drift">Spatial Variants (Drifts)</span>
+              <span class="inline_tei_rdg_display">Textual and Graphical Variants</span><br/>
+              <span class="inline_tei_rdg_binding_display">Bindings and Insertions</span><br/>
+              <span class="inline_tei_rdg_drift_display">Spatial Variants (Drifts)</span>
               <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process.</p>
             </div>
           </xsl:otherwise>
@@ -52,8 +52,7 @@
                   <strong>Related Manuscripts "Leaves of Grass" [3] ("To Think of Time")</strong>
                   <ul class="mss_links_list">
                     <li>
-                      <a href="https://whitman-dev.unl.edu/manuscripts/transcriptions/duk.00023.html"
-                        target="_blank" rel="noreferrer noopener">duk.00023</a> (low) </li>
+                      <span class="fakelink">duk.00023</span> (low) </li>
                   </ul>
                 </div> <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1891) titles in parentheses. Early manuscripts that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
               </div>
