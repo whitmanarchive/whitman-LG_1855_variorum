@@ -61,7 +61,7 @@
       <div>
         <xsl:attribute name="class">
           <!--<xsl:text>hide </xsl:text>-->
-          <xsl:text>relation_data line_</xsl:text>
+          <xsl:text>relation_data hide line_</xsl:text>
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
         <xsl:attribute name="id">
@@ -81,6 +81,9 @@
             </th>
             <th scope="col">
               <strong>text</strong>
+              <span class="v_close_tei_app">
+                <button>[close]</button>
+              </span>
             </th>
           </tr>
           <xsl:for-each select="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
@@ -272,28 +275,30 @@
   <!-- Variant text tables, containing images and links to all copies -->
   <xsl:template name="rdg_builder">
     <xsl:if test="contains(@wit,'UI_01')">
-      <!--<xsl:if test="not(@xml:id='bd_0010a')">-->
-      <button>
-        <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
-        <xsl:text>Scroll to Previous Variant</xsl:text>
-      </button>
-    <!--</xsl:if>-->
-      <!--<xsl:if test="not(@xml:id='bd_0100a')">--><button>
-        <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
-        <xsl:text>Scroll to Next Variant</xsl:text>
-      </button>
-    <!--</xsl:if>-->
-      <xsl:if test="not(@xml:id='pt_0020a')"><span class="variant_viewer_link">
-        <a target="_blank">
-          <xsl:attribute name="href">
-            <xsl:value-of select="$siteroot"/>
-            <xsl:text>published/LG/1855/variorum/manuscript_comparison_viewer.html?base=</xsl:text>
-            <xsl:value-of select="substring(@xml:id,1,7)"/>
-          </xsl:attribute>
-          <span class="variant_viewer_view">View side-by-side images (new window)</span>
-        </a>
-      </span></xsl:if>
+      <div class="v_prev_next">
+        <button>
+          <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
+          <xsl:text>Scroll to Previous Variant</xsl:text>
+        </button>
+        <button>
+          <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
+          <xsl:text>Scroll to Next Variant</xsl:text>
+        </button>
+      </div>
+      <xsl:if test="not(@xml:id='pt_0020a')">
+          <span class="variant_viewer_link">
+          <a target="_blank">
+            <xsl:attribute name="href">
+              <xsl:value-of select="$siteroot"/>
+              <xsl:text>published/LG/1855/variorum/manuscript_comparison_viewer.html?base=</xsl:text>
+              <xsl:value-of select="substring(@xml:id,1,7)"/>
+            </xsl:attribute>
+            <span class="variant_viewer_view">View side-by-side images (new window)</span>
+          </a>
+        </span>
+      </xsl:if>
     </xsl:if>
+   
     <div class="tei_rdg">
       <xsl:variable name="varID" select="@xml:id"/>
       <span>
@@ -388,7 +393,7 @@
         </a>
         
       </span>
-      <span class="tei_rdg_wit">
+      <span class="tei_rdg_wit hide">
         <!-- display all ids -->
         <xsl:for-each select="$wits">
           <xsl:sort select="."/>
@@ -417,13 +422,13 @@
     <xsl:variable name="divide_by" select="number($mss_max_count)"/>
     <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
     <xsl:if test="$percent_num &gt; 0">
-      <span class="relation_link">
+      <button class="relation_link">
         <xsl:attribute name="data-target">
           <xsl:text>line_</xsl:text>
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
         Relations
-      </span>
+      </button>
     </xsl:if>
     <div class="relation_num" style="width:{$percent_num}%"/>
   </xsl:template>
@@ -595,7 +600,7 @@
         </xsl:attribute>
         <xsl:attribute name="data-group">gallery</xsl:attribute>
         <xsl:attribute name="class">gallery-image</xsl:attribute>
-        <span class="smallcaps">[IMG]</span>
+        <!--<span class="smallcaps">[IMG]</span>-->
       </xsl:element>
     </xsl:if>
   </xsl:template>
@@ -616,13 +621,14 @@
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
     <div>
-          <xsl:attribute name="class">
-        <xsl:text>tei_app </xsl:text>
-        <!-- create class based on rdg xml:id -->
-        <xsl:text>var_</xsl:text>
-        <xsl:variable name="length" select="string-length(rdg[1]/@xml:id)"/>
-        <xsl:value-of select="substring(rdg[1]/@xml:id, 1, $length - 1)"/>
+        <xsl:attribute name="class">
+         <xsl:text>tei_app hide </xsl:text>
+         <!-- create class based on rdg xml:id -->
+         <xsl:text>var_</xsl:text>
+         <xsl:variable name="length" select="string-length(rdg[1]/@xml:id)"/>
+         <xsl:value-of select="substring(rdg[1]/@xml:id, 1, $length - 1)"/>
       </xsl:attribute>
+      <div class="v_close_tei_app"><button>[close]</button></div>
       <!-- select the rdg from this doc first -->
       <xsl:for-each select="rdg[contains(@wit, 'UI_01')]">
         <xsl:call-template name="rdg_builder"/>
@@ -635,7 +641,7 @@
   </xsl:template>
 
   <xsl:template match="rdg" mode="inline">
-    <span>
+    <button>
       <xsl:attribute name="class">
         <xsl:text>variant_text_expand variant_text_click </xsl:text>
         <!-- TODO JESS -->
@@ -661,7 +667,7 @@
       <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
       <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
-    </span>
+    </button>
   </xsl:template>
 
   <xsl:template match="pb">
