@@ -1463,6 +1463,12 @@
                 <link cert="low" target="ppp.00271_var.xml#l636 #l01"/>
                 <link cert="low" target="ppp.00271_var.xml#l637 #l02"/>
             </linkGrp>
+            <linkGrp type="relation" corresp="uva.00287.xml">
+                <link cert="low" target="ppp.00271_var.xml#pr185 #l01"/>
+                <link cert="low" target="ppp.00271_var.xml#pr185 #l03"/>
+                <link cert="low" target="ppp.00271_var.xml#l1918 #l03"/>
+                <link cert="low" target="ppp.00271_var.xml#l1920 #l01"/>
+            </linkGrp>
             <linkGrp type="relation" corresp="uva.00561.xml">
                 <link cert="low" target="ppp.00271_var.xml#l225 #l01"/>
                 <link cert="low" target="ppp.00271_var.xml#l226 #l02"/>
