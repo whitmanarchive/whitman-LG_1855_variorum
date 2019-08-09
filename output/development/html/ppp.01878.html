@@ -5,11 +5,11 @@
          <div class="v_page_key_inner">
             <div class="v_printed_text_key">
                <h2>Printed Copy Variations</h2>
-               <span class="inline_tei_rdg">Textual and Graphical Variants</span>
+               <span class="inline_tei_rdg_display">Textual and Graphical Variants</span>
                <br/>
-               <span class="inline_tei_rdg_binding">Bindings and Insertions</span>
+               <span class="inline_tei_rdg_binding_display">Bindings and Insertions</span>
                <br/>
-               <span class="inline_tei_rdg_drift">Spatial Variants (Drifts)</span>
+               <span class="inline_tei_rdg_drift_display">Spatial Variants (Drifts)</span>
                <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process.</p>
             </div>
             <div class="v_related_text_key">
@@ -27,9 +27,7 @@
                      <strong>Related Manuscripts "Leaves of Grass" [3] ("To Think of Time")</strong>
                      <ul class="mss_links_list">
                         <li>
-                           <a href="https://whitman-dev.unl.edu/manuscripts/transcriptions/duk.00023.html"
-                              target="_blank"
-                              rel="noreferrer noopener">duk.00023</a> (low) </li>
+                           <span class="fakelink">duk.00023</span> (low) </li>
                      </ul>
                   </div>
                   <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1891) titles in parentheses. Early manuscripts that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
@@ -37,7 +35,7 @@
             </div>
             <div class="v_instructions_key">
                <h2>A Note on the Text</h2>
-               <p>The images provided as thumbnails before each page correspond to a copy at the University of Iowa Archives and Special Collections. This copy also forms the anchor for the transcription and the printed copy variations. Images from other copies, side-by-side views, and explanatory notes are available in the printed copy variations. For more information about our editorial rationale, see our <a href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a> and the <a href="https://whitman-dev.unl.edu/published/LG/1855/variorum/intro.html">introduction to the variorum</a>.</p>
+               <p>The images provided as thumbnails before each page correspond to a copy at the University of Iowa Special Collections and University Archives. This copy also forms the anchor for the transcription and the printed copy variations. Images from other copies, side-by-side views, and explanatory notes are available in the printed copy variations. For more information about our editorial rationale, see our <a href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a> and the <a href="https://whitman-dev.unl.edu/published/LG/1855/variorum/intro.html">introduction to the variorum</a>.</p>
             </div>
          </div>
       </div>
@@ -48,15 +46,17 @@
                 
                     
                 
-                <span class="variant_text_expand variant_text_click inline_tei_rdg_binding"
-            data-target="var_pt_0010">[Ralph Waldo Emerson letter]</span>
-      <div class="tei_app var_pt_0010">
-         <button class="variant_text_prev variant_id_pt_0010">
-        Go to Previous
-      </button>
-         <button class="variant_text_next variant_id_pt_0010">
-        Go to Next
-      </button>
+                <button class="variant_text_expand variant_text_click inline_tei_rdg_binding"
+              data-target="var_pt_0010"
+              id="pt_0010a">[Ralph Waldo Emerson letter]</button>
+      <div class="tei_app hide var_pt_0010">
+         <div class="v_close_tei_app">
+            <button>[close]</button>
+         </div>
+         <div class="v_prev_next">
+            <button class="variant_text_prev variant_id_pt_0010">Scroll to Previous Variant</button>
+            <button class="variant_text_next variant_id_pt_0010">Scroll to Next Variant</button>
+         </div>
          <span class="variant_viewer_link">
             <a target="_blank"
                href="https://whitman-dev.unl.edu/published/LG/1855/variorum/manuscript_comparison_viewer.html?base=pt_0010">
@@ -118,7 +118,7 @@
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#NYPL_04,UH_01,UI_01">Open copies in bibliography (new window)</a>
             </span>
-            <span class="tei_rdg_wit">
+            <span class="tei_rdg_wit hide">
                <a target="_blank"
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#NYPL_04">NYPL_04</a> 
@@ -181,7 +181,7 @@
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#BPL_01,BoL_01,BrU_01,CoU_02,HU_04,HU_05,NYPL_12,PC_08,PC_17,PML_04,PU_02,SUNYBi_01,TU_01,UVa_09,VAM_01,WC_02">Open copies in bibliography (new window)</a>
             </span>
-            <span class="tei_rdg_wit">
+            <span class="tei_rdg_wit hide">
                <a target="_blank"
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#BPL_01">BPL_01</a> 
@@ -255,7 +255,7 @@
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#AAS_01,AC_01,AC_02,BC_01,BGSU_01,BL_01,BPL_02,BSU_01,BU_01,BYU_01,BaU_01,BrU_02,BrU_03,BrU_04,CAI_01,CC_01,CMU_01,CPL_01,CU_01,CWRU_01,CoU_01,CoU_03,DC_01,DU_01,DU_02,DU_03,DU_04,DrU_01,EU_01,GC_01,GeC_01,HC_01,HL_01,HL_02,HL_03,HSP_01,HU_01,HU_02,HU_03,HU_06,JHU_01,KB_01,KSU_01,LCP_01,LC_01,LC_02,LC_03,LC_04,LC_05,LC_06,LC_07,LC_08,LC_09,LC_10,LC_11,LC_12,LC_13,LC_14,LMU_01,LU_01,LU_02,LU_03,MC_01,MC_02,MSU_01,NIU_01,NIU_02,NLS_01,NL_01,NSUG_01,NSU_01,NU_01,NYPL_01,NYPL_02,NYPL_03,NYPL_06,NYPL_07,NYPL_08,NYPL_09,NYPL_10,NYPL_11,OSU_01,OWU_01,OWU_02,PAA_01,PA_01,PC_03,PC_09,PC_10,PC_11,PC_12,PC_13,PC_14,PC_15,PC_18,PC_19,PML_01,PML_02,PML_03,PSU_01,PU_01,PU_03,RC_01,SUNYBu_01,SU_01,TAMU_01,TCU_01,TPL_01,UCB_01,UCLA_01,UCLA_02,UCSC_01,UC_01,UC_02,UD_01,UD_02,UKy_01,UM_01,UMi_01,UMn_01,UNCCH_01,UNCCH_02,UNCC_01,UNL_01,UP_01,UP_02,UP_03,URI_01,UR_01,USC_01,USC_02,UTA_01,UTA_02,UTA_03,UTA_04,UTA_05,UTA_06,UTA_07,UVa_01,UVa_02,UVa_03,UVa_04,UVa_05,UVa_06,UVa_07,UVa_08,UVa_10,UWM_01,UnC_01,WC_01,WC_03,WC_04,WC_05,WFU_01,WFU_02,WUSL_01,WU_01,WWH_01,WWH_02,WeC_01,YU_01,YU_02,YU_03,YU_04,YU_05,YU_06">Open copies in bibliography (new window)</a>
             </span>
-            <span class="tei_rdg_wit">
+            <span class="tei_rdg_wit hide">
                <a target="_blank"
                   rel="nofollow noreferrer"
                   href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html#AAS_01">AAS_01</a> 

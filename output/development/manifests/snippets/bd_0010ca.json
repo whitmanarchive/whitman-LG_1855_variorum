@@ -9,6 +9,7 @@
       "@language": "en"
     }
   ],
+  "attribution": "Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library, Yale University",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,29 +21,29 @@
           "@id": "https://whitmanarchive.org/TODO/snippets/bd_0010ca",
           "@type": "sc:Canvas",
           "label": "State C binding",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/whitman-fallback.jpg/full/!150,150/0/default.jpg",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fyal_nhg.00043.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitmanarchive.org/TODO/annotation/bd_0010ca",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/whitman-fallback.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fyal_nhg.00043.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 1000,
-                "height": 1000,
+                "width": 2396,
+                "height": 3362,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/whitman-fallback.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fyal_nhg.00043.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on": "https://whitmanarchive.org/TODO/snippets/bd_0010ca"
             }
           ],
-          "width": 1000,
-          "height": 1000
+          "width": 2396,
+          "height": 3362
         }
       ]
     }
