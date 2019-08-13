@@ -21,6 +21,7 @@
   <!-- variables -->
   <!-- TODO pull dynamically from mss -->
   <xsl:variable name="mss_max_count">14</xsl:variable>
+  <xsl:variable name="mss_max_count_docs">14</xsl:variable>
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
@@ -433,8 +434,12 @@
     <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
     <xsl:variable name="rel_num" select="
       count($corresp_doc//link[contains(@target, concat($uri_line_id, ' '))])"/>
+    <xsl:variable name="rel_num_docs" select="
+      count($corresp_doc//linkGrp[child::link[contains(@target, concat($uri_line_id, ' '))]])"/>
     <xsl:variable name="divide_by" select="number($mss_max_count)"/>
+    <xsl:variable name="divide_by_docs" select="number($mss_max_count_docs)"/>
     <xsl:variable name="percent_num" select="round($rel_num div $divide_by * 100)"/>
+    <xsl:variable name="percent_num_docs" select="round($rel_num_docs div $divide_by_docs * 100)"/>
     <xsl:if test="$percent_num &gt; 0">
       <button class="relation_link">
         <xsl:attribute name="data-target">
@@ -443,8 +448,11 @@
         </xsl:attribute>
         Relations
       </button>
+      <div class="relation_bg">
+        <div class="relation_num" style="width:{$percent_num}%"/>
+      <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
+      </div>
     </xsl:if>
-    <div class="relation_num" style="width:{$percent_num}%"/>
   </xsl:template>
 
 
