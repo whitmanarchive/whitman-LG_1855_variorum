@@ -152,6 +152,8 @@
     <span class="unclear">[<xsl:apply-templates mode="mss"/>?]</span>
   </xsl:template>
   
+  <xsl:template match="note[@type='editorial'] | note[@type='archival']" mode="mss"/>
+  
   <!--/MSS styling-->
   
 </xsl:stylesheet>
