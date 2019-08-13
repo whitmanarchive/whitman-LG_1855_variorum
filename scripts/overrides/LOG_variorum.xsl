@@ -279,11 +279,11 @@
       <div class="v_prev_next">
         <button>
           <xsl:attribute name="class" select="concat('variant_text_prev ', 'variant_id_', substring(@xml:id,1,7))"/>
-          <xsl:text>Scroll to Previous Variant</xsl:text>
+          <xsl:text>Scroll to Previous</xsl:text>
         </button>
         <button>
           <xsl:attribute name="class" select="concat('variant_text_next ', 'variant_id_', substring(@xml:id,1,7))"/>
-          <xsl:text>Scroll to Next Variant</xsl:text>
+          <xsl:text>Scroll to Next</xsl:text>
         </button>
       </div>
       <xsl:if test="not(@xml:id='pt_0020a')">
@@ -447,11 +447,11 @@
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
         Relations
+        <div class="relation_bg">
+          <div class="relation_num" style="width:{$percent_num}%"/>
+          <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
+        </div>
       </button>
-      <div class="relation_bg">
-        <div class="relation_num" style="width:{$percent_num}%"/>
-      <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
-      </div>
     </xsl:if>
   </xsl:template>
 
