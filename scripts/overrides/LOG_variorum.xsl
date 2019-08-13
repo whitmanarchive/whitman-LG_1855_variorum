@@ -447,10 +447,20 @@
           <xsl:value-of select="substring-after($line_id,'#')"/>
         </xsl:attribute>
         Relations
-        <div class="relation_bg">
-          <div class="relation_num" style="width:{$percent_num}%"/>
-          <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
-        </div>
+        <xsl:choose>
+          <xsl:when test="ancestor::div1[@type='review']">
+            <div class="relation_bg_rev">
+              <div class="relation_num" style="width:{$percent_num}%"/>
+              <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
+            </div>
+          </xsl:when>
+          <xsl:otherwise>
+            <div class="relation_bg">
+              <div class="relation_num" style="width:{$percent_num}%"/>
+              <div class="relation_num_docs" style="width:{$percent_num_docs}%"/>
+            </div>
+          </xsl:otherwise>
+        </xsl:choose>
       </button>
     </xsl:if>
   </xsl:template>
@@ -751,19 +761,19 @@
         <xsl:if test="descendant::work[@ref='xxx.00798']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="LINK">Compare to Periodical Version</a>
+            <a class="v_review_links" target="_blank" href="LINK">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
         <xsl:if test="descendant::work[@ref='xxx.00892']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/kROFEh">Compare to Periodical Version</a>
+            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/kROFEh">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
         <xsl:if test="descendant::work[@ref='xxx.00893']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/15Fhp9">Compare to Periodical Version</a>
+            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/15Fhp9">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
       
