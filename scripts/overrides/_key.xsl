@@ -9,7 +9,7 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_printed_text_key">
               <h2>About the Reviews</h2>
-              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were bound and circulating, Whitman collected reviews and extracts of responses to the volume as they were published in periodicals. He arranged for these to be reprinted along with other articles and extracts about poetry and poets more generally. He then arranged for the eight-page printed insertion to be bound into several of the remaining copies of <em>Leaves of Grass</em>.</p>
+              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were circulating, Whitman collected reviews and extracts of responses to the volume as they were published in periodicals. He arranged for these to be reprinted along with other articles and extracts about poetry and poets more generally. He then arranged for the eight-page printed insertion to be bound into several of the remaining copies of <em>Leaves of Grass</em>.</p>
             </div>
           </xsl:when>
           <xsl:otherwise>
