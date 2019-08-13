@@ -9,7 +9,7 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_printed_text_key">
               <h2>About the Reviews</h2>
-              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were bound and circulating, Whitman collected reviews and extracts of responses to the volume. He arranged for these to be printed with other articles and extracts and bound the eight-page printed insertion into several of the remaining copies of <em>Leaves of Grass</em>.</p>
+              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were bound and circulating, Whitman collected reviews and extracts of responses to the volume as they were published in periodicals. He arranged for these to be reprinted along with other articles and extracts about poetry and poets more generally. He then arranged for the eight-page printed insertion to be bound into several of the remaining copies of <em>Leaves of Grass</em>.</p>
             </div>
           </xsl:when>
           <xsl:otherwise>
@@ -18,7 +18,7 @@
               <span class="inline_tei_rdg_display">Textual and Graphical Variants</span><br/>
               <span class="inline_tei_rdg_binding_display">Bindings and Insertions</span><br/>
               <span class="inline_tei_rdg_drift_display">Spatial Variants (Drifts)</span>
-              <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process.</p>
+              <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process. Clicking on these variations produces a list of associated copies and images.</p>
             </div>
           </xsl:otherwise>
         </xsl:choose>
@@ -26,9 +26,12 @@
           <h2>Related Manuscript Text</h2>
           <div class="key_related_example">
             <span class="relation_link" data-target="line_pr28"> Relations </span>
-            <div class="relation_num" style="width:36%"/>
+            <div class="relation_bg_key">
+              <div class="relation_num" style="width:36%"/>
+            <div class="relation_num_docs" style="width:24%"/>
+            </div>
           </div>
-          <p>Clicking on "relations" displays related text from Whitman's early manuscripts, links to transcriptions, and certainty about the relation. The length of the red line is a visualization of the number of related manuscript segments. Longer red lines indicate more related manuscript segments.</p>
+          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, links to transcriptions, and certainty about the relation. The red and green lines offer a visualization of the number of related manuscripts and notebooks. The red line corresponds to the number of related manuscript and notebook segments. The green line corresponds to the number of related manuscripts or notebooks.</p>
         </div>
         <xsl:choose>
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
@@ -54,7 +57,7 @@
                     <li>
                       <span class="fakelink">duk.00023</span> (low) </li>
                   </ul>
-                </div> <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1891) titles in parentheses. Early manuscripts that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
+                </div> <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1891) titles in parentheses. Early manuscripts and notebooks that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
               </div>
             </div>
           </xsl:otherwise>
