@@ -524,7 +524,7 @@
   </xsl:template>
   <!-- END: LISTS -->
 
-  <!-- BEGIN: Paragraphs AND FLOATINGTEXT TEXT -->
+  <!-- BEGIN: Paragraphs, abs, AND FLOATINGTEXT TEXT -->
   <xsl:template match="//p">
     <xsl:choose>
       <xsl:when test="ancestor::q">
@@ -544,6 +544,10 @@
         </span>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="//ab">
+    <xsl:apply-templates/><br/>
   </xsl:template>
   <!-- END: PARAGRAPHS AND FLOATINGTEXT TEXT -->
 
