@@ -761,7 +761,7 @@
         <xsl:if test="descendant::work[@ref='xxx.00798']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="LINK">Compare to Periodical Version (in Juxta)</a>
+            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/ddlYJ0">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
         <xsl:if test="descendant::work[@ref='xxx.00892']">
