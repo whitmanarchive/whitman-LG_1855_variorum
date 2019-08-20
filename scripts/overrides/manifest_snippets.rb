@@ -22,7 +22,7 @@ module ManifestSnippets
     full_url = "#{@iiif_path}/#{item_loc}/#{@iiif_end}"
     thumb_url = "#{@iiif_path}/#{item_loc}/#{@iiif_thumb}"
 
-    canvas["@id"] = "https://whitmanarchive.org/TODO/snippets/#{id}"
+    canvas["@id"] = "https://whitmanarchive.org/media/published/LG/canvas/#{id}"
     canvas.label = row["File Label"]
     canvas.thumbnail = thumb_url
 
@@ -35,8 +35,8 @@ module ManifestSnippets
       puts "Unable to add manuscript for #{item_loc}: #{e}"
       return nil
     end
-    annotation["on"] = "https://whitmanarchive.org/TODO/snippets/#{id}"
-    annotation["@id"] = "https://whitmanarchive.org/TODO/annotation/#{id}"
+    annotation["on"] = "https://whitmanarchive.org/media/published/LG/canvas/#{id}"
+    annotation["@id"] = "https://whitmanarchive.org/media/published/LG/annotation/#{id}"
     canvas.images << annotation
     canvas.width = annotation.resource.width
     canvas.height = annotation.resource.height
