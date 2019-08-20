@@ -17,13 +17,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0160a",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0160a",
           "@type": "sc:Canvas",
           "label": "\"Grass.\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/whitman-fallback.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0160a",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0160a",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -38,7 +38,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0160a"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0160a"
             }
           ],
           "width": 1000,

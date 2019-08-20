@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010b-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/gr_0010b-cropped",
           "@type": "sc:Canvas",
           "label": "Frontispiece with enhanced crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/gr_0010b-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/gr_0010b-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/gr_0010b-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/gr_0010b-cropped"
             }
           ],
           "width": 837,
           "height": 1089
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/gr_0010b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/gr_0010b",
           "@type": "sc:Canvas",
           "label": "Frontispiece with enhanced crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.007.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/gr_0010b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/gr_0010b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/gr_0010b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/gr_0010b"
             }
           ],
           "width": 767,

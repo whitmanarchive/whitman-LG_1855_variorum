@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0320b-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0320b-cropped",
           "@type": "sc:Canvas",
           "label": "\"my love-grip\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fyal_nhg.00045_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0320b-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0320b-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0320b-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0320b-cropped"
             }
           ],
           "width": 975,
           "height": 176
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0320b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0320b",
           "@type": "sc:Canvas",
           "label": "\"my love-grip\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fyal_nhg.00045.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0320b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0320b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0320b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0320b"
             }
           ],
           "width": 2471,

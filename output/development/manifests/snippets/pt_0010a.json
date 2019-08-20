@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/pt_0010a",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/pt_0010a",
           "@type": "sc:Canvas",
           "label": "Newspaper version of Emerson letter",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.005.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/pt_0010a",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/pt_0010a",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,7 +39,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/pt_0010a"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/pt_0010a"
             }
           ],
           "width": 767,

@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0040a-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0040a-cropped",
           "@type": "sc:Canvas",
           "label": "\"cities and\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0040a-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0040a-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0040a-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0040a-cropped"
             }
           ],
           "width": 588,
           "height": 231
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0040a",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0040a",
           "@type": "sc:Canvas",
           "label": "\"cities and\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0040a",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0040a",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0040a"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0040a"
             }
           ],
           "width": 767,

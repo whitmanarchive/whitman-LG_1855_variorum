@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0470b-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0470b-cropped",
           "@type": "sc:Canvas",
           "label": "narrower spacing of \"politics, churches, newspapers\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01249_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0470b-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0470b-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0470b-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0470b-cropped"
             }
           ],
           "width": 1802,
           "height": 315
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0470b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0470b",
           "@type": "sc:Canvas",
           "label": "narrower spacing of \"politics, churches, newspapers\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01249.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0470b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0470b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0470b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0470b"
             }
           ],
           "width": 700,

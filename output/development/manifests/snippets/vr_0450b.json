@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0450b-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0450b-cropped",
           "@type": "sc:Canvas",
           "label": "\"Admitting\" lower",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0450b-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0450b-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0450b-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0450b-cropped"
             }
           ],
           "width": 568,
           "height": 177
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0450b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0450b",
           "@type": "sc:Canvas",
           "label": "\"Admitting\" lower",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0450b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0450b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0450b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0450b"
             }
           ],
           "width": 700,

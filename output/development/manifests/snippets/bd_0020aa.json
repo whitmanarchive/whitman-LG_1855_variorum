@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/bd_0020aa",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/bd_0020aa",
           "@type": "sc:Canvas",
           "label": "Marbled endpaper",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/bd_0020aa",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/bd_0020aa",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,7 +39,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/bd_0020aa"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/bd_0020aa"
             }
           ],
           "width": 700,

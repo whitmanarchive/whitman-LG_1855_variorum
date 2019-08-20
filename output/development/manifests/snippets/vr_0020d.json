@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0020d-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0020d-cropped",
           "@type": "sc:Canvas",
           "label": "Handwritten copyright notice",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpra_nhg.00001_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0020d-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0020d-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0020d-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0020d-cropped"
             }
           ],
           "width": 4608,
           "height": 1713
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0020d",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0020d",
           "@type": "sc:Canvas",
           "label": "Handwritten copyright notice",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpra_nhg.00001.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0020d",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0020d",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0020d"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0020d"
             }
           ],
           "width": 3456,

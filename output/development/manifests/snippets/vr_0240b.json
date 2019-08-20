@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0240b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0240b",
           "@type": "sc:Canvas",
           "label": "\"Grass,\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.031.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0240b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0240b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,7 +39,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0240b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0240b"
             }
           ],
           "width": 2276,

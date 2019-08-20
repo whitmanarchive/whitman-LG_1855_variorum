@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0010c-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0010c-cropped",
           "@type": "sc:Canvas",
           "label": "London label below ornament",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01402_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0010c-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0010c-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0010c-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0010c-cropped"
             }
           ],
           "width": 1725,
           "height": 1142
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0010c",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0010c",
           "@type": "sc:Canvas",
           "label": "London label below ornament",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01402.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0010c",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0010c",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0010c"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0010c"
             }
           ],
           "width": 528,

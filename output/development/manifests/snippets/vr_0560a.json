@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0560a-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0560a-cropped",
           "@type": "sc:Canvas",
           "label": "\"...waiting for you.\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpri_nhg.00003_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0560a-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0560a-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0560a-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0560a-cropped"
             }
           ],
           "width": 371,
           "height": 177
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0560a",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0560a",
           "@type": "sc:Canvas",
           "label": "\"...waiting for you.\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpri_nhg.00003.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0560a",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0560a",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0560a"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0560a"
             }
           ],
           "width": 2046,

@@ -907,7 +907,7 @@
                 <link cert="low" target="ppp.00271_var.xml#l982 #q02"/>
             </linkGrp>
             <linkGrp type="relation" corresp="loc.05180.xml">
-                <link cert="low" target="ppp.00271_var.xml#seg01 #q01"/>
+                <link cert="high" target="ppp.00271_var.xml#seg01 #q01"/>
             </linkGrp>
 
             <linkGrp type="relation" corresp="loc.05314.xml">
@@ -1007,10 +1007,10 @@
                 <link cert="low" target="ppp.00271_var.xml#l251 #q01"/>
             </linkGrp>
             <linkGrp type="relation" corresp="loc.05705.xml">
-                <link cert="low" target="ppp.00271_var.xml#l981 #ab01"/>
-                <link cert="low" target="ppp.00271_var.xml#l982 #ab02"/>
-                <link cert="low" target="ppp.00271_var.xml#l982 #ab03"/>
-                <link cert="low" target="ppp.00271_var.xml#l982 #ab04"/>
+                <link cert="high" target="ppp.00271_var.xml#l981 #ab01"/>
+                <link cert="high" target="ppp.00271_var.xml#l982 #ab02"/>
+                <link cert="high" target="ppp.00271_var.xml#l982 #ab03"/>
+                <link cert="high" target="ppp.00271_var.xml#l982 #ab04"/>
             </linkGrp>
             <linkGrp type="relation" corresp="loc.05935.xml">
                 <link cert="low" target="ppp.00271_var.xml#l842 #p01"/>
@@ -1069,6 +1069,9 @@
                 <link cert="low" target="ppp.00271_var.xml#l937 #l01"/>
                 <link cert="low" target="ppp.00271_var.xml#l938 #l02"/>
                 <link cert="low" target="ppp.00271_var.xml#l939 #l03"/>
+            </linkGrp>
+            <linkGrp type="relation" corresp="nyp.00025.xml">
+                <link cert="low" target="ppp.00271_var.xml#l1636 #l01"/>
             </linkGrp>
             <linkGrp type="relation" corresp="nyp.00029.xml">
                 <link cert="low" target="ppp.00271_var.xml#l1402 #l01"/>
@@ -1227,8 +1230,10 @@
                 <link cert="low" target="ppp.00271_var.xml#l1904 #item08"/>
             </linkGrp>
             <linkGrp type="relation" corresp="prc.00127.xml">
+                <link cert="low" target="ppp.00271_var.xml#pr110 #l01"/>
                 <link cert="low" target="ppp.00271_var.xml#l649 #l02"/>
                 <link cert="low" target="ppp.00271_var.xml#l650 #l03"/>
+                <link cert="low" target="ppp.00271_var.xml#l1915 #l05"/>
                 <link cert="low" target="ppp.00271_var.xml#l646 #l04"/>
                 <link cert="low" target="ppp.00271_var.xml#l647 #l06"/>
                 <link cert="low" target="ppp.00271_var.xml#l648 #l07"/>

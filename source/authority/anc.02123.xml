@@ -7536,7 +7536,7 @@
   <msDesc>
    <msIdentifier>
     <repository>John Hay Library, Brown University</repository>
-    <idno></idno>
+    <idno>1-SIZE WW A2 1855 copy 3</idno>
    </msIdentifier>
    <msContents>
     <msItem> 
@@ -7549,7 +7549,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p>Inscribed by Whitman on the front flyleaf: "The days in Boston on my visit&#8212;April 13th&#8211;19th 1881&#8212;the good times with you dear Boyle &amp; my other dear new friends&#8212;the affectionate kindnesses&#8212;talks &amp;c. Walt Whitman." Beneath Whitman's inscription, Oscar Wilde inscribed a line from his poem "Humanitad": "The spirit who living blamelessly yet dared to kiss the smitten mouth of his own century. Oscar Wilde." From the library of Irish-American author and activist John Boyle O'Reilly, with his autograph signature, and the date "Sept. 1877" inscribed on front flyleaf and on recto of frontispiece portrait. With a signed portrait of Whitman pasted down on the front end-leaf. The tissue guard is not present in this copy.</p>
+    <p>Plain brown coated endpapers. Inscribed by Whitman on the front flyleaf: "The days in Boston on my visit&#8212;April 13th&#8211;19th 1881&#8212;the good times with you dear Boyle &amp; my other dear new friends&#8212;the affectionate kindnesses&#8212;talks &amp;c. Walt Whitman." Beneath Whitman's inscription, Oscar Wilde inscribed lines from his poem "Humanitad": "The spirit who living blamelessly yet dared to kiss the smitten mouth of his own century. Oscar Wilde." From the library of Irish-American author and activist John Boyle O'Reilly, with his autograph signature, and the dates "Sept. 1877" inscribed on front flyleaf and "4th Sept. 1877" on recto of frontispiece leaf. Above that, another signature: "[Amy?] [Badger?]." With a signed portrait of Whitman ("Phototype. F. Gutekunst Philadelphia") pasted to front endpaper. The tissue guard is not present in this copy. Copy cataloged as lot 248 is Christie's sale catalog of 17 May 1989. Gift of Daniel G. Siegel in 2018.</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
@@ -7562,7 +7562,7 @@
       <collation></collation>
      </supportDesc>
      <layoutDesc>
-      <layout rend="copyright"></layout> 
+      <layout rend="copyright">state B</layout> 
       <layout rend="frontispiece"></layout> 
       <layout rend="reviews">No bound-in insert</layout> 
      </layoutDesc>
@@ -7570,7 +7570,7 @@
     <bindingDesc><p>state A</p></bindingDesc>
    </physDesc>
    <history>
-    <provenance><persName key="O'Reilly, John Boyle">John Boyle O'Reilly</persName>; <persName key="Siegel, Dan">Dan Siegel</persName></provenance>
+    <provenance><persName key="O'Reilly, John Boyle">John Boyle O'Reilly</persName>; <persName key="Siegel, Daniel G.">Daniel G. Siegel</persName>; <persName key="[Badger?], [Amy?]">[Amy Badger?]</persName></provenance>
    </history>
   </msDesc>
  </witness>

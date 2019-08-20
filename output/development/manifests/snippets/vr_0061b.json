@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0061b-cropped",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0061b-cropped",
           "@type": "sc:Canvas",
           "label": "\"definiteness\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.013_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0061b-cropped",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0061b-cropped",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0061b-cropped"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0061b-cropped"
             }
           ],
           "width": 386,
           "height": 234
         },
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/vr_0061b",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/vr_0061b",
           "@type": "sc:Canvas",
           "label": "\"definiteness\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.013.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/vr_0061b",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/vr_0061b",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/vr_0061b"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0061b"
             }
           ],
           "width": 767,

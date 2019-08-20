@@ -17,13 +17,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitmanarchive.org/TODO/snippets/bd_0080ba",
+          "@id": "https://whitmanarchive.org/media/published/LG/canvas/bd_0080ba",
           "@type": "sc:Canvas",
           "label": "White endpaper",
           "thumbnail": "https://whitmanarchive.org/iiif/2/whitman-fallback.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitmanarchive.org/TODO/annotation/bd_0080ba",
+              "@id": "https://whitmanarchive.org/media/published/LG/annotation/bd_0080ba",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -38,7 +38,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitmanarchive.org/TODO/snippets/bd_0080ba"
+              "on": "https://whitmanarchive.org/media/published/LG/canvas/bd_0080ba"
             }
           ],
           "width": 1000,
