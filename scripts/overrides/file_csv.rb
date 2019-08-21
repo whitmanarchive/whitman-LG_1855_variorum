@@ -6,11 +6,10 @@
 require "csv"
 require "fileutils"
 require "iiif/presentation"
-require "nokogiri"
 
-module ManifestSnippets
+class FileCsv
 
-  def self.create_canvas(image_path, id, row, crop = false)
+  def create_canvas(image_path, id, row, crop = false)
     # create a canvas for each snippet, for now just use first image alone
     canvas = IIIF::Presentation::Canvas.new()
     # TODO placeholder for image pending
@@ -43,7 +42,7 @@ module ManifestSnippets
     canvas
   end
 
-  def self.generate(options)
+  def transform_iiif
     # iiif config
     @iiif_path = "https://whitmanarchive.org/iiif/2"
     @iiif_end = "full/full/0/default.jpg"
@@ -51,16 +50,12 @@ module ManifestSnippets
 
     groups = {}
 
-    csv_filepath = File.join(
-      options["collection_dir"], "source", "authority", "snippets.csv"
-    )
-
     output_dir = File.join(
-      options["collection_dir"], "output", options["environment"], "manifests", "snippets"
+      @options["collection_dir"], "output", @options["environment"], "iiif", "snippets"
     )
     FileUtils.mkdir_p(output_dir)
 
-    csv = CSV.read(csv_filepath, headers: true)
+    csv = CSV.read(@file_location, headers: true)
 
     csv.each do |row|
       id = row["ID in variorum file"]
@@ -74,7 +69,7 @@ module ManifestSnippets
       # as a canvas in the manifest
 
       manifest = IIIF::Presentation::Manifest.new({
-        "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/snippets/#{id}.json",
+        "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{@options["environment"]}/iiif/snippets/#{id}.json",
         "label" => row["File Label"],
         "description" => [
           "@value" => "#{row["File Label"]} (#{id})",
@@ -94,10 +89,10 @@ module ManifestSnippets
 
       # create a canvas for the cropped version if it exists and should be included
       if row["Cropped File location"] && !row["Cropped File location"][/[Dd]o not include/]
-        canvas = self.create_canvas(row["Cropped File location"], "#{id}-cropped", row, crop: true)
+        canvas = create_canvas(row["Cropped File location"], "#{id}-cropped", row, crop: true)
         sequence_primary.canvases << canvas if canvas
       end
-      canvas_uncropped = self.create_canvas(row["File location"], id, row)
+      canvas_uncropped = create_canvas(row["File location"], id, row)
       sequence_primary.canvases << canvas_uncropped if canvas_uncropped
 
       manifest.sequences << sequence_primary
@@ -132,6 +127,8 @@ module ManifestSnippets
     File.open(File.join(output_dir, "index.js"), "w") do |f|
       f.write("var snippets = #{snippets.to_json(pretty: true)}")
     end
+    # TODO need to look into this
+    { "doc" => snippets }
   end
 
 end

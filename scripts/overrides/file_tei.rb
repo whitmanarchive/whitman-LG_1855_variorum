@@ -2,8 +2,9 @@ require "fileutils"
 require "iiif/presentation"
 require "nokogiri"
 
-module ManifestLog
-  def self.generate(options)
+class FileTei
+
+  def transform_iiif
     # iiif config
     iiif_path = "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F"
     iiif_end = "full/full/0/default.jpg"
@@ -12,7 +13,7 @@ module ManifestLog
     # create a manifest with basic LoG stuff
 
     manifest = IIIF::Presentation::Manifest.new({
-      "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{options["environment"]}/manifests/leaves_of_grass.json",
+      "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{@options["environment"]}/iiif/leaves_of_grass.json",
       "label" => "Leaves of Grass (1855)",
       #"description" => [
       #  "@value" => "This is a description",
@@ -77,10 +78,7 @@ module ManifestLog
       "label" => "Page Order"
     })
 
-    variorum_filepath = File.join(
-      options["collection_dir"], "source", "tei", "ppp.00271_var.xml"
-    )
-    xml = File.open(variorum_filepath) { |f| Nokogiri::XML(f).remove_namespaces! }
+    xml = File.open(@file_location) { |f| Nokogiri::XML(f).remove_namespaces! }
 
     pbs = xml.xpath("//pb")
 
@@ -114,7 +112,7 @@ module ManifestLog
       if image_filename == "ppp.00271.007.jpg"
         canvas["otherContent"] = [
           {
-            "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{options["environment"]}/manifests/frontispiece.json",
+            "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{@options["environment"]}/iiif/frontispiece.json",
             "@type" => "sc:AnnotationList"
           }
         ]
@@ -128,9 +126,8 @@ module ManifestLog
     manifest.sequences << sequence_primary
     # puts manifest.to_json(pretty: true)
 
-    output_dir = File.join(options["collection_dir"], "output", options["environment"], "manifests")
-    FileUtils.mkdir_p(output_dir)
+    output_dir = File.join(@options["collection_dir"], "output", @options["environment"], "iiif")
     File.open(File.join(output_dir, "leaves_of_grass.json"), "w") { |f| f.write(manifest.to_json(pretty: true)) }
-
+    manifest
   end
 end
