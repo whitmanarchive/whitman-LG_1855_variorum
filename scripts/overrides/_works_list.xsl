@@ -10,6 +10,7 @@
        I am not an SVN user, so just be sure to move it out eventually!
   -->
   
+  
   <xsl:template name="mss_links">
     <xsl:param name="label">unlabeled</xsl:param>
     <xsl:param name="work_id"/>
@@ -26,9 +27,16 @@
         (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></span></xsl:otherwise>
           </xsl:choose>
         </strong>
-
-        <ul class="mss_links_list">
-          <xsl:variable name="doc" select="document(concat($variorumPathRoot, 'work_list_generated.xml'))"/>
+        <xsl:variable name="doc" select="document(concat($variorumPathRoot, 'work_list_generated.xml'))"/>
+        <xsl:choose>
+          <xsl:when test="not($doc//work[@id=$work_id]/item)">
+            <ul class="mss_links_list">
+              <li><xsl:text>No manuscripts found</xsl:text></li>
+            </ul>
+          </xsl:when>
+          <xsl:otherwise>
+            <ul class="mss_links_list">
+          
 
           <xsl:for-each select="$doc//work[@id=$work_id]/item">
             <xsl:variable name="id" select="substring-before(@id, '.xml')"/>
@@ -58,6 +66,15 @@
             </li>
           </xsl:for-each>
         </ul>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:if test="$work_id = 'xxx.00144'">
+          <ul class="mss_links_list_per">
+            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/published/periodical/poems/per.00088.html">View Periodical Version</a>
+            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/yWEwVS">Compare to Periodical Version (in Juxta)</a>
+          </ul>
+          
+        </xsl:if>
       </div>
 
     </div>
