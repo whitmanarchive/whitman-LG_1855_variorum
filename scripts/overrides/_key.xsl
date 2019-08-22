@@ -37,11 +37,11 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_related_works_key">
               <h2>Links to Periodical Versions</h2>
-              <div class="tei_lg_poem_key tei_lg_poem_odd">
+              <div class="tei_lg_poem_key tei_reviews">
                 <div class="mss_links_key">
                   <ul class="mss_links_list">
-                    <li class="underline">View Periodical Version</li>
-                    <li class="underline">Compare to Periodical Version</li>
+                    <li class="fakelink_rev">View Periodical Version</li><br/>
+                    <li class="fakelink_rev">Compare to Periodical Version (in Juxta)</li>
                   </ul>
                 </div> <p>The reviews and extracts Whitman included in this printed insertion were first published in nineteenth-century periodicals. Although they were published anonymously, Whitman himself wrote three of the reviews. In these cases, a box to the right side of the review provides a link to a transcription of the periodical version on the <em>Walt Whitman Archive</em>, as well as a link to a comparison view of the texts in Juxta.</p>
               </div>
