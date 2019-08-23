@@ -78,7 +78,7 @@ module ManifestLog
     })
 
     variorum_filepath = File.join(
-      options["collection_dir"], "source", "tei", "ppp.00271_var.xml"
+      options["collection_dir"], "source", "tei", "ppp.01880.xml"
     )
     xml = File.open(variorum_filepath) { |f| Nokogiri::XML(f).remove_namespaces! }
 
