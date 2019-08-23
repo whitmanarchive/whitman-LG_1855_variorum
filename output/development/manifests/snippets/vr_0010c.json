@@ -59,8 +59,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01402.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 528,
-                "height": 789,
+                "width": 2200,
+                "height": 3289,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01402.jpg",
@@ -70,8 +70,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0010c"
             }
           ],
-          "width": 528,
-          "height": 789
+          "width": 2200,
+          "height": 3289
         }
       ]
     }

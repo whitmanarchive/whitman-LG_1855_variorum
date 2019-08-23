@@ -59,8 +59,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.073.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 767,
-                "height": 1099,
+                "width": 2320,
+                "height": 3322,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.073.jpg",
@@ -70,8 +70,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0660a"
             }
           ],
-          "width": 767,
-          "height": 1099
+          "width": 2320,
+          "height": 3322
         }
       ]
     }

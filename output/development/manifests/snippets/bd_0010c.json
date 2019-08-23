@@ -31,8 +31,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00011.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 623,
-                "height": 865,
+                "width": 2595,
+                "height": 3604,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00011.jpg",
@@ -42,8 +42,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/bd_0010c"
             }
           ],
-          "width": 623,
-          "height": 865
+          "width": 2595,
+          "height": 3604
         }
       ]
     }

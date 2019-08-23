@@ -31,8 +31,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 700,
-                "height": 1008,
+                "width": 2437,
+                "height": 3508,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg",
@@ -42,8 +42,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/bd_0020aa"
             }
           ],
-          "width": 700,
-          "height": 1008
+          "width": 2437,
+          "height": 3508
         }
       ]
     }

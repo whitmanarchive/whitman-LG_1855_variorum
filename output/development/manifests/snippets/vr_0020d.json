@@ -59,8 +59,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpra_nhg.00001.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 3456,
-                "height": 5012,
+                "width": 4608,
+                "height": 6683,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fpra_nhg.00001.jpg",
@@ -70,8 +70,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0020d"
             }
           ],
-          "width": 3456,
-          "height": 5012
+          "width": 4608,
+          "height": 6683
         }
       ]
     }

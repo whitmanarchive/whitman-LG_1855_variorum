@@ -59,8 +59,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 1879,
-                "height": 2619,
+                "width": 7829,
+                "height": 10914,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003.jpg",
@@ -70,8 +70,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/vr_0060b"
             }
           ],
-          "width": 1879,
-          "height": 2619
+          "width": 7829,
+          "height": 10914
         }
       ]
     }

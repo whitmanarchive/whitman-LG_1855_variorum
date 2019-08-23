@@ -31,8 +31,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.001.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 767,
-                "height": 1014,
+                "width": 2642,
+                "height": 3491,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.001.jpg",
@@ -42,8 +42,8 @@
               "on": "https://whitmanarchive.org/media/published/LG/canvas/bd_0010a"
             }
           ],
-          "width": 767,
-          "height": 1014
+          "width": 2642,
+          "height": 3491
         }
       ]
     }
