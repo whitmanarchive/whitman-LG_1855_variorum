@@ -5,6 +5,9 @@ require "nokogiri"
 class FileTei
 
   def transform_iiif
+    # if this isn't the main file in question, we don't want any part of it
+    return {} if !@file_location.include?("ppp.01880.xml")
+
     # iiif config
     iiif_path = "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F"
     iiif_end = "full/full/0/default.jpg"

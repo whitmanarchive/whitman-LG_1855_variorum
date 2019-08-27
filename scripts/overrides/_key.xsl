@@ -9,7 +9,7 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_printed_text_key">
               <h2>About the Reviews</h2>
-              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were circulating, Whitman collected reviews and extracts of responses to the volume as they were published in periodicals. He arranged for these to be reprinted along with other articles and extracts about poetry and poets more generally. He then arranged for the eight-page printed insertion to be bound into several of the remaining copies of <em>Leaves of Grass</em>.</p>
+              <p>After the 1855 edition of <em>Leaves of Grass</em> was published and the first several copies were circulating, Whitman collected reviews and extracts of responses to the volume as they were published in periodicals. Although they were published anonymously, Whitman himself wrote three of the reviews. He arranged for these to be reprinted along with other articles and extracts about poetry and poets more generally. He then arranged for the eight-page printed insertion to be bound into several of the remaining copies of <em>Leaves of Grass</em>.</p>
             </div>
           </xsl:when>
           <xsl:otherwise>
@@ -37,13 +37,13 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_related_works_key">
               <h2>Links to Periodical Versions</h2>
-              <div class="tei_lg_poem_key tei_lg_poem_odd">
+              <div class="tei_lg_poem_key tei_reviews">
                 <div class="mss_links_key">
                   <ul class="mss_links_list">
-                    <li class="underline">View Periodical Version</li>
-                    <li class="underline">Compare to Periodical Version</li>
+                    <li class="fakelink_rev">View Periodical Version</li><br/>
+                    <li class="fakelink_rev">Compare to Periodical Version (in Juxta)</li>
                   </ul>
-                </div> <p>The reviews and extracts Whitman included in this printed insertion were first published in nineteenth-century periodicals. Although they were published anonymously, Whitman himself wrote three of the reviews. In these cases, a box to the right side of the review provides a link to a transcription of the periodical version on the <em>Walt Whitman Archive</em>, as well as a link to a comparison view of the texts in Juxta.</p>
+                </div> <p>The reviews and extracts Whitman included in this printed insertion were first published in nineteenth-century periodicals. A green line to the right marks the beginning and end of each review or section. For each of the three reviews authored by Whitman, a box to the right side of the review provides a link to a transcription of the periodical version on the <em>Walt Whitman Archive</em>, as well as a link to a comparison view of the periodical version to the 1855 insertion version in Juxta.</p>
               </div>
             </div>
           </xsl:when>
@@ -68,13 +68,13 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_instructions_key">
               <h2>A Note on the Text</h2>
-              <p>The images provided as thumbnails before each page correspond to the insertion in a copy in the Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia. For a complete list of copies that include the reviews insertion, see "<a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/variorum.html#pt_0020a">Reviews and extracts</a>" in the main text or visit the <a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html">bibliography of copies</a>.</p>
+              <p>The images provided as thumbnails before each page correspond to the insertion in a copy in the Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia. For a complete list of copies that include the reviews insertion, see "<a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/variorum/main.html#pt_0020a">Reviews and extracts</a>" in the main text or visit the <a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/bibliography/index.html">bibliography of copies</a>. For more information about our editorial rationale, see our <a target="_blank" href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a> and the <a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/variorum/intro.html">introduction to the variorum</a>.</p>
             </div>
           </xsl:when>
           <xsl:otherwise>
             <div class="v_instructions_key">
               <h2>A Note on the Text</h2>
-              <p>The images provided as thumbnails before each page correspond to a copy at the University of Iowa Special Collections and University Archives. This copy also forms the anchor for the transcription and the printed copy variations. Images from other copies, side-by-side views, and explanatory notes are available in the printed copy variations. For more information about our editorial rationale, see our <a href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a> and the <a href="https://whitman-dev.unl.edu/published/LG/1855/variorum/intro.html">introduction to the variorum</a>.</p>
+              <p>The images provided as thumbnails before each page correspond to a copy at the University of Iowa Special Collections and University Archives. This copy also forms the anchor for the transcription and the printed copy variations. Images from other copies, side-by-side views, and explanatory notes are available in the printed copy variations. For more information about our editorial rationale, see our <a target="_blank" href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a> and the <a target="_blank" href="https://whitman-dev.unl.edu/published/LG/1855/variorum/intro.html">introduction to the variorum</a>.</p>
             </div>
           </xsl:otherwise>
         </xsl:choose>
