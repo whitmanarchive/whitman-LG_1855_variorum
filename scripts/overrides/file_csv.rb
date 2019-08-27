@@ -21,7 +21,7 @@ class FileCsv
     full_url = "#{@iiif_path}/#{item_loc}/#{@iiif_end}"
     thumb_url = "#{@iiif_path}/#{item_loc}/#{@iiif_thumb}"
 
-    canvas["@id"] = "https://whitmanarchive.org/media/published/LG/canvas/#{id}"
+    canvas["@id"] = "#{@iiif_output_path}/canvas/#{id}.json"
     canvas.label = row["File Label"]
     canvas.thumbnail = thumb_url
 
@@ -34,8 +34,8 @@ class FileCsv
       puts "Unable to add manuscript for #{item_loc}: #{e}"
       return nil
     end
-    annotation["on"] = "https://whitmanarchive.org/media/published/LG/canvas/#{id}"
-    annotation["@id"] = "https://whitmanarchive.org/media/published/LG/annotation/#{id}"
+    annotation["on"] = "#{@iiif_output_path}/canvas/#{id}.json"
+    annotation["@id"] = "#{@iiif_output_path}/annotation/#{id}.json"
     canvas.images << annotation
     canvas.width = annotation.resource.width
     canvas.height = annotation.resource.height
@@ -47,13 +47,13 @@ class FileCsv
     @iiif_path = "https://whitmanarchive.org/iiif/2"
     @iiif_end = "full/full/0/default.jpg"
     @iiif_thumb = "full/!150,150/0/default.jpg"
+    # note differs from general manifests in that it's in "snippets" subdirectory
+    @iiif_output_path = "#{@options["data_base"]}/data/#{@options["collection"]}/output/#{@options["environment"]}/iiif/snippets"
+    @iiif_output_dir = "#{@options["collection_dir"]}/output/#{@options["environment"]}/iiif/snippets"
 
     groups = {}
 
-    output_dir = File.join(
-      @options["collection_dir"], "output", @options["environment"], "iiif", "snippets"
-    )
-    FileUtils.mkdir_p(output_dir)
+    FileUtils.mkdir_p(@iiif_output_dir)
 
     csv = CSV.read(@file_location, headers: true)
 
@@ -69,7 +69,7 @@ class FileCsv
       # as a canvas in the manifest
 
       manifest = IIIF::Presentation::Manifest.new({
-        "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{@options["environment"]}/iiif/snippets/#{id}.json",
+        "@id" => "#{@iiif_output_path}/#{id}.json",
         "label" => row["File Label"],
         "description" => [
           "@value" => "#{row["File Label"]} (#{id})",
@@ -98,7 +98,7 @@ class FileCsv
       manifest.sequences << sequence_primary
       # puts manifest.to_json(pretty: true)
 
-      File.open(File.join(output_dir, "#{id}.json"), "w") do |f|
+      File.open(File.join(@iiif_output_dir, "#{id}.json"), "w") do |f|
         f.write(manifest.to_json(pretty: true))
       end
 
@@ -124,7 +124,8 @@ class FileCsv
       }
     end
 
-    File.open(File.join(output_dir, "index.js"), "w") do |f|
+    puts "writing to #{@iiif_output_dir}"
+    File.open(File.join(@iiif_output_dir, "index.js"), "w") do |f|
       f.write("var snippets = #{snippets.to_json(pretty: true)}")
     end
     # TODO need to look into this

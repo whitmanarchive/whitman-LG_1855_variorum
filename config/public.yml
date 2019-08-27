@@ -8,9 +8,9 @@
 default:
   # please fill in the name of your collection here
   # collection:
-  collection: whitman_variorum
-  # data_base: https://cdrhmedia.unl.edu  # (do not include /data/ in path)
-  # media_base: https://cdrhmedia.unl.edu
+  collection: whitman-variorum
+  data_base: https://whitmanarchive.org/media  # (do not include /data/ in path)
+  media_base: https://whitmanarchive.org/media
 
   # refer to the documentation for details about overriding the XSL
   # html_html_xsl:
@@ -26,7 +26,9 @@ default:
     msPathHTMLRoot: manuscripts/transcriptions_var/
     variorumPathHTMLRoot: published/LG/1855/related/
 
-# development:
+development:
+  data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
+
   # es_index: cdrhapidev-v1
   # es_path: https://cdrhdev1.unl.edu/elastic
 

@@ -9,11 +9,14 @@ class FileTei
     iiif_path = "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F"
     iiif_end = "full/full/0/default.jpg"
     iiif_thumb = "full/!150,150/0/default.jpg"
+    iiif_output_path = "#{@options["data_base"]}/data/#{@options["collection"]}/output/#{@options["environment"]}/iiif"
+    iiif_output_dir = "#{@options["collection_dir"]}/output/#{@options["environment"]}/iiif"
+
 
     # create a manifest with basic LoG stuff
 
     manifest = IIIF::Presentation::Manifest.new({
-      "@id" => "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/#{@options["environment"]}/iiif/leaves_of_grass.json",
+      "@id" => "#{iiif_output_path}/leaves_of_grass.json",
       "label" => "Leaves of Grass (1855)",
       #"description" => [
       #  "@value" => "This is a description",
@@ -67,10 +70,10 @@ class FileTei
 
     manifest["structures"] = toc.map do |item|
       {
-        "@id" => "https://whitmanarchive.org/TODO/structure/#{item[:s_id]}",
+        "@id" => "#{iiif_output_path}/structure/#{item[:s_id]}.json",
         "@type" => "sc:Canvas",
         "label" => item[:label],
-        "canvases" => [ "https://whitmanarchive.org/TODO/#{item[:c_id]}" ]
+        "canvases" => [ "#{iiif_output_path}/canvas/#{item[:c_id]}.json" ]
       }
     end
 
@@ -92,7 +95,7 @@ class FileTei
       full_url = "#{iiif_path}%2F#{image_filename}/#{iiif_end}"
       thumb_url = "#{iiif_path}%2F#{image_filename}/#{iiif_thumb}"
 
-      canvas["@id"] = "https://whitmanarchive.org/TODO/#{image_filename}-#{page["id"]}"
+      canvas["@id"] = "#{iiif_output_path}/canvas/#{image_filename}-#{page["id"]}.json"
       canvas.label = "#{page["rend"]} #{page["id"]}"
       canvas.thumbnail = thumb_url
 
@@ -103,8 +106,8 @@ class FileTei
         service_id: "#{iiif_path}%2F#{image_filename}"
       })
       # TODO see this part of documentation for "on": https://iiif.io/api/presentation/2.1/#image-resources
-      annotation["on"] = "https://whitmanarchive.org/TODO/#{image_filename}-#{page["id"]}"
-      annotation["@id"] = "https://whitmanarchive.org/TODO/annotation/#{image_filename}"
+      annotation["on"] = "#{iiif_output_path}/canvas/#{image_filename}-#{page["id"]}"
+      annotation["@id"] = "#{iiif_output_path}/annotation/#{image_filename}"
       canvas.images << annotation
       canvas.width = annotation.resource.width
       canvas.height = annotation.resource.height
@@ -112,7 +115,8 @@ class FileTei
       if image_filename == "ppp.00271.007.jpg"
         canvas["otherContent"] = [
           {
-            "@id" => "https://cdrhmedia.unl.edu/data/whitman-variorum/output/#{@options["environment"]}/iiif/frontispiece.json",
+            # TODO this shoudl perhaps be in a subdirectory of annotationList
+            "@id" => "#{iiif_output_path}/frontispiece.json",
             "@type" => "sc:AnnotationList"
           }
         ]
@@ -126,8 +130,7 @@ class FileTei
     manifest.sequences << sequence_primary
     # puts manifest.to_json(pretty: true)
 
-    output_dir = File.join(@options["collection_dir"], "output", @options["environment"], "iiif")
-    File.open(File.join(output_dir, "leaves_of_grass.json"), "w") { |f| f.write(manifest.to_json(pretty: true)) }
+    File.open(File.join(iiif_output_dir, "leaves_of_grass.json"), "w") { |f| f.write(manifest.to_json(pretty: true)) }
     manifest
   end
 end
