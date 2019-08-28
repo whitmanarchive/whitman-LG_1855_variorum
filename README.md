@@ -15,7 +15,11 @@ To update those files which are being searched for works, please edit `source/au
 
 ## Manifests
 
-To update the snippets, download the snippets spreadsheet as a CSV and stick it in the data repo at `source/authority/snippets.csv`. Then re-run the post script.
+To update the snippets, download the snippets spreadsheet as a CSV and stick it in the data repo at `source/authority/snippets.csv`. Then run:
+
+```
+bundle exec post -x iiif
+```
 
 Two types of manifests will be created:
 
