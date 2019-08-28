@@ -339,7 +339,7 @@
                 </xsl:variable>
                 <xsl:call-template name="url_builder">
                   <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-                  <xsl:with-param name="image_size_local" select="800"/>
+                  <xsl:with-param name="image_size_local" select="1200"/>
                   <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
                 </xsl:call-template>
               </xsl:attribute>
@@ -699,7 +699,7 @@
           <xsl:attribute name="href">
             <xsl:call-template name="url_builder">
               <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
-              <xsl:with-param name="image_size_local" select="800"/>
+              <xsl:with-param name="image_size_local" select="1200"/>
               <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
             </xsl:call-template>
           </xsl:attribute>
