@@ -21,21 +21,21 @@
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/bd_0080a.json",
           "@type": "sc:Canvas",
           "label": "Marbled endpaper",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg/full/!150,150/0/default.jpg",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.106.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/bd_0080a.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.106.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "width": 2517,
-                "height": 3468,
+                "height": 3491,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.106.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
@@ -43,7 +43,7 @@
             }
           ],
           "width": 2517,
-          "height": 3468
+          "height": 3491
         }
       ]
     }
