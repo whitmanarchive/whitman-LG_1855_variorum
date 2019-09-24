@@ -9,7 +9,7 @@
       "@language": "en"
     }
   ],
-  "attribution": "The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.",
+  "attribution": "Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -21,29 +21,29 @@
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/bd_0090b.json",
           "@type": "sc:Canvas",
           "label": "State B binding",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01028.jpg/full/!150,150/0/default.jpg",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00027.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/bd_0090b.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01028.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00027.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2677,
-                "height": 3763,
+                "width": 2529,
+                "height": 3552,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01028.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00027.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/bd_0090b.json"
             }
           ],
-          "width": 2677,
-          "height": 3763
+          "width": 2529,
+          "height": 3552
         }
       ]
     }

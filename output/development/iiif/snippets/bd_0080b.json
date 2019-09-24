@@ -2,14 +2,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/bd_0080b.json",
   "@type": "sc:Manifest",
-  "label": "Yellow endpaper",
+  "label": "Buff endpaper",
   "description": [
     {
-      "@value": "Yellow endpaper (bd_0080b)",
+      "@value": "Buff endpaper (bd_0080b)",
       "@language": "en"
     }
   ],
-  "attribution": "The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.",
+  "attribution": "Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,30 +20,30 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/bd_0080b.json",
           "@type": "sc:Canvas",
-          "label": "Yellow endpaper",
-          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01035.jpg/full/!150,150/0/default.jpg",
+          "label": "Buff endpaper",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00037.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
               "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/bd_0080b.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01035.jpg/full/!200,200/0/default.jpg",
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00037.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2799,
-                "height": 4015,
+                "width": 2470,
+                "height": 3486,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01035.jpg",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00037.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/bd_0080b.json"
             }
           ],
-          "width": 2799,
-          "height": 4015
+          "width": 2470,
+          "height": 3486
         }
       ]
     }
