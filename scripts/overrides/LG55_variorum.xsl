@@ -76,9 +76,9 @@
             <th scope="col">
               <strong>location</strong>
             </th>
-            <th scope="col">
+            <!--<th scope="col">
               <strong>certainty</strong>
-            </th>
+            </th>-->
             <th scope="col">
               <strong>text</strong>
               <span class="v_close_tei_app">
@@ -106,8 +106,8 @@
             </xsl:variable>
             <tr>
               <xsl:attribute name="class">
-                <xsl:text>certainty_</xsl:text>
-                <xsl:value-of select="$cert"/>
+                <xsl:text>certainty_low</xsl:text>
+                <!--<xsl:value-of select="$cert"/>-->
               </xsl:attribute>
               <!-- document column -->
               <td class="relation_document">
@@ -159,9 +159,9 @@
                 </a>
               </td>
               <!-- certainty column -->
-              <td class="relation_certainty">
+              <!--<td class="relation_certainty">
                 <xsl:value-of select="$cert"/>
-              </td>
+              </td>-->
               <!-- text column -->
               <td class="relation_text">
                 <xsl:choose>
@@ -235,17 +235,17 @@
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="id">
-        <xsl:choose>
-          <!-- Pad the variorum line numbers by 1 to match the visible line numbers -->
+        <!--<xsl:choose>
+          <!-\- Pad the variorum line numbers by 1 to match the visible line numbers -\->
           <xsl:when test="starts-with(@xml:id,'l')">
             <xsl:text>l</xsl:text>
             <xsl:variable name="line_num" select="number(substring-after(@xml:id,'l'))"/>
             <xsl:value-of select="$line_num + 1"/>
           </xsl:when>
-          <xsl:otherwise>
+          <xsl:otherwise>-->
             <xsl:value-of select="@xml:id"/>
-          </xsl:otherwise>
-        </xsl:choose>
+          <!--</xsl:otherwise>
+        </xsl:choose>-->
       </xsl:attribute>
       <div class="v_corresp">
         <xsl:copy-of select="$corresp"/>
@@ -570,7 +570,8 @@
             <xsl:variable name="num">
               <xsl:value-of select="number(substring-after($line_id_local, 'l'))"/>
             </xsl:variable>
-            <xsl:value-of select="$num + 1"/>
+            <xsl:value-of select="$num"/>
+            <!--<xsl:value-of select="$num + 1"/>-->
           </xsl:with-param>
           <xsl:with-param name="outer">
             <!--<xsl:attribute name="id" select="$line_id_local"/>-->
