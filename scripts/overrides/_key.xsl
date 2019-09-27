@@ -31,7 +31,7 @@
             <div class="relation_num_docs" style="width:24%"/>
             </div>
           </div>
-          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, links to transcriptions, and certainty about the relation. The red and green lines offer a visualization of the number of related manuscripts and notebooks. The red line corresponds to the number of related manuscript and notebook segments. The green line corresponds to the number of related manuscripts or notebooks.</p>
+          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, along with links to transcriptions. The red and green lines offer a visualization of the relations. The green line corresponds to the number of related manuscripts or notebooks. The red line corresponds to the total number of related text segments from those manuscripts and notebooks.</p>
         </div>
         <xsl:choose>
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
