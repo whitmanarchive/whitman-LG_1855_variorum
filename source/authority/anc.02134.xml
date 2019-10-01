@@ -1526,7 +1526,7 @@
                     <link cert="low" target="ppp.01880.xml#l1147 #l04"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="uva.00273.xml">
-                    <link cert="low" target="ppp.01880.xml#l629 #l02"/>
+                    <link cert="low" target="ppp.01880.xml#l629 #l01"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="uva.00278.xml">
                     <link cert="low" target="ppp.01880.xml#l1002 #l02"/>
