@@ -331,7 +331,16 @@
                 <xsl:variable name="figure_id_local">
                   <xsl:choose> 
                     <xsl:when test="contains(@facs,'_cropped')">
-                      <xsl:value-of select="substring-before(@facs,'_cropped')"/></xsl:when>
+                      <xsl:choose>
+                        <xsl:when test="contains(@facs,'a_cropped')">
+                          <xsl:value-of select="substring-before(@facs,'a_cropped')"/>
+                        </xsl:when>
+                        <xsl:when test="contains(@facs,'b_cropped')">
+                          <xsl:value-of select="substring-before(@facs,'b_cropped')"/>
+                        </xsl:when>
+                        <xsl:otherwise><xsl:value-of select="substring-before(@facs,'_cropped')"/></xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:when>
                     <xsl:otherwise>
                       <!--<xsl:value-of select="@facs"/>/full/full/0/default.jpg</xsl:otherwise>-->
                       <xsl:value-of select="@facs"/></xsl:otherwise>
