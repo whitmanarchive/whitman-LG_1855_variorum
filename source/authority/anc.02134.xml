@@ -298,8 +298,9 @@
                     <link cert="low" target="ppp.01880.xml#l1423 #ab01"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="duk.00878.xml">
-                    <link cert="low" target="ppp.01880.xml#l1875 #ab01"/>
-                    <link cert="low" target="ppp.01880.xml#l1876 #ab01"/>
+                    <link cert="high" target="ppp.01880.xml#l1875 #seg01"/>
+                    <link cert="high" target="ppp.01880.xml#l1876 #seg01"/>
+                    <link cert="high" target="ppp.01880.xml#l1876 #seg02"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="duk.00883.xml">
                     <link cert="low" target="ppp.01880.xml#l535 #item01"/>
@@ -954,6 +955,7 @@
                     <link cert="high" target="ppp.01880.xml#seg01 #q01"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="loc.05589.xml">
+                    <link cert="low" target="ppp.01880.xml#l1877 #ab100"/>
                     <link cert="low" target="ppp.01880.xml#l426 #p01"/>
                     <link cert="low" target="ppp.01880.xml#l427 #p01"/>
                     <link cert="low" target="ppp.01880.xml#l394 #p02"/>
