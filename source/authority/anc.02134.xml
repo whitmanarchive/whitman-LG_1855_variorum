@@ -1582,11 +1582,22 @@
                 </linkGrp>
                 <linkGrp type="relation" corresp="uva.00269.xml">
                     <link cert="low" target="ppp.01880.xml#l421 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l422 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l425 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l513 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l515 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l1000 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l1878 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#pr301 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l123 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l1370 #l01"/>
                     <link cert="low" target="ppp.01880.xml#l506 #l02"/>
                     <link cert="low" target="ppp.01880.xml#l1148 #l02"/>
                     <link cert="low" target="ppp.01880.xml#l1148 #l03"/>
                     <link cert="low" target="ppp.01880.xml#l1149 #l04"/>
                     <link cert="low" target="ppp.01880.xml#l1147 #l04"/>
+                    <link cert="low" target="ppp.01880.xml#pr339 #l04"/>
+                    <link cert="low" target="ppp.01880.xml#pr342 #l04"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="uva.00273.xml">
                     <link cert="low" target="ppp.01880.xml#l629 #l01"/>
