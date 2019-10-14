@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-  xpath-default-namespace="http://www.whitmanarchive.org/namespace">
+  xpath-default-namespace="http://www.whitmanarchive.org/namespace"> 
 
   <xsl:import href="../../config/config.xsl"/>
   <xsl:import href="_datura_overrides.xsl"/>
@@ -116,8 +116,10 @@
                   <a target="_blank" rel="nofollow noreferrer">
                     <xsl:choose>
                       <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
-                        <xsl:attribute name="href"
-                          select="concat($msPathHTMLRoot, $fileIDhtml)"/>
+                        <!--TEMP PROOFING NHG-->
+                        <!--<xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml)"/>-->
+                        <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml)"/>
+                        <!--/TEMP PROOFING NHG-->
                       </xsl:when>
                       <!--TEMPORARY LOCATION-->
                       <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
@@ -126,8 +128,10 @@
                       </xsl:when>
                       <!--/TEMPORARY LOCATION-->
                       <xsl:otherwise>
-                        <xsl:attribute name="href"
-                          select="concat($nbPathHTMLRoot, $fileIDhtml)"/>
+                        <!--TEMP PROOFING NHG-->
+                        <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml)"/>-->
+                        <xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml)"/>
+                        <!--/TEMP PROOFING NHG-->
                       </xsl:otherwise>
                     </xsl:choose>
                     <xsl:value-of select="substring-before($fileID, '.xml')"/>
@@ -141,8 +145,10 @@
                 <a target="_blank" rel="nofollow noreferrer">
                   <xsl:choose>
                     <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
-                      <xsl:attribute name="href"
-                        select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                      <!--TEMP PROOFING NHG-->
+                      <!--<xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>-->
+                      <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml, '#', $msID)"/>
+                      <!--/TEMP PROOFING NHG-->
                     </xsl:when>
                     <!--TEMPORARY LOCATION-->
                     <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
@@ -151,8 +157,10 @@
                     </xsl:when>
                     <!--/TEMPORARY LOCATION-->
                     <xsl:otherwise>
-                      <xsl:attribute name="href"
-                        select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                      <!--TEMP PROOFING NHG-->
+                      <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>-->
+                      <xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml, '#', $msID)"/>
+                      <!--/TEMP PROOFING NHG-->
                     </xsl:otherwise>
                   </xsl:choose>
                   <xsl:value-of select="concat('#',$msID)"/>
