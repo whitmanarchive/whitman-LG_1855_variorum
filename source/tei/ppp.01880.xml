@@ -273,9 +273,9 @@
                   </rdg>
                   <rdg type="text" xml:id="vr_0020d" facs="pra_nhg.00001_cropped.jpg" wit="#PA_01"><handShift new="#h2"/>Entered according to Act of Congress, in the year 1855, by Walter Whitman in the Clerks office of the District Court of the United States for the Southern District of the State of New York.<handShift new="#h1"/>
                   </rdg>
-                  <note type="project" target="#vr_0020a">State B copyright page. Copyright notice printed in two lines.</note>
-                  <note type="project" target="#vr_0020b">State A copyright page. Blank.</note>
-                  <note type="project" target="#vr_0020d #vr_0020c">State A copyright page. The notice is written in four lines in Whitman's hand.</note>
+                  <note type="project" target="#vr_0020a">State B copyright page. (Myerson second state.) Copyright notice printed in two lines.</note> 
+                  <note type="project" target="#vr_0020b">State A copyright page. (Myerson first state.) Blank.</note>
+                  <note type="project" target="#vr_0020d #vr_0020c">State A copyright page. (Myerson first state.) The notice is written in four lines in Whitman's hand.</note>
                </app>
             </docImprint>
          </titlePage>
