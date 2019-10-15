@@ -1662,6 +1662,10 @@
                     <link cert="low" target="ppp.01880.xml#pr185 #l03"/>
                     <link cert="low" target="ppp.01880.xml#l1918 #l03"/>
                 </linkGrp>
+                <linkGrp type="relation" corresp="uva.00516.xml">
+                    <link cert="low" target="ppp.01880.xml#l1361 #seg02"/>
+                    <link cert="low" target="ppp.01880.xml#l1361 #seg03"/>
+                </linkGrp>
                 <linkGrp type="relation" corresp="uva.00561.xml">
                     <link cert="low" target="ppp.01880.xml#l225 #l01"/>
                     <link cert="low" target="ppp.01880.xml#l226 #l02"/>
