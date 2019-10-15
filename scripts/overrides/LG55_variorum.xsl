@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-  xpath-default-namespace="http://www.whitmanarchive.org/namespace"> 
+  xpath-default-namespace="http://www.whitmanarchive.org/namespace">
 
   <xsl:import href="../../config/config.xsl"/>
   <xsl:import href="_datura_overrides.xsl"/>
@@ -19,8 +19,8 @@
 
   <!-- variables -->
   <!-- TODO pull dynamically from mss -->
-  <xsl:variable name="mss_max_count">14</xsl:variable>
-  <xsl:variable name="mss_max_count_docs">14</xsl:variable>
+  <xsl:variable name="mss_max_count">18</xsl:variable>
+  <xsl:variable name="mss_max_count_docs">18</xsl:variable>
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
