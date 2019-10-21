@@ -8204,6 +8204,48 @@
  </history>
  </msDesc>
  </witness>
+ <witness xml:id="TTU_01">
+  <msDesc>
+   <msIdentifier>
+    <repository>Texas Tech University</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Some words and lines inked over.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright"></layout> 
+      <layout rend="frontispiece">state B</layout> 
+      <layout rend="reviews">Inserted gathering</layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>state B</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance></provenance>
+   </history>
+  </msDesc>
+ </witness>
 </listWit>
    </div1>
   </body>
