@@ -1227,6 +1227,16 @@
                 <linkGrp type="relation" corresp="med.00904.xml">
                     <link cert="low" target="ppp.01880.xml#l729 #ab02"/>
                 </linkGrp>
+                <linkGrp type="relation" corresp="med.00909.xml">
+                    <link cert="low" target="ppp.01880.xml#l737 #l01"/>
+                    <link cert="low" target="ppp.01880.xml#l4 #l02"/>
+                </linkGrp>
+                <linkGrp type="relation" corresp="med.00910.xml">
+                    <link cert="low" target="ppp.01880.xml#l767 #l01"/>
+                </linkGrp>
+                <linkGrp type="relation" corresp="med.00911.xml">
+                    <link cert="low" target="ppp.01880.xml#l83 #l01"/>
+                </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00019.xml">
                     <link cert="low" target="ppp.01880.xml#rev09 #ab01"/>
                     <link cert="low" target="ppp.01880.xml#rev10 #ab01"/>
