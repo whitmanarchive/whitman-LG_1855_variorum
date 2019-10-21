@@ -14,7 +14,7 @@ default:
 
   # refer to the documentation for details about overriding the XSL
   # html_html_xsl:
-  tei_html_xsl: scripts/overrides/LOG_variorum.xsl
+  tei_html_xsl: scripts/overrides/LG55_variorum.xsl
   # vra_html_xsl:
   variables_html:
     siteroot: https://whitman-dev.unl.edu/
@@ -22,8 +22,8 @@ default:
     nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
     msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
     variorumPathRoot: /var/local/www/data/collections/whitman-variorum/source/authority/
-    nbPathHTMLRoot: manuscripts/notebooks/transcriptions_var/
-    msPathHTMLRoot: manuscripts/transcriptions_var/
+    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
+    msPathHTMLRoot: manuscripts/transcriptions/
     variorumPathHTMLRoot: published/LG/1855/related/
 
 development:
