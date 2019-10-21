@@ -46,7 +46,7 @@
               <xsl:text>manuscripts</xsl:text>
               <xsl:choose>
                 <xsl:when test="@type='marg'">/marginalia/transcriptions/</xsl:when>
-                <!-- TODO not sure what path is for 'marg-anno' -->
+                <xsl:when test="@type='marg-anno'">/marginalia/annotations/</xsl:when>
                 <xsl:when test="@type='mss'">/transcriptions/</xsl:when>
                 <xsl:when test="@type='nb'">/notebooks/transcriptions/</xsl:when>
               </xsl:choose>
