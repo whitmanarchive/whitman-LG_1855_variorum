@@ -8246,6 +8246,48 @@
    </history>
   </msDesc>
  </witness>
+ <witness xml:id="PC_20">
+  <msDesc>
+   <msIdentifier>
+    <repository>Personal Collections (Various)</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>A series of 47 individual leaves from the 1855 <hi rend="italic">Leaves of Grass</hi> were bound by Bennett Book Studios, Inc. in New York in 1930 and sold separately.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright"></layout> 
+      <layout rend="frontispiece"></layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p></p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance></provenance>
+   </history>
+  </msDesc>
+ </witness>
 </listWit>
    </div1>
   </body>
