@@ -8234,9 +8234,9 @@
       <collation></collation>
      </supportDesc>
      <layoutDesc>
-      <layout rend="copyright"></layout> 
+      <layout rend="copyright">state B</layout> 
       <layout rend="frontispiece">state B</layout> 
-      <layout rend="reviews">Inserted gathering</layout> 
+      <layout rend="reviews">Inserted gathering at front</layout> 
      </layoutDesc>
     </objectDesc>
     <bindingDesc><p>state B</p></bindingDesc>
