@@ -59,7 +59,7 @@
   <witness xml:id="GC_01">
  <msDesc>
  <msIdentifier>
-<repository>Grinnell College Libraries, Grinnell College</repository>
+<repository key="IaGG">Grinnell College Libraries, Grinnell College</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -101,7 +101,7 @@
   <witness xml:id="RC_01">
  <msDesc>
  <msIdentifier>
-<repository>Fintel Library, Roanoke College</repository>
+  <repository key="ViSaRC">Fintel Library, Roanoke College</repository>
 <idno>Archives Special Coll. PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -143,7 +143,7 @@
   <witness xml:id="CPL_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections and Preservation Division, Chicago Public Library</repository>
+<repository key="IC">Special Collections and Preservation Division, Chicago Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -185,7 +185,7 @@
   <witness xml:id="UR_01">
  <msDesc>
  <msIdentifier>
-<repository>Boatwright Memorial Library, University of Richmond</repository>
+<repository key="ViRU">Boatwright Memorial Library, University of Richmond</repository>
 <idno>Rare PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -227,7 +227,7 @@
   <witness xml:id="WUSL_01">
  <msDesc>
  <msIdentifier>
-<repository>Olin Library, Washington University in St. Louis</repository>
+<repository key="MoSW">Olin Library, Washington University in St. Louis</repository>
 <idno>Rare PS3201 1855b 4o </idno>
  </msIdentifier>
  <msContents>
@@ -269,7 +269,7 @@
   <witness xml:id="MSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Michigan State University Libraries, Michigan State University</repository>
+<repository key="MiEM">Michigan State University Libraries, Michigan State University</repository>
 <idno>XX folio PS3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -311,7 +311,7 @@
   <witness xml:id="NLS_01">
  <msDesc>
  <msIdentifier>
-<repository>National Library of Scotland</repository>
+<repository key="StEdNL">National Library of Scotland</repository>
 <idno>Shelfmark: H.S.616</idno>
  </msIdentifier>
  <msContents>
@@ -395,7 +395,7 @@
   <witness xml:id="OSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books and Manuscripts Library of The Ohio State University Libraries, Ohio State University</repository>
+<repository key="OU">Rare Books and Manuscripts Library of The Ohio State University Libraries, Ohio State University</repository>
 <idno>PS3201 1855B</idno>
  </msIdentifier>
  <msContents>
@@ -437,7 +437,7 @@
   <witness xml:id="PAA_01">
  <msDesc>
  <msIdentifier>
-<repository>Oliver Wendell Holmes Library, Phillips Academy Andover</repository>
+<repository key="MAnP">Oliver Wendell Holmes Library, Phillips Academy Andover</repository>
 <idno>Sp Col 811 W59le 1855</idno>
  </msIdentifier>
  <msContents>
@@ -479,7 +479,7 @@
   <witness xml:id="TAMU_01">
  <msDesc>
  <msIdentifier>
-<repository>Cushing Memorial Library and Archives, Texas A &amp; M University</repository>
+<repository key="TxCM">Cushing Memorial Library and Archives, Texas A &amp; M University</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -521,7 +521,7 @@
   <witness xml:id="TCU_01">
  <msDesc>
  <msIdentifier>
-<repository>Mary Couts Burnett Library, Texas Christian University</repository>
+<repository key="TxFTC">Mary Couts Burnett Library, Texas Christian University</repository>
 <idno>Lewis PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -605,7 +605,7 @@
   <witness xml:id="UC_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections Research Center, Regenstein Library, University of Chicago</repository>
+<repository key="ICU">Special Collections Research Center, Regenstein Library, University of Chicago</repository>
 <idno>Alc PS3201 1855 copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -647,7 +647,7 @@
   <witness xml:id="UC_02">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections Research Center, Regenstein Library, University of Chicago</repository>
+  <repository key="ICU">Special Collections Research Center, Regenstein Library, University of Chicago</repository>
 <idno>Alc PS3201 1855 copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -689,7 +689,7 @@
   <witness xml:id="UCLA_01">
  <msDesc>
  <msIdentifier>
-<repository>UCLA Special Collections Library, UCLA (University of California Los Angeles)</repository>
+<repository key="CLU">UCLA Special Collections Library, UCLA (University of California Los Angeles)</repository>
 <idno>Safe PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -731,7 +731,7 @@
   <witness xml:id="UKy_01">
  <msDesc>
  <msIdentifier>
-<repository>University of Kentucky Special Collections, University of Kentucky</repository>
+<repository key="KyU">University of Kentucky Special Collections, University of Kentucky</repository>
 <idno>Rare Books  PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -773,7 +773,7 @@
   <witness xml:id="UM_01">
  <msDesc>
  <msIdentifier>
-<repository>The John Rylands University Library, The University of Manchester</repository>
+<repository key="UkMaJRU">The John Rylands University Library, The University of Manchester</repository>
 <idno>Special Collections R101050</idno>
  </msIdentifier>
  <msContents>
@@ -815,7 +815,7 @@
   <witness xml:id="UMn_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections and Rare Books, Wilson Library, University of Minnesota</repository>
+<repository key="MnU">Special Collections and Rare Books, Wilson Library, University of Minnesota</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -857,7 +857,7 @@
   <witness xml:id="UNCC_01">
  <msDesc>
  <msIdentifier>
-<repository>Atkins Library, UNC Charlotte (University of North Carolina, Charlotte)</repository>
+<repository key="NcCU">Atkins Library, UNC Charlotte (University of North Carolina, Charlotte)</repository>
 <idno>PS3201 1855 shelf 277.2 [9fl]</idno>
  </msIdentifier>
  <msContents>
@@ -899,7 +899,7 @@
   <witness xml:id="UWM_01">
  <msDesc>
  <msIdentifier>
-<repository>Department of Special Collections, General Libraries, University of Wisconsin-Madison</repository>
+<repository key="WU">Department of Special Collections, General Libraries, University of Wisconsin-Madison</repository>
 <idno>Vault CA 8263</idno>
  </msIdentifier>
  <msContents>
@@ -941,7 +941,7 @@
   <witness xml:id="AC_01">
  <msDesc>
  <msIdentifier>
-<repository>Amherst College Library Archives and Special Collections, Amherst College</repository>
+<repository key="MA">Amherst College Library Archives and Special Collections, Amherst College</repository>
 <idno>xPS3201 1855 copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -983,7 +983,7 @@
   <witness xml:id="AC_02">
  <msDesc>
  <msIdentifier>
-<repository>Amherst College Library Archives and Special Collections, Amherst College</repository>
+<repository key="MA">Amherst College Library Archives and Special Collections, Amherst College</repository>
 <idno>xPS3201 1855 copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -1025,7 +1025,7 @@
   <witness xml:id="BSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Ball State University Libraries, Ball State University</repository>
+<repository key="InMuB">Ball State University Libraries, Ball State University</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1067,7 +1067,7 @@
   <witness xml:id="SUNYBi_01">
  <msDesc>
  <msIdentifier>
-<repository>Binghamton University Libraries, Binghamton University (State University of New York)</repository>
+<repository key="NBiSU">Binghamton University Libraries, Binghamton University (State University of New York)</repository>
 <idno>PS3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -1109,7 +1109,7 @@
   <witness xml:id="BoL_01">
  <msDesc>
  <msIdentifier>
-<repository>Bolton Archives and Local Studies Unit, Bolton Library</repository>
+<repository key="UK-BoL">Bolton Archives and Local Studies Unit, Bolton Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1151,7 +1151,7 @@
   <witness xml:id="BGSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Center for Archival Collections, Jerome Library, Bowling Green State University</repository>
+<repository key="OBgU">Center for Archival Collections, Jerome Library, Bowling Green State University</repository>
 <idno>rareovsz PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1193,7 +1193,7 @@
   <witness xml:id="BL_01">
  <msDesc>
  <msIdentifier>
-<repository>British Library</repository>
+<repository key="Uk">British Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1235,7 +1235,7 @@
   <witness xml:id="CMU_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections, Carnegie Mellon University Libraries, Carnegie Mellon University</repository>
+<repository key="PPiC">Special Collections, Carnegie Mellon University Libraries, Carnegie Mellon University</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1277,7 +1277,7 @@
   <witness xml:id="CWRU_01">
  <msDesc>
  <msIdentifier>
-<repository>Kelvin Smith Library, Case Western Reserve University</repository>
+<repository key="OClW">Kelvin Smith Library, Case Western Reserve University</repository>
 <idno>PS 3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -1319,7 +1319,7 @@
   <witness xml:id="CC_01">
  <msDesc>
  <msIdentifier>
-<repository>Ella Strong Denison Library, Scripps College Campus, The Claremont Colleges</repository>
+<repository key="CaClaSC">Ella Strong Denison Library, Scripps College Campus, The Claremont Colleges</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1361,7 +1361,7 @@
   <witness xml:id="CAI_01">
  <msDesc>
  <msIdentifier>
-<repository>Clark Art Institute Library, Clark Art Institute</repository>
+<repository key="MWiCA">Clark Art Institute Library, Clark Art Institute</repository>
 <idno>Rare Book Room Call #B</idno>
  </msIdentifier>
  <msContents>
@@ -1403,7 +1403,7 @@
   <witness xml:id="CU_01">
  <msDesc>
  <msIdentifier>
-<repository>Division of Rare and Manuscript Collections, Cornell University Library, Cornell University</repository>
+<repository key="NIC">Division of Rare and Manuscript Collections, Cornell University Library, Cornell University</repository>
 <idno>Rare PS 3201+ 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1445,7 +1445,7 @@
   <witness xml:id="EU_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections &amp; Archives, Robert W. Woodruff Library, Emory University</repository>
+<repository key="GEU">Special Collections &amp; Archives, Robert W. Woodruff Library, Emory University</repository>
 <idno>PS3201 .A1 1855 FOLIO DANOWSKI</idno>
  </msIdentifier>
  <msContents>
@@ -1487,7 +1487,7 @@
   <witness xml:id="GeC_01">
  <msDesc>
  <msIdentifier>
-<repository>Musselman Library, Gettysburg College</repository>
+<repository key="PGC">Musselman Library, Gettysburg College</repository>
 <idno>PS3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -1529,7 +1529,7 @@
   <witness xml:id="HU_01">
  <msDesc>
  <msIdentifier>
-<repository>Dumbarton Oaks Research Library, Harvard University</repository>
+<repository key="DDO">Dumbarton Oaks Research Library, Harvard University</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1571,7 +1571,7 @@
   <witness xml:id="HC_01">
  <msDesc>
  <msIdentifier>
-<repository>Mossey Library, Hillsdale College</repository>
+<repository key="MiHilC">Mossey Library, Hillsdale College</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -1613,7 +1613,7 @@
   <witness xml:id="KSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections and Archives, Kent State University Libraries</repository>
+<repository key="OhKeUSC">Special Collections and Archives, Kent State University Libraries</repository>
 <idno>rareovsz PS3201 1855 c.1</idno>
  </msIdentifier>
  <msContents>
@@ -1655,7 +1655,7 @@
   <witness xml:id="LMU_01">
  <msDesc>
  <msIdentifier>
-<repository>Charles Von der Ahe Library, Loyola Marymount University</repository>
+<repository key="CLLoy">Charles Von der Ahe Library, Loyola Marymount University</repository>
 <idno>SPEC COLL PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1697,7 +1697,7 @@
   <witness xml:id="USC_01">
  <msDesc>
  <msIdentifier>
-<repository>Joel Myerson Collection of Nineteenth-Century American Literature, Thomas Cooper Library, University of South Carolina</repository>
+<repository key="ScU">Joel Myerson Collection of Nineteenth-Century American Literature, Thomas Cooper Library, University of South Carolina</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1739,7 +1739,7 @@
   <witness xml:id="USC_02">
  <msDesc>
  <msIdentifier>
-<repository>Thomas Cooper Library, University of South Carolina</repository>
+<repository key="ScU">Thomas Cooper Library, University of South Carolina</repository>
 <idno>PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1781,7 +1781,7 @@
   <witness xml:id="UMi_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections Library, University of Michigan</repository>
+<repository key="MiU">Special Collections Library, University of Michigan</repository>
 <idno>828 W6L</idno>
  </msIdentifier>
  <msContents>
@@ -1823,7 +1823,7 @@
   <witness xml:id="NSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Lyman Beecher Brooks Library, Norfolk State University</repository>
+<repository key="ViNS">Lyman Beecher Brooks Library, Norfolk State University</repository>
 <idno>PS3201 .W45 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1865,7 +1865,7 @@
   <witness xml:id="WFU_01">
  <msDesc>
  <msIdentifier>
-<repository>Z. Smith Reynolds Library, Wake Forest University</repository>
+<repository key="NcWsW">Z. Smith Reynolds Library, Wake Forest University</repository>
 <idno>PS3201 1855 c.1</idno>
  </msIdentifier>
  <msContents>
@@ -1907,7 +1907,7 @@
   <witness xml:id="WFU_02">
  <msDesc>
  <msIdentifier>
-<repository>Z. Smith Reynolds Library, Wake Forest University</repository>
+<repository key="NcWsW">Z. Smith Reynolds Library, Wake Forest University</repository>
 <idno>PS3201 1855 c.2</idno>
  </msIdentifier>
  <msContents>
@@ -1949,7 +1949,7 @@
   <witness xml:id="UH_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections, University of Hawaii at Manoa Library, University of Hawaii</repository>
+<repository key="HU">Special Collections, University of Hawaii at Manoa Library, University of Hawaii</repository>
 <idno>PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -1991,7 +1991,7 @@
   <witness xml:id="WC_01">
  <msDesc>
  <msIdentifier>
-<repository>Chapin Library, Williams College</repository>
+<repository key="MWiW">Chapin Library, Williams College</repository>
 <idno>Whitman Coll. A2.1.a1 copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -2033,7 +2033,7 @@
   <witness xml:id="WC_02">
  <msDesc>
  <msIdentifier>
-<repository>Chapin Library, Williams College</repository>
+  <repository key="MWiW">Chapin Library, Williams College</repository>
 <idno>Whitman Coll. A2.1.a1 copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -2075,7 +2075,7 @@
   <witness xml:id="WC_03">
  <msDesc>
  <msIdentifier>
-<repository>Chapin Library, Williams College</repository>
+  <repository key="MWiW">Chapin Library, Williams College</repository>
 <idno>Whitman Coll. A2.1.a1 copy 3</idno>
  </msIdentifier>
  <msContents>
@@ -2117,7 +2117,7 @@
   <witness xml:id="WC_04">
  <msDesc>
  <msIdentifier>
-<repository>Chapin Library, Williams College</repository>
+  <repository key="MWiW">Chapin Library, Williams College</repository>
 <idno>Whitman Coll. A2.1.a1 copy 4</idno>
  </msIdentifier>
  <msContents>
@@ -2159,7 +2159,7 @@
   <witness xml:id="WC_05">
  <msDesc>
  <msIdentifier>
-<repository>Chapin Library, Williams College</repository>
+  <repository key="MWiW">Chapin Library, Williams College</repository>
 <idno>Whitman Coll. A2.1.a1 copy 5 (London)</idno>
  </msIdentifier>
  <msContents>
@@ -2201,7 +2201,7 @@
   <witness xml:id="UNCCH_02">
  <msDesc>
  <msIdentifier>
-<repository>The Wilson Library, The University of North Carolina at Chapel Hill</repository>
+<repository key="NcU">The Wilson Library, The University of North Carolina at Chapel Hill</repository>
 <idno>PS3201 1855b</idno>
  </msIdentifier>
  <msContents>
@@ -2243,7 +2243,7 @@
   <witness xml:id="UNCCH_01">
  <msDesc>
  <msIdentifier>
-<repository>The Wilson Library, The University of North Carolina at Chapel Hill</repository>
+<repository key="NcU">The Wilson Library, The University of North Carolina at Chapel Hill</repository>
 <idno>PS3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -2285,7 +2285,7 @@
   <witness xml:id="WU_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections &amp; Archives, Olin Library, Wesleyan University</repository>
+<repository key="CtW">Special Collections &amp; Archives, Olin Library, Wesleyan University</repository>
 <idno>Davison Rare Book Room M5</idno>
  </msIdentifier>
  <msContents>
@@ -2327,7 +2327,7 @@
   <witness xml:id="SUNYBu_01">
  <msDesc>
  <msIdentifier>
-<repository>The Poetry Collection of the University Libraries, State University of New York at Buffalo</repository>
+<repository key="NBuU">The Poetry Collection of the University Libraries, State University of New York at Buffalo</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -2369,7 +2369,7 @@
   <witness xml:id="UTA_01">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+<repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 1</idno>
  </msIdentifier>
  <msContents>
@@ -2411,7 +2411,7 @@
   <witness xml:id="UTA_02">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 2</idno>
  </msIdentifier>
  <msContents>
@@ -2453,7 +2453,7 @@
   <witness xml:id="UTA_03">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 3</idno>
  </msIdentifier>
  <msContents>
@@ -2495,7 +2495,7 @@
   <witness xml:id="UTA_04">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 4</idno>
  </msIdentifier>
  <msContents>
@@ -2537,7 +2537,7 @@
   <witness xml:id="UTA_05">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 5</idno>
  </msIdentifier>
  <msContents>
@@ -2579,7 +2579,7 @@
   <witness xml:id="UTA_06">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Autsin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Autsin</repository>
 <idno>PS 3201 1855 c. 6</idno>
  </msIdentifier>
  <msContents>
@@ -2621,7 +2621,7 @@
   <witness xml:id="UTA_07">
  <msDesc>
  <msIdentifier>
-<repository>Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 7</idno>
  </msIdentifier>
  <msContents>
@@ -2747,7 +2747,7 @@
   <witness xml:id="NYPL_01">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books Division, The New York Public Library</repository>
+<repository key="NN">Rare Books Division, The New York Public Library</repository>
   <idno>*KLW+ (Whitman, W. Leaves of grass. 1855) Copy 3</idno>
  </msIdentifier>
  <msContents>
@@ -2789,7 +2789,7 @@
   <witness xml:id="NYPL_02">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books Division, The New York Public Library</repository>
+<repository key="NN">Rare Books Division, The New York Public Library</repository>
   <idno>*KLW+ (Whitman, W. Leaves of grass. 1855) Copy 4</idno>
  </msIdentifier>
  <msContents>
@@ -2831,7 +2831,7 @@
   <witness xml:id="NYPL_03">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books Division, The New York Public Library</repository>
+<repository key="NN">Rare Books Division, The New York Public Library</repository>
   <idno>*KLW+ (Whitman, W. Leaves of grass. 1855) Copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -2873,7 +2873,7 @@
   <witness xml:id="NYPL_04">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books Division, The New York Public Library</repository>
+<repository key="NN">Rare Books Division, The New York Public Library</repository>
   <idno>*KL (Whitman, W. Leaves of grass. 1855) Copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -2915,7 +2915,7 @@
   <witness xml:id="YU_01">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+<repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
   <idno>BEIN Za W596 +855c Copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -2957,7 +2957,7 @@
   <witness xml:id="YU_02">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+  <repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
 <idno>BEIN Za W596 +855c Copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -2999,7 +2999,7 @@
   <witness xml:id="YU_03">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+  <repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
 <idno>BEIN Za W596 +855c Copy 3</idno>
  </msIdentifier>
  <msContents>
@@ -3041,7 +3041,7 @@
   <witness xml:id="YU_04">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+  <repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
 <idno>BEIN Za W596 +855d</idno>
  </msIdentifier>
  <msContents>
@@ -3083,7 +3083,7 @@
   <witness xml:id="YU_05">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+  <repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
 <idno>BEIN Za W596 +855e</idno>
  </msIdentifier>
  <msContents>
@@ -3125,7 +3125,7 @@
   <witness xml:id="YU_06">
  <msDesc>
  <msIdentifier>
-<repository>The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
+  <repository key="CtY-BR">The Beinecke Rare Book and Manuscript Library, Yale University Library, Yale University</repository>
 <idno>BEIN Za W596 +855</idno>
  </msIdentifier>
  <msContents>
@@ -3167,7 +3167,7 @@
   <witness xml:id="BYU_01">
  <msDesc>
  <msIdentifier>
-<repository>L. Tom Perry Special Collections, Harold B. Lee Library, Brigham Young University</repository>
+<repository key="UPB">L. Tom Perry Special Collections, Harold B. Lee Library, Brigham Young University</repository>
 <idno>811.38 L46 1855</idno>
  </msIdentifier>
  <msContents>
@@ -3209,7 +3209,7 @@
   <witness xml:id="BaU_01">
  <msDesc>
  <msIdentifier>
-<repository>Armstrong Browning Library, Baylor University</repository>
+<repository key="TxWB">Armstrong Browning Library, Baylor University</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -3251,7 +3251,7 @@
   <witness xml:id="BU_01">
  <msDesc>
  <msIdentifier>
-<repository>Howard Gotlieb Archival Research Center, Boston University</repository>
+<repository key="MBU">Howard Gotlieb Archival Research Center, Boston University</repository>
 <idno>PS3201 .E551</idno>
  </msIdentifier>
  <msContents>
@@ -3293,7 +3293,7 @@
   <witness xml:id="URI_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections, University Libraries, University of Rhode Island</repository>
+<repository key="RUn">Special Collections, University Libraries, University of Rhode Island</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -3335,7 +3335,7 @@
   <witness xml:id="UVa_01">
  <msDesc>
  <msIdentifier>
-<repository>Tracy W. McGregor Library, American History Collection, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+<repository key="ViU">Tracy W. McGregor Library, American History Collection, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030068199: A 1855.W34 L4 copy 1 McGregor</idno>
  </msIdentifier>
  <msContents>
@@ -3377,7 +3377,7 @@
   <witness xml:id="UVa_02">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185240: PS 3201 1855 copy 2 Barrett</idno>
  </msIdentifier>
  <msContents>
@@ -3419,7 +3419,7 @@
   <witness xml:id="UVa_03">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185241: PS 3201 1855 c. 5 Barrett</idno>
  </msIdentifier>
  <msContents>
@@ -3461,7 +3461,7 @@
   <witness xml:id="UVa_04">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185243: PS 3201 1855 copy 3 Barrett</idno>
  </msIdentifier>
  <msContents>
@@ -3503,7 +3503,7 @@
   <witness xml:id="UVa_05">
  <msDesc>
  <msIdentifier>
-<repository>Tracy W. McGregor Library, American History Collection, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">Tracy W. McGregor Library, American History Collection, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030068200: A 1855.W34 L4 Copy 2 McGregor</idno>
  </msIdentifier>
  <msContents>
@@ -3545,7 +3545,7 @@
   <witness xml:id="UVa_06">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185244: PS 3201 1855 c. 6 Barrett</idno>
  </msIdentifier>
  <msContents>
@@ -3587,7 +3587,7 @@
   <witness xml:id="UVa_07">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185245: PS 3201 1855 copy 8 Barrett</idno>
  </msIdentifier>
  <msContents>
@@ -3629,7 +3629,7 @@
   <witness xml:id="UVa_08">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185248: PS 3201 1855 copy 7</idno>
  </msIdentifier>
  <msContents>
@@ -3671,7 +3671,7 @@
   <witness xml:id="UVa_09">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030185242: PS 3201 1855 Copy 4</idno>
  </msIdentifier>
  <msContents>
@@ -3713,7 +3713,7 @@
   <witness xml:id="UVa_10">
  <msDesc>
  <msIdentifier>
-<repository>The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
+  <repository key="ViU">The Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</repository>
 <idno>X030074061: PS 3201 1855 Copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -3755,7 +3755,7 @@
   <witness xml:id="DU_01">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
+<repository key="NcD">Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
 <idno>PS 3201 1855 4to c.1</idno>
  </msIdentifier>
  <msContents>
@@ -3797,7 +3797,7 @@
   <witness xml:id="DU_02">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
+  <repository key="NcD">Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
 <idno>PS 3201 1855 4to c.2</idno>
  </msIdentifier>
  <msContents>
@@ -3839,7 +3839,7 @@
   <witness xml:id="DU_03">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
+  <repository key="NcD">Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
 <idno>PS 3201 1855 4to c.3</idno>
  </msIdentifier>
  <msContents>
@@ -3881,7 +3881,7 @@
   <witness xml:id="DU_04">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
+  <repository key="NcD">Rare Book, Manuscript, and Special Collections Library, Duke University</repository>
 <idno>PS 3201 1855c 4to c. 1</idno>
  </msIdentifier>
  <msContents>
@@ -3923,7 +3923,7 @@
   <witness xml:id="NYPL_06">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+<repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -3965,7 +3965,7 @@
   <witness xml:id="NYPL_07">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4007,7 +4007,7 @@
   <witness xml:id="NYPL_08">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4049,7 +4049,7 @@
   <witness xml:id="NYPL_09">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4091,7 +4091,7 @@
   <witness xml:id="NYPL_10">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4133,7 +4133,7 @@
   <witness xml:id="NYPL_11">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4175,7 +4175,7 @@
   <witness xml:id="NYPL_12">
  <msDesc>
  <msIdentifier>
-<repository>Berg Collection, The New York Public Library</repository>
+  <repository key="NN">Berg Collection, The New York Public Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -4217,7 +4217,7 @@
   <witness xml:id="PML_01">
  <msDesc>
  <msIdentifier>
-<repository>Pierpont Morgan Library</repository>
+<repository key="NNPM">Pierpont Morgan Library</repository>
 <idno>PML 6069</idno>
  </msIdentifier>
  <msContents>
@@ -4259,7 +4259,7 @@
   <witness xml:id="PML_02">
  <msDesc>
  <msIdentifier>
-<repository>Pierpont Morgan Library</repository>
+  <repository key="NNPM">Pierpont Morgan Library</repository>
 <idno>PML 137717</idno>
  </msIdentifier>
  <msContents>
@@ -4301,7 +4301,7 @@
   <witness xml:id="PML_03">
  <msDesc>
  <msIdentifier>
-<repository>Pierpont Morgan Library</repository>
+  <repository key="NNPM">Pierpont Morgan Library</repository>
 <idno>PML 76773</idno>
  </msIdentifier>
  <msContents>
@@ -4343,7 +4343,7 @@
   <witness xml:id="PML_04">
  <msDesc>
  <msIdentifier>
-<repository>Pierpont Morgan Library</repository>
+  <repository key="NNPM">Pierpont Morgan Library</repository>
 <idno>PML 6068</idno>
  </msIdentifier>
  <msContents>
@@ -4385,7 +4385,7 @@
   <witness xml:id="VAM_01">
  <msDesc>
  <msIdentifier>
-<repository>National Art Library, Victoria &amp; Albert Museum</repository>
+<repository key="UkLNAL">National Art Library, Victoria &amp; Albert Museum</repository>
 <idno>Pressmark Forster L 4to 9460</idno>
  </msIdentifier>
  <msContents>
@@ -4427,7 +4427,7 @@
   <witness xml:id="TPL_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections Centre, Toronto Reference Library, Toronto Public Library</repository>
+<repository key="OTP">Special Collections Centre, Toronto Reference Library, Toronto Public Library</repository>
 <idno>811.38 02</idno>
  </msIdentifier>
  <msContents>
@@ -4469,7 +4469,7 @@
   <witness xml:id="TU_01">
  <msDesc>
  <msIdentifier>
-<repository>Paley Library, Temple University Libraries, Temple University</repository>
+<repository key="PPT">Paley Library, Temple University Libraries, Temple University</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -4511,7 +4511,7 @@
   <witness xml:id="OWU_01">
  <msDesc>
  <msIdentifier>
-<repository>Beeghly Library, Ohio Wesleyan University</repository>
+<repository key="ODW">Beeghly Library, Ohio Wesleyan University</repository>
 <idno>Archives 811.3 W61 1855a or cop.1</idno>
  </msIdentifier>
  <msContents>
@@ -4553,7 +4553,7 @@
   <witness xml:id="OWU_02">
  <msDesc>
  <msIdentifier>
-<repository>Beeghly Library, Ohio Wesleyan University</repository>
+<repository key="ODW">Beeghly Library, Ohio Wesleyan University</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -4637,7 +4637,7 @@
   <witness xml:id="NIU_01">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books and Special Collections, Northern Illinois University Libraries, Northern Illinois University</repository>
+<repository key="IDekN">Rare Books and Special Collections, Northern Illinois University Libraries, Northern Illinois University</repository>
 <idno>Whitman Collection PS 3201 1855a</idno>
  </msIdentifier>
  <msContents>
@@ -4679,7 +4679,7 @@
   <witness xml:id="NIU_02">
  <msDesc>
  <msIdentifier>
-<repository>Rare Books and Special Collections, Northern Illinois University Libraries, Northern Illinois University</repository>
+  <repository key="IDekN">Rare Books and Special Collections, Northern Illinois University Libraries, Northern Illinois University</repository>
 <idno>Whitman Collection PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -4721,7 +4721,7 @@
   <witness xml:id="MC_01">
  <msDesc>
  <msIdentifier>
-<repository>Middlebury College Library, Middlebury College</repository>
+<repository key="VtMiM">Middlebury College Library, Middlebury College</repository>
 <idno>(Whitman, W.) Locked Collection</idno>
  </msIdentifier>
  <msContents>
@@ -4763,7 +4763,7 @@
   <witness xml:id="MC_02">
  <msDesc>
  <msIdentifier>
-<repository>Middlebury College Library, Middlebury College</repository>
+  <repository key="VtMiM">Middlebury College Library, Middlebury College</repository>
 <idno>(Whitman, W.) Locked Collection</idno>
  </msIdentifier>
  <msContents>
@@ -4805,7 +4805,7 @@
   <witness xml:id="UI_01">
  <msDesc>
  <msIdentifier>
-<repository>University of Iowa Libraries, University of Iowa</repository>
+<repository key="IaU">University of Iowa Libraries, University of Iowa</repository>
 <idno>FOLIO PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -4847,7 +4847,7 @@
   <witness xml:id="NU_01">
  <msDesc>
  <msIdentifier>
-<repository>McCormick Library of Special Collections, Northwestern University Library, Northwestern University</repository>
+<repository key="IEN">McCormick Library of Special Collections, Northwestern University Library, Northwestern University</repository>
 <idno>L Whitman Le 1855</idno>
  </msIdentifier>
  <msContents>
@@ -4889,7 +4889,7 @@
   <witness xml:id="LU_01">
  <msDesc>
  <msIdentifier>
-<repository>Lehigh University Libraries, Lehigh University</repository>
+<repository key="PBL">Lehigh University Libraries, Lehigh University</repository>
 <idno>SC S 818.4 W615L [1]</idno>
  </msIdentifier>
  <msContents>
@@ -4931,7 +4931,7 @@
   <witness xml:id="LU_02">
  <msDesc>
  <msIdentifier>
-<repository>Lehigh University Libraries, Lehigh University</repository>
+  <repository key="PBL">Lehigh University Libraries, Lehigh University</repository>
 <idno>SC S 818.4 W615L 1855 [2]</idno>
  </msIdentifier>
  <msContents>
@@ -4973,7 +4973,7 @@
   <witness xml:id="LU_03">
  <msDesc>
  <msIdentifier>
-<repository>Lehigh University Libraries, Lehigh University</repository>
+  <repository key="PBL">Lehigh University Libraries, Lehigh University</repository>
 <idno>SC S 818.4 W615L 1855a [3]</idno>
  </msIdentifier>
  <msContents>
@@ -5015,7 +5015,7 @@
   <witness xml:id="DC_01">
  <msDesc>
  <msIdentifier>
-<repository>Rauner Special Collections Library, Dartmouth College Library, Dartmouth College</repository>
+<repository key="NhD">Rauner Special Collections Library, Dartmouth College Library, Dartmouth College</repository>
 <idno>816W59 S8 </idno>
  </msIdentifier>
  <msContents>
@@ -5057,7 +5057,7 @@
   <witness xml:id="UD_01">
  <msDesc>
  <msIdentifier>
-<repository>University of Delaware Library, University of Delaware</repository>
+<repository key="DeU">University of Delaware Library, University of Delaware</repository>
 <idno>folio PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -5099,7 +5099,7 @@
   <witness xml:id="UD_02">
  <msDesc>
  <msIdentifier>
-<repository>University of Delaware Library, University of Delaware</repository>
+  <repository key="DeU">University of Delaware Library, University of Delaware</repository>
 <idno>folio PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -5141,7 +5141,7 @@
   <witness xml:id="NL_01">
  <msDesc>
  <msIdentifier>
-<repository>Newberry Library</repository>
+<repository key="ICN">Newberry Library</repository>
 <idno>VAULT Ruggles 369</idno>
  </msIdentifier>
  <msContents>
@@ -5225,7 +5225,7 @@
   <witness xml:id="WeC_01">
  <msDesc>
  <msIdentifier>
-<repository>Wellesley College Library Special Collections, Wellesley College</repository>
+<repository key="MWelC">Wellesley College Library Special Collections, Wellesley College</repository>
 <idno>Spec. Coll. English Poets q x</idno>
  </msIdentifier>
  <msContents>
@@ -5267,7 +5267,7 @@
   <witness xml:id="UCLA_02">
  <msDesc>
  <msIdentifier>
-<repository>William Andrews Clark Memorial Library, University of California at Los Angeles (UCLA)</repository>
+<repository key="CLU">William Andrews Clark Memorial Library, University of California at Los Angeles (UCLA)</repository>
 <idno>Safe PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -5309,7 +5309,7 @@
   <witness xml:id="UCB_01">
  <msDesc>
  <msIdentifier>
-<repository>The Bancroft Library at the University of California at Berkeley</repository>
+<repository key="CU">The Bancroft Library at the University of California at Berkeley</repository>
 <idno>PS3201 1855 Copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -5351,7 +5351,7 @@
  <witness xml:id="UCB_02">
   <msDesc>
    <msIdentifier>
-    <repository>The Bancroft Library at the University of California at Berkeley</repository>
+    <repository key="CU">The Bancroft Library at the University of California at Berkeley</repository>
     <idno>PS3201 1855 Copy 2</idno>
    </msIdentifier>
    <msContents>
@@ -5393,7 +5393,7 @@
   <witness xml:id="UnC_01">
  <msDesc>
  <msIdentifier>
-<repository>Schaffer Library, Union College</repository>
+<repository key="NSchU">Schaffer Library, Union College</repository>
 <idno>PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -5435,7 +5435,7 @@
   <witness xml:id="UCSC_01">
  <msDesc>
  <msIdentifier>
-<repository>Special Collections, McHenry Library, University of California at Santa Cruz</repository>
+<repository key="CU-SC">Special Collections, McHenry Library, University of California at Santa Cruz</repository>
 <idno>PS 3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -5477,7 +5477,7 @@
   <witness xml:id="BC_01">
  <msDesc>
  <msIdentifier>
-<repository>James Addison Jones Library, Brevard College</repository>
+<repository key="NcBreC">James Addison Jones Library, Brevard College</repository>
 <idno>811.38 W615L</idno>
  </msIdentifier>
  <msContents>
@@ -5519,7 +5519,7 @@
   <witness xml:id="PU_01">
  <msDesc>
  <msIdentifier>
-<repository>Princeton University Library, Princeton University</repository>
+<repository key="NjP">Princeton University Library, Princeton University</repository>
 <idno>Behrman American #226q</idno>
  </msIdentifier>
  <msContents>
@@ -5561,7 +5561,7 @@
   <witness xml:id="PU_02">
  <msDesc>
  <msIdentifier>
-<repository>Princeton University Library, Princeton University</repository>
+  <repository key="NjP">Princeton University Library, Princeton University</repository>
 <idno>RHT American-324</idno>
  </msIdentifier>
  <msContents>
@@ -5603,7 +5603,7 @@
   <witness xml:id="PU_03">
  <msDesc>
  <msIdentifier>
-<repository>Princeton University Library, Princeton University</repository>
+  <repository key="NjP">Princeton University Library, Princeton University</repository>
 <idno>EX 3988.1.35.19q</idno>
  </msIdentifier>
  <msContents>
@@ -5645,7 +5645,7 @@
   <witness xml:id="HU_02">
  <msDesc>
  <msIdentifier>
-<repository>Houghton Library, Harvard University</repository>
+<repository key="MH-H">Houghton Library, Harvard University</repository>
 <idno>Shelfmark: *AC85.W5965.855la</idno>
  </msIdentifier>
  <msContents>
@@ -5687,7 +5687,7 @@
   <witness xml:id="HU_03">
  <msDesc>
  <msIdentifier>
-<repository>Houghton Library, Harvard University</repository>
+  <repository key="MH-H">Houghton Library, Harvard University</repository>
 <idno>Shelfmark: f Lowell *AC85.W5965.855la</idno>
  </msIdentifier>
  <msContents>
@@ -5729,7 +5729,7 @@
   <witness xml:id="HU_04">
  <msDesc>
  <msIdentifier>
-<repository>Houghton Library, Harvard University</repository>
+  <repository key="MH-H">Houghton Library, Harvard University</repository>
 <idno>Shelfmark: f *AC85.L8605.Zy855w</idno>
  </msIdentifier>
  <msContents>
@@ -5771,7 +5771,7 @@
   <witness xml:id="HU_05">
  <msDesc>
  <msIdentifier>
-<repository>Houghton Library, Harvard University</repository>
+  <repository key="MH-H">Houghton Library, Harvard University</repository>
 <idno>Shelfmark: f *AC85.J2335.Zz855w</idno>
  </msIdentifier>
  <msContents>
@@ -5813,7 +5813,7 @@
   <witness xml:id="HU_06">
  <msDesc>
  <msIdentifier>
-<repository>Houghton Library, Harvard University</repository>
+  <repository key="MH-H">Houghton Library, Harvard University</repository>
 <idno>Shelfmark: f*AC85.W5965.855l</idno>
  </msIdentifier>
  <msContents>
@@ -5855,7 +5855,7 @@
   <witness xml:id="SU_01">
  <msDesc>
  <msIdentifier>
-<repository>Stanford University Libraries, Stanford University</repository>
+<repository key="CSt">Stanford University Libraries, Stanford University</repository>
 <idno>PS3215 1855X1 F CB</idno>
  </msIdentifier>
  <msContents>
@@ -5897,7 +5897,7 @@
   <witness xml:id="LC_01">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+<repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855 c. 3, first issue</idno>
  </msIdentifier>
  <msContents>
@@ -5939,7 +5939,7 @@
   <witness xml:id="LC_02">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855e c. 3, second issue</idno>
  </msIdentifier>
  <msContents>
@@ -5981,7 +5981,7 @@
   <witness xml:id="LC_03">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855 office c. 1</idno>
  </msIdentifier>
  <msContents>
@@ -6023,7 +6023,7 @@
   <witness xml:id="LC_04">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855 c.2</idno>
  </msIdentifier>
  <msContents>
@@ -6065,7 +6065,7 @@
   <witness xml:id="LC_05">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a c.2</idno>
  </msIdentifier>
  <msContents>
@@ -6107,7 +6107,7 @@
   <witness xml:id="LC_06">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a office c.1</idno>
  </msIdentifier>
  <msContents>
@@ -6149,7 +6149,7 @@
   <witness xml:id="LC_07">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a c.3</idno>
  </msIdentifier>
  <msContents>
@@ -6191,7 +6191,7 @@
   <witness xml:id="LC_08">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a c.4</idno>
  </msIdentifier>
  <msContents>
@@ -6233,7 +6233,7 @@
   <witness xml:id="LC_09">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a c.5</idno>
  </msIdentifier>
  <msContents>
@@ -6275,7 +6275,7 @@
   <witness xml:id="LC_10">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855a c.6</idno>
  </msIdentifier>
  <msContents>
@@ -6317,7 +6317,7 @@
   <witness xml:id="LC_11">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855e c.1</idno>
  </msIdentifier>
  <msContents>
@@ -6359,7 +6359,7 @@
   <witness xml:id="LC_12">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855e c.2</idno>
  </msIdentifier>
  <msContents>
@@ -6401,7 +6401,7 @@
   <witness xml:id="LC_13">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855f</idno>
  </msIdentifier>
  <msContents>
@@ -6443,7 +6443,7 @@
   <witness xml:id="LC_14">
  <msDesc>
  <msIdentifier>
-<repository>Library of Congress</repository>
+  <repository key="DLC-RBSC">Library of Congress</repository>
 <idno>PS3201 1855g c.1</idno>
  </msIdentifier>
  <msContents>
@@ -6569,7 +6569,7 @@
   <witness xml:id="CoU_01">
  <msDesc>
  <msIdentifier>
-<repository>Columbia University Libraries</repository>
+<repository key="NNC">Columbia University Libraries</repository>
 <idno>B812W59 S7 1855</idno>
  </msIdentifier>
  <msContents>
@@ -6611,7 +6611,7 @@
   <witness xml:id="CoU_02">
  <msDesc>
  <msIdentifier>
-<repository>Columbia University Libraries</repository>
+  <repository key="NNC">Columbia University Libraries</repository>
 <idno>Bancroft B812.W59 S7 1855 c.2</idno>
  </msIdentifier>
  <msContents>
@@ -6653,7 +6653,7 @@
   <witness xml:id="CoU_03">
  <msDesc>
  <msIdentifier>
-<repository>Columbia University Libraries</repository>
+  <repository key="NNC">Columbia University Libraries</repository>
 <idno>Bancroft B812.W59 S7 1855 c.3</idno>
  </msIdentifier>
  <msContents>
@@ -6695,7 +6695,7 @@
   <witness xml:id="PA_01">
  <msDesc>
  <msIdentifier>
-<repository>Providence Athenaeum</repository>
+<repository key="RPA">Providence Athenaeum</repository>
 <idno>QUARTO 811 W598L</idno>
  </msIdentifier>
  <msContents>
@@ -6737,7 +6737,7 @@
   <witness xml:id="AAS_01">
  <msDesc>
  <msIdentifier>
-<repository>American Antiquarian Society</repository>
+<repository key="MWA">American Antiquarian Society</repository>
 <idno>Reserve 1855 02 F</idno>
  </msIdentifier>
  <msContents>
@@ -6779,7 +6779,7 @@
   <witness xml:id="JHU_01">
  <msDesc>
  <msIdentifier>
-<repository>Johns Hopkins University Sheridan Libraries, The John Work Garrett Library</repository>
+<repository key="MdBJ">Johns Hopkins University Sheridan Libraries, The John Work Garrett Library</repository>
 <idno>PS3201 1855 QUARTO c. 1</idno>
  </msIdentifier>
  <msContents>
@@ -6947,7 +6947,7 @@
   <witness xml:id="UNL_01">
  <msDesc>
  <msIdentifier>
-<repository>University of Nebraska-Lincoln Libraries</repository>
+<repository key="NbU">University of Nebraska-Lincoln Libraries</repository>
 <idno>PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -7031,7 +7031,7 @@
   <witness xml:id="HSP_01">
  <msDesc>
  <msIdentifier>
-<repository>Library Company of Philadelphia (on deposit from the Historical Society of Philadelphia)</repository>
+<repository key="PHi">Library Company of Philadelphia (on deposit from the Historical Society of Philadelphia)</repository>
 <idno>HSP in LCP *Am 1855 Whi Wzz 83 W615b </idno>
  </msIdentifier>
  <msContents>
@@ -7073,7 +7073,7 @@
   <witness xml:id="UP_01">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book and Manuscript Library, University of Pennsylvania</repository>
+<repository key="PU">Rare Book and Manuscript Library, University of Pennsylvania</repository>
 <idno>811W 1855.2</idno>
  </msIdentifier>
  <msContents>
@@ -7115,7 +7115,7 @@
   <witness xml:id="LCP_01">
  <msDesc>
  <msIdentifier>
-<repository>The Library Company of Philadelphia</repository>
+<repository key="PPL">The Library Company of Philadelphia</repository>
 <idno>Rare * Am 1855 Whi 2687.Q </idno>
  </msIdentifier>
  <msContents>
@@ -7157,7 +7157,7 @@
   <witness xml:id="DrU_01">
  <msDesc>
  <msIdentifier>
-<repository>Drew University</repository>
+<repository key="NjMD">Drew University</repository>
 <idno>RAREBOOKS PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -7199,7 +7199,7 @@
   <witness xml:id="BPL_01">
  <msDesc>
  <msIdentifier>
-<repository>Boston Public Library, Rare Book Department</repository>
+<repository key="MB">Boston Public Library, Rare Book Department</repository>
 <idno>WHITMAN 10.7 or 10.1</idno>
  </msIdentifier>
  <msContents>
@@ -7241,7 +7241,7 @@
   <witness xml:id="UP_02">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book and Manuscript Library, University of Pennsylvania</repository>
+<repository key="PU">Rare Book and Manuscript Library, University of Pennsylvania</repository>
 <idno>Rare Book Collection. 811W 1855.2</idno>
  </msIdentifier>
  <msContents>
@@ -7283,7 +7283,7 @@
   <witness xml:id="BPL_02">
  <msDesc>
  <msIdentifier>
-<repository>Boston Public Library, Rare Book Department</repository>
+<repository key="MB">Boston Public Library, Rare Book Department</repository>
 <idno>WHITMAN 10.7 or 10.1</idno>
  </msIdentifier>
  <msContents>
@@ -7325,7 +7325,7 @@
   <witness xml:id="BrU_01">
  <msDesc>
  <msIdentifier>
-<repository>John Hay Library, Brown University</repository>
+<repository key="RPB">John Hay Library, Brown University</repository>
 <idno>1-SIZE WW A2 1855 copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -7367,7 +7367,7 @@
   <witness xml:id="UP_03">
  <msDesc>
  <msIdentifier>
-<repository>Rare Book and Manuscript Library, University of Pennsylvania</repository>
+<repository key="PU">Rare Book and Manuscript Library, University of Pennsylvania</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -7409,7 +7409,7 @@
   <witness xml:id="BrU_02">
  <msDesc>
  <msIdentifier>
-<repository>John Hay Library, Brown University</repository>
+<repository key="RPB">John Hay Library, Brown University</repository>
 <idno>1-SIZE WW A2 1855 copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -7451,7 +7451,7 @@
   <witness xml:id="BrU_03">
  <msDesc>
  <msIdentifier>
-<repository>John Hay Library, Brown University</repository>
+  <repository key="RPB">John Hay Library, Brown University</repository>
 <idno>1-SIZE WW A2 1855a copy 2</idno>
  </msIdentifier>
  <msContents>
@@ -7493,7 +7493,7 @@
   <witness xml:id="BrU_04">
  <msDesc>
  <msIdentifier>
-<repository>John Hay Library, Brown University</repository>
+  <repository key="RPB">John Hay Library, Brown University</repository>
 <idno>1-SIZE WW A2 1855a copy 1</idno>
  </msIdentifier>
  <msContents>
@@ -7535,7 +7535,7 @@
  <witness xml:id="BrU_05">
   <msDesc>
    <msIdentifier>
-    <repository>John Hay Library, Brown University</repository>
+    <repository key="RPB">John Hay Library, Brown University</repository>
     <idno>1-SIZE WW A2 1855 copy 3</idno>
    </msIdentifier>
    <msContents>
@@ -7577,7 +7577,7 @@
   <witness xml:id="PSU_01">
  <msDesc>
  <msIdentifier>
-<repository>Pennsylvania State University Libraries</repository>
+<repository key="PSt">Pennsylvania State University Libraries</repository>
 <idno>Vault PS3201 1855</idno>
  </msIdentifier>
  <msContents>
@@ -7619,7 +7619,7 @@
   <witness xml:id="HL_01">
  <msDesc>
  <msIdentifier>
-<repository>The Huntington Library</repository>
+<repository key="CSmH">The Huntington Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -7661,7 +7661,7 @@
   <witness xml:id="HL_02">
  <msDesc>
  <msIdentifier>
-<repository>The Huntington Library</repository>
+  <repository key="CSmH">The Huntington Library</repository>
 <idno> 110374</idno>
  </msIdentifier>
  <msContents>
@@ -7703,7 +7703,7 @@
   <witness xml:id="HL_03">
  <msDesc>
  <msIdentifier>
-<repository>The Huntington Library</repository>
+  <repository key="CSmH">The Huntington Library</repository>
 <idno></idno>
  </msIdentifier>
  <msContents>
@@ -8207,7 +8207,7 @@
  <witness xml:id="TTU_01">
   <msDesc>
    <msIdentifier>
-    <repository>Texas Tech University</repository>
+    <repository key="TxLT">Texas Tech University</repository>
     <idno></idno>
    </msIdentifier>
    <msContents>
