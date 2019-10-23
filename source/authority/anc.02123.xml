@@ -6734,7 +6734,7 @@
  </history>
  </msDesc>
  </witness>
-  <witness xml:id="AAS_01">
+ <witness xml:id="AAS_01"> 
  <msDesc>
  <msIdentifier>
 <repository key="MWA">American Antiquarian Society</repository>
