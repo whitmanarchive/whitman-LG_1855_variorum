@@ -5,6 +5,9 @@
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Documents Related to the 1855 <hi rend="italic">Leaves of Grass</hi></title> 
+                <author>Brett Barney</author>
+                <author>Stephanie Blalock</author>
+                <author>Nicole Gray</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -46,8 +49,8 @@
     <text type="ancillary-variorum">
         <body>
             <head type="main">Documents Related to the 1855 <hi rend="italic">Leaves of Grass</hi></head>
-            <div1 type="section"><p>A number of peripheral documents are important to understanding the 1855 <hi rend="italic">Leaves of Grass</hi>, from the copyright deposit page to the binders' receipts to a series of draft advertisements Whitman had printed. Here we provide images and a brief discussion of the context and significance of these documents. In the future, we hope to provide more extensive editorial treatment of these documents, including links to transcriptions.</p></div1>
-            <div1 type="section">
+            <div1 type="section"><p>A number of documents are important to understanding the 1855 <hi rend="italic">Leaves of Grass</hi>, from the binder's receipt and copyright deposit page to a series of draft advertisements Whitman had printed. Here we provide images and a brief discussion of the context and significance of these documents. We also include a note about Whitman's desk copy, now held at the New York Public Library, into which he inserted manuscripts and drafts of material for later editions. In the future, we hope to provide more extensive editorial treatment of these items, including links to transcriptions.</p></div1>
+            <div1 type="section" xml:id="production">
                 <head type="sub">Production Documents</head>
                 <p>Several surviving documents relate to the printing, binding, and deposit of the 1855 <hi rend="italic">Leaves of Grass</hi>. A binder's receipt written by Charles Jenkins shows copies bound in several stages. 
                     <figure>
@@ -62,12 +65,18 @@
                         <item>December 1855: 169 copies in cloth at 22 cents each and 150 copies in paper at 2 cents each</item>
                         <item>January 1856: 93 copies in "cloth plain" at 22 cents each</item>
                     </list>
-                    Bindings in June and July 1855 were probably state A, with gilt edges and goldstamped ornaments. Cloth bindings in December 1855 and January 1856 were probably state B, with blindstamped ornaments.<note xml:id="n2" type="authorial" resp="#nhg">For a complete list of binding states, see Winship and Myerson.</note> Jenkins, a Brooklyn bookbinder, evidently shifted the binding job to Davies &amp; Hands after losing money at his original price of 32 cents per (cloth-bound) copy. Jenkins wrote the following note to Whitman on the receipt: "You will see that I have charged you only 32 cts for the Leaves bound by me. The amount of the bill of Davies &amp; Hands over what it would have been at the same price is only about $30. They are not in condition to be able to let their accounts lay uncollected without embarrassment, and my means are invested so that the money is actually needed." Based on this receipt, scholars have concluded that 795 was likely the total number of copies printed (White, 353).</p>
+                    Bindings in June and July 1855 were probably state A, with gilt edges and goldstamped ornaments. Cloth bindings in December 1855 and January 1856 were probably state B, with blindstamped ornaments.<note xml:id="n2" type="authorial" resp="#nhg">For a complete list of binding states, see Winship and Myerson.</note> Jenkins, a Brooklyn bookbinder, evidently shifted the job to Davies &amp; Hands after the first round of (cloth-bound) copies. Jenkins wrote the following note to Whitman on the receipt: "You will see that I have charged you only 32 cts for the Leaves bound by me. The amount of the bill of Davies &amp; Hands over what it would have been at the same price is only about $30. They are not in condition to be able to let their accounts lay uncollected without embarrassment, and my means are invested so that the money is actually needed." Based on this receipt, scholars have concluded that 795 was likely the total number of copies printed (White, 353).</p>
                 <p>[What is this 1855 <hi rend="italic">Leaves of Grass</hi> copyright notice written in another hand?]
                     <figure>
                         <graphic url="loc_js.00568.jpg"/>
                         <head>Figure.</head> 
                         <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
+                    </figure></p>
+                <p>[Add a shot of the copyright deposit page]
+                    <figure>
+                        <graphic url=""/>
+                        <head>Figure.</head> 
+                        <figDesc>Library of Congress, Washington, D.C.</figDesc>
                     </figure></p>
                 <p>[Add a shot of the Smithsonian deposit copy at LoC]
                     <figure>
@@ -76,7 +85,31 @@
                         <figDesc>Library of Congress, Washington, D.C.</figDesc>
                     </figure></p>
             </div1>
-            <div1 type="section">
+            
+            <!--NOTE: not sure we need a section here about these, either. A mention in the introduction may suffice. -N
+                <div1 type="section">
+                <head type="sub">Proofs of Reviews</head>
+                <p>Whitman arranged for the printing of an eight-page section devoted to reviews of the 1855 <hi rend="italic">Leaves of Grass</hi>. He bound this section into several copies of the 1855 <hi rend="italic">Leaves of Grass</hi>. Some copies have partial proofs of these reviews laid in.</p>
+                <p>These annotations on this final version of the insertion did not make it into the 1855 <hi rend="italic">Leaves</hi> version. [Did they make it into any other version?] 
+                    <figure>
+                        <graphic url="loc_ej.00411.jpg"/>
+                        <head>Figure.</head> 
+                        <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
+                    </figure>
+                    <figure>
+                        <graphic url="loc_ej.00415.jpg"/>
+                        <head>Figure.</head> 
+                        <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
+                    </figure>
+                    <figure>
+                        <graphic url="loc_ej.00416.jpg"/>
+                        <head>Figure.</head> 
+                        <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
+                    </figure></p>
+            </div1>-->
+            
+            <!--NOTE: this reviews material appears to be later, and changes were not incorporated. Not clear we need to discuss it in relation to 1855LG -N
+                <div1 type="section">
                 <head type="sub">Annotated Reviews</head>
                 <p>Whitman annotated proofs and final versions of the reviews he had printed and bound into some copies of the 1855 <hi rend="italic">Leaves of Grass</hi>.</p>
                 <p>These annotations on this final version of the insertion did not make it into the 1855 <hi rend="italic">Leaves</hi> version. [Did they make it into any other version?] 
@@ -95,8 +128,9 @@
                         <head>Figure.</head> 
                         <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
                     </figure></p>
-            </div1>
-            <div1 type="section">
+            </div1>-->
+            
+            <div1 type="section" xml:id="frontispiece">
                 <head type="sub">Autographed Frontispiece Prints</head>
                 <p>A series of prints made of the frontispiece engraving are signed by Whitman in blue pencil. Some of these have been laid into copies of the 1855 <hi rend="italic">Leaves of Grass</hi>. The known cases of Whitman using blue pencil were after the publication of the volume, so these signatures may date to the second half of the nineteenth century.</p>
                 <p><figure>
@@ -111,7 +145,8 @@
                     </figure>
                 </p>
             </div1>
-            <div1 type="section">
+            
+            <div1 type="section" xml:id="ads">
                 <head type="sub">Early Draft Advertisements</head>
                 <p>At some point Whitman arranged for the printing of a series of what probably were intended to be draft advertisements for the 1855 <hi rend="italic">Leaves of Grass</hi>. He must have done this while he was still revising the poems, because one of them features draft lines from the first poem in the volume, in later editions titled "Song of Myself." For more about Whitman's lifelong practice of printing slips with poems or prose drafts, see Winship, Grossman, and Stallybrass.</p>
                 <p><figure>
@@ -135,7 +170,7 @@
                         <figDesc>Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
                     </figure></p>
             </div1>
-            <div1 type="section">
+            <div1 type="section" xml:id="deskcopy">
                 <head type="sub">Whitman's Desk Copy</head>
                 <p>The New York Public Library has Whitman's desk copy of the 1855 <hi rend="italic">Leaves of Grass</hi>, into which he pasted manuscripts and other documents.</p>
                 <p><figure>
