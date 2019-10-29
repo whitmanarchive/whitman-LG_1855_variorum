@@ -1262,7 +1262,6 @@
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00057.xml">
                     <link cert="low" target="ppp.01880.xml#l1115 #p01"/>
-                    <link cert="low" target="ppp.01880.xml#pr192 #p02"/>
                     <link cert="low" target="ppp.01880.xml#l1387 #p04"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00061.xml">
