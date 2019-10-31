@@ -199,7 +199,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Rebound in brown Moroccan leather with gold engraved green leather inside (19th C. custom binding); pasted etching of W.W. with pencil autograph; signed white business card with John Whitten on it.</p>
+<p>Rebound in brown Moroccan leather with gold engraved green leather inside (19th century custom binding); pasted etching of W.W. with pencil autograph; signed white business card with John Whitten on it.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -220,7 +220,7 @@
  <bindingDesc><p>rebound</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+  <provenance><persName key="Millhiser, Regina V. G.">Regina V. G. Millhiser</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -228,7 +228,7 @@
  <msDesc>
  <msIdentifier>
 <repository key="MoSW">Olin Library, Washington University in St. Louis</repository>
-<idno>Rare PS3201 1855b 4o </idno>
+<idno>Rare PS3201 1855b 4o</idno>
  </msIdentifier>
  <msContents>
  <msItem> 
@@ -283,7 +283,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate of Clifton Waller Barrett; Handwritten note in pencil on front flyleaves notes "new endpapers." These endpapers are yellowish brown with green floral designs. The outer leaves are pasted down to the front and back covers.</p>
+<p>Bookplate of Clifton Waller Barrett. Handwritten note in pencil on front flyleaves notes "new endpapers." These endpapers are yellowish brown with green floral designs. The outer leaves are pasted down to the front and back covers.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -312,7 +312,7 @@
  <msDesc>
  <msIdentifier>
 <repository key="StEdNL">National Library of Scotland</repository>
-<idno>Shelfmark: H.S.616</idno>
+<idno>Shelfmark: H.S. 616</idno>
  </msIdentifier>
  <msContents>
  <msItem> 
@@ -325,7 +325,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Verso front endpaper bears inscription from author, "[?] Clark, from the author Walt Whitman"; inserted sheet at front with MS text of of introduction from Leaves of Grass: The Poems of Walt Whitman, Selected, with Introduction by Ernest Rhys (1886).</p>
+<p>Verso front endpaper bears inscription from author, "[?] Clark, from the author Walt Whitman". Inserted sheet at front with MS text of introduction from <hi rend="italic">Leaves of Grass: The Poems of Walt Whitman, Selected, with Introduction by Ernest Rhys</hi> (1886).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -354,7 +354,7 @@
  <msDesc>
  <msIdentifier>
 <repository>Niedersachsische Staats und Universitatsbibliothek Gottingen</repository>
-<idno></idno>
+  <idno>4 P VAR NAT 5262 RARA</idno>
  </msIdentifier>
  <msContents>
  <msItem> 
