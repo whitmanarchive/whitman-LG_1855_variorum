@@ -1319,7 +1319,6 @@
                 <linkGrp type="relation" corresp="nyp.00089.xml">
                     <link cert="low" target="ppp.01880.xml#l397 #l01"/>
                     <link cert="low" target="ppp.01880.xml#l398 #l02"/>
-                    <link cert="low" target="ppp.01880.xml#l1267 #l06"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00100.xml">
                     <link cert="low" target="ppp.01880.xml#l2238 #l01"/>
@@ -1411,6 +1410,9 @@
                     <link cert="low" target="ppp.01880.xml#l13 #item06"/>
                     <link cert="low" target="ppp.01880.xml#l1905 #item07"/>
                     <link cert="low" target="ppp.01880.xml#l1904 #item08"/>
+                </linkGrp>
+                <linkGrp type="relation" corresp="nyp.00742.xml">
+                    <link cert="low" target="ppp.01880.xml#l1267 #l06"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="prc.00127.xml">
                     <link cert="low" target="ppp.01880.xml#l649 #l02"/>
