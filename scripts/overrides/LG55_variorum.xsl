@@ -146,12 +146,10 @@
                       <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml, '#', $msID)"/>
                       <!--/TEMP PROOFING NHG-->
                     </xsl:when>
-                    <!--TEMPORARY LOCATION-->
-                    <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
+                    <xsl:when test="doc-available(concat($margPathRoot, $fileID))">
                       <xsl:attribute name="href"
-                        select="concat($variorumPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                        select="concat($margPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
                     </xsl:when>
-                    <!--/TEMPORARY LOCATION-->
                     <xsl:otherwise>
                       <!--TEMP PROOFING NHG-->
                       <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>-->

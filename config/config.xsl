@@ -42,6 +42,10 @@
     <xsl:value-of select="$siteroot"/>
     <xsl:text>manuscripts/transcriptions/</xsl:text>
   </xsl:param>
+  <xsl:param name="margPathHTMLRoot">
+    <xsl:value-of select="$siteroot"/>
+    <xsl:text>manuscripts/marginalia/transcriptions/</xsl:text>
+  </xsl:param>
   <xsl:param name="variorumPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
     <xsl:text>published/LG/1855/related/</xsl:text>
