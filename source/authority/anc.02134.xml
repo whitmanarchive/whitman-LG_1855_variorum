@@ -254,6 +254,11 @@
                     <link cert="low" target="ppp.01880.xml#seg30 #seg01"/>
                     <link cert="low" target="ppp.01880.xml#l247 #seg01"/>
                     <link cert="low" target="ppp.01880.xml#l248 #seg01"/>
+                    <link cert="low" target="ppp.01880.xml#l249 #seg01"/>
+                    <link cert="low" target="ppp.01880.xml#l174 #seg01"/>
+                    <link cert="low" target="ppp.01880.xml#pr13 #seg05"/>
+                    <link cert="low" target="ppp.01880.xml#l1949 #seg05"/>
+                    <link cert="low" target="ppp.01880.xml#l8 #seg05"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="duk.00298.xml">
                     <link cert="low" target="ppp.01880.xml#l1134 #seg01"/>
