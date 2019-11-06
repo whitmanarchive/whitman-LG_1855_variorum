@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xpath-default-namespace="http://www.whitmanarchive.org/namespace">
 
@@ -95,9 +95,7 @@
             <xsl:variable name="nbPath" select="concat($nbPathRoot, $fileID)"/>
             <xsl:variable name="msPath" select="concat($msPathRoot, $fileID)"/>
             <xsl:variable name="msFile" select="document($msPath)"/>
-            <!--TEMPORARY LOCATION-->
-            <xsl:variable name="otherPath" select="concat($variorumPathRoot, $fileID)"/>
-            <!--/TEMPORARY LOCATION-->
+            <xsl:variable name="margPath" select="concat($margPathRoot, $fileID)"/>
             <xsl:variable name="cert" select="@cert"/>
             <xsl:variable name="precedingTargets">
               <xsl:for-each select="preceding-sibling::link/@target">
@@ -121,12 +119,10 @@
                         <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml)"/>
                         <!--/TEMP PROOFING NHG-->
                       </xsl:when>
-                      <!--TEMPORARY LOCATION-->
-                      <xsl:when test="doc-available(concat($variorumPathRoot, $fileID))">
+                      <xsl:when test="doc-available(concat($margPathRoot, $fileID))">
                         <xsl:attribute name="href"
-                          select="concat($variorumPathHTMLRoot, $fileIDhtml)"/>
+                          select="concat('../../../../manuscripts/marginalia/transcriptions/', $fileIDhtml)"/>
                       </xsl:when>
-                      <!--/TEMPORARY LOCATION-->
                       <xsl:otherwise>
                         <!--TEMP PROOFING NHG-->
                         <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml)"/>-->
@@ -186,9 +182,8 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:when>
-                  <!--TEMPORARY LOCATION-->
-                  <xsl:when test="doc-available($otherPath)">
-                    <xsl:variable name="otherFile" select="document($otherPath)"/>
+                  <xsl:when test="doc-available($margPath)">
+                    <xsl:variable name="otherFile" select="document($margPath)"/>
                     <xsl:variable name="parentEl" select="$otherFile//*[child::*[@xml:id = $msID]]"/>
                     <xsl:variable name="grandparentEl" select="$otherFile//*[child::*[child::*[@xml:id=$msID]]]"/>
                     <xsl:choose>
@@ -200,7 +195,6 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:when>
-                  <!--/TEMPORARY LOCATION-->
                   <xsl:otherwise>
                     <xsl:variable name="parentEl" select="$msFile//*[child::*[@xml:id = $msID]]"/>
                     <xsl:variable name="grandparentEl" select="$msFile//*[child::*[child::*[@xml:id=$msID]]]"/>

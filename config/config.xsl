@@ -26,6 +26,9 @@
   <xsl:param name="msPathRoot">
     <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/tei/</xsl:text>
   </xsl:param>
+  <xsl:param name="margPathRoot">
+    <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/</xsl:text>
+  </xsl:param>
   <xsl:param name="variorumPathRoot">
     <xsl:text>/var/local/www/data/collections/whitman-variorum/source/authority/</xsl:text>
   </xsl:param>
