@@ -160,6 +160,10 @@
                 <linkGrp type="relation" corresp="duk.00164.xml">
                     <link cert="low" target="ppp.01880.xml#rev02 #p01"/>
                 </linkGrp>
+                <linkGrp type="relation" corresp="duk.00258.xml">
+                    <link cert="low" target="ppp.01880.xml#l1648 #ab01"/>
+                    <link cert="low" target="ppp.01880.xml#l808 #ab02"/>
+                </linkGrp>
                 <linkGrp type="relation" corresp="duk.00259.xml">
                     <link cert="low" target="ppp.01880.xml#l2248 #l01"/>
                     <link cert="low" target="ppp.01880.xml#l2249 #l02"/>
