@@ -1175,9 +1175,6 @@
                     <link cert="low" target="ppp.01880.xml#seg34 #ab20"/>
                     <link cert="low" target="ppp.01880.xml#seg01 #ab21"/>
                 </linkGrp>
-                <linkGrp type="relation" corresp="loc.05641.xml">
-                    <link cert="low" target="ppp.01880.xml#l251 #q01"/>
-                </linkGrp>
                 <linkGrp type="relation" corresp="loc.05705.xml">
                     <link cert="low" target="ppp.01880.xml#l981 #ab01"/>
                     <link cert="low" target="ppp.01880.xml#l982 #ab02"/>
