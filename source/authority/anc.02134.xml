@@ -425,6 +425,7 @@
                     <link cert="low" target="ppp.01880.xml#l1509 #l01"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="loc.00024.xml">
+                    <link cert="low" target="ppp.01880.xml#l981 #ab1"/>
                     <link cert="low" target="ppp.01880.xml#l1229 #ab01a"/>
                     <link cert="low" target="ppp.01880.xml#l1229 #l01"/>
                     <link cert="low" target="ppp.01880.xml#l819 #ab01"/>
