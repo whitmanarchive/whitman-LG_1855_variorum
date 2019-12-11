@@ -5533,7 +5533,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate: "Ex Libris Frank Fletcher."</p>
+  <p>Howard T. Berman collection. Bookplate: "Ex Libris Frank Fletcher."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5554,7 +5554,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Behrman, Howard T.">Howard T. Behrman</persName><persName key="Fletcher, Frank">Frank Fletcher</persName></provenance>
+  <provenance><persName key="Behrman, Howard T.">Howard T. Behrman</persName>; <persName key="Fletcher, Frank">Frank Fletcher</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -8285,6 +8285,48 @@
    </physDesc>
    <history>
     <provenance></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="NYHS_01">
+  <msDesc>
+   <msIdentifier>
+    <repository>New York Historical Society</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p></p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece"></layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p></p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Lion, Oscar">Oscar Lion</persName>; <persName key="Boni, Robert">Robert Boni</persName></provenance>
    </history>
   </msDesc>
  </witness>
