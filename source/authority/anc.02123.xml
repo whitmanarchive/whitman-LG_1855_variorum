@@ -8292,7 +8292,7 @@
   <msDesc>
    <msIdentifier>
     <repository>New York Historical Society</repository>
-    <idno></idno>
+    <idno>Main Collection Y-q 1855 .Whit</idno>
    </msIdentifier>
    <msContents>
     <msItem> 
@@ -8305,7 +8305,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p></p>
+    <p>Bookplate Oscar Lion. Sticker: T. H. Pease, Bookseller. Note on flyleaf: "June 20 1952 / To Ruth / from her father / Oscar Lion".</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
@@ -8323,7 +8323,7 @@
       <layout rend="reviews"></layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p></p></bindingDesc>
+    <bindingDesc><p>state A</p></bindingDesc>
    </physDesc>
    <history>
     <provenance><persName key="Lion, Oscar">Oscar Lion</persName>; <persName key="Boni, Robert">Robert Boni</persName></provenance>
