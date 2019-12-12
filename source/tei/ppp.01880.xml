@@ -228,8 +228,8 @@
          </app> 
          
          <app type="visual_variant">
-            <!--flat--><rdg xml:id="gr_0010a" facs="uva_nhg.00024_cropped.jpg" wit="#UNCCH_02 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #PC_02 #LC_09 #TTU_01"/> 
-            <!--enhanced--><rdg xml:id="gr_0010b" facs="ppp.00271.007_cropped.jpg" wit="#KSU_01 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #DU_04 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #LC_14 #PA_01 #HL_02 #PC_03 #PC_04 #UNL_01 #PU_01 #PU_03 #NYHS_01"/>
+            <!--flat--><rdg xml:id="gr_0010a" facs="uva_nhg.00024_cropped.jpg" wit="#UNCCH_02 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #PC_02 #LC_09 #TTU_01 #NYPL_06 #NYPL_07"/> 
+            <!--enhanced--><rdg xml:id="gr_0010b" facs="ppp.00271.007_cropped.jpg" wit="#KSU_01 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #DU_04 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #LC_14 #PA_01 #HL_02 #PC_03 #PC_04 #UNL_01 #PU_01 #PU_03 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11"/>
             <note type="project" target="#gr_0010b">These copies feature a frontispiece state with an enhanced crotch. See Ted Genoways, "'One goodshaped and wellhung man': Accented Sexuality and the Uncertain Authorship of the Frontispiece to the 1855 Edition of <hi rend="italic">Leaves of Grass</hi>," in Susan Belasco, Ed Folsom, and Kenneth M. Price, eds., <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi> (Lincoln: University of Nebraska Press, 2007).</note>
          </app>
          
@@ -410,8 +410,8 @@
                   impregnable—</seg><seg xml:id="pr50">the perpetual coming of immigrants—</seg><seg
                   xml:id="pr51">the wharf hem'd cities
                      <app type="textual_variant">
-                        <rdg xml:id="vr_0040a" facs="ppp.00271.011_cropped.jpg" wit="#WC_02 #PA_01 #DU_04 #LC_14 #JHU_01 #HL_03 #WC_05 #YU_02 #NYPL_12 #PML_03 #VAM_01 #PC_17 #KSU_01 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #HL_02 #PC_03 #PC_04 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #PC_02 #LC_09 #PC_10 #PC_11 #AAS_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_03 #WC_04 #WU_01 #SUNYBu_01 #UTA_01 #WWH_01 #WWH_02 #NYPL_01 #NYPL_03 #NYPL_04 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_10 #NYPL_11 #PML_01 #PML_02 #PML_04 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #CoU_02 #CoU_03 #PC_16 #PC_18 #PC_19 #PC_05 #PC_07 #UCB_02 #TTU_01 #NYHS_01">and</rdg>
-                        <rdg xml:id="vr_0040b" facs="uva_nhg.00005_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #PC_14 #DrU_01 #GC_01 #RC_01 #TAMU_01 #NYPL_02 #YU_01 #YU_03 #NYPL_08 #LU_03 #PU_02 #HU_06 #CoU_01">adn</rdg>
+                        <rdg xml:id="vr_0040a" facs="ppp.00271.011_cropped.jpg" wit="#WC_02 #PA_01 #DU_04 #LC_14 #JHU_01 #HL_03 #WC_05 #YU_02 #NYPL_12 #PML_03 #VAM_01 #PC_17 #KSU_01 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #HL_02 #PC_03 #PC_04 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #PC_02 #LC_09 #PC_10 #PC_11 #AAS_01 #PC_12 #PC_13 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_03 #WC_04 #WU_01 #SUNYBu_01 #UTA_01 #WWH_01 #WWH_02 #NYPL_01 #NYPL_03 #NYPL_04 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #NYPL_06 #NYPL_07 #NYPL_09 #NYPL_11 #PML_01 #PML_02 #PML_04 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #NU_01 #LU_01 #LU_02 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #PU_01 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #SU_01 #CoU_02 #CoU_03 #PC_16 #PC_18 #PC_19 #PC_05 #PC_07 #UCB_02 #TTU_01 #NYHS_01">and</rdg>
+                        <rdg xml:id="vr_0040b" facs="uva_nhg.00005_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #PC_14 #DrU_01 #GC_01 #RC_01 #TAMU_01 #NYPL_02 #YU_01 #YU_03 #NYPL_08 #LU_03 #PU_02 #HU_06 #CoU_01 #NYPL_10">adn</rdg>
                         <note type="project" target="#vr_0040a">State B (Myerson second state). The majority of the surviving copies have the corrected version of the word "and," suggesting that Whitman or a printer probably caught and corrected this error fairly early in the print run.</note>
                         <note type="project" target="#vr_0040b">State A (Myerson first state). The majority of copies with the uncorrected "adn" are in first-state bindings, but there are a few second-state bindings with the pre-corrected version. Based on this, Ed Folsom has suggested that first and second-state signatures were not kept consistently separate between printing and binding ("The Census of the 1855 <hi rend="italic">Leaves of Grass</hi>: A Preliminary Report," <hi rend="italic">Walt Whitman Quarterly Review</hi>, 24 [Fall 2006], 71&#8211;84).</note>
                   </app>
@@ -672,12 +672,12 @@
                   light of letters is simplicity.</seg>
                <seg xml:id="pr165">Nothing is better than simplicity . . . . nothing 
                   <app type="textual_variant">
-                     <rdg xml:id="vr_0060a" facs="unc_nhg.00003_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #DU_04 #UNCCH_01 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #UNL_01 #TTU_01 #NYHS_01">can</rdg>
+                     <rdg xml:id="vr_0060a" facs="unc_nhg.00003_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #DU_04 #UNCCH_01 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #UNL_01 #TTU_01 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_07 #NYPL_10 #NYPL_11 #NYPL_12">can</rdg>
                      <rdg xml:id="vr_0060b" facs="ppp.00271.013_cropped.jpg" wit="#UI_01 #UTA_02 #UVa_03 #LC_01 #UTA_01">ca</rdg>
                      
                   </app> make up for excess or for the lack of 
                   <app type="textual_variant">
-                     <rdg xml:id="vr_0061a" facs="unc_nhg.00003_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #DU_04 #UNCCH_01 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #UNL_01 #TTU_01 #NYHS_01">definiteness.</rdg>
+                     <rdg xml:id="vr_0061a" facs="unc_nhg.00003_cropped.jpg" wit="#UVa_10 #UVa_02 #DU_01 #UNCCH_02 #DU_04 #UNCCH_01 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #UNL_01 #TTU_01 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_07 #NYPL_10 #NYPL_11 #NYPL_12">definiteness.</rdg>
                      <rdg xml:id="vr_0061b" facs="ppp.00271.013_cropped.jpg" wit="#UI_01 #UTA_02 #UVa_03 #LC_01 #UTA_01">definiteness</rdg>
                   </app>
                </seg>
@@ -1357,8 +1357,8 @@
                <pb facs="ppp.00271.022.jpg" xml:id="leaf011r" n="15" type="recto"/>
                <fw type="header" place="top">
                   <app type="drift">
-                     <rdg xml:id="vr_0150a" facs="ppp.00271.022a_cropped.jpg" wit="#DU_01 #DU_04 #NYPL_03 #UI_01 #UVa_03 #LC_01 #UTA_01 #UVa_10 #UVa_02 #UNCCH_02 #UTA_04 #UVa_01 #UVa_05 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #PA_01 #LC_04 #LC_06 #LC_07 #BrU_01 #BrU_04 #NYPL_04 #LC_03 #LC_05 #UTA_03 #UNL_01 #TTU_01 #NYHS_01">Leaves</rdg>
-                     <rdg xml:id="vr_0150b" facs="loc_nhg.01021_cropped.jpg" wit="#DU_03 #UTA_02 #UNCCH_01 #UTA_05 #UVa_04 #UVa_06 #UTA_06 #LC_14 #LC_02 #LC_12 #LC_08 #LC_10 #LC_13 #LC_09 #NYPL_01 #LC_11">Leaves</rdg>
+                     <rdg xml:id="vr_0150a" facs="ppp.00271.022a_cropped.jpg" wit="#DU_01 #DU_04 #NYPL_03 #UI_01 #UVa_03 #LC_01 #UTA_01 #UVa_10 #UVa_02 #UNCCH_02 #UTA_04 #UVa_01 #UVa_05 #UVa_09 #DU_02 #BC_01 #PC_03 #UTA_07 #UVa_07 #UVa_08 #BrU_02 #BrU_03 #PA_01 #LC_04 #LC_06 #LC_07 #BrU_01 #BrU_04 #NYPL_04 #LC_03 #LC_05 #UTA_03 #UNL_01 #TTU_01 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_10 #NYPL_12">Leaves</rdg>
+                     <rdg xml:id="vr_0150b" facs="loc_nhg.01021_cropped.jpg" wit="#DU_03 #UTA_02 #UNCCH_01 #UTA_05 #UVa_04 #UVa_06 #UTA_06 #LC_14 #LC_02 #LC_12 #LC_08 #LC_10 #LC_13 #LC_09 #NYPL_01 #LC_11 #NYPL_07 #NYPL_11">Leaves</rdg>
                      <note type="project" target="#vr_0150a">In these copies the space between "es" in the running head "Leaves" is narrower.</note>
                </app> of Grass.</fw>
                <fw type="pageNum" place="top right">15</fw>
@@ -2946,8 +2946,8 @@ breath . . . . I buoy you up;</l>
                <l xml:id="l1026">With Odin, and the hideous-faced Mexitli, and all idols and images,</l>
                <l xml:id="l1027">Honestly taking them all for what they are worth, and not a cent more,</l>
                <l xml:id="l1028"><app type="drift">
-                  <rdg xml:id="vr_0450a" facs="ppp.00271.052_cropped.jpg" wit="#UNCCH_01 #UTA_05 #UTA_06 #UI_01 #DU_03 #DU_02 #UVa_06 #UNL_01 #TTU_01">Admitting</rdg>
-                  <rdg xml:id="vr_0450b" facs="loc_nhg.01247_cropped.jpg" wit="#DU_01 #UVa_03 #UVa_09 #LC_01 #NYPL_01 #BC_01 #UTA_01 #UTA_02 #UVa_04 #DU_04 #UNCCH_02 #UTA_04 #PC_03 #UTA_07 #UTA_03 #BrU_01 #BrU_02 #BrU_04 #NYHS_01">Admitting</rdg>
+                  <rdg xml:id="vr_0450a" facs="ppp.00271.052_cropped.jpg" wit="#UNCCH_01 #UTA_05 #UTA_06 #UI_01 #DU_03 #DU_02 #UVa_06 #UNL_01 #TTU_01 #NYPL_06 #NYPL_12">Admitting</rdg>
+                  <rdg xml:id="vr_0450b" facs="loc_nhg.01247_cropped.jpg" wit="#DU_01 #UVa_03 #UVa_09 #LC_01 #NYPL_01 #BC_01 #UTA_01 #UTA_02 #UVa_04 #DU_04 #UNCCH_02 #UTA_04 #PC_03 #UTA_07 #UTA_03 #BrU_01 #BrU_02 #BrU_04 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_07 #NYPL_10 #NYPL_11">Admitting</rdg>
                   <note type="project" target="#vr_0450b">In these copies characters in the word "Admitting" fall below the line of text.</note>
                   </app>
                   they were alive and did the work of their day,</l> 
@@ -3014,7 +3014,7 @@ breath . . . . I buoy you up;</l>
                <l xml:id="l1069">This is the city . . . . and I am one of the citizens;</l>
                <l xml:id="l1070"><app type="drift">
                   <rdg xml:id="vr_0470a" facs="ppp.00271.054_cropped.jpg" wit="#UVa_01 #LC_08 #LC_11 #UVa_10 #UVa_02 #LC_07 #UVa_05 #UI_01 #BC_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
-                  <rdg xml:id="vr_0470b" facs="loc_nhg.01249_cropped.jpg" wit="#UNCCH_01 #UTA_05 #UTA_06 #DU_01 #UVa_03 #UVa_09 #LC_01 #NYPL_01 #DU_03 #DU_02 #UVa_06 #UTA_01 #UTA_02 #UVa_04 #DU_04 #UNCCH_02 #UTA_04 #PC_03 #UTA_07 #UTA_03 #BrU_01 #BrU_02 #BrU_04 #BrU_03 #NYPL_03 #UVa_07 #UVa_08 #NYPL_04 #LC_14 #LC_02 #LC_12 #LC_10 #LC_13 #LC_09 #PA_01 #LC_04 #LC_06 #LC_03 #LC_05 #UNL_01 #TTU_01 #NYHS_01">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
+                  <rdg xml:id="vr_0470b" facs="loc_nhg.01249_cropped.jpg" wit="#UNCCH_01 #UTA_05 #UTA_06 #DU_01 #UVa_03 #UVa_09 #LC_01 #NYPL_01 #DU_03 #DU_02 #UVa_06 #UTA_01 #UTA_02 #UVa_04 #DU_04 #UNCCH_02 #UTA_04 #PC_03 #UTA_07 #UTA_03 #BrU_01 #BrU_02 #BrU_04 #BrU_03 #NYPL_03 #UVa_07 #UVa_08 #NYPL_04 #LC_14 #LC_02 #LC_12 #LC_10 #LC_13 #LC_09 #PA_01 #LC_04 #LC_06 #LC_03 #LC_05 #UNL_01 #TTU_01 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_07 #NYPL_10 #NYPL_11 #NYPL_12">Whatever interests the rest interests me . . . .  politics, churches, newspapers,</rdg>
                <note type="project" target="vr_0470a">In these copies, this line has wider spacing. For a clearer comparison, see the <ref target="http://whitmanarchive.org/published/LG/figures/47_overlay.jpg">overlay image</ref>.</note>
                </app> <lb/>schools,</l>
                <l xml:id="l1071">Benevolent societies, improvements, banks, tariffs, steamships, factories, markets,</l>
@@ -3853,8 +3853,8 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l1556">Freemouthed, quicktempered, not badlooking, able to take his own part,</l>
                <l xml:id="l1557">
                   <app type="drift">
-                     <rdg xml:id="vr_0660a" facs="ppp.00271.073_cropped.jpg" wit="#UTA_05 #LC_08 #UI_01 #UVa_08 #LC_05 #UVa_06 #PC_03 #UVa_10 #UVa_05 #LC_01 #UNL_01">Witty,</rdg>
-                     <rdg xml:id="vr_0660b" facs="loc_nhg.01010_cropped.jpg" wit="#UVa_02 #BC_01 #UTA_06 #DU_01 #UVa_03 #UVa_09 #DU_02 #UTA_01 #UVa_04 #DU_04 #UNCCH_02 #UTA_07 #UTA_03 #UVa_07 #UNCCH_01 #DU_03 #UTA_02 #UTA_04 #LC_07 #BrU_04 #LC_14 #LC_02 #LC_10 #LC_13 #LC_03 #LC_12 #LC_04 #LC_11 #LC_09 #LC_06 #TTU_01 #NYHS_01">Witty,</rdg>
+                     <rdg xml:id="vr_0660a" facs="ppp.00271.073_cropped.jpg" wit="#UTA_05 #LC_08 #UI_01 #UVa_08 #LC_05 #UVa_06 #PC_03 #UVa_10 #UVa_05 #LC_01 #UNL_01 #NYPL_11">Witty,</rdg>
+                     <rdg xml:id="vr_0660b" facs="loc_nhg.01010_cropped.jpg" wit="#UVa_02 #BC_01 #UTA_06 #DU_01 #UVa_03 #UVa_09 #DU_02 #UTA_01 #UVa_04 #DU_04 #UNCCH_02 #UTA_07 #UTA_03 #UVa_07 #UNCCH_01 #DU_03 #UTA_02 #UTA_04 #LC_07 #BrU_04 #LC_14 #LC_02 #LC_10 #LC_13 #LC_03 #LC_12 #LC_04 #LC_11 #LC_09 #LC_06 #TTU_01 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_07 #NYPL_10 #NYPL_12">Witty,</rdg>
                   <note type="project" target="#vr_0660b">In these copies, the word "Witty" is located slightly to the right in relation to the rest of the text block.</note>
                   </app> sensitive to a slight, ready with life or death for a friend,</l>
                <l xml:id="l1558">Fond of women, . . played some . . eat hearty and drank hearty,</l>
@@ -5152,9 +5152,9 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
             </lg>
             <lg type="linegroup">
                <l xml:id="l2270"><app type="drift">
-                  <rdg xml:id="vr_0930a" facs="ppp.00271.100_cropped.jpg" wit="#LC_03 #LC_04 #LC_01 #DU_04 #UNCCH_01 #DU_03 #PC_03 #BC_01 #LC_05 #DU_01 #UNCCH_02 #UI_01 #UVa_02 #UVa_04 #UTA_07 #LC_07 #LC_02 #LC_10 #LC_13 #LC_12 #LC_08 #UVa_06 #LC_09 #LC_06 #UNL_01">Wealth</rdg>
+                  <rdg xml:id="vr_0930a" facs="ppp.00271.100_cropped.jpg" wit="#LC_03 #LC_04 #LC_01 #DU_04 #UNCCH_01 #DU_03 #PC_03 #BC_01 #LC_05 #DU_01 #UNCCH_02 #UI_01 #UVa_02 #UVa_04 #UTA_07 #LC_07 #LC_02 #LC_10 #LC_13 #LC_12 #LC_08 #UVa_06 #LC_09 #LC_06 #UNL_01 #NYPL_08 #NYPL_09 #NYPL_06 #NYPL_07 #NYPL_10 #NYPL_11 #NYPL_12">Wealth</rdg>
                   <rdg xml:id="vr_0930b" facs="loc_nhg.01002_cropped.jpg" wit="#UVa_05 #DU_02 #UTA_05 #UTA_06 #UVa_03 #UTA_01 #UTA_03 #UVa_07 #UTA_02 #UTA_04 #UVa_08 #LC_14 #LC_11 #TTU_01 #NYHS_01">Wealth</rdg>
-                  <note type="project" target="vr_0930b">In these copies, the "W" in the word "Wealth" is printed slightly farther left on the page.</note>
+                  <note type="project" target="vr_0930b">In these copies, the "W" in the word "Wealth" is printed farther left on the page.</note>
                </app> with the flush hand and fine clothes and hospitality:</l> 
                <pb facs="ppp.00271.101.jpg" xml:id="leaf050v" n="94" type="verso"/>
                <fw type="pageNum" place="top left">94</fw>
