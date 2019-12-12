@@ -4210,7 +4210,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+  <provenance><persName key="Szladits, Mrs.">Mrs. Szladits</persName></provenance>
  </history>
  </msDesc>
  </witness>
