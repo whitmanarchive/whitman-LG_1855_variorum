@@ -1437,6 +1437,10 @@
                 <linkGrp type="relation" corresp="rut.00010.xml">
                     <link cert="low" target="ppp.01880.xml#pr05 #q01"/>
                 </linkGrp>
+                <linkGrp type="relation" corresp="rut.00023.xml">
+                    <link cert="low" target="ppp.01880.xml#pr262 #p02"/>
+                    <link cert="low" target="ppp.01880.xml#pr263 #p02"/>
+                </linkGrp>
                 <linkGrp type="relation" corresp="rut.00025.xml">
                     <link cert="low" target="ppp.01880.xml#l1221 #q01"/>
                     <link cert="low" target="ppp.01880.xml#l1222 #q02"/>
