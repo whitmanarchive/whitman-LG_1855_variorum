@@ -8291,7 +8291,7 @@
  <witness xml:id="NYHS_01">
   <msDesc>
    <msIdentifier>
-    <repository>New York Historical Society</repository>
+    <repository key="NHi">New York Historical Society</repository>
     <idno>Main Collection Y-q 1855 .Whit</idno>
    </msIdentifier>
    <msContents>
@@ -8327,6 +8327,132 @@
    </physDesc>
    <history>
     <provenance><persName key="Lion, Oscar">Oscar Lion</persName>; <persName key="Boni, Robert">Robert Boni</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="InU_01">
+  <msDesc>
+   <msIdentifier>
+    <repository key="InU-Li">Indiana University Bloomington</repository>
+    <idno>PS3201.L4 1855</idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Bookplates of Albert Thorndike and J.K. Lilly. Bookseller's label of Fowlers, Wells &amp; Co., Phrenologists &amp; Publishers, Boston.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A</layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>state A</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Lilly, Josiah Kirby">Josiah Kirby Lilly (1893&#8211;1966)</persName>; <persName key="Thorndike, Albert">Albert Thorndike</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="InU_02">
+  <msDesc>
+   <msIdentifier>
+    <repository key="InU-Li">Indiana University Bloomington</repository>
+    <idno>PS3201.L4 1855a</idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Extra copy of second signature. The second copy of signature [2] has leaves 1 and 2 excised.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright"></layout> 
+      <layout rend="frontispiece"></layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>state B</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="InU_03">
+  <msDesc>
+   <msIdentifier>
+    <repository key="InU-Li">Indiana University Bloomington</repository>
+    <idno>PS3201.L4 1855b</idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Rebound in full nottled calf, gilt edges, by Rivière &amp; Son [1890-1900?]; rebacked, old spine mounted, covers rubbed.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright"></layout> 
+      <layout rend="frontispiece"></layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>rebound</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance></provenance>
    </history>
   </msDesc>
  </witness>
