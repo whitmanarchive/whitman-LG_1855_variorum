@@ -133,6 +133,7 @@
                     <link cert="low" target="ppp.01880.xml#pr153 #l04"/>
                     <link cert="low" target="ppp.01880.xml#pr153 #l05"/>
                     <link cert="low" target="ppp.01880.xml#pr317 #seg01"/>
+                    <link cert="low" target="ppp.01880.xml#pr317 #seg02"/>
                     <link cert="low" target="ppp.01880.xml#pr280 #seg02"/>
                     <link cert="low" target="ppp.01880.xml#pr280 #seg03"/>
                 </linkGrp>
