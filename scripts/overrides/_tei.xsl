@@ -448,10 +448,9 @@
     <xsl:choose>
       <xsl:when test="descendant::lg">
         <br/>
-        <span class="teiQuoteLineGroup">
-          <xsl:apply-templates/>
-        </span>
-        <br/>
+        <div class="teiQuoteLineGroup">
+          <xsl:apply-templates select="descendant::l"/>
+        </div>
       </xsl:when>
       <xsl:when test="@rend = 'right'">
         <span class="rendRight">
@@ -549,6 +548,7 @@
   <xsl:template match="//ab">
     <xsl:apply-templates/><br/>
   </xsl:template>
+ 
   <!-- END: PARAGRAPHS AND FLOATINGTEXT TEXT -->
 
   <!-- BEGIN: REFS AND NOTES -->
