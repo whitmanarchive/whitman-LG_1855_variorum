@@ -150,7 +150,6 @@
                     <link cert="low" target="ppp.01880.xml#l1918 #p02"/>
                     <link cert="low" target="ppp.01880.xml#l1930 #p02"/>
                     <link cert="low" target="ppp.01880.xml#l507 #p02"/>
-                    <link cert="low" target="ppp.01880.xml#pr180 #p03"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="duk.00130.xml">
                     <link cert="low" target="ppp.01880.xml#pr267 #p01"/>
@@ -907,7 +906,6 @@
                     <link cert="low" target="ppp.01880.xml#l507 #q13"/>
                     <link cert="low" target="ppp.01880.xml#pr182 #q14"/>
                     <link cert="low" target="ppp.01880.xml#l507 #q14"/>
-                    <link cert="low" target="ppp.01880.xml#seg08 #p01"/>
                     <link cert="low" target="ppp.01880.xml#pr395 #ab01"/>
                     <link cert="low" target="ppp.01880.xml#l1978 #ab01"/>
                     <link cert="low" target="ppp.01880.xml#l2039 #ab01"/>
@@ -1261,7 +1259,6 @@
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00029.xml">
                     <link cert="low" target="ppp.01880.xml#l1402 #l01"/>
-                    <link cert="low" target="ppp.01880.xml#l2209 #l01"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00052.xml">
                     <link cert="low" target="ppp.01880.xml#l116 #l01"/>
@@ -1404,9 +1401,7 @@
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00549.xml">
                     <link cert="low" target="ppp.01880.xml#l165 #seg02"/>
-                    <link cert="low" target="ppp.01880.xml#pr12 #seg02"/>
                     <link cert="low" target="ppp.01880.xml#l726 #q02"/>
-                    <link cert="low" target="ppp.01880.xml#pr12 #q02"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="nyp.00733.xml">
                     <link cert="low" target="ppp.01880.xml#l1402 #l01"/>
@@ -1767,9 +1762,7 @@
                     <link cert="low" target="ppp.01880.xml#l771 #seg10"/>
                     <link cert="low" target="ppp.01880.xml#pr398 #seg16"/>
                     <link cert="low" target="ppp.01880.xml#l1578 #seg19"/>
-                    <link cert="low" target="ppp.01880.xml#pr179 #seg27"/>
                     <link cert="low" target="ppp.01880.xml#pr13 #seg27"/>
-                    <link cert="low" target="ppp.01880.xml#pr179 #seg28"/>
                 </linkGrp>
                 <linkGrp type="relation" corresp="yal.00441.xml">
                     <link cert="low" target="ppp.01880.xml#l2275 #ab01"/>
