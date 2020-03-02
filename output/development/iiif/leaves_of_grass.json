@@ -1213,8 +1213,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.039.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2291,
-                "height": 3337,
+                "width": 2263,
+                "height": 3353,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.039.jpg",
@@ -1224,8 +1224,8 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.039.jpg-leaf019v"
             }
           ],
-          "width": 2291,
-          "height": 3337
+          "width": 2263,
+          "height": 3353
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.040.jpg-leaf020r.json",
@@ -1717,8 +1717,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.057.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2327,
-                "height": 3337,
+                "width": 2264,
+                "height": 3386,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.057.jpg",
@@ -1728,8 +1728,8 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.057.jpg-leaf028v"
             }
           ],
-          "width": 2327,
-          "height": 3337
+          "width": 2264,
+          "height": 3386
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.058.jpg-leaf029r.json",
@@ -1885,8 +1885,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.063.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2327,
-                "height": 3374,
+                "width": 2296,
+                "height": 3401,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.063.jpg",
@@ -1896,8 +1896,8 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.063.jpg-leaf031v"
             }
           ],
-          "width": 2327,
-          "height": 3374
+          "width": 2296,
+          "height": 3401
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.064.jpg-leaf032r.json",
@@ -3033,8 +3033,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.104.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2334,
-                "height": 3315,
+                "width": 2379,
+                "height": 3336,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.104.jpg",
@@ -3044,8 +3044,8 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.104.jpg-leaf052r"
             }
           ],
-          "width": 2334,
-          "height": 3315
+          "width": 2379,
+          "height": 3336
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/canvas/ppp.00271.105.jpg-leaf052v.json",

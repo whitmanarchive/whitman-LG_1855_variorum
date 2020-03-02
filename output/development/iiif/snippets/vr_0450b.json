@@ -2,14 +2,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/vr_0450b.json",
   "@type": "sc:Manifest",
-  "label": "\"Admitting\" lower",
+  "label": "First part of \"Admitting\" lower",
   "description": [
     {
-      "@value": "\"Admitting\" lower (vr_0450b)",
+      "@value": "First part of \"Admitting\" lower (vr_0450b)",
       "@language": "en"
     }
   ],
-  "attribution": "The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.",
+  "attribution": "Carolyn Wells Houghton Whitman Collection, Library of Congress, Washington, D.C.",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0450b-cropped.json",
           "@type": "sc:Canvas",
-          "label": "\"Admitting\" lower",
+          "label": "First part of \"Admitting\" lower",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
@@ -31,8 +31,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247_cropped.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 568,
-                "height": 177,
+                "width": 610,
+                "height": 193,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247_cropped.jpg",
@@ -42,13 +42,13 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0450b-cropped.json"
             }
           ],
-          "width": 568,
-          "height": 177
+          "width": 610,
+          "height": 193
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0450b.json",
           "@type": "sc:Canvas",
-          "label": "\"Admitting\" lower",
+          "label": "First part of \"Admitting\" lower",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01247.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

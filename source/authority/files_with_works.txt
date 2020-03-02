@@ -11,7 +11,6 @@ duk.00029.xml
 duk.00032.xml
 duk.00044.xml
 duk.00051.xml
-duk.00060.xml
 duk.00097.xml
 duk.00104.xml
 duk.00119.xml
@@ -19,7 +18,6 @@ duk.00120.xml
 duk.00128.xml
 duk.00130.xml
 duk.00148.xml
-duk.00154.xml
 duk.00159.xml
 duk.00162.xml
 duk.00164.xml
@@ -41,13 +39,11 @@ duk.00305.xml
 duk.00787.xml
 duk.00789.xml
 duk.00797.xml
-duk.00800.xml
 duk.00877.xml
 duk.00878.xml
+duk.00800.xml
 duk.00883.xml
-duk.00884.xml
 duk.00885.xml
-duk.00886.xml
 duk.00887.xml
 duk.00888.xml
 duk.00889.xml
@@ -76,13 +72,13 @@ loc.01019.xml
 loc.05180.xml
 loc.05314.xml
 loc.05334.xml
+loc.05354.xml
 loc.05544.xml
 loc.05589.xml
 loc.05704.xml
 loc.05705.xml
 loc.05935.xml
 loc.07421.xml
-loc.07428.xml
 loc.07512.xml
 loc.07869.xml
 med.00726.xml
@@ -138,9 +134,11 @@ nyp.00733.xml
 nyp.00734.xml
 nyp.00735.xml
 nyp.00736.xml
+nyp.00742.xml
 prc.00127.xml
 prc.00128.xml
 rut.00010.xml
+rut.00023.xml
 rut.00024.xml
 rut.00025.xml
 tex.00001.xml

@@ -75,6 +75,7 @@
     <item id="duk.00128.xml" type="mss" certainty="low"/>
     <item id="duk.00159.xml" type="mss" certainty="low"/>
     <item id="duk.00162.xml" type="mss" certainty="low"/>
+    <item id="duk.00258.xml" type="marg" certainty="low"/>
     <item id="duk.00263.xml" type="mss" certainty="low"/>
     <item id="duk.00296.xml" type="mss" certainty="low"/>
     <item id="duk.00297.xml" type="mss" certainty="low"/>
@@ -102,6 +103,7 @@
     <item id="nyp.00510.xml" type="mss" certainty="low"/>
     <item id="nyp.00732.xml" type="mss" certainty="low"/>
     <item id="nyp.00734.xml" type="mss" certainty="low"/>
+    <item id="nyp.00742.xml" type="mss" certainty="low"/>
     <item id="tex.00031.xml" type="mss" certainty="low"/>
     <item id="tex.00088.xml" type="mss" certainty="low"/>
     <item id="tul.00011.xml" type="mss" certainty="low"/>
@@ -157,7 +159,6 @@
     <item id="duk.00148.xml" type="mss" certainty="low"/>
     <item id="duk.00261.xml" type="mss" certainty="low"/>
     <item id="duk.00262.xml" type="mss" certainty="low"/>
-    <item id="duk.00886.xml" type="mss" certainty="low"/>
     <item id="loc.00024.xml" type="nb" certainty="low"/>
     <item id="loc.00142.xml" type="nb" certainty="low"/>
     <item id="nyp.00029.xml" type="mss" certainty="low"/>
@@ -180,6 +181,7 @@
     <item id="loc.00005.xml" type="nb" certainty="high"/>
     <item id="loc.00025.xml" type="nb" certainty="high"/>
     <item id="loc.00141.xml" type="nb" certainty="high"/>
+    <item id="loc.05180.xml" type="mss" certainty="high"/>
     <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="med.00729.xml" type="mss" certainty="high"/>
     <item id="med.00741.xml" type="mss" certainty="high"/>
@@ -187,7 +189,6 @@
     <item id="med.00782.xml" type="mss" certainty="high"/>
     <item id="tex.00057.xml" type="mss" certainty="high"/>
     <item id="tex.00088.xml" type="mss" certainty="high"/>
-    <item id="duk.00060.xml" type="mss" certainty="low"/>
     <item id="duk.00128.xml" type="mss" certainty="low"/>
     <item id="duk.00130.xml" type="mss" certainty="low"/>
     <item id="duk.00263.xml" type="mss" certainty="low"/>
@@ -209,6 +210,7 @@
     <item id="nyp.00129.xml" type="nb" certainty="low"/>
     <item id="prc.00127.xml" type="mss" certainty="low"/>
     <item id="rut.00010.xml" type="mss" certainty="low"/>
+    <item id="rut.00023.xml" type="mss" certainty="low"/>
     <item id="tex.00031.xml" type="mss" certainty="low"/>
     <item id="uva.00137.xml" type="mss" certainty="low"/>
     <item id="uva.00238.xml" type="mss" certainty="low"/>
@@ -223,6 +225,7 @@
     <item id="nyp.00085.xml" type="mss" certainty="high"/>
     <item id="nyp.00116.xml" type="mss" certainty="high"/>
     <item id="duk.00128.xml" type="mss" certainty="low"/>
+    <item id="duk.00297.xml" type="mss" certainty="low"/>
     <item id="loc.00141.xml" type="nb" certainty="low"/>
     <item id="loc.00346.xml" type="nb" certainty="low"/>
     <item id="nyp.00524.xml" type="mss" certainty="low"/>
@@ -242,6 +245,7 @@
     <item id="loc.00142.xml" type="nb" certainty="low"/>
   </work>
   <work id="xxx.00221">
+    <item id="duk.00789.xml" type="mss" certainty="high"/>
     <item id="loc.00005.xml" type="nb" certainty="high"/>
     <item id="med.00746.xml" type="mss" certainty="high"/>
     <item id="duk.00128.xml" type="mss" certainty="low"/>
@@ -280,12 +284,9 @@
     <item id="loc.00346.xml" type="nb" certainty="low"/>
     <item id="nyp.00095.xml" type="mss" certainty="low"/>
     <item id="nyp.00097.xml" type="mss" certainty="low"/>
+    <item id="tex.00079.xml" type="mss" certainty="low"/>
     <item id="uva.00134.xml" type="mss" certainty="low"/>
     <item id="uva.00283.xml" type="mss" certainty="low"/>
-  </work>
-  <work id="xxx.00411">
-    <item id="duk.00789.xml" type="mss" certainty="high"/>
-    <item id="nyp.00089.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.00271">
     <item id="duk.00905.xml" type="mss" certainty="high"/>
@@ -301,12 +302,6 @@
     <item id="duk.00877.xml" type="mss" certainty="high"/>
     <item id="loc.05589.xml" type="nb" certainty="high"/>
     <item id="duk.00878.xml" type="mss" certainty="low"/>
-  </work>
-  <work id="xxx.00110">
-    <item id="duk.00886.xml" type="mss" certainty="high"/>
-    <item id="loc.05589.xml" type="nb" certainty="high"/>
-    <item id="nyp.00110.xml" type="mss" certainty="high"/>
-    <item id="duk.00884.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.00266">
     <item id="duk.00889.xml" type="mss" certainty="high"/>
@@ -398,9 +393,6 @@
   <work id="xxx.00297">
     <item id="loc.00354.xml" type="nb" certainty="high"/>
   </work>
-  <work id="xxx.00564">
-    <item id="loc.05180.xml" type="mss" certainty="high"/>
-  </work>
   <work id="xxx.00893">
     <item id="loc.05314.xml" type="mss" certainty="low"/>
     <item id="nyp.00019.xml" type="mss" certainty="low"/>
@@ -408,10 +400,13 @@
   <work id="xxx.00450">
     <item id="loc.05589.xml" type="nb" certainty="high"/>
   </work>
+  <work id="xxx.00110">
+    <item id="loc.05589.xml" type="nb" certainty="high"/>
+    <item id="nyp.00110.xml" type="mss" certainty="high"/>
+  </work>
   <work id="xxx.00116">
     <item id="nyp.00122.xml" type="mss" certainty="high"/>
     <item id="loc.05589.xml" type="nb" certainty="low"/>
-    <item id="loc.07428.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.00157">
     <item id="med.00904.xml" type="mss" certainty="low"/>
@@ -440,6 +435,9 @@
   </work>
   <work id="xxx.00225">
     <item id="nyp.00549.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00148">
+    <item id="rut.00023.xml" type="mss" certainty="low"/>
   </work>
   <work id="xxx.01166">
     <item id="tex.00001.xml" type="mss" certainty="high"/>

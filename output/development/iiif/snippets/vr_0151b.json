@@ -31,8 +31,8 @@
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01401_cropped.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 946,
-                "height": 213,
+                "width": 916,
+                "height": 122,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fduk_nhg.01401_cropped.jpg",
@@ -42,8 +42,8 @@
               "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0151b-cropped.json"
             }
           ],
-          "width": 946,
-          "height": 213
+          "width": 916,
+          "height": 122
         },
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0151b.json",

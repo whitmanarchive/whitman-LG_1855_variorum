@@ -449,7 +449,7 @@
       <xsl:when test="descendant::lg">
         <br/>
         <div class="teiQuoteLineGroup">
-          <xsl:apply-templates select="descendant::l"/>
+          <xsl:apply-templates select="descendant::lg[@type='linegroup']"/>
         </div>
       </xsl:when>
       <xsl:when test="@rend = 'right'">
