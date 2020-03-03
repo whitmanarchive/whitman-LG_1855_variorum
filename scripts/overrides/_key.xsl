@@ -18,7 +18,7 @@
               <span class="inline_tei_rdg_display">Textual and Graphical Variants</span><br/>
               <span class="inline_tei_rdg_binding_display">Bindings and Insertions</span><br/>
               <span class="inline_tei_rdg_drift_display">Spatial Variants (Drifts)</span>
-              <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process. Clicking on these variations produces a list of associated copies and images.</p>
+              <p>The printed copy variations indicated with highlighted text and a dotted underline include stop-press changes, missing characters, binding states, inserted materials, and selected spatial and typographical differences caused by the printing process. Clicking on these variations produces a list of associated copies and images. Copy identifiers link to a bibliography with more information about individual copies.</p>
             </div>
           </xsl:otherwise>
         </xsl:choose>
@@ -31,7 +31,7 @@
             <div class="relation_num_docs" style="width:24%"/>
             </div>
           </div>
-          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, along with links to transcriptions. The red and green lines offer a visualization of the relations. The green line corresponds to the number of related manuscripts or notebooks. The red line corresponds to the total number of related text segments from those manuscripts and notebooks.</p>
+          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, along with links to transcriptions. The red and green lines offer a visualization of the relations. The green line corresponds to the number of related manuscripts or notebooks. The red line corresponds to the total number of related text segments from those manuscripts and notebooks. For more about how we have determined relations, see our <a target="_blank" href="https://whitman-dev.unl.edu/about/editorial.html#variorum">editorial policy statement</a>.</p>
         </div>
         <xsl:choose>
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
