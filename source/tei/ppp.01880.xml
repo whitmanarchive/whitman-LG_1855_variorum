@@ -169,7 +169,7 @@
          <pb facs="ppp.00271.005.jpg" xml:id="leaf002v" type="verso"/>
 
          <app type="paratext">
-            <!--letter (newspaper)--><rdg xml:id="pt_0010a" facs="ppp.00271.005.jpg" wit="#UI_01 #UH_01 #NYPL_04"><q>
+            <!--letter (newspaper)--><rdg xml:id="pt_0010a" facs="ppp.00271.005.jpg" wit="#UI_01 #UH_01 #NYPL_04 #BoL_01 #TU_01 #HU_05 #CoU_02 #BPL_01 #HU_04"><q>
                <floatingText>
                   <body>
                      <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -191,7 +191,7 @@
                            </body>
                         </floatingText>
                      </q></body></floatingText></q></rdg>
-            <!--letter (printed)--><rdg xml:id="pt_0010b" facs="uva_nhg.00009.jpg" wit="#WC_02 #UVa_09 #BrU_01 #PU_02 #PML_04 #SUNYBi_01 #NYPL_12 #PC_08 #VAM_01 #PC_17 #BoL_01 #HU_04 #HU_05 #BPL_01 #CoU_02 #TU_01 #PU_01 #InU_03"><q who="Ralph Waldo Emerson">
+            <!--letter (printed)--><rdg xml:id="pt_0010b" facs="uva_nhg.00009.jpg" wit="#WC_02 #UVa_09 #BrU_01 #PU_02 #PML_04 #SUNYBi_01 #NYPL_12 #PC_08 #VAM_01 #PC_17 #PU_01 #InU_03"><q who="Ralph Waldo Emerson">
                <floatingText>
                   <body>
                      <note type="authorial">[<hi rend="italic">Copy for the convenience of private reading only.</hi>]</note>
