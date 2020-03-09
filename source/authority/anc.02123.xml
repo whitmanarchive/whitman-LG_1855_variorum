@@ -6205,7 +6205,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Frontispiece has "light emboss."</p>
+<p>Feinberg Collection. Frontispiece has "light emboss." Bookplate of Eugene Field.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6226,7 +6226,7 @@
  <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
+  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Field, Eugene">Eugene Field</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6247,7 +6247,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Provenance: William Keehinte [?] / No 226 Vine Street. Regarding the crotch, the "bulge line is tapered at the top so that it fades nearly into the flap line."</p>
+<p>Feinberg Collection. Provenance: William C. Keelunte [?] / No 226 Vine Street. Bookplate John Stuart Groves.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6268,7 +6268,7 @@
  <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Keehinte[?], William">William Keehinte[?]</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
+  <provenance><persName key="Keelunte, William C.">William C. Keelunte</persName>; <persName key="Groves, John Stuart">John Stuart Groves</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
  </history>
  </msDesc>
  </witness>
