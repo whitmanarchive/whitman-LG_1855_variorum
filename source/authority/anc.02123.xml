@@ -6163,7 +6163,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Frontispiece has "heavy emboss."</p>
+  <p>Feinberg Collection. Frontispiece has "heavy emboss." Bookplate of Frank Brewer Bemis.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6181,10 +6181,10 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
+ <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Bemis, Frank Brewer">Frank Brewer Bemis</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6349,7 +6349,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6373,7 +6373,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. A copy associated with a 19th century actress [photo inlaid] but much later than 1855 ... Interesting unattributed material pasted into the inside back cover -- hard to decipher but later opinions of Whitman by Emerson, Carlyle, and Tennyson, some inscribed, one pasted clipping. All from much later dates.</p>
+<p>Feinberg Collection. A copy associated with a 19th century actress [photo inlaid] but much later than 1855. Interesting unattributed material pasted into the inside back cover&#8212;hard to decipher but later opinions of Whitman by Emerson, Carlyle, and Tennyson, some inscribed, one pasted clipping. All from much later dates. The following notes are written on the flyleaf: "Clarence Cook. / Newburgh. / June 26, 1857." and "Edward Gordon Craig / from Mother / New York / 1900."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6391,10 +6391,10 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
+  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Cook, Clarence">Clarence Cook</persName>; <persName key="Terry, Ellen">Ellen Terry</persName>; <persName key="Craig, Edward Gordon">Edward Gordon Craig</persName></provenance>
  </history>
  </msDesc>
  </witness>
