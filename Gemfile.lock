@@ -8,6 +8,16 @@ GIT
       nokogiri (~> 1.8)
       rest-client (~> 2.0.2)
 
+GIT
+  remote: https://github.com/sul-dlss/osullivan.git
+  revision: 01c8044526f59bc8c9e138fbe935d10c43282803
+  branch: development
+  specs:
+    iiif-presentation (0.2.0)
+      activesupport (>= 3.2.18)
+      faraday (>= 0.9)
+      json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -21,16 +31,12 @@ GEM
     concurrent-ruby (1.1.6)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    faraday (0.15.4)
+    faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    iiif-presentation (0.2.0)
-      activesupport (>= 3.2.18)
-      faraday (>= 0.9)
-      json
     json (2.3.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
@@ -58,8 +64,7 @@ PLATFORMS
 
 DEPENDENCIES
   datura!
-  faraday (~> 0.15.0)
-  iiif-presentation (~> 0.2.0)
+  iiif-presentation!
 
 BUNDLED WITH
    2.1.4
