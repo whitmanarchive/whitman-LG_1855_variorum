@@ -21,7 +21,7 @@ GEM
     concurrent-ruby (1.1.6)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    faraday (1.0.1)
+    faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -58,6 +58,7 @@ PLATFORMS
 
 DEPENDENCIES
   datura!
+  faraday (~> 0.15.0)
   iiif-presentation (~> 0.2.0)
 
 BUNDLED WITH
