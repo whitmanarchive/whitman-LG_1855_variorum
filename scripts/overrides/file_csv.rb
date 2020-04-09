@@ -22,7 +22,6 @@ class FileCsv < FileType
     canvas.label = row["File Label"]
     canvas.thumbnail = thumb_url
 
-    puts "HELLO: #{@options["iiif_base"]}"
     annotation = IIIF::Presentation::Annotation.new
     begin
       annotation.resource = IIIF::Presentation::ImageResource.create_image_api_image_resource({
