@@ -2,6 +2,7 @@
 
 - [Overview](#overview)
 - [Setup](#setup)
+  - [Configuration](#configuration)
 - [Variorum Generation](#variorum-generation)
   - [Works](#works)
   - [IIIF Manifests](#iiif-manifests)
@@ -13,6 +14,8 @@ This data repository houses the XSLT and Ruby scripts used to create all the com
 
 Some of the outputs of scripts available in this repository are the actual HTML of the variorum, a list of works, and IIIF manifests.
 
+*Currently, the Whitman development server is calling the XSLT scripts from Cocoon!*  This means that changes you make to code on the server should show up right away, but it also means that you are pulling variables from `config.xsl` rather than `public.yml`, so be aware of that discrepancy! Regardless of whether this code is on the dev or production server, the variorum is being generated via the XSLT in the `scripts` directory.
+
 ## Setup
 
 For information about how to set up this repository and its scripts, please visit [datura](https://github.com/CDRH/datura).  You will need Ruby, Datura, Saxon-HE, and gems required by the Datura software to run these scripts.
@@ -23,6 +26,33 @@ Due to these scripts needing access to TEI-XML located in the Whitman Archive's 
 same_dir/cocoon/whitmanarchive
 same_dir/data/collections/whitman-variorum
 ```
+
+You will also need to allow your web server to serve files in the `output` directory, since that is where all of the IIIF manifests and HTML are placed after generation.
+
+### Configuration
+
+There are several configurable pieces in this repository.
+
+- config/public.yml
+- config/config.xsl
+- source/authority/files_with_works.txt
+- source/authority/lg_viewer_table_of_contents.yml
+
+*config/public.yml*
+
+This file contains the paths for the IIIF manifests regardless of environment.  It also has variables for the XSLT when using pregenerated HTML for the variorum (for example, on production).
+
+*config/config.xsl*
+
+This file contains only XSLT variables for on-the-fly generation (for example, development).
+
+*source/authority/files_with_works.txt*
+
+Update this file if you want to check more files for associated works.
+
+*source/authority/lg_viewer_table_of_contents.yml*
+
+This has a lengthy name so that hopefully it doesn't need much explaining!  Update this file if you would like more pages to be highlighting in the Leaves of Grass viewer along the left-hand side.
 
 ## Variorum Generation
 

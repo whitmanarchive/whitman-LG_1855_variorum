@@ -7,28 +7,26 @@ require "csv"
 require "fileutils"
 require "iiif/presentation"
 
-class FileCsv
+require_relative "file_type.rb"
+
+class FileCsv < FileType
 
   def create_canvas(image_path, id, row, crop = false)
+    item_loc = escape_image_path(image_path)
+    full_url = File.join(@options["iiif_base"], item_loc, @options["iiif_fullsize_end"])
+    thumb_url = File.join(@options["iiif_base"], item_loc, @options["iiif_thumb_end"])
+
     # create a canvas for each snippet, for now just use first image alone
     canvas = IIIF::Presentation::Canvas.new()
-    # TODO placeholder for image pending
-    if image_path && image_path != "Image pending"
-      item_loc = image_path.gsub("/", "%2F")
-    else
-      item_loc = "whitman-fallback.jpg"
-    end
-    full_url = "#{@iiif_path}/#{item_loc}/#{@iiif_end}"
-    thumb_url = "#{@iiif_path}/#{item_loc}/#{@iiif_thumb}"
-
     canvas["@id"] = "#{@iiif_output_path}/canvas/#{id}.json"
     canvas.label = row["File Label"]
     canvas.thumbnail = thumb_url
 
+    puts "HELLO: #{@options["iiif_base"]}"
     annotation = IIIF::Presentation::Annotation.new
     begin
       annotation.resource = IIIF::Presentation::ImageResource.create_image_api_image_resource({
-        service_id: "#{@iiif_path}/#{item_loc}"
+        service_id: "#{@options["iiif_base"]}/#{item_loc}"
       })
     rescue => e
       puts "Unable to add manuscript for #{item_loc}: #{e}"
@@ -42,14 +40,20 @@ class FileCsv
     canvas
   end
 
+  # IIIF requires that any nested paths use %2F to distinguish between
+  # the path to the image and portions of the IIIF URL
+  #
+  # If no image currently available, use placeholder
+  def escape_image_path(image_path)
+    if image_path && image_path != "Image pending"
+      image_path.gsub("/", "%2F")
+    else
+      "whitman-fallback.jpg"
+    end
+  end
+
   def transform_iiif
-    # iiif config
-    @iiif_path = "https://whitmanarchive.org/iiif/2"
-    @iiif_end = "full/full/0/default.jpg"
-    @iiif_thumb = "full/!150,150/0/default.jpg"
-    # note differs from general manifests in that it's in "snippets" subdirectory
-    @iiif_output_path = "#{@options["data_base"]}/data/#{@options["collection"]}/output/#{@options["environment"]}/iiif/snippets"
-    @iiif_output_dir = "#{@options["collection_dir"]}/output/#{@options["environment"]}/iiif/snippets"
+    set_iiif_paths("snippets")
 
     groups = {}
 
@@ -79,7 +83,7 @@ class FileCsv
         "attribution" => row["Repository"],
         "viewingDirection" => "left-to-right",
         "viewingHint" => "paged",
-        #"logo" => "#{@iiif_path}ppp.00271.001.jpg/#{@iiif_thumb}"
+        #"logo" => "#{@options["iiif_base"]}ppp.00271.001.jpg/#{@options["iiif_thumb_end"]}"
       })
 
       # still has to be a sequence even for one image

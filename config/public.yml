@@ -6,18 +6,20 @@
 # please put any sensitive information or computer specific settings in private.yml!
 
 default:
-  # please fill in the name of your collection here
-  # collection:
   collection: whitman-variorum
   data_base: https://whitmanarchive.org/media  # (do not include /data/ in path)
   media_base: https://whitmanarchive.org/media
 
-  # refer to the documentation for details about overriding the XSL
-  # html_html_xsl:
+  # iiif settings
+  iiif_base: https://whitmanarchive.org/iiif/2
+  # only applies to TEI, for snippets alter CSV
+  iiif_fig_dir: "published%2FLG%2Ffigures%2F"
+  iiif_fullsize_end: "full/full/0/default.jpg"
+  iiif_thumb_end: "full/!150,150/0/default.jpg"
+
   tei_html_xsl: scripts/overrides/LG55_variorum.xsl
-  # vra_html_xsl:
   variables_html:
-    siteroot: https://whitman-dev.unl.edu/
+    siteroot: https://whitmanarchive.org/
     externalfileroot: http://whitmanarchive.org/
     nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
     msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
@@ -30,9 +32,17 @@ default:
 
 development:
   data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
-
-  # es_index: cdrhapidev-v1
-  # es_path: https://cdrhdev1.unl.edu/elastic
+  variables_html:
+    siteroot: https://whitman-dev.unl.edu/
+    externalfileroot: http://whitmanarchive.org/
+    nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
+    msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
+    margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
+    variorumPathRoot: /var/local/www/data/collections/whitman-variorum/source/authority/
+    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
+    msPathHTMLRoot: manuscripts/transcriptions/
+    margPathHTMLRoot: manuscripts/marginalia/transcriptions/
+    variorumPathHTMLRoot: published/LG/1855/related/
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file
