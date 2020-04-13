@@ -11,7 +11,7 @@ default:
   media_base: https://whitmanarchive.org/media
 
   # iiif settings
-  iiif_base: https://whitmanarchive.org/iiif/2
+  iiif_base: https://whitmanarchive.org/iiif/2/
   # only applies to TEI, for snippets alter CSV
   iiif_fig_dir: "published%2FLG%2Ffigures%2F"
   iiif_fullsize_end: "full/full/0/default.jpg"
@@ -27,6 +27,7 @@ default:
     variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
     nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
     msPathHTMLRoot: manuscripts/transcriptions/
+    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
     variorumPathHTMLRoot: published/LG/1855/related/
 
@@ -41,6 +42,7 @@ development:
     variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
     nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
     msPathHTMLRoot: manuscripts/transcriptions/
+    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
     variorumPathHTMLRoot: published/LG/1855/related/
 

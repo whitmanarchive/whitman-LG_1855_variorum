@@ -42,13 +42,19 @@
             <xsl:variable name="id" select="substring-before(@id, '.xml')"/>
             <!-- set up where in the site this is -->
             <xsl:variable name="path">
-              <xsl:value-of select="$siteroot"/>
-              <xsl:text>manuscripts</xsl:text>
               <xsl:choose>
-                <xsl:when test="@type='marg'">/marginalia/transcriptions/</xsl:when>
-                <xsl:when test="@type='marg-anno'">/marginalia/annotations/</xsl:when>
-                <xsl:when test="@type='mss'">/transcriptions/</xsl:when>
-                <xsl:when test="@type='nb'">/notebooks/transcriptions/</xsl:when>
+                <xsl:when test="@type='marg'">
+                  <xsl:value-of select="$msPathHTMLRoot"/>
+                </xsl:when>
+                <xsl:when test="@type='marg-anno'">
+                  <xsl:value-of select="$margAnnoPathHTMLRoot"/>
+                </xsl:when>
+                <xsl:when test="@type='mss'">
+                  <xsl:value-of select="$msPathHTMLRoot"/>
+                </xsl:when>
+                <xsl:when test="@type='nb'">
+                  <xsl:value-of select="nbPathHTMLRoot"/>
+                </xsl:when>
               </xsl:choose>
               <xsl:value-of select="$id"/>
               <xsl:text>.html</xsl:text>
@@ -70,7 +76,13 @@
         </xsl:choose>
         <xsl:if test="$work_id = 'xxx.00144'">
           <ul class="mss_links_list_per">
-            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/published/periodical/poems/per.00088.html">View Periodical Version</a>
+            <a class="v_review_links" target="_blank">
+              <xsl:attribute name="href">
+                <xsl:value-of select="$siteroot"/>
+                <xsl:text>published/periodical/poems/per.00088.html</xsl:text>
+              </xsl:attribute>
+              <xsl:text>View Periodical Version</xsl:text>
+            </a>
             <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/yWEwVS">Compare to Periodical Version (in Juxta)</a>
           </ul>
           

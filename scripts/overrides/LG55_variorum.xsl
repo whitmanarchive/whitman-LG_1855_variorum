@@ -10,11 +10,6 @@
   <xsl:import href="_works_list.xsl"/>
   <xsl:import href="_key.xsl"/>
   
-  <!-- moved this to the top so I can call it in another template -->
-  <xsl:variable name="iiif_path_local">
-    <xsl:text>published%2FLG%2Ffigures</xsl:text>
-  </xsl:variable>
-
   <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
 
   <!-- variables -->
@@ -352,7 +347,7 @@
                 <xsl:call-template name="url_builder">
                   <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
                   <xsl:with-param name="image_size_local" select="1200"/>
-                  <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                  <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
                 </xsl:call-template>
               </xsl:attribute>
               <img class="teiFigure lazyload" data-sizes="auto">
@@ -360,21 +355,21 @@
                   <xsl:call-template name="url_builder">
                     <xsl:with-param name="figure_id_local">ppp.00271.001.jpg</xsl:with-param>
                     <xsl:with-param name="image_size_local" select="500"/>
-                    <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                    <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
                   </xsl:call-template>
                 </xsl:attribute>
                 <xsl:attribute name="data-lowsrc">
                   <xsl:call-template name="url_builder">
                     <xsl:with-param name="figure_id_local">ppp.00271.001.jpg</xsl:with-param>
                     <xsl:with-param name="image_size_local" select="500"/>
-                    <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                    <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
                   </xsl:call-template>
                 </xsl:attribute>
                 <xsl:attribute name="data-src">
                   <xsl:call-template name="url_builder">
                     <xsl:with-param name="figure_id_local" select="@facs"/>
                     <xsl:with-param name="image_size_local" select="500"/>
-                    <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                    <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
                   </xsl:call-template>
                 </xsl:attribute>
               </img>
@@ -713,7 +708,7 @@
             <xsl:call-template name="url_builder">
               <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
               <xsl:with-param name="image_size_local" select="1200"/>
-              <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+              <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
             </xsl:call-template>
           </xsl:attribute>
           <img class="lazyload" data-sizes="auto">
@@ -721,21 +716,21 @@
               <xsl:call-template name="url_builder">
                 <xsl:with-param name="figure_id_local">ppp.00271.001</xsl:with-param>
                 <xsl:with-param name="image_size_local" select="70"/>
-                <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
               </xsl:call-template>
             </xsl:attribute>
             <xsl:attribute name="data-lowsrc">
               <xsl:call-template name="url_builder">
                 <xsl:with-param name="figure_id_local">ppp.00271.001</xsl:with-param>
                 <xsl:with-param name="image_size_local" select="70"/>
-                <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
               </xsl:call-template>
             </xsl:attribute>
             <xsl:attribute name="data-src">
               <xsl:call-template name="url_builder">
                 <xsl:with-param name="figure_id_local" select="$figure_id_local"/>
                 <xsl:with-param name="image_size_local" select="70"/>
-                <xsl:with-param name="iiif_path_local" select="$iiif_path_local"/>
+                <xsl:with-param name="iiif_fig_dir" select="$iiif_fig_dir"/>
               </xsl:call-template>
             </xsl:attribute>
             <xsl:attribute name="border" select="2"/>

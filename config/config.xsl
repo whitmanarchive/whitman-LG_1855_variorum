@@ -9,11 +9,14 @@
   <!-- All these variables should move into config.yml -->
   
   <!-- temporary params so that the site can be viewed live with datura default stylesheets -->
-  <xsl:param name="collection">TEMP</xsl:param>
-  <xsl:param name="image_thumb">TEMP</xsl:param>
-  <xsl:param name="image_large">TEMP</xsl:param>
-  <xsl:param name="media_base">TEMP</xsl:param>
-  <xsl:param name="site_url">TEMP</xsl:param>
+  <xsl:param name="collection">whitman-LG_1855_variorum</xsl:param>
+  <xsl:param name="data_base">https://whitmanarchive.org/media</xsl:param>
+  <xsl:param name="media_base">https://whitmanarchive.org/media</xsl:param>
+  <xsl:param name="iiif_base">https://whitmanarchive.org/iiif/2/</xsl:param>
+  <xsl:param name="iiif_fig_dir">published%2FLG%2Ffigures%2F</xsl:param>
+  <xsl:param name="iiif_fullsize_end">full/full/0/default.jpg</xsl:param>
+  <xsl:param name="iiif_thumb_end">full/!150,150/0/default.jpg</xsl:param>
+
   <xsl:variable name="environment">development</xsl:variable>
 
   <xsl:variable name="siteroot">https://whitman-dev.unl.edu/</xsl:variable>
@@ -41,6 +44,10 @@
   <xsl:param name="msPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
     <xsl:text>manuscripts/transcriptions/</xsl:text>
+  </xsl:param>
+  <xsl:param name="margAnnoPathHTMLRoot">
+    <xsl:value-of select="$siteroot"/>
+    <xsl:text>manuscripts/marginalia/annotations/</xsl:text>
   </xsl:param>
   <xsl:param name="margPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>

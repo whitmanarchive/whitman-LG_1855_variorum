@@ -5,19 +5,12 @@
   exclude-result-prefixes="xs"
   version="2.0">
 
-  <!-- temporary, needs to go in various config files -->
-  <xsl:variable name="media_base">
-    <xsl:text>https://whitmanarchive.org</xsl:text>
-  </xsl:variable>
-
   <xsl:template name="url_builder">
     <xsl:param name="figure_id_local"/> 
     <xsl:param name="image_size_local"/>
-    <xsl:param name="iiif_path_local"/>
-    <xsl:value-of select="$media_base"/>
-    <xsl:text>/iiif/2/</xsl:text>
-    <xsl:value-of select="$iiif_path_local"/>
-    <xsl:text>%2F</xsl:text>
+    <xsl:param name="iiif_fig_dir"/>
+    <xsl:value-of select="$iiif_base"/>
+    <xsl:value-of select="$iiif_fig_dir"/>
     <xsl:value-of select="$figure_id_local"/>
     <xsl:choose>
       <xsl:when test="ends-with($figure_id_local,'.jpg')">
