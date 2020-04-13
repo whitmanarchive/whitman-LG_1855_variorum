@@ -51,6 +51,20 @@ class FileCsv < FileType
     end
   end
 
+  def reorder_groups(groups)
+    groups.map do |group, items|
+      # pull first result which matches Iowa
+      iowa = items.detect { |hsh| hsh[:repo] == "University of Iowa Special Collections and University Archives" }
+      if iowa
+        items.delete(iowa)
+        # prepend iowa entry at the front
+        items.unshift(iowa)
+      end
+      { group => items }
+    end
+    groups
+  end
+
   def transform_iiif
     set_iiif_paths("snippets")
 
@@ -105,31 +119,35 @@ class FileCsv < FileType
         f.write(manifest.to_json(pretty: true))
       end
 
-      # ADD EACH ROW OF THE CSV TO ITS GROUP, ORDER OF ARRAY MATTERS
-      # group = row["Group Name"].downcase.gsub(" ", "-")
+      # add each row of the spreadsheet to its respective group
+      # and pass information about the repo for later sorting
       group = row["Group Name"]
-      if groups.key?(group)
-        groups[group] << id
-      else
-        groups[group] = [id]
+      if !groups.key?(group)
+        groups[group] = []
       end
+      groups[group] << { id: id, repo: row["Repository"] }
     end
 
     # create a JSON index file that is used to associate the manifests
     snippets = []
-    groups.each do |group, ids|
-      link = ids.first[0,7]
+    # reorder groups so that the iowa repository entry (if it exists) is FIRST
+    groups = reorder_groups(groups)
+
+    groups.each do |group, items|
+      # grab the first id and trim it down a bit to get the generic version
+      link = items.first[:id][0,7]
+      puts "right in here #{group}"
       puts link
       snippets << {
         label: group,
         link: link,
-        ids: ids
+        ids: items.map { |item| item[:id] }
       }
     end
 
     puts "writing to #{@iiif_output_dir}"
     File.open(File.join(@iiif_output_dir, "index.js"), "w") do |f|
-      f.write("var snippets = #{snippets.to_json(pretty: true)}")
+      f.write("var snippets = #{JSON.pretty_generate(snippets)}")
     end
     # TODO need to look into this
     { "doc" => snippets }
