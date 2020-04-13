@@ -136,8 +136,6 @@ class FileCsv < FileType
     groups.each do |group, items|
       # grab the first id and trim it down a bit to get the generic version
       link = items.first[:id][0,7]
-      puts "right in here #{group}"
-      puts link
       snippets << {
         label: group,
         link: link,
