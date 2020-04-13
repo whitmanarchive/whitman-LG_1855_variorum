@@ -30,7 +30,7 @@
     <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/</xsl:text>
   </xsl:param>
   <xsl:param name="variorumPathRoot">
-    <xsl:text>/var/local/www/data/collections/whitman-variorum/source/authority/</xsl:text>
+    <xsl:text>/var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/</xsl:text>
   </xsl:param>
   
   <!-- HTML paths -->

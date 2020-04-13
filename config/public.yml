@@ -6,7 +6,7 @@
 # please put any sensitive information or computer specific settings in private.yml!
 
 default:
-  collection: whitman-variorum
+  collection: whitman-LG_1855_variorum
   data_base: https://whitmanarchive.org/media  # (do not include /data/ in path)
   media_base: https://whitmanarchive.org/media
 
@@ -24,7 +24,7 @@ default:
     nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
     msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
     margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
-    variorumPathRoot: /var/local/www/data/collections/whitman-variorum/source/authority/
+    variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
     nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
     msPathHTMLRoot: manuscripts/transcriptions/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
@@ -38,7 +38,7 @@ development:
     nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
     msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
     margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
-    variorumPathRoot: /var/local/www/data/collections/whitman-variorum/source/authority/
+    variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
     nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
     msPathHTMLRoot: manuscripts/transcriptions/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
