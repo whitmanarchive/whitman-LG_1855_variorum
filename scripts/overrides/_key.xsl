@@ -117,7 +117,7 @@
               <a target="_blank">
                 <xsl:attribute name="href">
                   <xsl:value-of select="$siteroot"/>
-                  <xsl:text>/about/editorial.html#variorum</xsl:text>
+                  <xsl:text>about/editorial.html#variorum</xsl:text>
                 </xsl:attribute>
                 <xsl:text>editorial policy statement</xsl:text>
               </a>
