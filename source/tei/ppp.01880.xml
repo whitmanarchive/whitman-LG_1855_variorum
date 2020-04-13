@@ -3169,9 +3169,9 @@ breath . . . . I buoy you up;</l>
             <lg type="linegroup">
                <l xml:id="l1156">Long I was hugged close . . . . long and 
                   <app type="drift">
-                     <rdg xml:id="vr_0500a" facs="ppp.00271.057_cropped.jpg" wit="#UI_01 #LC_01 #LC_03 #LC_05 #LC_07 #LC_08 #LC_09 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #UI_02 #UTA_01 #UTA_02 #UTA_04 #UTA_06 #UTA_07 #WFU_01 #WFU_02">long</rdg>
-                     <rdg xml:id="vr_0500b" facs="loc_nhg.01400_cropped.jpg" wit="#LC_02 #LC_06 #LC_13 #LC_04 #TTU_01 #UTA_03 #UTA_05">long</rdg>
-                     <note type="project" target="#vr_0500b">In these copies the "g" in the second "long" is printed slightly higher than the rest of the word.</note></app>.</l>
+                     <rdg xml:id="vr_0500a" facs="ppp.00271.057_cropped.jpg" wit="#UI_01 #LC_01 #LC_03 #LC_05 #LC_07 #LC_08 #LC_09 #LC_10 #LC_11 #LC_12 #LC_13 #LC_14 #UI_02 #UTA_01 #UTA_02 #UTA_04 #UTA_06 #UTA_07 #WFU_01 #WFU_02">long.</rdg>
+                     <rdg xml:id="vr_0500b" facs="loc_nhg.01400_cropped.jpg" wit="#LC_02 #LC_06 #LC_13 #LC_04 #TTU_01 #UTA_03 #UTA_05">long.</rdg>
+                     <note type="project" target="#vr_0500b">In these copies the "g" in the second "long" is printed slightly higher than the rest of the word.</note></app></l>
             </lg>
             <lg type="linegroup">
                <l xml:id="l1157">Immense have been the preparations for me,</l>
