@@ -262,6 +262,9 @@
       <!--<div class="v_right">
         <xsl:copy-of select="$right"/>
       </div>-->
+      <div class="v_line_link">
+        <xsl:text>URL</xsl:text>
+      </div>
     </div>
     <xsl:copy-of select="$after"/>
   </xsl:template>
