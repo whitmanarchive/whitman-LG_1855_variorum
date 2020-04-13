@@ -57,7 +57,7 @@
                     <li>
                       <span class="fakelink">duk.00023</span> (low) </li>
                   </ul>
-                </div> <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1891) titles in parentheses. Early manuscripts and notebooks that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
+                </div> <p>The printed poems and the preface are each marked with a line on the right-hand side. A box next to the line gives printed or supplied 1855 titles. Repeated titles and untitled poems have been assigned a number in brackets. The poems also include their eventual (1881) titles in parentheses. Early manuscripts and notebooks that relate to some part of the preface or poem, or to the work as a whole, are linked in the box, along with a certainty (low or high) indicating how sure we are about the relation.</p>
               </div>
             </div>
           </xsl:otherwise>
