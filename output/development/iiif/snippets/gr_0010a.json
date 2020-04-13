@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/gr_0010a.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/gr_0010a.json",
   "@type": "sc:Manifest",
-  "label": "Frontispiece with flat crotch",
+  "label": "Frontispiece with unenhanced crotch",
   "description": [
     {
-      "@value": "Frontispiece with flat crotch (gr_0010a)",
+      "@value": "Frontispiece with unenhanced crotch (gr_0010a)",
       "@language": "en"
     }
   ],
@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/gr_0010a-cropped.json",
+          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/gr_0010a-cropped.json",
           "@type": "sc:Canvas",
-          "label": "Frontispiece with flat crotch",
+          "label": "Frontispiece with unenhanced crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/gr_0010a-cropped.json",
+              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/gr_0010a-cropped.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/gr_0010a-cropped.json"
+              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/gr_0010a-cropped.json"
             }
           ],
           "width": 825,
           "height": 1104
         },
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/gr_0010a.json",
+          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/gr_0010a.json",
           "@type": "sc:Canvas",
-          "label": "Frontispiece with flat crotch",
+          "label": "Frontispiece with unenhanced crotch",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/gr_0010a.json",
+              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/gr_0010a.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/gr_0010a.json"
+              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/gr_0010a.json"
             }
           ],
           "width": 2487,

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/pt_0010a.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/pt_0010a.json",
   "@type": "sc:Manifest",
   "label": "Newspaper version of Emerson letter",
   "description": [
@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/pt_0010a.json",
+          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/pt_0010a.json",
           "@type": "sc:Canvas",
           "label": "Newspaper version of Emerson letter",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.005.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/pt_0010a.json",
+              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/pt_0010a.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,7 +39,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/pt_0010a.json"
+              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/pt_0010a.json"
             }
           ],
           "width": 2459,

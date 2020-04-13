@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/vr_0040a.json",
+  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0040a.json",
   "@type": "sc:Manifest",
   "label": "\"cities and\"",
   "description": [
@@ -18,60 +18,60 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0040a-cropped.json",
+          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0040a-cropped.json",
           "@type": "sc:Canvas",
           "label": "\"cities and\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/vr_0040a-cropped.json",
+              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0040a-cropped.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011_cropped.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 588,
-                "height": 231,
+                "width": 589,
+                "height": 232,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011_cropped.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0040a-cropped.json"
+              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0040a-cropped.json"
             }
           ],
-          "width": 588,
-          "height": 231
+          "width": 589,
+          "height": 232
         },
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0040a.json",
+          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0040a.json",
           "@type": "sc:Canvas",
           "label": "\"cities and\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/annotation/vr_0040a.json",
+              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0040a.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011.jpg/full/!200,200/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "width": 2276,
-                "height": 3315,
+                "width": 2324,
+                "height": 3302,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.011.jpg",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-variorum/output/development/iiif/snippets/canvas/vr_0040a.json"
+              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0040a.json"
             }
           ],
-          "width": 2276,
-          "height": 3315
+          "width": 2324,
+          "height": 3302
         }
       ]
     }
