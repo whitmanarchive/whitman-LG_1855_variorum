@@ -42,9 +42,10 @@
             <xsl:variable name="id" select="substring-before(@id, '.xml')"/>
             <!-- set up where in the site this is -->
             <xsl:variable name="path">
+              <xsl:value-of select="$siteroot"/>
               <xsl:choose>
                 <xsl:when test="@type='marg'">
-                  <xsl:value-of select="$msPathHTMLRoot"/>
+                  <xsl:value-of select="$margPathHTMLRoot"/>
                 </xsl:when>
                 <xsl:when test="@type='marg-anno'">
                   <xsl:value-of select="$margAnnoPathHTMLRoot"/>
@@ -53,7 +54,7 @@
                   <xsl:value-of select="$msPathHTMLRoot"/>
                 </xsl:when>
                 <xsl:when test="@type='nb'">
-                  <xsl:value-of select="nbPathHTMLRoot"/>
+                  <xsl:value-of select="$nbPathHTMLRoot"/>
                 </xsl:when>
               </xsl:choose>
               <xsl:value-of select="$id"/>
