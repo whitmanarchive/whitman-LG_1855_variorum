@@ -742,33 +742,33 @@
       <xsl:when test="ancestor::back">
         <br/>
         <br/>
-        <div class="teiFigure">&#9135;&#9135;</div>
+        <div class="teiFigure">&#9135;&#9135;&#9135;</div>
         <br/>
       </xsl:when>
       <xsl:when test="ancestor::front">
         <xsl:choose>
           <xsl:when test="parent::docTitle">
             <br/>
-            <div class="teiFigure">&#9135;&#9135;</div>
+            <div class="teiFigure">&#9135;&#9135;&#9135;</div>
             <br/>
           </xsl:when>
           <xsl:otherwise>
             <br/>
             <br/>
-            <div class="teiFigure">&#9135;&#9135;</div>
+            <div class="teiFigure">&#9135;&#9135;&#9135;</div>
             <br/>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:when test="preceding-sibling::lg[@type = 'poem']">
         <br/>
-        <div class="teiFigure">&#9135;&#9135;</div>
+        <div class="teiFigure">&#9135;&#9135;&#9135;</div>
         <br/>
       </xsl:when>
       <xsl:otherwise>
         <br/>
         <br/>
-        <div class="teiFigure">&#9135;&#9135;</div>
+        <div class="teiFigure">&#9135;&#9135;&#9135;</div>
         <br/>
       </xsl:otherwise>
     </xsl:choose>
