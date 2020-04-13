@@ -736,38 +736,39 @@
   <!-- END: OTHER FORMATTING -->
 
   <!-- BEGIN: HORIZONTAL BARS -->
+  <!--Note that this is handled differently than other WA milestones, and probably objectionably- nhg-->
   <xsl:template match="milestone[@rend = 'horbar-short-center']">
     <xsl:choose>
       <xsl:when test="ancestor::back">
         <br/>
         <br/>
-        <div class="teiFigure">&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+        <div class="teiFigure">&#9135;&#9135;</div>
         <br/>
       </xsl:when>
       <xsl:when test="ancestor::front">
         <xsl:choose>
           <xsl:when test="parent::docTitle">
             <br/>
-            <div class="teiFigure">&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+            <div class="teiFigure">&#9135;&#9135;</div>
             <br/>
           </xsl:when>
           <xsl:otherwise>
             <br/>
             <br/>
-            <div class="teiFigure">&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+            <div class="teiFigure">&#9135;&#9135;</div>
             <br/>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:when test="preceding-sibling::lg[@type = 'poem']">
         <br/>
-        <div class="teiFigure">&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+        <div class="teiFigure">&#9135;&#9135;</div>
         <br/>
       </xsl:when>
       <xsl:otherwise>
         <br/>
         <br/>
-        <div class="teiFigure">&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+        <div class="teiFigure">&#9135;&#9135;</div>
         <br/>
       </xsl:otherwise>
     </xsl:choose>
