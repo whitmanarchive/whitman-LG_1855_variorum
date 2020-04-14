@@ -53,7 +53,7 @@
     <xsl:variable name="line" select="."/>
     <xsl:variable name="corresp_doc" select="document(concat($variorumPathRoot, 'anc.02134.xml'))"/>
     <xsl:if test="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
-      <div>
+      <div aria-hidden="true">
         <xsl:attribute name="class">
           <!--<xsl:text>hide </xsl:text>-->
           <xsl:text>relation_data hide line_</xsl:text>
@@ -638,7 +638,7 @@
 
   <xsl:template match="app">
     <xsl:apply-templates select="rdg[contains(@wit, 'UI_01')]" mode="inline"/>
-    <div>
+    <div aria-hidden="true">
         <xsl:attribute name="class">
          <xsl:text>tei_app hide </xsl:text>
          <!-- create class based on rdg xml:id -->
@@ -659,11 +659,9 @@
   </xsl:template>
 
   <xsl:template match="rdg" mode="inline">
-    <button>
+    <span role="button">
       <xsl:attribute name="class">
         <xsl:text>variant_text_expand variant_text_click </xsl:text>
-        <!-- TODO JESS -->
-        <!-- <xsl:value-of select="concat('variant_id_', @xml:id, ' ')"/> -->
         <xsl:choose>
           <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift</xsl:text></xsl:when>
           <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
@@ -685,7 +683,7 @@
       <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
       <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
-    </button>
+    </span>
   </xsl:template>
 
   <xsl:template match="pb">
