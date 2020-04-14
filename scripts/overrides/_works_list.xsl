@@ -19,24 +19,23 @@
     <div class="mss_links">
       <div class="mss_links_hide">
         <strong>
-          Related Manuscripts
-          <br/> 
           <xsl:choose>
             <xsl:when test="$work_id = 'xxx.00526'"><span class="mss_links_title"><xsl:value-of select="$label"/></span></xsl:when>
             <xsl:otherwise><span class="mss_links_title"><xsl:value-of select="$lg55title"/><br/>
-        (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></span></xsl:otherwise>
+              (<xsl:value-of select="$label"/>) <!--(<xsl:value-of select="$work_id"/>)--></span></xsl:otherwise>
           </xsl:choose>
         </strong>
         <xsl:variable name="doc" select="document(concat($variorumPathRoot, 'work_list_generated.xml'))"/>
         <xsl:choose>
           <xsl:when test="not($doc//work[@id=$work_id]/item)">
             <ul class="mss_links_list">
+              <strong>Related Manuscripts</strong>
               <li><xsl:text>No manuscripts found</xsl:text></li>
             </ul>
           </xsl:when>
           <xsl:otherwise>
             <ul class="mss_links_list">
-          
+          <strong>Related Manuscripts</strong>
 
           <xsl:for-each select="$doc//work[@id=$work_id]/item">
             <xsl:variable name="id" select="substring-before(@id, '.xml')"/>

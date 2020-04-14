@@ -60,8 +60,9 @@
               <h2>List of Related Manuscripts</h2>
               <div class="tei_lg_poem_key tei_lg_poem_odd">
                 <div class="mss_links_key">
-                  <strong>Related Manuscripts "Leaves of Grass" [3] ("To Think of Time")</strong>
+                  <span class="mss_links_title"><strong>"Leaves of Grass" [3] ("To Think of Time")</strong></span>
                   <ul class="mss_links_list">
+                    <strong>Related Manuscripts</strong>
                     <li>
                       <span class="fakelink">duk.00023</span> (low) </li>
                   </ul>
