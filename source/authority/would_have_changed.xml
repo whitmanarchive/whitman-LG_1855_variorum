@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<would_have_changed>
+  <file id="/testing/tei/tex.00057.xml">
+    <l xml:id="l01" corresp="#pr147 #l1398"/>
+    <l xml:id="l10" corresp="#l1584"/>
+    <l xml:id="l02" corresp="#l928"/>
+    <l xml:id="l04" corresp="#l234 #l235 #l236"/>
+    <l xml:id="l06" corresp="#pr147 #l1398"/>
+    <l xml:id="l07" corresp="#l88"/>
+    <l xml:id="l08" corresp="#pr147 #l1398"/>
+    <l xml:id="l09" corresp="#l666"/>
+  </file>
+  <file id="/testing/notebooks/tei/loc.00141.xml">
+    <seg xml:id="tw02" corresp="#l507"/>
+    <ab xml:id="tw06" corresp="#l4 #seg03"/>
+    <ab xml:id="tw08" corresp="#l4 #seg03"/>
+    <seg xml:id="tw10b" corresp="#l1815 #l1816 #l1817 #l1818"/>
+    <seg xml:id="tw10" corresp="#l1822 #l1823"/>
+    <seg xml:id="tw11a" corresp="#l2084 #l2085 #l2086"/>
+    <seg xml:id="tw11" corresp="#l2087 #l2088 #l2089"/>
+    <ab xml:id="tw12" corresp="#l1217"/>
+    <ab xml:id="tw12b" corresp="#l1218"/>
+    <ab xml:id="tw12c" corresp="#l1218"/>
+    <head xml:id="tw13" corresp="#l428"/>
+    <seg xml:id="tw15" corresp="#seg03 #l524"/>
+    <seg xml:id="seg01" corresp="#l1203 #l1204 #l1205"/>
+    <seg xml:id="seg02" corresp="#l1206 #l1208 #l1209 #l1210"/>
+    <ab xml:id="ab10" corresp="#l1066"/>
+    <ab xml:id="tr03" corresp="#l1065 #pr287e"/>
+    <ab xml:id="ab01" corresp="#l1065 #pr287e"/>
+    <ab xml:id="ab03" corresp="#l1263 #l788"/>
+    <seg xml:id="tw18" corresp="#l467"/>
+    <ab xml:id="tw20" corresp="#l174 #l175"/>
+    <l xml:id="l01" corresp="#l421 #l422 #l425 #l466 #l509 #l1835 #l97 #l98 #l99 #pr301"/>
+    <l xml:id="l02" corresp="#l421"/>
+    <l xml:id="l03" corresp="#l422"/>
+    <l xml:id="l05" corresp="#l421"/>
+    <l xml:id="l06" corresp="#l422"/>
+    <l xml:id="l07" corresp="#l421 #l422 #l425 #l426 #l466 #l509 #l1835 #l97 #l98 #l99 #pr301"/>
+    <l xml:id="l201" corresp="#l421 #l422 #l425 #l1835 #l97 #l98 #l99"/>
+    <l xml:id="l08" corresp="#l421 #l422 #l425 #l1835 #l97 #l98 #l99"/>
+    <l xml:id="l202" corresp="#l465 #l466"/>
+    <l xml:id="l203" corresp="#l1002"/>
+    <l xml:id="l09" corresp="#l1002"/>
+    <l xml:id="l10" corresp="#l1002"/>
+    <l xml:id="l11" corresp="#l1004"/>
+    <l xml:id="l12" corresp="#l1005"/>
+    <l xml:id="l13" corresp="#l1006 #l1007"/>
+    <l xml:id="l14" corresp="#l1006 #l1007"/>
+    <l xml:id="l15" corresp="#l1008"/>
+    <l xml:id="l16" corresp="#l1011"/>
+    <l xml:id="l17" corresp="#l1011 #l1009"/>
+    <l xml:id="l18" corresp="#l1011"/>
+    <l xml:id="l19" corresp="#l1010"/>
+    <l xml:id="l20" corresp="#l1013"/>
+    <l xml:id="l21" corresp="#l1011"/>
+    <l xml:id="l22" corresp="#l1012"/>
+    <l xml:id="l23" corresp="#l1012"/>
+    <l xml:id="l24" corresp="#l1009"/>
+    <l xml:id="l25" corresp="#l1009"/>
+    <l xml:id="l26" corresp="#l1010"/>
+    <l xml:id="tw28" corresp="#l486 #l465"/>
+    <l xml:id="tw25" corresp="#l1584"/>
+    <l xml:id="tw26" corresp="#l1583 #l1584"/>
+    <l xml:id="tw27" corresp="#l493 #l44"/>
+    <l xml:id="l450" corresp="#l475 #l44 #l45"/>
+    <l xml:id="l451" corresp="#l475 #l44 #l45"/>
+    <l xml:id="tw29" corresp="#l669 #l674"/>
+    <l xml:id="tw30" corresp="#l669 #l674 #l677"/>
+    <l xml:id="tw201" corresp="#l1216 #l140"/>
+    <l xml:id="tw203" corresp="#l487"/>
+    <l xml:id="tw204" corresp="#l90"/>
+    <l xml:id="tw31" corresp="#l466 #l514 #l517 #l518 #l519 #l1829 #pr301"/>
+    <l xml:id="tw31a" corresp="#l421 #l422 #l425 #l513 #l515 #l1000 #l1878 #pr301 #l123 #l1370"/>
+    <l xml:id="tw32" corresp="#l516 #l1248"/>
+    <l xml:id="tw211" corresp="#l682"/>
+    <l xml:id="tw212" corresp="#l1216 #l140"/>
+    <l xml:id="tw33" corresp="#l513 #l661 #l1181 #l1182 #l1185"/>
+    <l xml:id="tw34" corresp="#l661"/>
+    <l xml:id="tw35" corresp="#l513 #l661"/>
+    <l xml:id="tw36" corresp="#l662"/>
+    <l xml:id="tw37" corresp="#l663"/>
+    <l xml:id="tw38" corresp="#l664"/>
+    <l xml:id="tw39" corresp="#l666"/>
+    <l xml:id="tw40" corresp="#l88"/>
+    <l xml:id="tw213" corresp="#l667"/>
+    <l xml:id="tw41" corresp="#l667"/>
+    <l xml:id="tw42" corresp="#l245"/>
+    <l xml:id="tw44" corresp="#l246"/>
+    <l xml:id="l27" corresp="#l1008"/>
+    <l xml:id="l28" corresp="#l1008"/>
+    <l xml:id="l29" corresp="#l1008"/>
+    <l xml:id="l30" corresp="#l1009"/>
+    <l xml:id="l31" corresp="#l1009"/>
+    <l xml:id="l32" corresp="#l1010"/>
+    <l xml:id="l33" corresp="#l1011"/>
+    <l xml:id="l34" corresp="#l1012"/>
+    <l xml:id="l35" corresp="#l1013"/>
+    <l xml:id="l36" corresp="#l2216"/>
+    <l xml:id="l37" corresp="#l2216"/>
+    <l xml:id="l38" corresp="#l421"/>
+    <l xml:id="l39" corresp="#l121"/>
+    <l xml:id="l40" corresp="#l122"/>
+    <l xml:id="l41" corresp="#l123"/>
+    <l xml:id="l42" corresp="#l123"/>
+    <l xml:id="l44" corresp="#l1665 #l1666"/>
+    <l xml:id="l45" corresp="#l1649"/>
+    <l xml:id="tw47" corresp="#l425"/>
+    <l xml:id="tw48" corresp="#l426 #l1371"/>
+    <l xml:id="tw49" corresp="#l1371"/>
+    <l xml:id="l46" corresp="#l992"/>
+    <l xml:id="l47" corresp="#l992"/>
+    <l xml:id="l48" corresp="#l992"/>
+    <l xml:id="l49" corresp="#l994"/>
+    <l xml:id="l50" corresp="#l994"/>
+    <l xml:id="l51" corresp="#l995"/>
+    <l xml:id="l04" corresp="#l996"/>
+    <l xml:id="l52" corresp="#l627"/>
+    <l xml:id="l150" corresp="#l635"/>
+    <l xml:id="l53" corresp="#l628"/>
+    <l xml:id="l151" corresp="#l628"/>
+    <l xml:id="l54" corresp="#l628"/>
+    <l xml:id="l55" corresp="#l628"/>
+    <l xml:id="l56" corresp="#l631"/>
+    <l xml:id="l57" corresp="#l628 #l633"/>
+    <l xml:id="l200" corresp="#l1170"/>
+    <l xml:id="l58" corresp="#l624"/>
+    <l xml:id="l59" corresp="#l616"/>
+    <l xml:id="l60" corresp="#l630 #l631"/>
+    <l xml:id="l61" corresp="#l635"/>
+    <l xml:id="l62" corresp="#l636"/>
+    <l xml:id="l63" corresp="#l632"/>
+    <l xml:id="l64" corresp="#l636"/>
+    <l xml:id="l65" corresp="#l633 #l634"/>
+    <l xml:id="l66" corresp="#l633"/>
+    <l xml:id="l67" corresp="#l634"/>
+    <l xml:id="l68" corresp="#l635"/>
+    <l xml:id="l69" corresp="#l636"/>
+    <l xml:id="l70" corresp="#l636"/>
+    <l xml:id="l71" corresp="#l637"/>
+    <l xml:id="l72" corresp="#l638"/>
+    <l xml:id="l73" corresp="#l639"/>
+    <l xml:id="l74" corresp="#l641"/>
+    <l xml:id="l75" corresp="#l634"/>
+    <l xml:id="l76" corresp="#l640 #l641"/>
+    <l xml:id="l77" corresp="#l640 #l641 #l642"/>
+    <l xml:id="l78" corresp="#l641"/>
+    <l xml:id="l79" corresp="#l642"/>
+    <l xml:id="l80" corresp="#l641"/>
+    <l xml:id="l81" corresp="#l643"/>
+    <l xml:id="l82" corresp="#l655"/>
+    <l xml:id="l83" corresp="#l649"/>
+    <l xml:id="l84" corresp="#l650"/>
+    <l xml:id="l85" corresp="#l1774"/>
+    <l xml:id="l86" corresp="#l1774 #l1781"/>
+    <l xml:id="l87" corresp="#l1774"/>
+    <l xml:id="l88" corresp="#l1776"/>
+    <l xml:id="l89" corresp="#l1775"/>
+    <l xml:id="l90" corresp="#l1775"/>
+    <l xml:id="l91" corresp="#l1724"/>
+    <l xml:id="l92" corresp="#l1724 #l4"/>
+    <l xml:id="l93" corresp="#l1724"/>
+    <l xml:id="tw59" corresp="#l1724 #l4"/>
+    <l xml:id="l94" corresp="#l957 #l958"/>
+    <l xml:id="l95" corresp="#l959 #l960"/>
+    <l xml:id="l96" corresp="#l957 #l960"/>
+    <l xml:id="l97" corresp="#l963 #l964 #l967"/>
+    <l xml:id="l98" corresp="#l964 #l967"/>
+    <ab xml:id="tw62" corresp="#l682 #l683"/>
+    <ab xml:id="tw63" corresp="#l5"/>
+    <l xml:id="tw65" corresp="#l1460"/>
+    <l xml:id="l99" corresp="#l352"/>
+    <l xml:id="l100" corresp="#l352 #l353"/>
+    <l xml:id="l101" corresp="#l353"/>
+    <l xml:id="l102" corresp="#l354"/>
+    <l xml:id="l103" corresp="#l355"/>
+    <ab xml:id="ab02" corresp="#l2298"/>
+    <seg xml:id="seg03" corresp="#l2298"/>
+    <seg xml:id="seg04" corresp="#l2299 #1402"/>
+    <seg xml:id="seg05" corresp="#l2298 #l2299 #l2300"/>
+    <l xml:id="tw68" corresp="#l358 #l362 #l363 #l372"/>
+    <l xml:id="tw70" corresp="#l373 #l374 #l375"/>
+    <ab xml:id="ab15" corresp="#l1938 #l1939"/>
+  </file>
+</would_have_changed>

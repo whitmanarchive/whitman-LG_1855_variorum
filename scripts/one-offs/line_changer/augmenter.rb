@@ -1,11 +1,10 @@
 require "nokogiri"
 
 class Augmenter
+  include Helpers
 
   def initialize
-    # get the two files we need and read them in
-    current_dir = File.expand_path(File.dirname(__FILE__))
-    @repo_dir = File.join(current_dir, "..", "..", "..")
+    get_current_path
 
     @log_path = File.join(@repo_dir, "source/tei/ppp.01880.xml")
     @rel_path = File.join(@repo_dir, "source/authority/anc.02134.xml")
@@ -22,6 +21,7 @@ class Augmenter
     update_log
     update_relations
     report_changed_lines
+
   end
 
   private
@@ -63,12 +63,6 @@ class Augmenter
     id[/^l(\d{0,4}) ?$/,1]
   end
 
-  def open_xml(file)
-    doc = File.open(file) do |f|
-      Nokogiri::XML(f, &:noblanks)
-    end
-  end
-
   def report_changed_lines
     # deduplicate, sort, and then write as XML
     lines = @changed_lines.uniq.map(&:to_i).sort
@@ -81,21 +75,17 @@ class Augmenter
       }
     end
 
-    write_file(@rep_path, builder, 2)
+    write_xml_file(@rep_path, builder, 2)
   end
 
   def update_log
     change_log_lines
-    write_file(@log_path, @log, 3)
+    write_xml_file(@log_path, @log, 3)
   end
 
   def update_relations
     change_rel_lines
-    write_file(@rel_path, @rel, 4)
-  end
-
-  def write_file(path, contents, indent)
-    File.open(path, "w") { |f| f.write(contents.to_xml(indent: indent)) }
+    write_xml_file(@rel_path, @rel, 4)
   end
 
 end
