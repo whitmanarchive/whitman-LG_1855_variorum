@@ -44,9 +44,7 @@ class Remover
   end
 
   def get_base_path
-    # TODO change this when running the real deal
-    current_dir = File.expand_path(File.dirname(__FILE__))
-    File.join(current_dir, "..", "..", "..", "testing")
+    "/var/local/www/cocoon/whitmanarchive/manuscripts"
   end
 
   def process_files

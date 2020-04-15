@@ -11,7 +11,7 @@ require_relative "line_changer/remover.rb"
 
 
 
-# then go through manuscripts / notebooks and remove references there
-#   to any lines which were changed in the first two files
+# then go through manuscripts / notebooks and find places to remove
+# references there, but do NOT actually remove them
 
 Remover.new().run

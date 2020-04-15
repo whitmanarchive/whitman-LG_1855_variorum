@@ -1,6 +1,439 @@
 <?xml version="1.0"?>
 <would_have_changed>
-  <file id="/testing/tei/tex.00057.xml">
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00148.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/amh.00008.xml">
+    <seg xml:id="seg01" corresp="#l1084"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00008.xml">
+    <l xml:id="l04" corresp="#l627 #l650"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00001.xml">
+    <l xml:id="l01" corresp="#l610"/>
+    <l xml:id="l02" corresp="#l611"/>
+    <l xml:id="l03" corresp="#l612"/>
+    <l xml:id="l04" corresp="#l613"/>
+    <l xml:id="l05" corresp="#l614"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00259.xml">
+    <l xml:id="l01" corresp="#l2248"/>
+    <l xml:id="l02" corresp="#l2249"/>
+    <l xml:id="l03" corresp="#l2250"/>
+    <l xml:id="l04" corresp="#l2259"/>
+    <l xml:id="l05" corresp="#l2260"/>
+    <l xml:id="l06" corresp="#l2261"/>
+    <l xml:id="l07" corresp="#l2262"/>
+    <l xml:id="l08" corresp="#l2263"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00007.xml">
+    <l xml:id="l01" corresp="#l116"/>
+    <l xml:id="l04" corresp="#l655"/>
+    <l xml:id="l05" corresp="#l653"/>
+    <l xml:id="l06" corresp="#l116"/>
+    <l xml:id="l07" corresp="#l116 #l120"/>
+    <l xml:id="l08" corresp="#l617"/>
+    <l xml:id="l09" corresp="#l618 #l620"/>
+    <l xml:id="l10" corresp="#l620"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00942.xml">
+    <l xml:id="l100" corresp="#l729"/>
+    <l xml:id="l27" corresp="#l1216 #l1217 #l1218"/>
+    <l xml:id="l01" corresp="#l100"/>
+    <l xml:id="l02" corresp="#l101"/>
+    <l xml:id="l03" corresp="#l102"/>
+    <l xml:id="l04" corresp="#l103"/>
+    <l xml:id="l05" corresp="#l104"/>
+    <l xml:id="l06" corresp="#l105"/>
+    <l xml:id="l07" corresp="#l106"/>
+    <l xml:id="l08" corresp="#l106"/>
+    <l xml:id="l09" corresp="#l107"/>
+    <l xml:id="l10" corresp="#l108"/>
+    <l xml:id="l11" corresp="#l109"/>
+    <l xml:id="l12" corresp="#l110"/>
+    <l xml:id="l13" corresp="#l111"/>
+    <l xml:id="l14" corresp="#l112"/>
+    <l xml:id="l15" corresp="#l112"/>
+    <l xml:id="l29" corresp="#l1216 #l1217 #l1218"/>
+    <l xml:id="l16" corresp="#l113"/>
+    <l xml:id="l17" corresp="#l114"/>
+    <l xml:id="l18" corresp="#l115"/>
+    <l xml:id="l19" corresp="#l116"/>
+    <l xml:id="l20" corresp="#l117"/>
+    <l xml:id="l21" corresp="#l118"/>
+    <l xml:id="l22" corresp="#l119"/>
+    <l xml:id="l23" corresp="#l120"/>
+    <l xml:id="l24" corresp="#l121"/>
+    <l xml:id="l25" corresp="#l122"/>
+    <l xml:id="l26" corresp="#l123"/>
+    <l xml:id="l31" corresp="#l123"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00260.xml">
+    <ab xml:id="ab01" corresp="#l2129 #l2132"/>
+    <l xml:id="l01" corresp="#l1726 #l1782"/>
+    <l xml:id="l04" corresp="#l733"/>
+    <l xml:id="l05" corresp="#l662"/>
+    <l xml:id="l07" corresp="#l664"/>
+    <l xml:id="l08" corresp="#l666"/>
+    <l xml:id="l09" corresp="#l663 #l729"/>
+    <l xml:id="l10" corresp="#l662"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00262.xml">
+    <l xml:id="l03" corresp="#l1154"/>
+    <l xml:id="l10" corresp="#l1154"/>
+    <l xml:id="l01" corresp="#l428 #l1152"/>
+    <l xml:id="l02" corresp="#l428 #l1152"/>
+    <l xml:id="l11" corresp="#l1152"/>
+    <l xml:id="l12" corresp="#l1503"/>
+    <l xml:id="l13" corresp="#l1217"/>
+    <l xml:id="l14" corresp="#l1217"/>
+    <l xml:id="l16" corresp="#l1217 #l1218"/>
+    <l xml:id="l19" corresp="#l428"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00263.xml">
+    <l xml:id="l01" corresp="#l1365"/>
+    <l xml:id="l02" corresp="#l1367"/>
+    <l xml:id="l03" corresp="#l1368"/>
+    <l xml:id="l04" corresp="#l1369"/>
+    <l xml:id="l05" corresp="#l1370"/>
+    <l xml:id="l06" corresp="#l1370"/>
+    <l xml:id="l07" corresp="#l1371"/>
+    <l xml:id="l08" corresp="#l1373"/>
+    <l xml:id="l10" corresp="#l1377"/>
+    <ab xml:id="ab01" corresp="#l249 #seg30"/>
+    <l xml:id="l12" corresp="#l1406"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00018.xml">
+    <l xml:id="l01" corresp="#l1301"/>
+    <l xml:id="l02" corresp="#l1272 #l1302"/>
+    <l xml:id="l05" corresp="#l1277"/>
+    <l xml:id="l06" corresp="#l1290"/>
+    <l xml:id="l07" corresp="#l1292"/>
+    <l xml:id="l08" corresp="#l1291 #l1292"/>
+    <l xml:id="l09" corresp="#l1292"/>
+    <l xml:id="l10" corresp="#l1293"/>
+    <l xml:id="l11" corresp="#l1296"/>
+    <l xml:id="l12" corresp="#l1271"/>
+    <l xml:id="l14" corresp="#l1274"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00026.xml">
+    <l xml:id="l01" corresp="#l352 #l1133"/>
+    <l xml:id="l02" corresp="#l1132"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00029.xml">
+    <l xml:id="l01" corresp="#l352 #l2250"/>
+    <l xml:id="l02" corresp="#l352"/>
+    <l xml:id="l03" corresp="#l358"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00032.xml">
+    <l xml:id="l01" corresp="#l2266"/>
+    <l xml:id="l02" corresp="#l2267"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00561.xml">
+    <l xml:id="l01" corresp="#l225"/>
+    <l xml:id="l02" corresp="#l226"/>
+    <l xml:id="l03" corresp="#l227"/>
+    <l xml:id="l04" corresp="#l227"/>
+    <l xml:id="l05" corresp="#l228"/>
+    <l xml:id="l06" corresp="#l229"/>
+    <l xml:id="l07" corresp="#l230"/>
+    <l xml:id="l08" corresp="#l231"/>
+    <l xml:id="l09" corresp="#l232"/>
+    <l xml:id="l10" corresp="#l233"/>
+    <l xml:id="l11" corresp="#l234"/>
+    <l xml:id="l12" corresp="#l235 #l666"/>
+    <l xml:id="l13" corresp="#l236"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00051.xml">
+    <l xml:id="l02" corresp="#l1033"/>
+    <l xml:id="l03" corresp="#l1018"/>
+    <l xml:id="l05" corresp="#l1018 #l1019"/>
+    <l xml:id="l06" corresp="#l1027"/>
+    <l xml:id="l07" corresp="#l1020"/>
+    <l xml:id="l08" corresp="#l1020"/>
+    <l xml:id="l10" corresp="#l1021"/>
+    <l xml:id="l12" corresp="#l1024 #l1022"/>
+    <l xml:id="l13" corresp="#l1031 #l1032"/>
+    <l xml:id="l14" corresp="#l1023"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00104.xml">
+    <note xml:id="ab01" corresp="#l486 #l487 #l465"/>
+    <seg xml:id="seg02" corresp="#l1183 #l1184"/>
+    <seg xml:id="seg01" corresp="#l2279"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00128.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00293.xml">
+    <ab xml:id="ab01" corresp="#l47"/>
+    <seg xml:id="seg11" corresp="#l430"/>
+    <seg xml:id="seg02" corresp="#l495"/>
+    <seg xml:id="seg10" corresp="#l515 #l425"/>
+    <seg xml:id="seg01" corresp="#l514 #l517 #l518 #l519"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00264.xml">
+    <l xml:id="l01" corresp="#l2225"/>
+    <l xml:id="l02" corresp="#l2226"/>
+    <l xml:id="l03" corresp="#l1349"/>
+    <l xml:id="l04" corresp="#l1349"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00296.xml">
+    <seg xml:id="seg01" corresp="#l174 #l175"/>
+    <seg xml:id="seg02" corresp="#l1058"/>
+    <seg xml:id="seg03" corresp="#l1059"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00297.xml">
+    <seg xml:id="seg01" corresp="#seg30 #l247 #l248 #l249 #l174"/>
+    <seg xml:id="seg05" corresp="#pr13 #l1949 #l8"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00298.xml">
+    <seg xml:id="seg01" corresp="#l1134"/>
+    <seg xml:id="seg02" corresp="#l83"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00304.xml">
+    <ab xml:id="q01" corresp="#l251"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00787.xml">
+    <l xml:id="l01" corresp="#l0"/>
+    <l xml:id="l02" corresp="#l1243 #l1244 #l1774"/>
+    <l xml:id="l03" corresp="#l0"/>
+    <l xml:id="l10" corresp="#l2"/>
+    <l xml:id="l04" corresp="#l1244 #l1774"/>
+    <l xml:id="l05" corresp="#l1244 #l1774"/>
+    <l xml:id="l06" corresp="#l0"/>
+    <l xml:id="l09" corresp="#l1243 #l1774"/>
+    <l xml:id="l07" corresp="#l1261"/>
+    <l xml:id="l08" corresp="#l1262"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00797.xml">
+    <seg xml:id="seg01" corresp="#l70"/>
+    <seg xml:id="seg02" corresp="#l71 #l2077 #l2032"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00800.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00903.xml">
+    <ab xml:id="ab01" corresp="#l507 #l1065 #pr287e"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00878.xml">
+    <seg xml:id="seg01" corresp="#l1875"/>
+    <seg xml:id="seg02" corresp="#l1876"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00883.xml">
+    <item xml:id="item01" corresp="#l535"/>
+    <item xml:id="item06" corresp="#l1715"/>
+    <ab xml:id="ab01" corresp="#l1679"/>
+    <ab xml:id="ab04" corresp="#l537 #l1714 #l1716"/>
+    <l xml:id="l01" corresp="#l1286"/>
+    <l xml:id="l02" corresp="#l1286"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00886.xml">
+    <item xml:id="item01" corresp="#l1369"/>
+    <item xml:id="item02" corresp="#l1369"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00889.xml">
+    <l xml:id="q01" corresp="#l1613"/>
+    <l xml:id="l01" corresp="#l2299"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00905.xml">
+    <l xml:id="l01" corresp="#l1998"/>
+    <l xml:id="l02" corresp="#l1999"/>
+    <l xml:id="l03" corresp="#l2011"/>
+    <l xml:id="l04" corresp="#l2012 #l2013"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00013.xml">
+    <l xml:id="l02" corresp="#l1270"/>
+    <l xml:id="l01" corresp="#l1509"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00022.xml">
+    <l xml:id="l01" corresp="#l229"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00877.xml">
+    <ab xml:id="ab01" corresp="#l1423"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00163.xml">
+    <l xml:id="q01" corresp="#l127"/>
+    <l xml:id="q02" corresp="#l1263 #l426"/>
+    <l xml:id="q03" corresp="#l327"/>
+    <l xml:id="q04" corresp="#l343"/>
+    <l xml:id="q05" corresp="#l344 #l345"/>
+    <l xml:id="q06" corresp="#l344"/>
+    <l xml:id="l10" corresp="#l328"/>
+    <l xml:id="l01" corresp="#l793"/>
+    <l xml:id="l02" corresp="#l794"/>
+    <l xml:id="l03" corresp="#l795"/>
+    <ab xml:id="q08" corresp="#l852"/>
+    <l xml:id="l04" corresp="#l325 #l2221"/>
+    <l xml:id="q10" corresp="#l1930 #l1183 #l1184"/>
+    <l xml:id="q13" corresp="#pr182 #l507"/>
+    <l xml:id="q14" corresp="#pr182 #l507"/>
+    <ab xml:id="ab01" corresp="#pr395 #l1978 #l2039"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00387.xml">
+    <seg xml:id="seg02" corresp="#l3 #l506"/>
+    <seg xml:id="seg03" corresp="#l1 #l507"/>
+    <seg xml:id="seg04" corresp="#rev08 #l507"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00507.xml">
+    <l xml:id="l01" corresp="#l237"/>
+    <l xml:id="l02" corresp="#l238"/>
+    <l xml:id="l03" corresp="#l239"/>
+    <l xml:id="l04" corresp="#l240"/>
+    <l xml:id="l05" corresp="#l241"/>
+    <l xml:id="l06" corresp="#l242"/>
+    <l xml:id="l07" corresp="#l243"/>
+    <l xml:id="l08" corresp="#l244"/>
+    <l xml:id="l09" corresp="#l245"/>
+    <l xml:id="l10" corresp="#l246"/>
+    <l xml:id="l11" corresp="#l247"/>
+    <l xml:id="l12" corresp="#l249"/>
+    <l xml:id="l13" corresp="#l248"/>
+    <l xml:id="l14" corresp="#l249"/>
+    <l xml:id="l15" corresp="#l249"/>
+    <l xml:id="l16" corresp="#l250"/>
+    <l xml:id="l17" corresp="#l251"/>
+    <l xml:id="l18" corresp="#l252"/>
+    <l xml:id="l19" corresp="#l252"/>
+    <l xml:id="l20" corresp="#l253"/>
+    <l xml:id="l21" corresp="#l254"/>
+    <l xml:id="l22" corresp="#l255"/>
+    <l xml:id="l23" corresp="#l256"/>
+    <l xml:id="l24" corresp="#l257"/>
+    <l xml:id="l25" corresp="#l258"/>
+    <l xml:id="l26" corresp="#l259"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.01019.xml">
+    <seg xml:id="seg04" corresp="#l1021"/>
+    <seg xml:id="seg05" corresp="#l1398 #pr147 #l2"/>
+    <seg xml:id="seg07" corresp="#l1034"/>
+    <seg xml:id="seg10" corresp="#l1023"/>
+    <seg xml:id="seg09" corresp="#l1024 #l1022"/>
+    <seg xml:id="q02" corresp="#l981 #l982"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.05334.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.05641.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.05705.xml">
+    <ab xml:id="ab01" corresp="#l981"/>
+    <ab xml:id="ab02" corresp="#l982"/>
+    <ab xml:id="ab03" corresp="#l982"/>
+    <ab xml:id="ab04" corresp="#l982"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00726.xml">
+    <seg xml:id="seg01" corresp="#l661 #seg03"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00909.xml">
+    <l xml:id="l01" corresp="#l737"/>
+    <l xml:id="l02" corresp="#l4 #l1216"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00910.xml">
+    <l xml:id="l01" corresp="#l767"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00023.xml">
+    <l xml:id="l01" corresp="#l937"/>
+    <l xml:id="l02" corresp="#l938"/>
+    <l xml:id="l03" corresp="#l939"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00025.xml">
+    <l xml:id="l01" corresp="#l1636"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00029.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00052.xml">
+    <l xml:id="l01" corresp="#l116"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00057.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00063.xml"/>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00078.xml">
+    <l xml:id="l18" corresp="#l437"/>
+    <l xml:id="l01" corresp="#l436"/>
+    <l xml:id="l02" corresp="#l437"/>
+    <l xml:id="l03" corresp="#l437"/>
+    <l xml:id="l04" corresp="#l445"/>
+    <l xml:id="l05" corresp="#l438"/>
+    <l xml:id="l06" corresp="#l439"/>
+    <l xml:id="l07" corresp="#l440"/>
+    <l xml:id="l08" corresp="#l440 #l442"/>
+    <l xml:id="l09" corresp="#l441"/>
+    <l xml:id="l10" corresp="#l443"/>
+    <l xml:id="l11" corresp="#l444"/>
+    <l xml:id="l12" corresp="#l445"/>
+    <l xml:id="l13" corresp="#l446"/>
+    <l xml:id="l14" corresp="#l446"/>
+    <l xml:id="l15" corresp="#l447"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00079.xml">
+    <l xml:id="l01" corresp="#l675"/>
+    <l xml:id="l02" corresp="#l676"/>
+    <l xml:id="l03" corresp="#l677"/>
+    <l xml:id="l04" corresp="#l678"/>
+    <l xml:id="l05" corresp="#l679"/>
+    <l xml:id="l06" corresp="#l680"/>
+    <l xml:id="l07" corresp="#l681"/>
+    <l xml:id="l08" corresp="#l682"/>
+    <l xml:id="l09" corresp="#l683"/>
+    <l xml:id="l10" corresp="#l683"/>
+    <l xml:id="l11" corresp="#l684"/>
+    <l xml:id="l13" corresp="#l685"/>
+    <l xml:id="l14" corresp="#l686"/>
+    <l xml:id="l15" corresp="#l687"/>
+    <l xml:id="l16" corresp="#l688"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00085.xml">
+    <ab xml:id="l01" corresp="#l1901"/>
+    <l xml:id="l03" corresp="#l986"/>
+    <ab xml:id="l02" corresp="#l83"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00088.xml">
+    <l xml:id="l02" corresp="#l350 #l513"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00089.xml">
+    <l xml:id="l01" corresp="#l397"/>
+    <l xml:id="l02" corresp="#l398"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00100.xml">
+    <l xml:id="l01" corresp="#l2238 #l2239"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00113.xml">
+    <ab xml:id="ab01" corresp="#l120 #l122"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00122.xml">
+    <item xml:id="q01" corresp="#l13"/>
+    <item xml:id="i01" corresp="#l13"/>
+    <item xml:id="i02" corresp="#l13"/>
+    <l xml:id="q02" corresp="#l13"/>
+    <l xml:id="l01" corresp="#l13"/>
+    <l xml:id="l02" corresp="#l13"/>
+    <l xml:id="q03" corresp="#l13"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00510.xml">
+    <ab xml:id="ab01" corresp="#l602"/>
+    <ab xml:id="q01" corresp="#l600"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00511.xml">
+    <l xml:id="l03" corresp="#l852"/>
+    <l xml:id="l01" corresp="#l852"/>
+    <l xml:id="l02" corresp="#l853"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00524.xml">
+    <ab xml:id="ab01" corresp="#l1854"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00549.xml">
+    <seg xml:id="seg02" corresp="#l165"/>
+    <seg xml:id="q02" corresp="#l726"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/rut.00025.xml">
+    <seg xml:id="q01" corresp="#l1221"/>
+    <seg xml:id="q02" corresp="#l1222"/>
+    <seg xml:id="q03" corresp="#l1223"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00002.xml">
+    <l xml:id="l01" corresp="#l638"/>
+    <l xml:id="l02" corresp="#l638"/>
+    <l xml:id="l03" corresp="#l639"/>
+    <l xml:id="l04" corresp="#l640 #l641"/>
+    <l xml:id="l05" corresp="#l641"/>
+    <l xml:id="l06" corresp="#l640"/>
+    <l xml:id="l07" corresp="#l641"/>
+    <l xml:id="l08" corresp="#l642 #l628"/>
+    <l xml:id="l09" corresp="#l642 #l643"/>
+    <l xml:id="l10" corresp="#l641"/>
+    <l xml:id="l11" corresp="#l641"/>
+    <l xml:id="l12" corresp="#l629"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00057.xml">
     <l xml:id="l01" corresp="#pr147 #l1398"/>
     <l xml:id="l10" corresp="#l1584"/>
     <l xml:id="l02" corresp="#l928"/>
@@ -10,7 +443,591 @@
     <l xml:id="l08" corresp="#pr147 #l1398"/>
     <l xml:id="l09" corresp="#l666"/>
   </file>
-  <file id="/testing/notebooks/tei/loc.00141.xml">
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00088.xml">
+    <seg xml:id="seg01" corresp="#l596"/>
+    <seg xml:id="seg02" corresp="#l597"/>
+    <seg xml:id="seg06" corresp="#l1270"/>
+    <seg xml:id="seg07" corresp="#l1274"/>
+    <seg xml:id="seg101" corresp="#l1182"/>
+    <seg xml:id="seg08" corresp="#l1182"/>
+    <seg xml:id="seg09" corresp="#l1923 #l1924"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tul.00002.xml">
+    <l xml:id="l01" corresp="#l1604 #l1605"/>
+    <l xml:id="l02" corresp="#l1605 #l1606"/>
+    <l xml:id="l03" corresp="#l1607"/>
+    <l xml:id="l04" corresp="#l1607 #l1608"/>
+    <l xml:id="l05" corresp="#l1609"/>
+    <l xml:id="l06" corresp="#l1609"/>
+    <l xml:id="l07" corresp="#l1610"/>
+    <l xml:id="l08" corresp="#l1611"/>
+    <l xml:id="l09" corresp="#l1611"/>
+    <l xml:id="l10" corresp="#l1612"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tul.00011.xml">
+    <ab xml:id="ab01" corresp="#l771 #l1478"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00133.xml">
+    <l xml:id="l01" corresp="#l1288"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00137.xml">
+    <l xml:id="l04" corresp="#l322"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00238.xml">
+    <l xml:id="l01" corresp="#l404"/>
+    <l xml:id="l02" corresp="#l404 #pr263"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00601.xml">
+    <item xml:id="item01" corresp="#l241"/>
+    <l xml:id="l01" corresp="#l143 #l144"/>
+    <l xml:id="l02" corresp="#l1284"/>
+    <l xml:id="l03" corresp="#l1285"/>
+    <l xml:id="l04" corresp="#l1286"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00258.xml">
+    <l xml:id="l01" corresp="#l1774"/>
+    <l xml:id="l02" corresp="#l1779"/>
+    <l xml:id="l03" corresp="#l1777"/>
+    <l xml:id="l04" corresp="#l1776"/>
+    <l xml:id="l05" corresp="#l1064"/>
+    <l xml:id="l08" corresp="#l1775"/>
+    <l xml:id="l09" corresp="#l1776"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00261.xml">
+    <l xml:id="l01" corresp="#l739"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00262.xml">
+    <l xml:id="l01" corresp="#l1044 #l1045"/>
+    <l xml:id="l02" corresp="#l1045"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00265.xml">
+    <l xml:id="l01" corresp="#l2216"/>
+    <l xml:id="l02" corresp="#l761 #l2216"/>
+    <l xml:id="l03" corresp="#l2191 #l2194"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00042.xml">
+    <l xml:id="l02" corresp="#l486 #l465"/>
+    <l xml:id="l03" corresp="#l1584"/>
+    <l xml:id="l04" corresp="#l1583 #l1584"/>
+    <l xml:id="l05" corresp="#l493 #l44"/>
+    <l xml:id="l06" corresp="#l475 #l44 #l45"/>
+    <l xml:id="l07" corresp="#l486 #l487 #l465"/>
+    <l xml:id="l08" corresp="#l486"/>
+    <l xml:id="l09" corresp="#l486"/>
+    <l xml:id="l10" corresp="#l487"/>
+    <l xml:id="l11" corresp="#l488"/>
+    <l xml:id="l12" corresp="#l489"/>
+    <l xml:id="l13" corresp="#l489 #l490"/>
+    <l xml:id="l14" corresp="#l491"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00280.xml">
+    <l xml:id="l01" corresp="#l636"/>
+    <l xml:id="l02" corresp="#l637"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00031.xml">
+    <l xml:id="l02" corresp="#l495"/>
+    <l xml:id="l04" corresp="#l507 #l1065 #pr287e"/>
+    <l xml:id="l05" corresp="#l1065"/>
+    <l xml:id="l19" corresp="#l1065 #pr287e"/>
+    <l xml:id="l28" corresp="#pr182 #l507"/>
+    <l xml:id="l32" corresp="#l495"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/prc.00127.xml">
+    <l xml:id="l02" corresp="#l649"/>
+    <l xml:id="l03" corresp="#l650"/>
+    <l xml:id="l04" corresp="#l646"/>
+    <l xml:id="l06" corresp="#l647"/>
+    <l xml:id="l07" corresp="#l648"/>
+    <l xml:id="l10" corresp="#l651"/>
+    <l xml:id="l11" corresp="#l652"/>
+    <l xml:id="l12" corresp="#l653"/>
+    <l xml:id="l13" corresp="#l653"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00023.xml">
+    <l xml:id="l01" corresp="#l1589 #l1938"/>
+    <l xml:id="l02" corresp="#l1589 #l1933"/>
+    <l xml:id="l04" corresp="#l1596 #l1597 #l1598"/>
+    <l xml:id="l05" corresp="#l1925"/>
+    <l xml:id="l06" corresp="#l1928"/>
+    <l xml:id="l07" corresp="#l1604"/>
+    <l xml:id="l08" corresp="#l1604"/>
+    <l xml:id="l09" corresp="#l1607 #l1608"/>
+    <l xml:id="l10" corresp="#l1645"/>
+    <l xml:id="l13" corresp="#l1607 #l1608"/>
+    <l xml:id="l14" corresp="#l1612"/>
+    <l xml:id="l15" corresp="#l1612"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/loc.00162.xml">
+    <l xml:id="l04" corresp="#l124"/>
+    <l xml:id="l06" corresp="#l2074"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00516.xml">
+    <seg xml:id="seg02" corresp="#l1360 #l1361"/>
+    <seg xml:id="seg03" corresp="#l1360 #l1361"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/yal.00081.xml">
+    <l xml:id="l40" corresp="#l828"/>
+    <l xml:id="l41" corresp="#l936"/>
+    <l xml:id="l43" corresp="#l827 #l828"/>
+    <l xml:id="l56" corresp="#l1607 #l1608"/>
+    <l xml:id="l57" corresp="#l1612"/>
+    <l xml:id="l64" corresp="#l1774"/>
+    <l xml:id="l65" corresp="#l1774"/>
+    <l xml:id="l72" corresp="#l729"/>
+    <l xml:id="l74" corresp="#l257 #l212 #l213 #l216"/>
+    <l xml:id="l94" corresp="#l753"/>
+    <l xml:id="l100" corresp="#l498"/>
+    <l xml:id="l123" corresp="#pr147 #l1398"/>
+    <l xml:id="l124" corresp="#pr147 #l1398"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/yal.00138.xml">
+    <seg xml:id="seg06" corresp="#l26 #pr127"/>
+    <seg xml:id="seg10" corresp="#l771"/>
+    <seg xml:id="seg19" corresp="#l1578"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/yal.00441.xml">
+    <ab xml:id="ab01" corresp="#l2275"/>
+    <ab xml:id="q01" corresp="#l2274"/>
+    <ab xml:id="q02" corresp="#l2274 #l2275"/>
+    <ab xml:id="q03" corresp="#l2273"/>
+    <ab xml:id="q04" corresp="#l2273"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00006.xml">
+    <l xml:id="l02" corresp="#l1278"/>
+    <l xml:id="l03" corresp="#l1279"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00112.xml">
+    <ab xml:id="ab01" corresp="#l1024 #l1025 #l1092 #l1093 #l1096 #l1097 #l1099 #l1101 #l1127"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00030.xml">
+    <l xml:id="l01" corresp="#l1724"/>
+    <l xml:id="l08" corresp="#l1724"/>
+    <l xml:id="l02" corresp="#l1725"/>
+    <l xml:id="l03" corresp="#l1725"/>
+    <l xml:id="l04" corresp="#l1726"/>
+    <l xml:id="l05" corresp="#l1727"/>
+    <l xml:id="l07" corresp="#l1674 #l573"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/tex.00321.xml">
+    <l xml:id="l01" corresp="#l2014"/>
+    <l xml:id="l03" corresp="#l2015"/>
+    <l xml:id="l04" corresp="#l2016"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00249.xml">
+    <l xml:id="l01" corresp="#l1922"/>
+    <l xml:id="l02" corresp="#l1922"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00254.xml">
+    <l xml:id="l03" corresp="#l640"/>
+    <l xml:id="l07" corresp="#l627"/>
+    <l xml:id="l08" corresp="#l627 #l524"/>
+    <l xml:id="l09" corresp="#l635"/>
+    <l xml:id="l10" corresp="#l628"/>
+    <l xml:id="l11" corresp="#l628"/>
+    <l xml:id="l12" corresp="#l628"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00256.xml">
+    <l xml:id="l01" corresp="#l1774"/>
+    <l xml:id="l02" corresp="#l1774 #l1243"/>
+    <l xml:id="l03" corresp="#l1774 #l1244"/>
+    <l xml:id="l04" corresp="#l1779"/>
+    <l xml:id="l05" corresp="#l1779"/>
+    <l xml:id="l07" corresp="#l1779"/>
+    <l xml:id="l08" corresp="#l1779"/>
+    <l xml:id="l09" corresp="#l1779"/>
+    <l xml:id="l10" corresp="#l1779"/>
+    <l xml:id="l11" corresp="#l1779"/>
+    <l xml:id="l12" corresp="#l1781"/>
+    <l xml:id="l13" corresp="#l1779"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00263.xml">
+    <l xml:id="l01" corresp="#l992"/>
+    <l xml:id="l02" corresp="#l992"/>
+    <l xml:id="l03" corresp="#l993"/>
+    <l xml:id="l04" corresp="#l994"/>
+    <l xml:id="l05" corresp="#l994"/>
+    <l xml:id="l06" corresp="#l995"/>
+    <l xml:id="l07" corresp="#l996"/>
+    <l xml:id="l08" corresp="#l997"/>
+    <l xml:id="l09" corresp="#l510 #l511 #l1362"/>
+    <l xml:id="l10" corresp="#l510 #l511 #l1362"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00269.xml">
+    <l xml:id="l01" corresp="#l421 #l422 #l425 #l513 #l515 #l1000 #l1878 #pr301 #l123 #l1370"/>
+    <l xml:id="l02" corresp="#l506 #l1148"/>
+    <l xml:id="l03" corresp="#l1148"/>
+    <l xml:id="l04" corresp="#l1149 #l1147 #pr339 #pr342"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00600.xml">
+    <l xml:id="l03" corresp="#l636"/>
+    <l xml:id="l04" corresp="#l636"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00911.xml">
+    <l xml:id="l01" corresp="#l83"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/duk.00261.xml">
+    <ab xml:id="ab01" corresp="#l1040"/>
+    <l xml:id="l04" corresp="#l1509"/>
+    <l xml:id="l05" corresp="#l1033 #l527 #l1090"/>
+    <l xml:id="l01" corresp="#l1044"/>
+    <l xml:id="l02" corresp="#l1045"/>
+    <l xml:id="l03" corresp="#l1046"/>
+    <l xml:id="l07" corresp="#l651"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00278.xml">
+    <l xml:id="l02" corresp="#l1002"/>
+    <l xml:id="l03" corresp="#l1004"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00733.xml">
+    <l xml:id="l01" corresp="#l1402"/>
+    <l xml:id="l03" corresp="#l667"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00734.xml">
+    <item xml:id="item06" corresp="#l13"/>
+    <item xml:id="item07" corresp="#l1905"/>
+    <item xml:id="item08" corresp="#l1904"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00570.xml">
+    <l xml:id="l01" corresp="#l1320 #l1326"/>
+    <l xml:id="l02" corresp="#l1320"/>
+    <l xml:id="l03" corresp="#l1320"/>
+    <l xml:id="l04" corresp="#l1319"/>
+    <l xml:id="l05" corresp="#l498"/>
+    <l xml:id="l06" corresp="#l1321"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00250.xml">
+    <l xml:id="l06" corresp="#l25"/>
+    <l xml:id="l07" corresp="#l25"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00568.xml">
+    <l xml:id="l01" corresp="#l390"/>
+    <l xml:id="l02" corresp="#l391"/>
+    <l xml:id="l03" corresp="#l34"/>
+    <l xml:id="l04" corresp="#l32"/>
+    <l xml:id="l05" corresp="#l31"/>
+    <l xml:id="l06" corresp="#l33"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00602.xml">
+    <l xml:id="l01" corresp="#l641"/>
+    <l xml:id="l05" corresp="#l614"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00566.xml">
+    <l xml:id="l01" corresp="#l2020"/>
+    <l xml:id="l02" corresp="#l2021"/>
+    <l xml:id="l03" corresp="#l2021"/>
+    <l xml:id="l04" corresp="#l2021"/>
+    <l xml:id="l06" corresp="#l2019"/>
+    <l xml:id="l07" corresp="#l2020"/>
+    <l xml:id="l08" corresp="#l2020"/>
+    <l xml:id="l09" corresp="#l2021"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00257.xml">
+    <del xml:id="l01" corresp="#l1774"/>
+    <l xml:id="l02" corresp="#l1774"/>
+    <l xml:id="l03" corresp="#l1774"/>
+    <l xml:id="l04" corresp="#l1775"/>
+    <l xml:id="l05" corresp="#l1776"/>
+    <l xml:id="l06" corresp="#l1777"/>
+    <l xml:id="l09" corresp="#l1778"/>
+    <l xml:id="l10" corresp="#l1779"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00260.xml">
+    <l xml:id="l01" corresp="#l1779"/>
+    <l xml:id="l02" corresp="#l1779"/>
+    <l xml:id="l03" corresp="#l1779"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00264.xml">
+    <ab xml:id="l01" corresp="#l76 #l597 #l1061"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00562.xml">
+    <l xml:id="l01" corresp="#l2002 #l2003"/>
+    <l xml:id="l02" corresp="#l2003"/>
+    <l xml:id="l03" corresp="#l2019"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00273.xml">
+    <l xml:id="l01" corresp="#l629"/>
+    <l xml:id="l02" corresp="#l629"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/uva.00287.xml">
+    <l xml:id="l01" corresp="#pr185 #l1920"/>
+    <l xml:id="l03" corresp="#pr185 #l1918"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/yal.00483.xml">
+    <l xml:id="l02" corresp="#l348"/>
+    <l xml:id="l03" corresp="#l347"/>
+    <l xml:id="l04" corresp="#l348"/>
+    <l xml:id="l05" corresp="#l1857 #l1913 #l1917"/>
+    <l xml:id="l06" corresp="#l349 #l661"/>
+    <l xml:id="l07" corresp="#l350"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00119.xml">
+    <l xml:id="l01" corresp="#l777"/>
+    <l xml:id="l02" corresp="#l777"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00901.xml">
+    <ab xml:id="ab01" corresp="#l768"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00902.xml">
+    <ab xml:id="ab01" corresp="#l468"/>
+    <ab xml:id="ab02" corresp="#l468"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/med.00904.xml">
+    <ab xml:id="ab02" corresp="#l729"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00116.xml">
+    <item xml:id="i01" corresp="#l1907"/>
+    <item xml:id="i02" corresp="#l1910"/>
+    <item xml:id="i03" corresp="#l1910"/>
+    <item xml:id="i04" corresp="#l1910"/>
+    <ab xml:id="ab01" corresp="#l789"/>
+    <ab xml:id="ab02" corresp="#l1962"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/tei/nyp.00742.xml">
+    <l xml:id="l06" corresp="#l1267"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00005.xml">
+    <seg xml:id="seg01" corresp="#l575"/>
+    <seg xml:id="seg02" corresp="#l576"/>
+    <l xml:id="l01" corresp="#l2219"/>
+    <l xml:id="l02" corresp="#l2223 #l2224"/>
+    <l xml:id="l03" corresp="#l2224"/>
+    <head xml:id="head02" corresp="#l2074"/>
+    <ab xml:id="ab2" corresp="#l2187"/>
+    <ab xml:id="ab3" corresp="#l2187 #l2188 #l2189"/>
+    <ab xml:id="ab1" corresp="#l661 #l508 #l509 #l510 #l511 #l512 #l513 #l514 #l515 #l516 #l517 #l518 #l519"/>
+    <ab xml:id="ab5" corresp="#l508 #l509 #l510 #l511 #l512 #l513 #l514 #l515 #l516 #l517 #l518 #l519"/>
+    <ab xml:id="ab6" corresp="#l1164 #l1165"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00024.xml">
+    <ab xml:id="ab1" corresp="#l981"/>
+    <ab xml:id="ab01a" corresp="#l1229"/>
+    <l xml:id="l01" corresp="#l1229"/>
+    <ab xml:id="ab01" corresp="#l819"/>
+    <ab xml:id="rf01" corresp="#l998"/>
+    <ab xml:id="rf02" corresp="#l998 #l2088"/>
+    <ab xml:id="rf03" corresp="#l2087"/>
+    <ab xml:id="rf04" corresp="#l1227"/>
+    <ab xml:id="rf05" corresp="#l1228 #l1229"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00025.xml">
+    <seg xml:id="seg01" corresp="#l1688"/>
+    <seg xml:id="nde06" corresp="#l1174"/>
+    <ab xml:id="ab03" corresp="#l1685 #l1686"/>
+    <ab xml:id="ab04" corresp="#l1688"/>
+    <ab xml:id="ab05" corresp="#l1688"/>
+    <seg xml:id="seg02" corresp="#l1681"/>
+    <seg xml:id="seg03" corresp="#l1682"/>
+    <seg xml:id="seg04" corresp="#l1683"/>
+    <seg xml:id="seg05" corresp="#l1684"/>
+    <seg xml:id="seg06" corresp="#l1687"/>
+    <seg xml:id="seg07" corresp="#l1685"/>
+    <seg xml:id="seg08" corresp="#l1686 #l1687"/>
+    <l xml:id="l01" corresp="#l2264"/>
+    <l xml:id="l02" corresp="#l2266"/>
+    <l xml:id="l03" corresp="#l2267"/>
+    <l xml:id="l04" corresp="#l2268"/>
+    <l xml:id="l05" corresp="#l2269"/>
+    <l xml:id="l06" corresp="#l2270"/>
+    <l xml:id="l07" corresp="#l2271"/>
+    <l xml:id="l08" corresp="#l2272"/>
+    <ab xml:id="nde11" corresp="#l1546"/>
+    <seg xml:id="seg101" corresp="#l420"/>
+    <ab xml:id="ab07" corresp="#l430"/>
+    <seg xml:id="seg09" corresp="#l1681"/>
+    <seg xml:id="seg10" corresp="#l1682"/>
+    <seg xml:id="seg11" corresp="#l1683"/>
+    <seg xml:id="seg12" corresp="#l1684"/>
+    <seg xml:id="seg13" corresp="#l1685 #l1687"/>
+    <seg xml:id="seg14" corresp="#l1686 #l1687"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00142.xml">
+    <seg xml:id="seg100" corresp="#l1217"/>
+    <seg xml:id="seg01" corresp="#l603"/>
+    <seg xml:id="seg02" corresp="#l604"/>
+    <seg xml:id="seg03" corresp="#l605"/>
+    <seg xml:id="seg04" corresp="#l606"/>
+    <seg xml:id="seg05" corresp="#l607"/>
+    <seg xml:id="seg06" corresp="#l608"/>
+    <seg xml:id="seg07" corresp="#l609"/>
+    <seg xml:id="del01" corresp="#l599"/>
+    <seg xml:id="del02" corresp="#l599 #l600"/>
+    <add xml:id="add01" corresp="#l599 #l600"/>
+    <seg xml:id="seg08" corresp="#l601"/>
+    <seg xml:id="seg09" corresp="#l598 #l602"/>
+    <seg xml:id="seg10" corresp="#l603"/>
+    <seg xml:id="seg10b" corresp="#l603"/>
+    <seg xml:id="seg11" corresp="#l607 #l605 #l604"/>
+    <seg xml:id="seg12" corresp="#l606"/>
+    <seg xml:id="seg13" corresp="#l607"/>
+    <seg xml:id="seg14" corresp="#l603"/>
+    <seg xml:id="seg15" corresp="#l607"/>
+    <seg xml:id="seg16" corresp="#l608"/>
+    <seg xml:id="seg17" corresp="#l609"/>
+    <seg xml:id="seg18" corresp="#l598 #l602"/>
+    <seg xml:id="seg19" corresp="#l599 #l600"/>
+    <seg xml:id="seg20" corresp="#l601"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00158.xml">
+    <ab xml:id="ab01" corresp="#l229 #l230 #l232 #l233"/>
+    <ab xml:id="ab10" corresp="#l383"/>
+    <seg xml:id="seg01" corresp="#l937"/>
+    <ab xml:id="ab111" corresp="#l751 #l1098"/>
+    <l xml:id="l100" corresp="#l1115"/>
+    <l xml:id="l01" corresp="#l474"/>
+    <l xml:id="l101" corresp="#l474"/>
+    <l xml:id="l02" corresp="#l471"/>
+    <l xml:id="l03" corresp="#l472"/>
+    <l xml:id="l04" corresp="#l473"/>
+    <l xml:id="l05" corresp="#l468"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00346.xml">
+    <l xml:id="l3" corresp="#l835"/>
+    <l xml:id="l4" corresp="#l835"/>
+    <l xml:id="l9" corresp="#l836"/>
+    <l xml:id="l5" corresp="#l837"/>
+    <l xml:id="l6" corresp="#l1774 #l838"/>
+    <l xml:id="l7" corresp="#l1774"/>
+    <l xml:id="l8" corresp="#l933"/>
+    <l xml:id="l1" corresp="#l934"/>
+    <ab xml:id="q03" corresp="#l1854"/>
+    <seg xml:id="q05" corresp="#l1162 #l1164"/>
+    <seg xml:id="q06" corresp="#l1928 #l1930"/>
+    <seg xml:id="q11" corresp="#l1188 #l1189"/>
+    <seg xml:id="q11b" corresp="#l1190 #l1191"/>
+    <seg xml:id="q11c" corresp="#l1192 #l1193"/>
+    <ab xml:id="ab02" corresp="#l1196"/>
+    <ab xml:id="ab03" corresp="#l1197 #l1194 #l1195 #l420"/>
+    <seg xml:id="seg01" corresp="#l646"/>
+    <seg xml:id="seg02" corresp="#l647"/>
+    <seg xml:id="seg03" corresp="#l648"/>
+    <ab xml:id="q12" corresp="#l524 #l2237 #l2238 #seg13"/>
+    <ab xml:id="ab04" corresp="#seg12 #pr209 #l1152"/>
+    <l xml:id="li25" corresp="#l821 #l822"/>
+    <l xml:id="l01" corresp="#l817"/>
+    <l xml:id="l02" corresp="#l818"/>
+    <l xml:id="l03" corresp="#l819"/>
+    <l xml:id="l04" corresp="#l819"/>
+    <l xml:id="l05" corresp="#l820"/>
+    <l xml:id="l06" corresp="#l823"/>
+    <l xml:id="l07" corresp="#l824"/>
+    <l xml:id="l08" corresp="#l825"/>
+    <l xml:id="l09" corresp="#l826"/>
+    <l xml:id="l11" corresp="#l827"/>
+    <l xml:id="l12" corresp="#l828"/>
+    <l xml:id="l13" corresp="#l828"/>
+    <l xml:id="l14" corresp="#l829"/>
+    <l xml:id="l17" corresp="#l1775"/>
+    <l xml:id="l18" corresp="#l831"/>
+    <l xml:id="l19" corresp="#l830"/>
+    <l xml:id="l20" corresp="#l831"/>
+    <l xml:id="l21" corresp="#l832"/>
+    <l xml:id="l22" corresp="#l833"/>
+    <l xml:id="l23" corresp="#l834"/>
+    <l xml:id="l24" corresp="#l835"/>
+    <seg xml:id="seg100" corresp="#l2249"/>
+    <seg xml:id="q17" corresp="#l430 #l2260"/>
+    <seg xml:id="seg101" corresp="#l2260"/>
+    <seg xml:id="q18" corresp="#l1263"/>
+    <seg xml:id="q19" corresp="#l402 #l403 #l404"/>
+    <ab xml:id="ab05" corresp="#l213"/>
+    <ab xml:id="ab06" corresp="#l212 #l213 #l216"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00354.xml">
+    <l xml:id="l01" corresp="#l361"/>
+    <l xml:id="l100" corresp="#l968"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00483.xml">
+    <ab xml:id="hp01" corresp="#l1112 #l1780 #l1781"/>
+    <ab xml:id="ab101" corresp="#l1113 #l1781"/>
+    <ab xml:id="hp02" corresp="#l1113 #l1780"/>
+    <seg xml:id="seg101" corresp="#l1024 #l1025 #l1028"/>
+    <seg xml:id="seg102" corresp="#l1027"/>
+    <ab xml:id="ab200" corresp="#l1028"/>
+    <ab xml:id="ab201" corresp="#l1029 #l1091"/>
+    <ab xml:id="ab202" corresp="#l1029 #l1030"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.05589.xml">
+    <ab xml:id="ab100" corresp="#l1877"/>
+    <l xml:id="l01" corresp="#l2090 #l2091"/>
+    <l xml:id="l02" corresp="#l2091"/>
+    <l xml:id="l03" corresp="#l2094"/>
+    <l xml:id="l04" corresp="#l2093"/>
+    <l xml:id="l05" corresp="#l2093"/>
+    <l xml:id="l06" corresp="#l2098"/>
+    <l xml:id="l07" corresp="#l2101"/>
+    <l xml:id="l08" corresp="#l173"/>
+    <ab xml:id="ab30" corresp="#l96 #l507 #l1065 #pr287e"/>
+    <ab xml:id="ab01" corresp="#l2211 #l2212"/>
+    <ab xml:id="ab02" corresp="#l2213"/>
+    <ab xml:id="ab40" corresp="#l286 #l846"/>
+    <l xml:id="l09" corresp="#l1357"/>
+    <l xml:id="l10" corresp="#l1342 #l1893"/>
+    <l xml:id="l11" corresp="#l249 #seg30"/>
+    <l xml:id="l12" corresp="#l249 #seg30"/>
+    <l xml:id="l13" corresp="#l31"/>
+    <l xml:id="l14" corresp="#l32"/>
+    <l xml:id="l15" corresp="#l33"/>
+    <l xml:id="l16" corresp="#l34"/>
+    <seg xml:id="seg20" corresp="#l549"/>
+    <seg xml:id="seg21" corresp="#l548"/>
+    <ab xml:id="ab50" corresp="#l1949 #pr287e"/>
+    <head xml:id="head01" corresp="#l1934"/>
+    <l xml:id="l17" corresp="#l1937"/>
+    <l xml:id="l18" corresp="#l1937"/>
+    <l xml:id="l19" corresp="#l1938"/>
+    <l xml:id="l21" corresp="#l1950"/>
+    <l xml:id="l22" corresp="#l1950"/>
+    <head xml:id="head02" corresp="#l1955"/>
+    <l xml:id="l25" corresp="#l1956"/>
+    <l xml:id="l26" corresp="#l1957"/>
+    <ab xml:id="ab03" corresp="#l1828"/>
+    <head xml:id="head03" corresp="#l1906"/>
+    <l xml:id="l27" corresp="#l1905"/>
+    <l xml:id="l28" corresp="#l1905"/>
+    <ab xml:id="ab04" corresp="#l1904"/>
+    <ab xml:id="ab05" corresp="#l1905"/>
+    <seg xml:id="seg01" corresp="#l1389 #l1391 #l1460 #l1462 #l1463 #l1465"/>
+    <seg xml:id="seg02" corresp="#l1485"/>
+    <l xml:id="l29" corresp="#l279"/>
+    <ab xml:id="ab07" corresp="#l1865"/>
+    <ab xml:id="ab08" corresp="#l1462"/>
+    <ab xml:id="ab10" corresp="#l1858 #l1859 #l1860"/>
+    <seg xml:id="seg03" corresp="#l1860 #l1861"/>
+    <seg xml:id="seg04" corresp="#l1862"/>
+    <seg xml:id="seg05" corresp="#l1863"/>
+    <ab xml:id="ab12" corresp="#l1872"/>
+    <l xml:id="l35" corresp="#l14"/>
+    <ab xml:id="ab13" corresp="#l1791"/>
+    <ab xml:id="ab14" corresp="#l515"/>
+    <ab xml:id="ab43" corresp="#l970"/>
+    <l xml:id="l36" corresp="#l1253"/>
+    <l xml:id="l37" corresp="#l71"/>
+    <l xml:id="l38" corresp="#l71"/>
+    <ab xml:id="ab15" corresp="#l1934 #l1955"/>
+    <l xml:id="l110" corresp="#l2249"/>
+    <l xml:id="l111" corresp="#l2248"/>
+    <l xml:id="l39" corresp="#l852"/>
+    <l xml:id="l40" corresp="#l852"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.05935.xml">
+    <l xml:id="l100" corresp="#l586"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/nyp.00129.xml">
+    <seg xml:id="seg02" corresp="#l410 #l409"/>
+    <seg xml:id="seg03" corresp="#l1402 #l2299"/>
+    <seg xml:id="seg04" corresp="#l40 #l42"/>
+    <seg xml:id="seg01" corresp="#l819 #l820"/>
+    <l xml:id="l100" corresp="#l428 #l1152"/>
+    <l xml:id="l01" corresp="#l1152"/>
+    <l xml:id="l02" corresp="#l1152"/>
+    <l xml:id="l101" corresp="#l1152"/>
+    <l xml:id="l102" corresp="#l1152"/>
+    <l xml:id="l103" corresp="#l1152"/>
+    <l xml:id="l104" corresp="#l1152"/>
+    <l xml:id="l105" corresp="#l1152"/>
+    <seg xml:id="seg06" corresp="#l26"/>
+  </file>
+  <file id="/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/loc.00141.xml">
     <seg xml:id="tw02" corresp="#l507"/>
     <ab xml:id="tw06" corresp="#l4 #seg03"/>
     <ab xml:id="tw08" corresp="#l4 #seg03"/>
