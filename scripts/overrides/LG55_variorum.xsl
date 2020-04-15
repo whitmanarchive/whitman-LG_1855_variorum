@@ -82,6 +82,7 @@
             </th>
           </tr>
           <xsl:for-each select="$corresp_doc//link[contains(@target, concat($uri_line_id, ' '))]">
+            <xsl:sort select="ancestor::linkGrp/@corresp" order="ascending"/>
             <xsl:variable name="fileID" select="ancestor::linkGrp/@corresp"/>
             <xsl:variable name="fileIDhtml"
               select="concat(substring-before($fileID, '.xml'), '.html')"/>
