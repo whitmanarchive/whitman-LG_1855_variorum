@@ -265,7 +265,9 @@
                         </floatingText>
                      </add>
                   </rdg>
-                  <note type="project" target="#vr_0010b #vr_0010c">Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
+                  <note type="project" target="#vr_0010a">No label.</note>
+                  <note type="project" target="#vr_0010b">A London address label is pasted over the ornament. Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
+                  <note type="project" target="#vr_0010c">A London address label is pasted below the ornament. Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
                </app>
                <pubPlace>Brooklyn, New York:</pubPlace>
                <docDate>1855. </docDate>
@@ -5298,7 +5300,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
             <rdg xml:id="pt_0020b" facs="uva_nhg.00016.jpg" wit="#PC_07 #WC_02 #WC_03 #PML_04 #PC_15 #UTA_06 #UVa_07 #UVa_08 #LC_05 #UNCCH_02 #UTA_07 #LC_07 #LC_10 #LC_13 #LC_08 #LC_09 #LC_06 #NYPL_03 #BrU_04 #NYPL_01 #BrU_03 #PSU_01 #UP_03 #OSU_01 #WUSL_01 #MSU_01 #KB_01 #UC_02 #AC_02 #SUNYBi_01 #CWRU_01 #CC_01 #CAI_01 #GeC_01 #BaU_01 #NYPL_06 #NYPL_07 #TPL_01 #NIU_01 #LU_01 #UD_02 #PC_09 #UC_01 #UM_01 #UWM_01 #WWH_02 #YU_05 #TTU_01 #InU_03">
                <ref target="#ppp.01879.xml"/>
             </rdg>
-            <note type="project" target="#pt_0020b">These copies include <ref target="reviews.html">an eight-page printed insertion</ref> with reviews and extracts from items previously printed in periodicals. In the majority of known surviving copies (43 out of 48 that include the reviews), the insertion has been added at the front of the volume. In others (4 out of 48), it has been added at the back. The leaves are sewn into some copies and tipped into others. Three of the reviews were written anonymously by Whitman. These insertions must have been printed sometime after November 10, 1855, the periodical publication date associated with R. W. Griswold's review. For further discussion of our treatment of the reviews in this edition, see our <ref target="../../about/editorial.html#variorum">editorial policy statement</ref>.</note>
+            <note type="project" target="#pt_0020b">These copies include <ref target="reviews.html">an eight-page printed insertion</ref> with reviews and extracts from items previously printed in periodicals. In the majority of known surviving copies, the insertion has been added at the front of the volume. In a small number, it has been added at the back. The leaves are sewn into some copies and tipped into others. Three of the reviews were written anonymously by Whitman. These insertions must have been printed sometime after November 10, 1855, the periodical publication date associated with R. W. Griswold's review. For further discussion of our treatment of the reviews in this edition, see our <ref target="../../about/editorial.html#variorum">editorial policy statement</ref>.</note>
          </app>
          <pb facs="ppp.00271.105.jpg" xml:id="leaf052v" rend="Flyleaf" type="verso"/>
          <app type="binding">
