@@ -110,6 +110,7 @@
          <p>The original e-text for this file was prepared by Primary Source Media for <title level="m">Major Authors on CD-ROM: Walt Whitman</title> (1997). The source text for the Primary Source Media edition was Walt Whitman, <title level="m">Complete Poetry and Collected Prose</title>, ed. Justin Kaplan (New York: Literary Classics of the United States, 1982). After receiving the e-text from Primary Source Media, <title level="m">Whitman Archive</title> staff checked and corrected the transcription against images of the University of Iowa copy.</p>
       </encodingDesc>
       <revisionDesc>
+         <change who="#nhg" when="2020-04-21">incorporated edits suggested by Walter Gr&#252;nzweig, including various spacing corrections, adding hyphen to "New York" on p. iv, and added period after "The best farms" on p. 86</change>
          <change who="#nhg" when="2019-09-24">updated id for file, pbs for second state binding</change>
          <change who="#nhg" when="2019-07-30">added annotations with information about states</change>
          <change who="#nhg" when="2019-07-18">edited ids for variants, added variant facs</change>
@@ -454,7 +455,7 @@
                   of the population—</seg>
                <seg xml:id="pr61">the factories and mercantile life and
                   laborsaving machinery—</seg>
-               <seg xml:id="pr62">the Yankee swap—the New York
+               <seg xml:id="pr62">the Yankee swap—the New-York
                   firemen and the target excursion—the southern plantation life—</seg>
                <seg xml:id="pr62a">the character of the
                   northeast and of the northwest and southwest—</seg>
@@ -910,7 +911,7 @@
                <seg xml:id="pr237">When liberty goes it is not the first to go nor the second or
                   third to go . .</seg>
                <seg xml:id="pr238">it waits for all the rest to go . . it
-                  is the last . . .</seg>
+                  is the last. . .</seg>
                <seg xml:id="pr239">When the memories of the old martyrs
                   are faded utterly away . . . .</seg>
                <seg xml:id="pr240">when the large names of patriots are laughed at in the public
@@ -989,7 +990,7 @@
                   ornaments can be allowed that conform to the perfect facts of the open air and
                   that flow out of the nature of the work and come irrepressibly from it and are
                   necessary to the completion of the work.</seg>
-               <seg xml:id="pr268">Most works are most beautiful without ornament . . .</seg>
+               <seg xml:id="pr268">Most works are most beautiful without ornament. . .</seg>
                <seg xml:id="pr269">Exaggerations will be revenged in human physiology.</seg>
                <seg xml:id="pr270">Clean and vigorous children are jetted and conceived only in
                   those communities where the models of natural forms are public every
@@ -1147,7 +1148,7 @@
                   its long antecedent result, and that from its antecedent,</seg>
                <seg xml:id="pr322a">and so backward without
                   the farthest mentionable spot coming a bit nearer the beginning than any other
-                  spot. . . . .</seg>
+                  spot.  . . . .</seg>
                <seg xml:id="pr323">Whatever satisfies the soul is truth.</seg>
                <seg xml:id="pr324">The prudence of the greatest poet answers at last the craving and
                   glut of the soul,</seg>
@@ -1570,6 +1571,8 @@
                <l xml:id="l124">I pass death with the dying, and birth with the new-washed babe . . . . and am not <lb/>contained between my hat and boots,</l>
                <l xml:id="l125">And peruse manifold objects, no two alike, and every one good,</l>
                <l xml:id="l126">The earth good, and the stars good, and their adjuncts all good. </l>
+            </lg>
+            <lg type="linegroup">
                <l xml:id="l127">I am not an earth nor an adjunct of an earth,</l>
                <l xml:id="l128">I am the mate and companion of people, all just as immortal and fathomless as <lb/>myself;</l>
                <l xml:id="l129">They do not know how immortal, but I know.</l>
@@ -1620,7 +1623,7 @@
                <l xml:id="l159">I mind them or the resonance of them . . . . I come again and again.</l>
             </lg>
             <lg type="linegroup">
-               <l xml:id="l160">The big doors of the country-barn stand open and ready</l>
+               <l xml:id="l160">The big doors of the country-barn stand open and ready,</l>
                <l xml:id="l161">The dried grass of the harvest-time loads the slow-drawn wagon,</l>
                <l xml:id="l162">The clear light plays on the brown gray and green intertinged,</l>
                <l xml:id="l163">The armfuls are packed to the sagging mow:</l>
@@ -3765,7 +3768,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l1467">The ring on your finger . . the lady's wristlet . . the hammers of stonebreakers or <lb/>coppersmiths . . the druggist's vials and jars;</l>
                <l xml:id="l1468">The etui of surgical instruments, and the etui of oculist's or aurist's instruments, or <lb/>dentist's instruments;</l>
                <l xml:id="l1469">Glassblowing, grinding of wheat and corn . . casting, and what is cast . . tinroofing, <lb/>shingledressing,</l>
-               <l xml:id="l1470">Shipcarpentering, flagging of sidewalks by flaggers . .  dockbuilding, fishcuring, <choice><orig>ferry-<lb/>ing</orig><reg>ferrying</reg></choice>;</l>
+               <l xml:id="l1470">Shipcarpentering, flagging of sidewalks by flaggers . . dockbuilding, fishcuring, <choice><orig>ferry-<lb/>ing</orig><reg>ferrying</reg></choice>;</l>
                <l xml:id="l1471">The pump, the piledriver, the great derrick . . the coalkiln and brickkiln,</l>
                <l xml:id="l1472">Ironworks or whiteleadworks . . the sugarhouse . .  steam-saws, and the great mills <lb/>and factories;</l>
                <l xml:id="l1473">The cottonbale . . the stevedore's hook . . the saw and buck of the sawyer . . the <lb/>screen of the coalscreener . .  the mould of the moulder . . the workingknife of <lb/>the butcher;</l>
@@ -3976,7 +3979,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l1596">He is one of those who are beautiful and happy . . . . he is one of those that to look <lb/>upon and be with is enough.</l>
             </lg>
             <lg type="linegroup">
-               <l xml:id="l1597">The law of the past cannot be eluded.</l>
+               <l xml:id="l1597">The law of the past cannot be eluded,</l>
                <l xml:id="l1598">The law of the present and future cannot be eluded,</l>
                <l xml:id="l1599">The law of the living cannot be eluded . . . . it is eternal,</l>
                <l xml:id="l1600">The law of promotion and transformation cannot be eluded,</l>
@@ -4809,7 +4812,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <fw type="pageNum" place="top left">86</fw>
                <fw type="header" place="top">Leaves of Grass.</fw>
                <l xml:id="l2067">All enjoyments and properties, and money, and whatever money will buy,</l>
-               <l xml:id="l2068">The best farms . . . . others toiling and planting, and he unavoidably reaps,</l>
+               <l xml:id="l2068">The best farms. . . . . others toiling and planting, and he unavoidably reaps,</l>
                <l xml:id="l2069">The noblest and costliest cities . . . . others grading and building, and he domiciles <lb/>there;</l>
                <l xml:id="l2070">Nothing for any one but what is for him . . . . near and far are for him,</l>
                <l xml:id="l2071">The ships in the offing . . . . the perpetual shows and marches on land are for him if <lb/>they are for any body.</l>
@@ -5080,7 +5083,7 @@ workwoman I stand as nigh as the nighest that works in <lb/>the same shop,</l>
                <l xml:id="l2204">The blow, the quick loud word, the tight bargain, the crafty lure,</l>
                <l xml:id="l2205">The family usages, the language, the company, the furniture . . . . the yearning and <lb/>swelling heart,</l>
                <l xml:id="l2206">Affection that will not be gainsayed . . . . The sense of what is real . . . . the thought <lb/>if after all it should prove unreal,</l>
-               <l xml:id="l2207">The doubts of daytime and the doubts of nighttime . . .  the curious whether and how,</l>
+               <l xml:id="l2207">The doubts of daytime and the doubts of nighttime . . . the curious whether and how,</l>
                <l xml:id="l2208">Whether that which appears so is so . . . . Or is it all flashes and specks?</l>
                <l xml:id="l2209">Men and women crowding fast in the streets . . if they are not flashes and specks <lb/>what are they?</l>
                <l xml:id="l2210">The streets themselves, and the facades of houses . . . .  the goods in the windows,</l>
