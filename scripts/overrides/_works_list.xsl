@@ -41,7 +41,7 @@
             <xsl:variable name="id" select="substring-before(@id, '.xml')"/>
             <!-- set up where in the site this is -->
             <xsl:variable name="path">
-              <xsl:value-of select="$siteroot"/>
+              <!--<xsl:value-of select="$siteroot"/>-->
               <xsl:choose>
                 <xsl:when test="@type='marg'">
                   <xsl:value-of select="$margPathHTMLRoot"/>
