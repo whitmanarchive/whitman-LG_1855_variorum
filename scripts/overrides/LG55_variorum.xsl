@@ -111,8 +111,8 @@
                     <xsl:choose>
                       <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
                         <!--TEMP PROOFING NHG-->
-                        <!--<xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml)"/>-->
-                        <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml)"/>
+                        <xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml)"/>
+                        <!--<xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml)"/>-->
                         <!--/TEMP PROOFING NHG-->
                       </xsl:when>
                       <xsl:when test="doc-available(concat($margPathRoot, $fileID))">
@@ -121,8 +121,8 @@
                       </xsl:when>
                       <xsl:otherwise>
                         <!--TEMP PROOFING NHG-->
-                        <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml)"/>-->
-                        <xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml)"/>
+                        <xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml)"/>
+                        <!--<xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml)"/>-->
                         <!--/TEMP PROOFING NHG-->
                       </xsl:otherwise>
                     </xsl:choose>
@@ -138,8 +138,8 @@
                   <xsl:choose>
                     <xsl:when test="doc-available(concat($msPathRoot, $fileID))">
                       <!--TEMP PROOFING NHG-->
-                      <!--<xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>-->
-                      <xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml, '#', $msID)"/>
+                      <xsl:attribute name="href" select="concat($msPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                      <!--<xsl:attribute name="href" select="concat('../../../../manuscripts/transcriptions_var/', $fileIDhtml, '#', $msID)"/>-->
                       <!--/TEMP PROOFING NHG-->
                     </xsl:when>
                     <xsl:when test="doc-available(concat($margPathRoot, $fileID))">
@@ -148,8 +148,8 @@
                     </xsl:when>
                     <xsl:otherwise>
                       <!--TEMP PROOFING NHG-->
-                      <!--<xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>-->
-                      <xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml, '#', $msID)"/>
+                      <xsl:attribute name="href" select="concat($nbPathHTMLRoot, $fileIDhtml, '#', $msID)"/>
+                      <!--<xsl:attribute name="href" select="concat('../../../../manuscripts/notebooks/transcriptions_var/', $fileIDhtml, '#', $msID)"/>-->
                       <!--/TEMP PROOFING NHG-->
                     </xsl:otherwise>
                   </xsl:choose>
@@ -258,8 +258,9 @@
       <!--<div class="v_right">
         <xsl:copy-of select="$right"/>
       </div>-->
+      <!--Line link code, with URL copy; deferring for now, nhg-->
       <!--<div class="v_line_link">
-        <xsl:text>URL</xsl:text>
+        <span><xsl:text>&#160;</xsl:text></span>
       </div>-->
     </div>
     <xsl:copy-of select="$after"/>
