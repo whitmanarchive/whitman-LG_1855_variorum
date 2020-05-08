@@ -3937,7 +3937,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Letter from Whitman to William Torrey Harris of October 27, 1879, pasted to front endpaper. Photograph of Whitman attached to blank page facing title page; recto of this leaf has frontispiece engraving printed on thin paper, pasted into embossed frame (frontispiece does not face title page). Owen D. Young copy.</p>
+<p>Letter from Whitman to William Torrey Harris of October 27, 1879, pasted to front endpaper. Photograph of Whitman attached to blank page facing title page; recto of this leaf has frontispiece engraving printed on thin paper, pasted into embossed frame (frontispiece does not face title page).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3958,7 +3958,7 @@
  <bindingDesc><p>state B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Young, Owen D.">Owen D. Young</persName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4105,7 +4105,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p></p>
+<p>Owen D. Young copy.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4126,7 +4126,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+ <provenance><persName key="Young, Owen D.">Owen D. Young</persName></provenance>
  </history>
  </msDesc>
  </witness>
