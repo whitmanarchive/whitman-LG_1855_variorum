@@ -300,7 +300,7 @@
           <xsl:text>variant_text_click </xsl:text>
           <xsl:choose>
             <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift_display</xsl:text></xsl:when>
-            <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding_display</xsl:text></xsl:when>
+            <xsl:when test="parent::app[@type='binding'] or parent::app[@type='insertion']"><xsl:text>inline_tei_rdg_binding_display</xsl:text></xsl:when>
             <xsl:otherwise><xsl:text>inline_tei_rdg_display</xsl:text></xsl:otherwise>
           </xsl:choose>
           <xsl:if test=".[contains(@wit, 'UI_01')]">
@@ -312,7 +312,7 @@
         <xsl:if test="contains(@xml:id, 'gr_0010')"><xsl:text>[Frontispiece engraving]</xsl:text></xsl:if>
         <xsl:if test="contains(@xml:id, 'pt_0020b')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
         <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
-        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(contains(@xml:id,'pt_0020b')) and not(contains(@xml:id,'pt_0010b')) and not(contains(@xml:id,'pt_0010a')) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
+        <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(contains(@xml:id,'pt_0020b')) and not(contains(@xml:id,'pt_0010b')) and not(contains(@xml:id,'pt_0010a')) and not(contains(@xml:id,'bd_004')) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
       </span>
         <xsl:if test="following-sibling::note[contains(@target, $varID)]">
           <span class="variant_note">
@@ -666,7 +666,7 @@
         <xsl:text>variant_text_expand variant_text_click </xsl:text>
         <xsl:choose>
           <xsl:when test="parent::app[@type='drift']"><xsl:text>inline_tei_rdg_drift</xsl:text></xsl:when>
-          <xsl:when test="parent::app[@type='binding'] or parent::app[@type='paratext'] or parent::app[@type='pasteon']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
+          <xsl:when test="parent::app[@type='binding'] or parent::app[@type='insertion']"><xsl:text>inline_tei_rdg_binding</xsl:text></xsl:when>
           <xsl:otherwise><xsl:text>inline_tei_rdg</xsl:text></xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
@@ -683,7 +683,7 @@
       <xsl:if test="contains(@xml:id, 'bd_0')">[<xsl:value-of select="preceding::pb[1]/@rend"/>]</xsl:if>
         <xsl:if test="contains(@xml:id, 'pt_0010')"><xsl:text>[Ralph Waldo Emerson letter]</xsl:text></xsl:if>
       <xsl:if test="contains(@xml:id, 'pt_0020')"><xsl:text>[Reviews and extracts]</xsl:text></xsl:if>
-      <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
+      <xsl:if test="not(contains(@xml:id, 'gr_001')) and not(contains(@xml:id,'bd_004')) and not(child::milestone) and not(parent::app[@type='binding']) and not(parent::app[@type='paratext']) and normalize-space(.) = ''"><xsl:text>[Blank]</xsl:text></xsl:if>
 <!--<xsl:if test="normalize-space(.) = ''">[No content to link]</xsl:if>--><!-- todo: leave for now, but may not be needed in final -->
     </span>
   </xsl:template>
