@@ -54,7 +54,7 @@ class FileCsv < FileType
   def reorder_groups(groups)
     groups.map do |group, items|
       # pull first result which matches Iowa
-      iowa = items.detect { |hsh| hsh[:repo] == "University of Iowa Special Collections and University Archives" }
+      iowa = items.detect { |hsh| hsh[:repo] == "Special Collections, The University of Iowa Libraries" }
       if iowa
         items.delete(iowa)
         # prepend iowa entry at the front
