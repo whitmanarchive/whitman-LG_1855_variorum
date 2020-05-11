@@ -23,19 +23,16 @@
   </xsl:template>
 
   <xsl:template name="repository_citation">
-    <xsl:if test="contains(@facs, 'loc')">The Charles E. Feinberg Collection of the Papers of Walt
-      Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</xsl:if>
-    <xsl:if test="contains(@facs, 'ppp')">University of Iowa Special Collections and University
-      Archives</xsl:if>
-    <xsl:if test="contains(@facs, 'uva')">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
-      Library of American Literature, Albert H. Small Special Collections Library, University of
-      Virginia</xsl:if>
-    <xsl:if test="contains(@facs, 'wil')">Williams College</xsl:if>
-    <xsl:if test="contains(@facs, 'duk')">Trent Collection of Whitmaniana, David M. Rubenstein Rare
-      Book &amp; Manuscript Library, Duke University</xsl:if>
+    <xsl:if test="contains(@facs, 'loc_nhg.01030') or contains(@facs, 'loc_nhg.01021') or contains(@facs, 'loc_nhg.01400') or contains(@facs, 'loc_nhg.01010') or contains(@facs, 'loc_nhg.01002')">Charles E. Feinberg Collection of Walt Whitman, Library of Congress, Washington, D.C.</xsl:if>
+    <xsl:if test="contains(@facs, 'loc_nhg.01207') or contains(@facs, 'loc_nhg.01247') or contains(@facs, 'loc_nhg.01249') or contains(@facs, 'loc_nhg.01251') or contains(@facs, 'loc_nhg.01258')">Carolyn Wells Houghton Whitman Collection, Library of Congress, Washington, D.C.</xsl:if>
+    <xsl:if test="contains(@facs, 'ppp')">Special Collections, The University of Iowa Libraries</xsl:if>
+    <xsl:if test="contains(@facs, 'uva_nhg.00011') or contains(@facs, 'uva_nhg.00009') or contains(@facs, 'uva_nhg.00004') or contains(@facs, 'uva_nhg.00005') or contains(@facs, 'uva_nhg.00012') or contains(@facs, 'uva_nhg.00010')">Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia</xsl:if>
+    <xsl:if test="contains(@facs, 'uva_nhg.00026') or contains(@facs, 'uva_nhg.00029') or contains(@facs, 'uva_nhg.00030') or contains(@facs, 'uva_nhg.00024') or contains(@facs, 'uva_nhg.00036') or contains(@facs, 'uva_nhg.00037') or contains(@facs, 'uva_nhg.00027') or contains(@facs, 'uva_nhg.00028')">Tracy W. McGregor Library of American History, Albert and Shirley Small Special Collections Library, University of Virginia</xsl:if>
+    <xsl:if test="contains(@facs, 'wil')">Chapin Library, Williams College</xsl:if>
+    <xsl:if test="contains(@facs, 'duk')">David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</xsl:if>
     <xsl:if test="contains(@facs, 'pra')">Providence Athan&#230;um</xsl:if>
-    <xsl:if test="contains(@facs, 'unc')">Rare Book Collection, Wilson Special Collections Library, UNC-Chapel Hill</xsl:if>
-    <xsl:if test="contains(@facs, 'yal')">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library, Yale University</xsl:if>
+    <xsl:if test="contains(@facs, 'unc')">Rare Book Collection, The Louis Round Wilson Special Collections Library, University of North Carolina at Chapel Hill</xsl:if>
+    <xsl:if test="contains(@facs, 'yal')">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</xsl:if>
     <xsl:if test="contains(@facs, 'pri')">Department of Rare Books and Special Collections, Princeton University Library</xsl:if>
   </xsl:template>
 
