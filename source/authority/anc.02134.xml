@@ -1427,7 +1427,7 @@
                     <link cert="low" target="ppp.01880.xml#l647 #l04"/>
                     <link cert="low" target="ppp.01880.xml#l648 #l06"/>
                     <link cert="low" target="ppp.01880.xml#l649 #l07"/>
-                    <link cert="high" target="ppp.01880.xml#pr323 #l09"/>
+                    <link cert="low" target="ppp.01880.xml#pr323 #l09"/>
                     <link cert="low" target="ppp.01880.xml#l652 #l10"/>
                     <link cert="low" target="ppp.01880.xml#l653 #l11"/>
                     <link cert="low" target="ppp.01880.xml#l654 #l12"/>
