@@ -3727,7 +3727,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Page 56 period is described as present, but "crashed". Inscriptions: "R.W. Griswold from the author" and "[owner] Astoria N.Y." Pasted-in letter from WW June 12. Pasted-in review of 1860 "Muscular Poetry". Pasted-in review Saturday Review July 7, 1860.</p>
+  <p>Page 56 period is described as present, but "crashed". Inscriptions: "R.W. Griswold, from the author" and "[owner] Astoria N.Y." Pasted-in letter from Whitman to Henry Clapp, Jr., dated June 12 [1860]. Pasted-in note about 1860 <hi rend="italic">Leaves of Grass</hi> titled "Muscular Poetry." Pasted-in July 7, 1860 <hi rend="italic">Saturday Review</hi>, with review of <hi rend="italic">Leaves of Grass</hi>.</p> 
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3748,7 +3748,7 @@
  <bindingDesc><p>state A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Griswold, R.W.">R.W. Griswold</persName></provenance>
+ <provenance><persName key="Griswold, Rufus W.">Rufus W. Griswold</persName></provenance>
  </history>
  </msDesc>
  </witness>
