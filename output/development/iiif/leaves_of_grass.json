@@ -216,7 +216,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/canvas/ppp.00271.003.jpg-leaf002r.json",
           "@type": "sc:Canvas",
-          "label": "Flyleaf leaf002r",
+          "label": "Free endpaper leaf002r",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.003.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
@@ -3050,7 +3050,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/canvas/ppp.00271.105.jpg-leaf052v.json",
           "@type": "sc:Canvas",
-          "label": "Flyleaf leaf052v",
+          "label": "Free endpaper leaf052v",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2F%2Fppp.00271.105.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

@@ -20,7 +20,7 @@ var snippets = [
     ]
   },
   {
-    "label": "Front Flyleaf",
+    "label": "Front Free Endpaper",
     "link": "bd_0030",
     "ids": [
       "bd_0030a",
@@ -177,7 +177,7 @@ var snippets = [
     ]
   },
   {
-    "label": "Back flyleaf",
+    "label": "Back Free Endpaper",
     "link": "bd_0070",
     "ids": [
       "bd_0070a",
@@ -185,7 +185,7 @@ var snippets = [
     ]
   },
   {
-    "label": "Back endpaper",
+    "label": "Back Endpaper",
     "link": "bd_0080",
     "ids": [
       "bd_0080a",
