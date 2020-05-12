@@ -11,7 +11,7 @@ default:
   media_base: https://whitmanarchive.org/media
 
   # iiif settings
-  iiif_base: https://whitmanarchive.org/iiif/2/
+  iiif_base: https://whitmanarchive.org/iiif/2
   # only applies to TEI, for snippets alter CSV
   iiif_fig_dir: "published%2FLG%2Ffigures%2F"
   iiif_fullsize_end: "full/full/0/default.jpg"
