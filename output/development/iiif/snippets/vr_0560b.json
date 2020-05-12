@@ -2,14 +2,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0560b.json",
   "@type": "sc:Manifest",
-  "label": "\"...waiting for you\"",
+  "label": "\"waiting for you\"",
   "description": [
     {
-      "@value": "\"...waiting for you\" (vr_0560b)",
+      "@value": "\"waiting for you\" (vr_0560b)",
       "@language": "en"
     }
   ],
-  "attribution": "University of Iowa Special Collections and University Archives",
+  "attribution": "Special Collections, The University of Iowa Libraries",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0560b-cropped.json",
           "@type": "sc:Canvas",
-          "label": "\"...waiting for you\"",
+          "label": "\"waiting for you\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
@@ -48,7 +48,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0560b.json",
           "@type": "sc:Canvas",
-          "label": "\"...waiting for you\"",
+          "label": "\"waiting for you\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

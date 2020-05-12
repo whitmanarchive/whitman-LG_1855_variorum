@@ -2,14 +2,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0070a.json",
   "@type": "sc:Manifest",
-  "label": "Marbled paper",
+  "label": "Marbled free endpaper (State A binding)",
   "description": [
     {
-      "@value": "Marbled paper (bd_0070a)",
+      "@value": "Marbled free endpaper (State A binding) (bd_0070a)",
       "@language": "en"
     }
   ],
-  "attribution": "University of Iowa Special Collections and University Archives",
+  "attribution": "Special Collections, The University of Iowa Libraries",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0070a.json",
           "@type": "sc:Canvas",
-          "label": "Marbled paper",
+          "label": "Marbled free endpaper (State A binding)",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.105.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

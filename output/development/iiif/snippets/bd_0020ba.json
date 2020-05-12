@@ -2,14 +2,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0020ba.json",
   "@type": "sc:Manifest",
-  "label": "Yellow endpaper",
+  "label": "Yellow endpaper (State B binding)",
   "description": [
     {
-      "@value": "Yellow endpaper (bd_0020ba)",
+      "@value": "Yellow endpaper (State B binding) (bd_0020ba)",
       "@language": "en"
     }
   ],
-  "attribution": "The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.",
+  "attribution": "Charles E. Feinberg Collection of Walt Whitman, Library of Congress, Washington, D.C.",
   "viewingDirection": "left-to-right",
   "viewingHint": "paged",
   "sequences": [
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0020ba.json",
           "@type": "sc:Canvas",
-          "label": "Yellow endpaper",
+          "label": "Yellow endpaper (State B binding)",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01030.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
