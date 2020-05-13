@@ -39,11 +39,12 @@ duk.00305.xml
 duk.00787.xml
 duk.00789.xml
 duk.00797.xml
+duk.00800.xml
 duk.00877.xml
 duk.00878.xml
-duk.00800.xml
 duk.00883.xml
 duk.00885.xml
+duk.00886.xml
 duk.00887.xml
 duk.00888.xml
 duk.00889.xml
@@ -69,7 +70,6 @@ loc.00389.xml
 loc.00483.xml
 loc.00507.xml
 loc.01019.xml
-loc.05180.xml
 loc.05314.xml
 loc.05334.xml
 loc.05354.xml
@@ -169,6 +169,7 @@ uva.00263.xml
 uva.00264.xml
 uva.00265.xml
 uva.00269.xml
+uva.00270.xml
 uva.00273.xml
 uva.00278.xml
 uva.00280.xml
