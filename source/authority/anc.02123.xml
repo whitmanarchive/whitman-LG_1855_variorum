@@ -2845,7 +2845,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Front endpaper bookplate of Oscar Lion; Oscar Lion Collection. Title page inscription in Horace Traubel's hand: "Horace L Traubel / 1892". Two letters written by Mrs. George G. Kimball and addressed to Traubel are laid in. Presented to Dr. Jason R. Orton by Whitman. Given to Traubel by Mrs. Kimball, Orton's daughter. Subsequently acquired by Oscar Lion. In one of the letters, dated March 30, 1892, Mrs. Kimball writes: "I see by the Washington Post that the first edition of "Leaves of Grass" was published in 1855...I have a copy published in that year. Mr. Whitman presented it to my father, the late Dr. Jason R. Orton of Brooklyn N. Y. I believe Mr. Whitman was in his printing Dept. at one time when he published the Binghampton Courier in N.Y. State."</p>
+  <p>Front endpaper bookplate of Oscar Lion; Oscar Lion Collection. Title page inscription in Horace Traubel's hand: "Horace L Traubel / 1892". Two letters written by Mrs. George G. Kimball and addressed to Traubel are laid in. Presented to Dr. Jason R. Orton by Whitman. Given to Traubel by Mrs. Kimball, Orton's daughter. Subsequently acquired by Oscar Lion. In one of the letters, dated March 30, 1892, Mrs. Kimball writes: "I see by the Washington Post that the first edition of "Leaves of Grass" was published in 1855 . . . I have a copy published in that year. Mr. Whitman presented it to my father, the late Dr. Jason R. Orton of Brooklyn N. Y. I believe Mr. Whitman was in his printing Dept. at one time when he published the Binghampton Courier in N.Y. State."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2860,7 +2860,7 @@
  <layoutDesc>
  <layout rend="copyright">state B</layout> 
  <layout rend="frontispiece">state A, embossed frame</layout> 
- <layout rend="reviews">Inserted gathering at front</layout> 
+ <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
  <bindingDesc><p>state A</p></bindingDesc>
