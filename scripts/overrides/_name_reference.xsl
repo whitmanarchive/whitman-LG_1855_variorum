@@ -30,7 +30,7 @@
     <xsl:if test="contains(@facs, 'uva_nhg.00026') or contains(@facs, 'uva_nhg.00029') or contains(@facs, 'uva_nhg.00030') or contains(@facs, 'uva_nhg.00024') or contains(@facs, 'uva_nhg.00036') or contains(@facs, 'uva_nhg.00037') or contains(@facs, 'uva_nhg.00027') or contains(@facs, 'uva_nhg.00028')">Tracy W. McGregor Library of American History, Albert and Shirley Small Special Collections Library, University of Virginia</xsl:if>
     <xsl:if test="contains(@facs, 'wil')">Chapin Library, Williams College</xsl:if>
     <xsl:if test="contains(@facs, 'duk')">David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</xsl:if>
-    <xsl:if test="contains(@facs, 'pra')">Providence Athan&#230;um</xsl:if>
+    <xsl:if test="contains(@facs, 'pra')">Providence Athen&#230;um</xsl:if>
     <xsl:if test="contains(@facs, 'unc')">Rare Book Collection, The Louis Round Wilson Special Collections Library, University of North Carolina at Chapel Hill</xsl:if>
     <xsl:if test="contains(@facs, 'yal')">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</xsl:if>
     <xsl:if test="contains(@facs, 'pri')">Department of Rare Books and Special Collections, Princeton University Library</xsl:if>
