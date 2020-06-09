@@ -247,17 +247,7 @@
                   <rdg xml:id="vr_0010a" facs="ppp.00271.008_cropped.jpg" wit="#KSU_01 #UNCCH_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #PA_01 #HL_02 #PC_03 #PC_04 #UNCCH_02 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #PC_02 #LC_09 #UI_02 #PC_11 #AAS_01 #PC_12 #PC_13 #PC_14 #UNL_01 #PC_15 #HSP_01 #UP_01 #LCP_01 #DrU_01 #BPL_01 #UP_02 #BPL_02 #BrU_01 #UP_03 #BrU_02 #BrU_03 #BrU_04 #PSU_01 #HL_01 #GC_01 #RC_01 #CPL_01 #UR_01 #WUSL_01 #MSU_01 #NLS_01 #NSUG_01 #OSU_01 #PAA_01 #TAMU_01 #TCU_01 #KB_01 #UC_01 #UC_02 #UCLA_01 #UKy_01 #UM_01 #UMn_01 #UNCC_01 #UWM_01 #AC_01 #AC_02 #BSU_01 #SUNYBi_01 #BoL_01 #BGSU_01 #BL_01 #CMU_01 #CWRU_01 #CC_01 #CAI_01 #CU_01 #EU_01 #GeC_01 #HU_01 #HC_01 #LMU_01 #USC_01 #USC_02 #UMi_01 #NSU_01 #WFU_01 #WFU_02 #UH_01 #WC_01 #WC_02 #WC_03 #WC_04 #WU_01 #SUNYBu_01 #UTA_01 #WWH_01 #WWH_02 #NYPL_01 #NYPL_02 #NYPL_03 #NYPL_04 #YU_01 #YU_03 #YU_04 #YU_05 #YU_06 #BYU_01 #BaU_01 #BU_01 #URI_01 #NYPL_06 #NYPL_07 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #PML_01 #PML_02 #PML_04 #TPL_01 #TU_01 #OWU_01 #OWU_02 #PC_08 #NIU_01 #NIU_02 #MC_01 #MC_02 #NU_01 #LU_01 #LU_02 #LU_03 #DC_01 #UD_01 #UD_02 #NL_01 #PC_09 #WeC_01 #UCLA_02 #UCB_01 #UnC_01 #UCSC_01 #PU_01 #PU_02 #PU_03 #HU_02 #HU_03 #HU_04 #HU_05 #HU_06 #SU_01 #CoU_01 #CoU_02 #CoU_03 #PC_16 #PC_18 #PC_19 #PC_05 #PC_06 #PC_07 #TTU_01 #NYHS_01">
                      <milestone unit="undeclared" rend="horbar-short-center"/>
                   </rdg>
-                  <rdg xml:id="vr_0010b" facs="wil_nhg.00001_cropped.jpg" wit="#LC_14 #JHU_01 #HL_03 #WC_05 #YU_02 #NYPL_12 #PML_03 #VAM_01 #PC_17">
-                     <add rend="pasteon">
-                        <floatingText rend="flat">
-                           <body>
-                              <ab>London: Wm. Horsell, 492, Oxford-street.</ab>
-                           </body>
-                        </floatingText>
-                     </add>
-                  </rdg>
-                  <rdg xml:id="vr_0010c" facs="duk_nhg.01402_cropped.jpg" wit="#DU_04">
-                     <milestone unit="undeclared" rend="horbar-short-center"/>
+                  <rdg xml:id="vr_0010b" facs="wil_nhg.00001_cropped.jpg" wit="#LC_14 #JHU_01 #HL_03 #WC_05 #YU_02 #NYPL_12 #PML_03 #VAM_01 #PC_17 #DU_04">
                      <add rend="pasteon">
                         <floatingText rend="flat">
                            <body>
@@ -267,8 +257,7 @@
                      </add>
                   </rdg>
                   <note type="project" target="#vr_0010a">No label.</note>
-                  <note type="project" target="#vr_0010b">A London address label is pasted over the ornament. Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
-                  <note type="project" target="#vr_0010c">A London address label is pasted below the ornament. Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
+                  <note type="project" target="#vr_0010b">A London address label is pasted onto the page. Some labels are pasted over the ornament. At least one copy has the label pasted below the ornament. In a copy at the Huntington Library, the text of the label is printed all on one line and the name "William" is spelled out, as follows: "London: William Horsell, 492, Oxford-street." Copies with the London label are listed in Myerson as a second (English) issue (A 2.1.a2).</note>
                </app>
                <pubPlace>Brooklyn, New York:</pubPlace>
                <docDate>1855. </docDate>
