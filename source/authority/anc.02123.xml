@@ -42,6 +42,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change when="2020-06-10" who="#nhg">updated binding language</change>
    <change when="2017-10-10" who="#nhg">updated, proofed, added call numbers</change>
    <change when="2017-08-10" who="#nhg">created from Excel file</change>
   </revisionDesc>
@@ -51,7 +52,7 @@
   <body>
    <div1 type="section">
     <head type="main-authorial">The 1855 <hi rend="italic">Leaves of Grass</hi>: A Bibliography of Copies</head>
-    <p>This bibliography, originally compiled by Ed Folsom, includes information from a census of all known extant copies of the first (1855) edition of Whitman's <hi rend="italic">Leaves of Grass</hi>. In some cases, copy descriptions have been added or updated since the census as new information has become available. Information about states corresponds to the states listed in <hi rend="italic">Bibliography of American Literature</hi>, vol. 9., ed. Michael Winship (New Haven: Yale University Press, 1991), 31&#8211;32. Where they differ, corresponding states in Joel Myerson, <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), are listed in parentheses within the extended state descriptions. For more information, or to download a spreadsheet with the raw data from the census, see Ed Folsom, "<ref target="https://doi.org/10.13008/2153-3695.1816">The Census of the 1855 <hi rend="italic">Leaves of Grass</hi>: A Preliminary Report</ref>," <hi rend="italic">Walt Whitman Quarterly Review</hi> 24.2 (Fall 2006): 71&#8211;84.</p>
+    <p>This bibliography, based on data originally compiled by Ed Folsom, includes information from a census of all known extant copies of the first (1855) edition of Whitman's <hi rend="italic">Leaves of Grass</hi>. In some cases, copy descriptions have been added or updated since the census as new information has become available. Information about bindings and states corresponds to the bindings and states listed in <hi rend="italic">Bibliography of American Literature</hi>, vol. 9., ed. Michael Winship (New Haven: Yale University Press, 1991), 31&#8211;32. Where they differ, corresponding states in Joel Myerson, <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), are listed in parentheses within the extended descriptions. For more information, or to download a spreadsheet with the raw data from the census, see Ed Folsom, "<ref target="https://doi.org/10.13008/2153-3695.1816">The Census of the 1855 <hi rend="italic">Leaves of Grass</hi>: A Preliminary Report</ref>," <hi rend="italic">Walt Whitman Quarterly Review</hi> 24.2 (Fall 2006): 71&#8211;84.</p>
    </div1>
    
    <div1 type="bibliography">
@@ -91,7 +92,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -133,7 +134,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Campbell, William J.">William J. Campbell</persName>; <orgName>Library of German Society, Philadelphia</orgName></provenance>
@@ -175,7 +176,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -259,7 +260,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Bishop, Cortlandt F.">Cortlandt F. Bishop</persName>; <persName key="Meisner, George M.">George M. Meisner</persName></provenance>
@@ -301,7 +302,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName></provenance>
@@ -343,7 +344,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Clark, [?]">[?] Clark</persName></provenance>
@@ -385,7 +386,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Gable, William F.">William F. Gable</persName></provenance>
@@ -427,7 +428,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Blood, B.">B. Blood</persName></provenance>
@@ -469,7 +470,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Stevenson, John A.">John A. Stevenson</persName></provenance>
@@ -511,7 +512,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -553,7 +554,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Wood[?], George">George Wood[?]</persName></provenance>
@@ -595,7 +596,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Edinburg, M[?] Jenner">M[?] Jenner Edinburg</persName></provenance>
@@ -637,7 +638,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Aldis, Graham">Graham Aldis</persName>; <persName key="Bradley, Richard">Richard Bradley</persName></provenance>
@@ -679,7 +680,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Moody, William Vaughn">William Vaughn Moody</persName></provenance>
@@ -721,7 +722,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Cornwell, Henry Sylvester">H. S. Cornwell [Henry Sylvester Cornwell, 1831-1886)</persName>; <persName key="Smith, Frederick Edwin">Viscount Birkenhead [Frederick Edwin Smith, 1872-1930, 1st Viscount Birkenhead and Lord High Chancellor of Great Britain]</persName>; <persName key="Bemis, Frank Brewer">Frank Brewer Bemis</persName>; <persName key="Sisk, Robert">Robert Sisk [Hollywood film producer]</persName></provenance>
@@ -763,7 +764,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -847,7 +848,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Whitman, Walt">Walt Whitman</persName>; <persName key="Stedman, Arthur">Arthur Stedman</persName>; <persName key="Sabin, Frank T.">Frank T. Sabin</persName>; <persName key="Anderson, O.A.">O.A. Anderson</persName>; <persName key="Moore, Thomas">Thomas Moore</persName></provenance>
@@ -889,7 +890,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance cert="medium"><persName key="Furness, Horace Howard, Sr.">Horace Howard Furness, Sr. (1833-1912)</persName></provenance>
@@ -931,7 +932,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Nash, Edith">Edith Nash</persName></provenance>
@@ -973,7 +974,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -1015,7 +1016,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Barton, William E.">William E. Barton</persName></provenance>
@@ -1057,7 +1058,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -1099,7 +1100,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="McLean, C. Mossman">C. Mossman McLean</persName></provenance>
@@ -1141,7 +1142,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Johnston, John">Dr. John Johnston (d. 1918)</persName></provenance>
@@ -1183,7 +1184,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance>Purchased by Bowling Green State University Libraries on February 11, 1955 for $350.00 from <orgName>Seven Gables</orgName>.</provenance>
@@ -1225,7 +1226,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -1267,7 +1268,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Rosenbloom, Charles J.">Charles J. Rosenbloom</persName></provenance>
@@ -1309,7 +1310,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -1351,7 +1352,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Balch, Janet Jacks">Janet Jacks Balch</persName></provenance>
@@ -1435,7 +1436,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Ohrbach, Jerome">Jerome Ohrbach</persName></provenance>
@@ -1477,7 +1478,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Taylor, Bayard">Bayard Taylor</persName>; <persName key="Martin, H. Bradley">H. Bradley Martin</persName></provenance>
@@ -1519,7 +1520,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Cooper, Thomas Y.">Thomas Y. Cooper</persName>; <persName key="Ryman, F.S.">F.S. Ryman</persName></provenance>
@@ -1561,7 +1562,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -1603,7 +1604,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Browne, E.L.">E.L. Browne</persName></provenance>
@@ -1645,7 +1646,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Buehrle, Victor E.">Victor E. Buehrle</persName>; <persName key="Hoadley, John Chipman">John Chipman Hoadley</persName>; <persName key="Newton, A. Edward">A. Edward Newton</persName></provenance>
@@ -1687,7 +1688,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Swinton, William">William Swinton</persName>; <persName key="Bailey, M.">M. Bailey</persName>; <persName key="Weadlock, Helena">Helena Weadlock</persName>; <persName key="Weadlock, John">John Weadlock</persName></provenance>
@@ -1729,7 +1730,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Starbuck, Walter">Walter Starbuck</persName>; <persName key="Laney, Mrs. Francis D.">Mrs. Francis D. Laney</persName>; <persName key="Dast[?], Mrs. J. W.">Mrs. J. W. Dast [? or Dart]</persName></provenance>
@@ -1771,7 +1772,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Rome, Thomas">Thomas Rome</persName></provenance>
@@ -1813,7 +1814,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sanborn, F.B.">F.B. Sanborn</persName>; <persName key="Emerson, Ralph Waldo">Ralph Waldo Emerson</persName></provenance>
@@ -1897,7 +1898,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Inwards, Richard">Richard Inwards</persName></provenance>
@@ -1939,7 +1940,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Babcock, Charles H.">Charles H. Babcock</persName></provenance>
@@ -1981,7 +1982,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Luce, Clare Booth">Clare Booth Luce</persName></provenance>
@@ -2023,7 +2024,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sprague, Julian K.">Julian K. Sprague</persName></provenance>
@@ -2065,7 +2066,7 @@
  <layout rend="reviews">Inserted gathering at back</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sprague, Julian K.">Julian K. Sprague</persName></provenance>
@@ -2107,7 +2108,7 @@
  <layout rend="reviews">Inserted gathering at back</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sprague, Julian K.">Julian K. Sprague</persName></provenance>
@@ -2149,7 +2150,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sprague, Julian K.">Julian K. Sprague</persName></provenance>
@@ -2191,7 +2192,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -2233,7 +2234,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Coker, Richard Gay">Richard Gay Coker</persName><persName key="Gay, Edward">Edward Gay</persName></provenance>
@@ -2275,7 +2276,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Hilliard, F.A.">F.A. Hilliard</persName></provenance>
@@ -2317,7 +2318,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Davison, George W.">George W. Davison</persName></provenance>
@@ -2359,7 +2360,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Lockwood, Thomas B.">Thomas B. Lockwood</persName></provenance>
@@ -2401,7 +2402,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="Jones, Herschel V.">Herschel V. Jones</persName>; <persName key="Folsom, Ida O.">Ida O. Folsom</persName></provenance>
@@ -2443,7 +2444,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="DeGolyer">DeGolyer</persName></provenance>
@@ -2485,7 +2486,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="Hamershlag, Robert J.">Robert J. Hamershlag</persName></provenance>
@@ -2527,7 +2528,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="S., H.C.">H.C.S.</persName>; <persName key="Hanley, T.E.">T.E. Hanley</persName></provenance>
@@ -2569,7 +2570,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -2611,7 +2612,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="DeGoyler">DeGoyler</persName>; <persName key="Belmont, Oliver">Oliver Belmont</persName></provenance>
@@ -2653,7 +2654,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Blanch, Charles F.">Charles F. Blanch</persName>; <persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="McGuire, Elisha Whipple">Elisha Whipple McGuire</persName></provenance>
@@ -2695,7 +2696,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -2737,7 +2738,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Harvey, Ellwood">Ellwood Harvey</persName></provenance>
@@ -2779,7 +2780,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Lion, Oscar">Oscar Lion</persName>; <persName key="Forman, H. Buxton">H. Buxton Forman</persName></provenance>
@@ -2821,7 +2822,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state C</p></bindingDesc>
+ <bindingDesc><p>binding C</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Whitman, Walt">Walt Whitman</persName>; <persName key="Traubel, Horace">Horace Traubel</persName>; <persName key="Lion, Oscar">Oscar Lion</persName></provenance>
@@ -2863,7 +2864,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Orton, Jason R.">Dr. Jason R. Orton</persName>; <persName key="Traubel, Horace">Horace Traubel</persName>; <persName key="Kimball, Mrs. George G.">Mrs. George G. Kimball</persName>; <persName key="Lion, Oscar">Oscar Lion</persName></provenance>
@@ -2905,7 +2906,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -2989,7 +2990,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Rossetti, William Michael">William Michael Rossetti</persName>; <persName key="Scott, W. B.">W. B. Scott</persName></provenance>
@@ -3031,7 +3032,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Van Sinderen, Jean White">Jean White Van Sinderen</persName>; <persName key="Van Sinderen, Adrian">Adrian Van Sinderen</persName></provenance>
@@ -3073,7 +3074,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Aldis, Owen Franklin">Owen Franklin Aldis</persName></provenance>
@@ -3115,7 +3116,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Holden, Edwin B.">Edwin B. Holden</persName>; <persName key="Odell, A.[?]">A.[?] Odell</persName></provenance>
@@ -3157,7 +3158,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state C</p></bindingDesc>
+ <bindingDesc><p>binding C</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -3199,7 +3200,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Dowd, J.">J. Dowd</persName></provenance>
@@ -3241,7 +3242,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Sittser, Sidney E.">Sidney E. Sittser</persName></provenance>
@@ -3283,7 +3284,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Silver, Alice">Alice Silver</persName>; <persName key="Silver, Rollo">Rollo Silver</persName></provenance>
@@ -3325,7 +3326,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><orgName>Library of St. Charles College, Cantonsville, MD</orgName></provenance>
@@ -3367,7 +3368,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="McGregor, Tracy W.">Tracy W. McGregor</persName>; <persName key="Wells, Gabriel">Gabriel Wells</persName></provenance>
@@ -3409,7 +3410,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Redmond, D.">D. Redmond</persName></provenance>
@@ -3451,7 +3452,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Miller, Dewitt">Dewitt Miller</persName></provenance>
@@ -3493,7 +3494,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Grumman, William">William Grumman</persName></provenance>
@@ -3535,7 +3536,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Norton, Edwin T.">Edwin T. Norton</persName>; <persName key="Vickery, Willis">Willis Vickery</persName>; <persName key="McGregor, Tracy W.">Tracy W. McGregor</persName>; <persName key="Wells, Gabriel">Gabriel Wells</persName></provenance>
@@ -3577,7 +3578,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Otis, Albert B.">Albert B. Otis</persName>; <persName key="Mitchell, Harry W.">Harry W. Mitchell[?]</persName></provenance>
@@ -3619,7 +3620,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state C</p></bindingDesc>
+ <bindingDesc><p>binding C</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName></provenance>
@@ -3661,7 +3662,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName></provenance>
@@ -3703,7 +3704,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName>; <persName key="Keyser, Charles S.">Charles S. Keyser</persName></provenance>
@@ -3745,7 +3746,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Griswold, Rufus W.">Rufus W. Griswold</persName></provenance>
@@ -3787,7 +3788,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -3829,7 +3830,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -3871,7 +3872,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -3913,7 +3914,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Esher, Lord">Lord Esher</persName>; <persName key="Darby, E. Adeline">E. Adeline Darby</persName>; <persName key="Allen, Gay Wilson">Gay Wilson Allen</persName></provenance>
@@ -3955,7 +3956,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance></provenance>
@@ -3997,7 +3998,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4039,7 +4040,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Fields, James T.">James T. Fields (Corner Book Store, Boston)</persName>; <persName key="Channing, William F.">Dr. William F. Channing</persName>; <persName key="O'Connor, William D.">William D. O'Connor</persName>; <persName key="Calder, Ellen M.">Ellen M. Calder</persName>; <persName key="Perry, Bliss">Bliss Perry</persName></provenance>
@@ -4081,7 +4082,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Howe, W.T.">W.T. Howe</persName></provenance>
@@ -4123,7 +4124,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Young, Owen D.">Owen D. Young</persName></provenance>
@@ -4165,7 +4166,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Berg, Albert A.">Albert A. Berg</persName></provenance>
@@ -4207,7 +4208,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Szladits, Mrs.">Mrs. Szladits</persName></provenance>
@@ -4249,7 +4250,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Maynard, Laurens">Laurens Maynard</persName>; <persName key="Morgan, John Pierpont">J. Pierpont Morgan</persName></provenance>
@@ -4291,7 +4292,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Ray, Gordon Norton">Gordon N. Ray</persName></provenance>
@@ -4333,7 +4334,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Kahn, Alfred M.">Alfred M. Kahn</persName>; <persName key="Hodgson[?]">Hodgson[?]</persName>; <persName key="Lichfield, Edward Hubert">E. Hubert Lichfield</persName>; <persName key="Englehard, Jane">Jane Englehard</persName></provenance>
@@ -4417,7 +4418,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Forster, John">John Forster (1812-1876)</persName></provenance>
@@ -4459,7 +4460,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4501,7 +4502,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4543,7 +4544,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4585,7 +4586,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4627,7 +4628,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Harris, Robert O., Jr.">Robert O. Harris, Jr.</persName></provenance>
@@ -4669,7 +4670,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Thornhurst">Thornhurst</persName></provenance>
@@ -4711,7 +4712,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4753,7 +4754,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4795,7 +4796,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4837,7 +4838,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Mitchell, Dr. Silas Weir">Dr. Silas Weir Mitchell</persName>; <persName key="Brown, A.K.">A.K. Brown</persName>; <persName key="Mitchell, Langdon Elwyn">Langdon Elwyn Mitchell</persName></provenance>
@@ -4879,7 +4880,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -4921,7 +4922,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Honeyman, Robert, IV">Robert Honeyman IV</persName></provenance>
@@ -4963,7 +4964,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5005,7 +5006,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5047,7 +5048,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Yale, Catharine Brooks">Catharine Brooks Yale</persName></provenance>
@@ -5089,7 +5090,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Wilson, Francis">Francis Wilson</persName>; <persName key="Balch, Mary C.">Mary C. Balch</persName>; <persName key="Morrison, Mrs. M.C.">Mrs. M.C. Morrison</persName>; <persName key="Shubert[?], Laurence">Laurence Shubert[?]</persName></provenance>
@@ -5131,7 +5132,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5173,7 +5174,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5215,7 +5216,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Reed, Kendall">Kendall Reed</persName>; <persName key="Doheny, Estelle">Estelle Doheny</persName>; <persName key="Burroughs, John">John Burroughs</persName>; <persName key="Miller, Dewitt">Dewitt Miller</persName>; <persName key="Barrus, Clara">Clara Barrus</persName></provenance>
@@ -5257,7 +5258,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5299,7 +5300,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5341,7 +5342,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="William, J.">J. William</persName>; <persName key="B[?], William">William B</persName></provenance>
@@ -5383,7 +5384,7 @@
       <layout rend="reviews"></layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state A</p></bindingDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
    </physDesc>
    <history>
     <provenance cert="medium"><persName key="Clarke, James F.">James F. Clarke</persName>; <persName key="White, W. A.">W. A. White</persName></provenance>
@@ -5425,7 +5426,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -5467,7 +5468,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Gosse, Edmund Williams">Edmund Williams Gosse</persName>; <persName key="Turner, Justin G.">Justin G. Turner</persName>; <persName key="Taylor, Newton">Newton Taylor</persName></provenance>
@@ -5509,7 +5510,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Vaux, Calvert">Calvert Vaux</persName>; <persName key="Emmett, ?">[?] Emmett</persName></provenance>
@@ -5551,7 +5552,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Behrman, Howard T.">Howard T. Behrman</persName>; <persName key="Fletcher, Frank">Frank Fletcher</persName></provenance>
@@ -5593,7 +5594,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Taylor, Robert H.">Robert H. Taylor</persName></provenance>
@@ -5635,7 +5636,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance cert="medium"><persName key="Boker, Mrs. George">Mrs. George Boker</persName></provenance>
@@ -5761,7 +5762,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Longfellow, Henry Wadsworth">Henry Wadsworth Longfellow</persName></provenance>
@@ -5803,7 +5804,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Gaisford, Thomas">Thomas Gaisford</persName>; <persName key="James, Mrs. Henry">Mrs. Henry James</persName></provenance>
@@ -5845,7 +5846,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Norton, Charles Eliot">Charles Eliot Norton</persName></provenance>
@@ -5887,7 +5888,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><orgName>Newton Hall, Cambridge</orgName>; <persName key="Segur, Anson G.P.">Anson G.P. Segur</persName>; <persName key="Smith, A.C.">A.C. Smith</persName></provenance>
@@ -5929,7 +5930,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Tiffany, W.L.">W.L. Tiffany</persName></provenance>
@@ -5971,7 +5972,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6013,7 +6014,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><orgName>Smithsonian Institution</orgName></provenance>
@@ -6055,7 +6056,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Rogers, Seth">Seth Rogers</persName>; <persName key="Wells, Carolyn">Carolyn Wells</persName></provenance>
@@ -6097,7 +6098,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -6139,7 +6140,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -6181,7 +6182,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Bemis, Frank Brewer">Frank Brewer Bemis</persName></provenance>
@@ -6223,7 +6224,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Field, Eugene">Eugene Field</persName></provenance>
@@ -6265,7 +6266,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Keelunte, William C.">William C. Keelunte</persName>; <persName key="Groves, John Stuart">John Stuart Groves</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6307,7 +6308,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Mosher, Thomas">Thomas Mosher</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6349,7 +6350,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6391,7 +6392,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Cook, Clarence">Clarence Cook</persName>; <persName key="Terry, Ellen">Ellen Terry</persName>; <persName key="Craig, Edward Gordon">Edward Gordon Craig</persName></provenance>
@@ -6433,7 +6434,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state C</p></bindingDesc>
+ <bindingDesc><p>binding C</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -6475,7 +6476,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
@@ -6517,7 +6518,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Schaeffer, Glenn">Glenn Schaeffer</persName></provenance>
@@ -6559,7 +6560,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Bancroft, Samuel, Jr.">Samuel Bancroft, Jr.</persName></provenance>
@@ -6601,7 +6602,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance cert="medium"><persName key="Engel, Solton">Solton Engel</persName>; <persName key="Engel, Julius">Julius Engel</persName>; <persName key="Allin, M.">M. Allin</persName>; <persName key="Conway, Moncure D.">Moncure D. Conway</persName></provenance>
@@ -6643,7 +6644,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Scott, William B.">William B. Scott</persName>; <persName key="Lamont, Corliss">Corliss Lamont</persName></provenance>
@@ -6685,7 +6686,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -6769,7 +6770,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Willard, Xerxes Addison">Xerxes Addison Willard (1820-1882)</persName>; <persName key="Coffin, Edward F.">Edward F. Coffin</persName></provenance>
@@ -6811,7 +6812,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Palgrave, F.T.">F.T. Palgrave</persName>; <persName key="Locker, Frederick">Frederick Locker</persName>; <persName key="Garrett, John">John Garrett</persName>; <persName key="Garrett, Alice">Alice Garrett</persName></provenance>
@@ -6853,7 +6854,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Reese, William S.">William S. Reese</persName>; <persName key="Baker, Edmund G.">Edmund G. Baker</persName>; <persName key="Perry, B.E.">B.E. Perry</persName>; <persName key="Hamilton, Gertrude Perry">Gertrude Perry Hamilton</persName>; <persName key="Hamilton, Baxter Perry">Baxter Perry Hamilton</persName>; <persName key="Hamilton, Ralph Martin">Ralph Martin Hamilton</persName>; <persName key="Horsford, Robert">Robert Horsford</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
@@ -6895,7 +6896,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Montgomery, A.G., Jr.">A.G. Montgomery, Jr</persName>; <persName key="Banks, A.S.">A.S. Banks</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
@@ -6937,7 +6938,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Levy, Richard">Richard Levy</persName></provenance>
@@ -7021,7 +7022,7 @@
  <layout rend="reviews">Inserted gathering at back</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -7063,7 +7064,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Wells, Carolyn">Carolyn Wells</persName>; <persName key="Sinkler, Mrs. Wharton">Mrs. Wharton Sinkler</persName></provenance>
@@ -7105,7 +7106,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Richmond[?], E.B.">E.B. Richmond[?]</persName></provenance>
@@ -7147,7 +7148,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><orgName>The Library Company of Philadelphia</orgName></provenance>
@@ -7189,7 +7190,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Rowse, Sam W.">Sam W. Rowse</persName>; <persName key="Clapp, E.E.">E.E. Clapp</persName>; <persName key="Lehr, Charles">Charles Lehr</persName></provenance>
@@ -7273,7 +7274,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Lovering, Jos S., Jr.">Jos S. Lovering, Jr.</persName></provenance>
@@ -7315,7 +7316,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -7357,7 +7358,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Smith, Thomas D.">Thomas D. Smith</persName>; <persName key="Huntsmith[?], Marie L.">Marie L. Huntsmith[?]</persName></provenance>
@@ -7399,7 +7400,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -7441,7 +7442,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Whitall, W. Van R.">W. Van R. Whitall</persName>; <persName key="Kebler, Leonard">Leonard Kebler</persName></provenance>
@@ -7483,7 +7484,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance cert="low"><persName key="O'Connor, William D.">William D. O'Connor[?]</persName>; <persName key="McKee, Thomas Jefferson">Thomas Jefferson McKee</persName></provenance>
@@ -7525,7 +7526,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Anthony, Henry B.">Henry B. Anthony</persName></provenance>
@@ -7567,7 +7568,7 @@
       <layout rend="reviews">No bound-in insert</layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state A</p></bindingDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
    </physDesc>
    <history>
     <provenance><persName key="O'Reilly, John Boyle">John Boyle O'Reilly</persName>; <persName key="Siegel, Daniel G.">Daniel G. Siegel</persName>; <persName key="[Badger?], [Amy?]">[Amy Badger?]</persName></provenance>
@@ -7609,7 +7610,7 @@
  <layout rend="reviews">Inserted gathering at front</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Maier, Frank">Frank Maier</persName></provenance>
@@ -7651,7 +7652,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Hughes, Rupert">Rupert Hughes</persName></provenance>
@@ -7693,7 +7694,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Rosenberg, C.G.">C.G. Rosenberg</persName>; <persName key="Halsey, Frederic Robert">Frederic Robert Halsey</persName></provenance>
@@ -7735,7 +7736,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Battson, Lucy Smith">Lucy Smith Battson</persName>; <persName key="Battson, Leigh M.">Leigh M. Battson</persName></provenance>
@@ -7777,7 +7778,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Miller, Matthew">Matthew Miller</persName>; <persName key="Brown, M.S.[?]">M.S.[?] Brown</persName>; <persName key="Targ, William">William Targ</persName>; <persName key="Targ, Roslyn">Roslyn Targ</persName></provenance>
@@ -7819,7 +7820,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Clark, Huguette">Huguette Clark</persName></provenance>
@@ -7861,7 +7862,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Brown, Mrs.">Mrs. Brown</persName></provenance>
@@ -7903,7 +7904,7 @@
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -7945,7 +7946,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance><persName key="Bucher, Thomas">Thomas Bucher</persName></provenance>
@@ -7987,7 +7988,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -8029,7 +8030,7 @@
   <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
   <provenance><persName key="Shoji, Sensui">Sensui Shoji</persName>; <persName key="Price, Kenneth M.">Kenneth M. Price</persName>; <persName key="Poole, Caroline Boeing">Caroline Boeing Poole</persName></provenance>
@@ -8071,7 +8072,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -8113,7 +8114,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state A</p></bindingDesc>
+ <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -8155,7 +8156,7 @@
  <layout rend="reviews"></layout> 
  </layoutDesc>
  </objectDesc>
- <bindingDesc><p>state B</p></bindingDesc>
+ <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
  <provenance></provenance>
@@ -8239,7 +8240,7 @@
       <layout rend="reviews">Inserted gathering at front</layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state B</p></bindingDesc>
+    <bindingDesc><p>binding B</p></bindingDesc>
    </physDesc>
    <history>
     <provenance></provenance>
@@ -8323,7 +8324,7 @@
       <layout rend="reviews"></layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state A</p></bindingDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
    </physDesc>
    <history>
     <provenance><persName key="Lion, Oscar">Oscar Lion</persName>; <persName key="Boni, Robert">Robert Boni</persName></provenance>
@@ -8365,7 +8366,7 @@
       <layout rend="reviews"></layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state A</p></bindingDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
    </physDesc>
    <history>
     <provenance><persName key="Lilly, Josiah Kirby">Josiah Kirby Lilly (1893&#8211;1966)</persName>; <persName key="Thorndike, Albert">Albert Thorndike</persName></provenance>
@@ -8407,7 +8408,7 @@
       <layout rend="reviews"></layout> 
      </layoutDesc>
     </objectDesc>
-    <bindingDesc><p>state B</p></bindingDesc>
+    <bindingDesc><p>binding B</p></bindingDesc>
    </physDesc>
    <history>
     <provenance></provenance>
