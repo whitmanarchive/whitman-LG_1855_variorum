@@ -9,11 +9,10 @@
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
-                    <resp>Transcription and encoding</resp>
+                    <resp>file creation</resp>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
-                <sponsor>Center for Digital Research in the Humanities, University of
-                    Nebraska-Lincoln</sponsor>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
                 <funder>National Endowment for the Humanities</funder>
             </titleStmt>
@@ -33,7 +32,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>The text encoding and content of this document was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of these materials should credit the <title level="m">Walt Whitman Archive</title>.</p>
+                    <p>The text encoding and content of this document were created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of these materials should credit the <title level="m">Walt Whitman Archive</title>.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -41,6 +40,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2020-06-03" who="#bb">added content and encoded</change>
             <change when="2020-06-02" who="#nhg">created file</change>
         </revisionDesc>
     </teiHeader>
@@ -49,11 +49,20 @@
             
             <div1 type="section" xml:id="deskcopy">
                 <head type="sub">Whitman's Desk Copy</head>
-                <p>The New York Public Library has Whitman's desk copy of the 1855 <hi rend="italic">Leaves of Grass</hi>, into which he pasted manuscripts and other documents.</p>
+
+                <p>Whitman's own copy of the 1855 <hi rend="italic">Leaves of Grass</hi>, into which he inserted a series of prose manuscripts, is now part of the Oscar Lion Collection at New York Public Library. One of four copies of the first edition in the Lion Collection, it is currently off-limits to researchers. Because of this, one must piece together information from the library's online catalog and from secondhand sources, including the work of Clifton Joseph Furness and Edward F. Grier, two earlier editors who had direct access to this unique copy and published editions of the manuscripts contained in it. The <ref target="https://catalog.nypl.org/record=b14291333~S1">catalog entry</ref> (in which Whitman's copy is labelled simply "Copy 4") notes that the volume has "original pink paper covers" and contains "8 booklets of manuscripts, 52 leaves in all."<note xml:id="n1" type="authorial" resp="#bb">Grier counts eleven manuscripts, and Furness counts “seven separate notebooks” (117). Among the possible reasons for the discrepancies among these accounts are that 1) some of the items that Grier treats as separate consist of just one leaf and are apparently attached to other manuscript leaves rather than to printed pages; 2) although many of the gatherings are bound with ribbon or string, at least one is made up of papers of various sizes and pinned together (see Grier 1484); and 3) Furness seems, in several cases, to have taken license in his representations of layout and disposition (see, e.g., Grier 1447, 1475).</note> Images of the front cover and most (though apparently not all) of the manuscript pages are available in the library’s digital collections, <ref target="https://digitalcollections.nypl.org/collections/oscar-lion-collection#/?tab=navigation&amp;roots=23:1c1cf2e0-c5d9-012f-8920-58d385a7bc34">here</ref>.</p>
+
+<p>On the cover, below the title, Whitman has written, "2'd &amp; fullest version of original Edition / 1855–'56 / (the 1st edition consisted of the Poems alone—some months afterwards the extracts &amp;c. prefacing the text, as here, were added—making this edition)." Another note, in the hand of Horace Traubel, is written above the title. What is known about the history of Whitman's copy of the 1855 edition of <hi rend="italic">Leaves of Grass</hi> comes from this note, from a brief mention in Traubel's <hi rend="italic">With Walt Whitman in Camden</hi>, and from a May 12, 1928, letter from Anne Montgomerie Traubel to Oscar Lion. According to the entry for February 15, 1889, in <hi rend="italic">With Walt Whitman in Camden</hi>, Whitman told Horace Traubel that he had kept "only one copy" of the first edition, that he didn’t at the time know where it was, and that he intended for Traubel "to have it when it reappear[ed]" (151). According to Anne Traubel, Whitman never did find the book; it was discovered only "several years after Whitman’s death," during the division of papers among his literary executors (Furness 118-119).</p> 
+
+<p>The manuscripts in Whitman's copy of the 1855 <hi rend="italic">Leaves of Grass</hi> vary in apparent completeness, as well as in tone and implied audience. All of them, however, are written in prose and can be fairly described as providing some sort of introduction to <hi rend="italic">Leaves of Grass</hi>. A few dates appear in the manuscripts, and these, along with other clues, suggested to Grier a range of dates during the 1860s. None of the manuscripts were published in Whitman's lifetime, though they share similarities with some of the poet's published statements, especially the introduction to <hi rend="italic">As a Strong Bird on Pinions Free</hi> (1872).<note xml:id="n2" type="authorial" resp="#bb">Furness classifies the manuscripts into "three principal clusters of material, one for an 'Introduction' . . . for <hi rend="italic">Leaves of Grass</hi>; another for an 'Inscription to the Reader at the Entrance of Leaves of Grass'; and a final record of Whitman’s own appraisal of his work, together with proposals for its continuance and extension" (120). He also speculates at some length upon Whitman's reasons for leaving them unpublished (see 121–126).</note></p>  
+
+<p>Unfortunately, both Furness and Grier focus almost exclusively on the manuscript material; neither provides much information about the printed book into which it is fastened. This silence&#8212;along with the lack of page images or other information in the New York Public Library catalog&#8212;leaves many basic questions about Whitman's copy of the first edition unanswerable at present.
+</p>
+
                 <p><figure>
-                    <graphic url=""/>
+                    <graphic url="anc.02143_fig01.jpg"/>
                     <head>Figure.</head> 
-                    <figDesc>New York Public Library</figDesc>
+                    <figDesc>Image of the paper front cover of Whitman's personal copy of the first edition of <hi rend="italic">Leaves of Grass</hi>, as presented in the Digital Collection of New York Public Library.</figDesc>
                 </figure></p>
             </div1>
             <div1 type="bibliography">
@@ -61,40 +70,12 @@
                 <head type="main-authorial">Bibliography</head>
                 
                 <listBibl>
-                    
-                    <bibl>Conrad, Eric. "The Walt Whitman Brand: <hi rend="italic">Leaves of Grass</hi> and Literary Promotion, 1855&#8211;1892.” 
-                        Ph.D. Dissertation, University of Iowa, 2013.
-                    </bibl> 
-                    <bibl>Folsom, Ed. "Appearing in Print: Illustrations of the Self in <hi
-                        rend="italic">Leaves of Grass</hi>," <hi rend="italic">The 
-                            Cambridge Companion to Walt Whitman</hi>, edited by Ezra Greenspan (Cambridge: Cambridge University Press, 1995), 135&#8211;165.
-                    </bibl>
-                    <bibl>Folsom, Ed. <hi rend="italic">Whitman Making Books / Books Making Whitman</hi>. Iowa City: Obermann Center for 
-                        Advanced Studies, 2005.
-                    </bibl>
-                   
-                    <bibl>Greenspan, Ezra. <hi rend="italic">Walt Whitman and the American Reader</hi>. New York: Cambridge 
-                        University Press, 1990.
-                    </bibl>
-                    <bibl>Grossman, Jay. "Manuprint." <hi rend="italic">Walt Whitman Quarterly Review</hi>, 37.1 (2019), 46&#8211;65.</bibl>
-                    <bibl>Miller, Matt. <hi rend="italic">Collage of Myself: Walt Whitman and the Making of Leaves of Grass</hi> (Lincoln:
-                    University of Nebraksa Press, 2010).</bibl>
-                    <bibl>Morton, Heather. "Democracy, Self-Reviews and the 1855 <hi
-                        rend="italic">Leaves of Grass</hi>." <hi rend="italic">Virginia 
-                            Quarterly Review</hi> (Spring 2005): 229&#8211;243. 
-                    </bibl>
-                    <bibl>Myerson, Joel. <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), 12&#8211;22.</bibl>
-                    <bibl>O’Driscoll, Michael J. "Whitman in the Archive: <hi rend="italic">Leaves
-                        of Grass</hi> and the Culture of the 
-                        Book." <hi rend="italic">English Studies in Canada</hi> 25(1999): 295&#8211;323.
-                    </bibl>
-                    <bibl>Reynolds, David S. <hi rend="italic">Walt Whitman’s America</hi>. New York: Vintage Books, 1995.</bibl>
-                    <bibl>Stallybrass, Peter. "Walt Whitman's Slips: Manufacturing Manuscript." <hi rend="italic">Walt Whitman Quarterly Review</hi>, 37.1 (2019), 66&#8211;106.</bibl>
-                    <bibl>Traubel, Horace. <hi rend="italic">With Walt Whitman in Camden</hi>. Various publishers, 1906&#8211;1996.</bibl>
-                    <bibl>White, William. "More About the 'Publication' of the First <hi rend="italic">Leaves of Grass</hi>." <hi rend="italic">American Literature</hi> 28.4 (1957): 516&#8211;17.</bibl>
-                        <bibl>- - -. "The First (1855) 'Leaves of Grass': How Many Copies?" <hi rend="italic">Papers of the Bibliographical Society of America</hi> 57.3 (1963): 352&#8211;4.</bibl>
-                    <bibl>Winship, Michael. "Walt Whitman." <hi rend="italic">Bibliography of American Literature</hi>, Vol. 9 (New Haven: Yale University Press, 1991), 31&#8211;2.</bibl>
 
+                    <bibl>Grier, Edward F. "Introductions to <hi rend="italic">Leaves of Grass,</hi>" <hi rend="italic">Notebooks and Unpublished Prose Manuscripts</hi> (New York: New York University Press, 1984), 4:1445&#8211;1490.</bibl>
+
+                    <bibl>Furness, Clifton Joseph. "Introductions Intended or American Editions of 'Leaves of Grass,'" <hi rend="italic">Walt Whitman's Workshop</hi> (Cambridge, MA: Harvard University Press, 1928), 115&#8211;137.</bibl>
+                    
+                    <bibl>Traubel, Horace. <hi rend="italic">With Walt Whitman in Camden</hi>. Vol. 4, <hi rend="italic">January 21 to April 7, 1889.</hi> Edited by Sculley Bradley. Philadelphia: University of Pennsylvania Press, 1953.</bibl>
                     
                 </listBibl>
             </div1>
