@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0010b.json",
   "@type": "sc:Manifest",
-  "label": "State B binding",
+  "label": "Binding B",
   "description": [
     {
-      "@value": "State B binding (bd_0010b)",
+      "@value": "Binding B (bd_0010b)",
       "@language": "en"
     }
   ],
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0010b.json",
           "@type": "sc:Canvas",
-          "label": "State B binding",
+          "label": "Binding B",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00026.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

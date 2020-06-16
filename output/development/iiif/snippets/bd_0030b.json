@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0030b.json",
   "@type": "sc:Manifest",
-  "label": "Buff free endpaper (State B binding)",
+  "label": "Buff free endpaper (Binding B)",
   "description": [
     {
-      "@value": "Buff free endpaper (State B binding) (bd_0030b)",
+      "@value": "Buff free endpaper (Binding B) (bd_0030b)",
       "@language": "en"
     }
   ],
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0030b.json",
           "@type": "sc:Canvas",
-          "label": "Buff free endpaper (State B binding)",
+          "label": "Buff free endpaper (Binding B)",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00030.jpg/full/!150,150/0/default.jpg",
           "images": [
             {

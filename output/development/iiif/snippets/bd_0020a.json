@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0020a.json",
   "@type": "sc:Manifest",
-  "label": "Marbled endpaper (State A binding)",
+  "label": "Marbled endpaper (Binding A)",
   "description": [
     {
-      "@value": "Marbled endpaper (State A binding) (bd_0020a)",
+      "@value": "Marbled endpaper (Binding A) (bd_0020a)",
       "@language": "en"
     }
   ],
@@ -20,7 +20,7 @@
         {
           "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0020a.json",
           "@type": "sc:Canvas",
-          "label": "Marbled endpaper (State A binding)",
+          "label": "Marbled endpaper (Binding A)",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.002.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
