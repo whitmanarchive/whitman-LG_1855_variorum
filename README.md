@@ -4,6 +4,7 @@
 - [Setup](#setup)
   - [Configuration](#configuration)
 - [Variorum Generation and Updates](#variorum-generation-and-updates)
+  - [Development vs Production](#development-vs-production)
   - [Works](#works)
   - [IIIF Manifests](#iiif-manifests)
   - [HTML](#html)
