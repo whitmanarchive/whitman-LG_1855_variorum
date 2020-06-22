@@ -90,7 +90,6 @@
               select="substring-after(substring-after(@target, '#'), '#')"/>
             <xsl:variable name="nbPath" select="concat($nbPathRoot, $fileID)"/>
             <xsl:variable name="msPath" select="concat($msPathRoot, $fileID)"/>
-            <xsl:variable name="msFile" select="document($msPath)"/>
             <xsl:variable name="margPath" select="concat($margPathRoot, $fileID)"/>
             <xsl:variable name="cert" select="@cert"/>
             <xsl:variable name="precedingTargets">
@@ -190,6 +189,7 @@
                     </xsl:choose>
                   </xsl:when>
                   <xsl:otherwise>
+                    <xsl:variable name="msFile" select="document($msPath)"/>
                     <xsl:variable name="parentEl" select="$msFile//*[child::*[@xml:id = $msID]]"/>
                     <xsl:variable name="grandparentEl" select="$msFile//*[child::*[child::*[@xml:id=$msID]]]"/>
                     <xsl:choose>
