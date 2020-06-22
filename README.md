@@ -91,7 +91,7 @@ Regardless of the server, the process will be:
 4. Make your changes to the scripts or source files
 5. `bundle exec post -x html,iiif -e [environment]`
 6. Check that things are working on the website
-7. `git add output/[environment]`
+7. If you changed scripts or TEI, `git add [files]`. Always `git add output/[environment]` to track your updates to generated files
 8. `git commit -m "[message"]
 9. `git push origin [branchname]`
 
