@@ -1,17 +1,17 @@
 GIT
   remote: https://github.com/CDRH/datura.git
-  revision: 5c8fc03b0656bfd7bfef7d03a6a317e75eadc212
-  tag: v0.1.5
+  revision: e3dbc4f3f1460932a4823b7ce8a8cceff4e3e093
+  tag: v0.1.6
   specs:
-    datura (0.1.5)
+    datura (0.1.6)
       colorize (~> 0.8.1)
       nokogiri (~> 1.8)
       rest-client (~> 2.0.2)
 
 GIT
   remote: https://github.com/sul-dlss/osullivan.git
-  revision: 01c8044526f59bc8c9e138fbe935d10c43282803
-  branch: development
+  revision: 1f3c9fd96d34fc67405bd412f6470bef8ca3a455
+  ref: 1f3c9fd96d34fc67405bd412f6470bef8ca3a455
   specs:
     iiif-presentation (0.2.0)
       activesupport (>= 3.2.18)
@@ -21,12 +21,12 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.2.2)
+    activesupport (6.0.3.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-      zeitwerk (~> 2.2)
+      zeitwerk (~> 2.2, >= 2.2.2)
     colorize (0.8.1)
     concurrent-ruby (1.1.6)
     domain_name (0.5.20190701)
@@ -35,14 +35,14 @@ GEM
       multipart-post (>= 1.2, < 3)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.8.2)
+    i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     json (2.3.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
+    mime-types-data (3.2020.0512)
     mini_portile2 (2.4.0)
-    minitest (5.14.0)
+    minitest (5.14.1)
     multipart-post (2.1.1)
     netrc (0.11.0)
     nokogiri (1.10.9)
