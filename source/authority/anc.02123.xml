@@ -733,7 +733,7 @@
  <msDesc>
  <msIdentifier>
 <repository key="KyU">University of Kentucky Special Collections, University of Kentucky</repository>
-<idno>Rare Books  PS3201 1855</idno>
+<idno>Rare Books PS3201 1855</idno>
  </msIdentifier>
  <msContents>
  <msItem> 
@@ -788,7 +788,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Copy rebound in half leather with gold tooled decoration; inscription on recto of front flyleaf, "S.R. Duren, Jr."; copy bequeathed to library by Charles F. Sixsmith of Adlington and accessioned March 1954.</p>
+<p>Copy rebound in half leather with gold tooled decoration. Inscription on recto of front flyleaf: "S.R. Duren, Jr." Copy bequeathed to library by Charles F. Sixsmith of Adlington and accessioned March 1954.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -817,7 +817,7 @@
  <msDesc>
  <msIdentifier>
 <repository key="MnU">Special Collections and Rare Books, Wilson Library, University of Minnesota</repository>
-<idno></idno>
+  <idno>Rare Books Quarto 81W59 OL</idno>
  </msIdentifier>
  <msContents>
  <msItem> 
@@ -830,7 +830,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Provenance: Walt Whitman [?]; Arthur Stedman; Frank T. Sabin; O.A. Anderson; Thomas Moore. Please see form for details on provenance (espcially with regard to W.W. as former owner), note on front flyleaf, and letter. Additional information on paper cover and archival box also on form and attached e-mails.</p>
+<p>Tipped-in note traces provenance from Whitman to Arthur Stedman, editor of his autobiography, to London bookseller Frank T. Sabin, to O. A. Anderson of Minneapolis. Gift of A. J. Russell. Accompanied by correspondence and clippings regarding the first edition of <hi rend="italic">Leaves of Grass</hi>.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -872,7 +872,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Signature on title page "Furness" has some features common to signature of Horace Howard Furness, Sr. (1833-1912). (See National Cyclopedia of American Biography, VIII, facing p. 397.)</p>
+<p>Signature on title page "Furness" has some features common to signature of Horace Howard Furness, Sr. (1833&#8211;1912). (See <hi rend="italic">National Cyclopedia of American Biography</hi>, VIII, facing p. 397.)</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -893,7 +893,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance cert="medium"><persName key="Furness, Horace Howard, Sr.">Horace Howard Furness, Sr. (1833-1912)</persName></provenance>
+ <provenance cert="medium"><persName key="Furness, Horace Howard, Sr.">Horace Howard Furness, Sr.</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -956,7 +956,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Embossed frame on frontispiece is noted as plate-mark; Fowlers, Wells &amp; Co., label mounted at upper left of front paste-down (Orson Fowler graduated from Amherst in 1834).</p>
+<p>Embossed frame on frontispiece is noted as plate-mark. Fowlers, Wells &amp; Co., label mounted at upper left of front paste-down (Orson Fowler graduated from Amherst in 1834).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1040,7 +1040,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>No title stamped on spine, endpapers not original; Space between "p" and ";" following "grip" on page 32. Stamped "Ipswich Public Library, Ipswich, Massachusetts"; "Wells Bindery, Waltham, Mass. August 1942" stamped on back free endpaper; Dealer notes.</p>
+<p>No title stamped on spine, endpapers not original. Stamped "Ipswich Public Library, Ipswich, Massachusetts"; "Wells Bindery, Waltham, Mass. August 1942" stamped on back free endpaper. Dealer notes.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1145,7 +1145,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Johnston, John">Dr. John Johnston (d. 1918)</persName></provenance>
+ <provenance><persName key="Johnston, John">Dr. John Johnston</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1166,7 +1166,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Purchased by Bowling Green State University Libraries on February 11, 1955 for $350.00 from Seven Gables. Tissue paper covering frontispiece; volume housed in green two-part slipcase; volume had conservation treatment in 2004.</p>
+<p>Purchased by Bowling Green State University Libraries on February 11, 1955 for $350.00 from Seven Gables. Tissue paper covering frontispiece. Volume housed in green two-part slipcase. Volume had conservation treatment in 2004.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1187,7 +1187,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance>Purchased by Bowling Green State University Libraries on February 11, 1955 for $350.00 from <orgName>Seven Gables</orgName>.</provenance>
+ <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1250,7 +1250,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>No embossed frame, but plate mark can be felt. Front marbled endpaper has 4 abraded areas. Two bookplates of Charles J. Rosenbloom. Book ticket of Fowlers, Wells &amp; Co. Purchased from book dealer Charles Sessler in Philadelphia, date and price not known.</p>
+<p>No embossed frame, but plate mark can be felt. Front marbled endpaper has four abraded areas. Two bookplates of Charles J. Rosenbloom. Book ticket of Fowlers, Wells &amp; Co. Purchased from book dealer Charles Sessler in Philadelphia, date and price not known.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1292,7 +1292,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p></p>
+  <p>First page of the reviews insert is missing.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1460,7 +1460,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Autograph: Bayard Taylor, July, 1855; Bookplate of H. Bradley Martin</p>
+<p>Autograph: Bayard Taylor, July, 1855. Bookplate of H. Bradley Martin.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1502,7 +1502,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inside front cover, "Bot about Spe 5-1915"; top page first flyleaf, "F.S. Ryman Sept 21 1915"; bookplate: "This book is presented from the library of Thomas Y. Cooper in affectionate memory of his parents M. Cooper, N.D. &amp; Kare Miller Cooper."</p>
+<p>Inside front cover: "Bot about Spe 5-1915". Top page first flyleaf: "F.S. Ryman Sept 21 1915". Bookplate: "This book is presented from the library of Thomas Y. Cooper in affectionate memory of his parents M. Cooper, N.D. &amp; Kare Miller Cooper."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1544,7 +1544,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Copy signed on title page, "Walt Whitman Sept: 1889"; Dumbarton Oaks Library also holds a separate copy, printed on blue paper of broadside letter.</p>
+<p>Copy signed on title page, "Walt Whitman Sept: 1889". Dumbarton Oaks Library also holds a separate copy, printed on blue paper of broadside letter.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1607,7 +1607,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Browne, E.L.">E.L. Browne</persName></provenance>
+  <provenance><persName key="Browne, E. L.">E. L. Browne</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1691,7 +1691,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance cert="medium"><persName key="Swinton, William">William Swinton</persName>; <persName key="Bailey, M.">M. Bailey</persName>; <persName key="Weadlock, Helena">Helena Weadlock</persName>; <persName key="Weadlock, John">John Weadlock</persName></provenance>
+  <provenance><persName key="Swinton, William">William Swinton</persName>; <persName key="Bailey, M.">M. Bailey</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1712,7 +1712,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscribed "Walter Starbuck 1867"; Inscribed to Mrs Francis D. Laney by Mrs J. W. Dast [? or Dart], 31 May 1919.</p>
+<p>Inscribed "Walter Starbuck 1867". Inscribed to Mrs Francis D. Laney by Mrs J. W. Dast [? or Dart], 31 May 1919.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1733,7 +1733,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Starbuck, Walter">Walter Starbuck</persName>; <persName key="Laney, Mrs. Francis D.">Mrs. Francis D. Laney</persName>; <persName key="Dast[?], Mrs. J. W.">Mrs. J. W. Dast [? or Dart]</persName></provenance>
+  <provenance><persName key="Starbuck, Walter">Walter Starbuck</persName>; <persName key="Laney, Mrs. Francis D.">Mrs. Francis D. Laney</persName>; <persName key="Dast[?], Mrs. J. W.">Mrs. J. W. Dast [? or Dart]</persName>; <persName key="Myerson, Joel">Joel Myerson</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1796,7 +1796,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Holograph inscription on fourth front flyleaf "F.B. Sanborn / Nov 9th 1855 / This book Mr Emerson received from the author, and I from Mr Emerson."</p>
+  <p>Holograph inscription on fourth front flyleaf: "F.B. Sanborn / Nov 9th 1855 / This book Mr Emerson received from the author, and I from Mr Emerson." On the third front flyleaf printed review "From the Brooklyn Daily Times" tipped in with holograph note by F. B. Sanborn [i.e. Franklin Benjamin Sanborn], "Written by him self I doubt not".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1817,7 +1817,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Sanborn, F.B.">F.B. Sanborn</persName>; <persName key="Emerson, Ralph Waldo">Ralph Waldo Emerson</persName></provenance>
+  <provenance><persName key="Sanborn, Franklin Benjamin">F. B. Sanborn</persName>; <persName key="Emerson, Ralph Waldo">Ralph Waldo Emerson</persName></provenance>
  </history>
  </msDesc>
  </witness>
