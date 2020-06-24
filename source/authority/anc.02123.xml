@@ -410,7 +410,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Dealer's note in pencil: "The rare + important 3rd issue Fly lacking"; Owner's signature in brown ink, "B. Blood."</p>
+<p>Dealer's note in pencil: "The rare + important 3rd issue Fly lacking". Owner's signature in brown ink, "B. Blood."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -641,7 +641,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Aldis, Graham">Graham Aldis</persName>; <persName key="Bradley, Richard">Richard Bradley</persName></provenance>
+ <provenance cert="medium"><persName key="Aldis, Graham">Graham Aldis</persName>; <persName key="Bradley, Richard">Richard Bradley</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -851,7 +851,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Whitman, Walt">Walt Whitman</persName>; <persName key="Stedman, Arthur">Arthur Stedman</persName>; <persName key="Sabin, Frank T.">Frank T. Sabin</persName>; <persName key="Anderson, O.A.">O.A. Anderson</persName>; <persName key="Moore, Thomas">Thomas Moore</persName></provenance>
+ <provenance><persName key="Whitman, Walt">Walt Whitman</persName>; <persName key="Stedman, Arthur">Arthur Stedman</persName>; <persName key="Sabin, Frank T.">Frank T. Sabin</persName>; <persName key="Anderson, O. A.">O. A. Anderson</persName>; <persName key="Russell, A. J.">A. J. Russell</persName>; <persName key="Moore, Thomas">Thomas Moore</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -893,7 +893,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance cert="medium"><persName key="Furness, Horace Howard, Sr.">Horace Howard Furness, Sr.</persName></provenance>
+ <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1481,7 +1481,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Taylor, Bayard">Bayard Taylor</persName>; <persName key="Martin, H. Bradley">H. Bradley Martin</persName></provenance>
+  <provenance cert="medium"><persName key="Taylor, Bayard">Bayard Taylor</persName>; <persName key="Martin, H. Bradley">H. Bradley Martin</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1523,7 +1523,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Cooper, Thomas Y.">Thomas Y. Cooper</persName>; <persName key="Ryman, F.S.">F.S. Ryman</persName></provenance>
+  <provenance cert="medium"><persName key="Cooper, Thomas Y.">Thomas Y. Cooper</persName>; <persName key="Ryman, F. S.">F. S. Ryman</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1607,7 +1607,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Browne, E. L.">E. L. Browne</persName></provenance>
+  <provenance cert="medium"><persName key="Browne, E. L.">E. L. Browne</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1691,7 +1691,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Swinton, William">William Swinton</persName>; <persName key="Bailey, M.">M. Bailey</persName></provenance>
+  <provenance><persName key="Swinton, William">William Swinton</persName>; <persName key="Bailey, M.">M. Bailey</persName>; <persName key="Weadlock, Helena">Helena Weadlock</persName>; <persName key="Weadlock, John">John Weadlock</persName>; <persName key="Chilton, T. Marie">T. Marie Chilton</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -1880,7 +1880,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Some marking in pencil throughout. Note written on p. [iii]: "11/23/54 Bernard Quaritch Ltd. $703.01 Oscar T. Smith fund." Notes written on flyleaf: "Richard Inwards / 6 Croftdown Rd / London N.W.6." and "&#163;250." Inserted autographed note by Whitman: "<hi rend="underline">Walt Whitman</hi> visiting New York City after an absence of over four years&#8212;guest now of Mr &amp; Mrs J H Johnston at 113 East 10th street, March 15th 1877&#8212;". In another hand, on the back of this note, is written: "Oh! how my conscience pricks, its really wasting me to nothing but bones. / Your fellow companion in Algebra / Marion D. Beach, / Dover, / N.J. / March 4th 1880.</p>
+  <p>Some marking in pencil throughout. Note written on p. [iii]: "11/23/54 Bernard Quaritch Ltd. $703.01 Oscar T. Smith fund." Notes written on flyleaf: "Richard Inwards / 6 Croftdown Rd / London N.W.6." and "&#163;250." Inserted autographed note by Whitman: "<hi rend="underline">Walt Whitman</hi> visiting New York City after an absence of over four years&#8212;guest now of Mr &amp; Mrs J H Johnston at 113 East 10th street, March 15th 1877&#8212;". In another hand, on the back of this note, is written: "Oh! how my conscience pricks, its really wasting me to nothing but bones. / Your fellow companion in Algebra / Marion D. Beach, / Dover, / N.J. / March 4th 1880".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -1964,7 +1964,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Copy in poor condition with missing spine and loose front and back boards and showing insect damage. Newspaper clipping with transcription of R. W. Emerson letter pasted onto copyright page. Dealer notes on front endpapers. Bookplate Clare Booth Luce.</p>
+  <p>Copy in poor condition with missing spine and loose front and back boards and showing insect damage. Copyright page has pasted-in newspaper column stating, "the following opinion, from a distinguished source, views the matter from a more positive and less critical stand-point[sic]" with R. W. Emerson letter following. Dealer notes on front endpapers. Bookplate Clare Booth Luce.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2048,7 +2048,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Rebacked volume with new label and edges dyed red. Includes printed slip with transcription of R. W. Emerson letter (21 July, 1855) and reviews. Bookplate Julian K. Sprague.</p>
+<p>Rebacked volume with new label and edges dyed red. Printed slip with R. W. Emerson letter (21 July, 1855) pasted on page 1 of insert. Bookplate Julian K. Sprague.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2216,7 +2216,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate "Richard G. Coker"; UNC Library bookplate: "Presented by Richard Gay Coker U.N.C. Class of 1921". Owner signature on first front flyleaf (recto): "Edward Gay. / 1858(?)". Original page length prose manuscript tipped in on heavy sheet of paper beginning with: "Coming to discuss the questions of Literature of a country". Spine has been reinforced and new cloth added.</p>
+<p>Bookplate: "Richard G. Coker". UNC Library bookplate: "Presented by Richard Gay Coker U.N.C. Class of 1921". Owner signature on first front flyleaf (recto): "Edward Gay. / 1858(?)". Original page length prose manuscript tipped in on heavy sheet of paper beginning with: "Coming to discuss the questions of Literature of a country". Spine has been reinforced and new cloth added.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2237,7 +2237,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Coker, Richard Gay">Richard Gay Coker</persName><persName key="Gay, Edward">Edward Gay</persName></provenance>
+  <provenance><persName key="Coker, Richard Gay">Richard Gay Coker</persName>; <persName key="Gay, Edward">Edward Gay</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2258,7 +2258,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate, "F.A. Hilliard"; UNC Library bookplate: "Presented by the William A. Whitaker Foundation". Owner signature on first front flyleaf (recto): "F.A. Hilliard". Insertion that looks like proof spine printing from later edition(?): "Leaves of Grass 1855 Whitman". Pencilled copies of selected lines and corresponding pages on back flyleaf.</p>
+<p>Bookplate: "F.A. Hilliard". UNC Library bookplate: "Presented by the William A. Whitaker Foundation". Owner signature on first front flyleaf (recto): "F.A. Hilliard". Insertion that looks like proof spine printing from later edition(?): "Leaves of Grass 1855 Whitman". Penciled copies of selected lines and corresponding pages on back flyleaf.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2279,7 +2279,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Hilliard, F.A.">F.A. Hilliard</persName></provenance>
+  <provenance><persName key="Hilliard, F. A.">F. A. Hilliard</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2300,7 +2300,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Embossed frame on frontispiece is noted as very faint; Bookplate George W. Davison.</p>
+<p>Embossed frame on frontispiece is noted as very faint. Bookplate George W. Davison.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2384,7 +2384,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Page 32 "p" incomplete and no ";". Ex Libris T.E. Hanley; ex libris Herschel V. Jones; ex libris Ida O. Folsom.</p>
+<p>Page 32 "p" incomplete and no ";". Ex Libris T. E. Hanley; ex libris Herschel V. Jones; ex libris Ida O. Folsom.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2405,7 +2405,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="Jones, Herschel V.">Herschel V. Jones</persName>; <persName key="Folsom, Ida O.">Ida O. Folsom</persName></provenance>
+  <provenance><persName key="Hanley, T. E.">T. E. Hanley</persName>; <persName key="Jones, Herschel V.">Herschel V. Jones</persName>; <persName key="Folsom, Ida O.">Ida O. Folsom</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2426,7 +2426,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Ex libris DeGolyer. Pencilled note about provenance on p. iii. Penciled correction of "Off" on p. 84.</p>
+  <p>Ex libris DeGolyer. Penciled note about provenance on p. iii. Penciled correction of "Off" on p. 84.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2468,7 +2468,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscribed: "Walt Whitman August 3 1884". Ex libris T.E. Hanley; ex libris Robert J. Hamershlag.</p>
+<p>Inscribed: "Walt Whitman August 3 1884". Ex libris T. E. Hanley; ex libris Robert J. Hamershlag.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2489,7 +2489,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="Hamershlag, Robert J.">Robert J. Hamershlag</persName></provenance>
+  <provenance><persName key="Hanley, T. E.">T. E. Hanley</persName>; <persName key="Hamershlag, Robert J.">Robert J. Hamershlag</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2510,7 +2510,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>With supplied printed dust jacket. Inscribed: "H.C.S."; ex libris T.E. Hanley. Pencilled correction next to "abode" on p. 23.</p>
+<p>With supplied printed dust jacket. Inscribed: "H.C.S." Ex libris T. E. Hanley. Penciled correction next to "abode" on p. 23.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2531,7 +2531,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="S., H.C.">H.C.S.</persName>; <persName key="Hanley, T.E.">T.E. Hanley</persName></provenance>
+  <provenance><persName key="S., H. C.">H. C. S.</persName>; <persName key="Hanley, T. E.">T. E. Hanley</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2580,7 +2580,7 @@
   <witness xml:id="UTA_06">
  <msDesc>
  <msIdentifier>
-  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Autsin</repository>
+  <repository key="TxU">Harry Ransom Humanities Research Center, The University of Texas at Austin</repository>
 <idno>PS 3201 1855 c. 6</idno>
  </msIdentifier>
  <msContents>
@@ -2594,7 +2594,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Ex libris DeGoyler; ex libris Oliver Belmont; newspaper clippings tipped-in at front and back of vol. Pencilled note about provenance p. iii, single marking of poetry stanza p. 93 ("Great is liberty..."). Pencilled note next to "abode" on p. 23.</p>
+  <p>Ex libris DeGoyler; ex libris Oliver Belmont. Newspaper clippings tipped in at front and back of vol. Penciled note about provenance p. iii, single marking of poetry stanza p. 93 ("Great is liberty..."). Penciled note next to "abode" on p. 23.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2636,7 +2636,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Author's ALS presentation to [Charles F. Blanch], June 4, 1869, on letterhead of the Attorney General's Office, Washington (tipped-in). Ex libris T.E. Hanley; ex libris Elisha Whipple McGuire. Handwritten contents list with pages from both 1855 and 1867 editions, other clippings included in vol. Light pencilled annotations on p. xii and throughout. Titles pencilled in, then erased, before some poems. Titles match those of inserted handwritten contents table (different from WW's eventual titles).</p>
+  <p>Author's ALS presentation to [Charles F. Blanch], June 4, 1869, on letterhead of the Attorney General's Office, Washington (tipped-in). Ex libris T. E. Hanley; ex libris Elisha Whipple McGuire. Handwritten contents list with pages from both 1855 and 1867 editions, other clippings included in vol. Light penciled annotations on p. xii and throughout. Titles penciled in, then erased, before some poems. Titles match those of inserted handwritten contents table (different from WW's eventual titles).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2657,7 +2657,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Blanch, Charles F.">Charles F. Blanch</persName>; <persName key="Hanley, T.E.">T.E. Hanley</persName>; <persName key="McGuire, Elisha Whipple">Elisha Whipple McGuire</persName></provenance>
+  <provenance><persName key="Blanch, Charles F.">Charles F. Blanch</persName>; <persName key="Hanley, T. E.">T. E. Hanley</persName>; <persName key="McGuire, Elisha Whipple">Elisha Whipple McGuire</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -2720,7 +2720,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>On inner cover in pencil and title page in ink: "Ellwood Harvey Philadelphia 1855". Pencilled marginalia throughout. Pencilled under engraving: "Walt Whitman born May 31".</p>
+<p>On inner cover in pencil and title page in ink: "Ellwood Harvey Philadelphia 1855". Penciled marginalia throughout. Penciled under engraving: "Walt Whitman born May 31".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2888,7 +2888,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Newspaper clipping with transcription of R. W. Emerson letter pasted in on verso of front free endpaper. Alongside is a pencilled annotation: "See notices Saturday Review &amp; Examiner / London March 1856". November 13, 1856 <hi rend="italic">New-York Daily Times</hi> review laid in.</p>
+  <p>Newspaper clipping with transcription of R. W. Emerson letter pasted in on verso of front free endpaper. Alongside is a penciled annotation: "See notices Saturday Review &amp; Examiner / London March 1856". November 13, 1856 <hi rend="italic">New-York Daily Times</hi> review laid in.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -2930,7 +2930,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Rebound, original bound in state A. Page 32 "p" incomplete and ";" not present. Extra-illustrated with two portraits bound-in front, back. Bookplate and ex libris stamps of William Inglis Morse. Magazine clipping affixed to verso of front free endpaper with annotation and autograph of William Inglis Morse. Binder's stamp: J. MacDonald, binder, N.Y.</p>
+  <p>Rebound, original in binding A. Page 32 "p" incomplete and ";" not present. Extra-illustrated with two portraits bound in front, back. Bookplate and ex libris stamps of William Inglis Morse. Magazine clipping affixed to verso of front free endpaper with annotation and autograph of William Inglis Morse. Binder's stamp: J. MacDonald, binder, N.Y.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3035,7 +3035,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Van Sinderen, Jean White">Jean White Van Sinderen</persName>; <persName key="Van Sinderen, Adrian">Adrian Van Sinderen</persName></provenance>
+  <provenance><persName key="Van Sinderen, Jean White">Jean White Van Sinderen</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3098,7 +3098,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Cream-colored endpapers. Inscription "A.[?] Odell"; Bookplate Ex Libris Edwin B. Holden.</p>
+  <p>Cream-colored endpapers. Inscription "A.[?] Odell". Bookplate Ex Libris Edwin B. Holden.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3203,7 +3203,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance cert="medium"><persName key="Dowd, J.">J. Dowd</persName></provenance>
+  <provenance><persName key="Dowd, J.">J. Dowd</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3266,7 +3266,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscriptions (3) on front free endpaper (see photocopy difficult to decipher names). Bookplate "Gift from Alice &amp; Rollo Silver". Label "Fowlers, Wells &amp; Co, Phrenologists and Publishers".</p>
+<p>Inscriptions (3) on front free endpaper. Bookplate "Gift from Alice &amp; Rollo Silver". Label "Fowlers, Wells &amp; Co, Phrenologists and Publishers".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3308,7 +3308,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Embossing on frontispiece is slight only on hinge side; Bookplate: "Library of / St. Charles College / Cantonsville, MD. / [blank] / Class 811 / Book W59".</p>
+<p>Embossing on frontispiece is slight only on hinge side. Bookplate: "Library of / St. Charles College / Cantonsville, MD. / [blank] / Class 811 / Book W59".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3329,7 +3329,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><orgName>Library of St. Charles College, Cantonsville, MD</orgName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3350,7 +3350,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Frontispiece noted as exhibiting large crotch. Bookplate Tracy W. McGregor. Pencilled markings on back of p. 95 and back flyleaf: "gabriel Wells. Dec. 10, 1985 gog-ix | Terry Sale" and "Fine copy of the rare first Edition, first issue".</p>
+<p>Bookplate Tracy W. McGregor. Penciled markings on back of p. 95 and back flyleaf: "gabriel Wells. Dec. 10, 1985 gog-ix | Terry Sale" and "Fine copy of the rare first Edition, first issue".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3392,7 +3392,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Engraving is noted as exhibiting large crotch and light embossing; Inscribed "D. Redmond" p. iii; Back flyleaves have pasted-in clipped article, "Walt. Whitman / Death of the American Swinburne - / His Writings.", with marginal comment inscribed "Whitman is not yet dead - / This was all a mistake". (See "Lively Corpse" article). Marginal markings pp. 13, 14, 25, 57, 65, 69, 70, 77, 82, 85, 87, 89, 90, 92, 93.</p>
+<p>Inscribed "D. Redmond" p. iii. Back flyleaves have pasted-in clipped article, "Walt. Whitman. / Death of the American Swinburne - / His Writings." with marginal comment inscribed "Whitman is not yet dead - / This was all a mistake". (See "Lively Corpse" article). Various marginal markings.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3413,7 +3413,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Redmond, D.">D. Redmond</persName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3434,7 +3434,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Frontispiece noted as exhibiting large crotch; tipped-in letter from Harlan re. Whitman's 1865 firing; Inscription "Dewitt Miller / Forest Glen / Maryland". Tissue paper covering frontispiece is full-size.</p>
+  <p>Tipped-in letter from Harlan re. Whitman's 1865 firing. Inscription: "Dewitt Miller / Forest Glen / Maryland". Tissue paper covering frontispiece is full-size. Pasted in at back: article "Aid for Walt Whitman" re: West Jersey Press affair; article about WW at Poe monument dedication; auction notice of Whitman's editions.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3476,7 +3476,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Written in volume, "Presented to me by the / Author / Lyons Farms NJ June 1857 / Wm Grumman".</p>
+<p>Written in volume: "Presented to me by the / Author / Lyons Farms NJ June 1857 / Wm Grumman".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3518,7 +3518,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Engraving is noted as exhibiting large crotch. Inscribed "Edwin T. Norton / Greenbush N.York / March 25. 1865". Bookplate Willis Vickery; Bookplate Tracy W. McGregor. Marginalia p. 34 in Norton's hand. Handwritten table of contents also in Norton's hand, titles based on 1856, pasted down; tucked behind it is a folded piece of paper with ToC of "State Library Copy" of the 1856, in Norton's hand. In back endpaper, note "Gabriel Wells, March 1933. wtg". Page 56 2nd "me" in "Failing to fetch me" is scratched out.</p>
+<p>Inscribed "Edwin T. Norton / Greenbush N.York / March 25. 1865". Bookplate Willis Vickery. Bookplate Tracy W. McGregor. Marginalia p. 34. Handwritten table of contents in Norton's hand, titles based on 1856, pasted down; tucked behind it is a folded piece of paper with ToC of "State Library Copy" of the 1856, in Norton's hand. In back endpaper, note "Gabriel Wells, March 1933. wtg". Page 56 2nd "me" in "Failing to fetch me" is scratched out.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3560,7 +3560,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Engraving is noted as exhibiting large crotch. Inscribed: "Albert B. Otis / The Gift of Harry W. Mitchell[?]." and "First Edition / very rare." Fern leaf inserted after front endpapers; fragments of fern leaf between 40-41, 42-43, 58-59, 92-93 [perhaps also a pine needle or a seed?]; three fern fragments inserted at 86-87.</p>
+<p>Inscribed: "Albert B. Otis / The Gift of Harry W. Mitchell[?]." and "First Edition / very rare." Fern leaf inserted after front endpapers; fragments of fern leaf between 40&#8211;41, 42&#8211;43, 58&#8211;59, 92&#8211;93 [perhaps also a pine needle or a seed?]; three fern fragments inserted at 86&#8211;87.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3602,7 +3602,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>In boards, with green wrapper pasted on. Engraving is noted as exhibiting small crotch. Conservator Sue Donovan notes that the frontispiece is a "chine colle" print, with a much heavier platemark than observed in the other Virginia copies.</p>
+<p>In boards, with green wrapper pasted on. Conservator Sue Donovan notes that the frontispiece is a "chine colle" print, with a much heavier platemark than observed in the other Virginia copies.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3623,7 +3623,7 @@
  <bindingDesc><p>binding C</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3644,7 +3644,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate Clifton Waller Barrett. Pencilled note on front flyleaf "1st edition | third issue".</p>
+<p>Bookplate Clifton Waller Barrett. Penciled note on front flyleaf "1st edition | third issue".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3686,7 +3686,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>The embossing on the frontispiece is noted as light. Inscription: "Charles S. Keyser 524 Walnut St." Signed "Walt Whitman Feb: 12 1882". Marginalia throughout. Pasted on p. 19, newspaper article titled "Bathing in River Stopped Running of Mr. Ball's Mill". Includes printed slip with transcription of R. W. Emerson letter.</p>
+  <p>The embossing on the frontispiece is noted as light. Inscription: "Charles S. Keyser 524 Walnut St." Signed "Walt Whitman Feb: 12 1882". Marginalia throughout. Pasted on p. 19, newspaper article titled "Bathing in River Stopped Running of Mr. Ball's Mill." Includes printed slip with transcription of R. W. Emerson letter. Reviews proof including <hi rend="italic">Putnam's Monthly</hi> extract beginning "From Putnam's Monthly..." laid in at front. Pasted-in newspaper article "This is what Oscar Wilde told a Cincinnati Reporter..." about meeting Whitman in Camden.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3707,7 +3707,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Barrett, Clifton Waller">Clifton Waller Barrett</persName>; <persName key="Keyser, Charles S.">Charles S. Keyser</persName></provenance>
+  <provenance><persName key="Keyser, Charles S.">Charles S. Keyser</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -3812,7 +3812,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Bright red marbled endpapers, not original. Printed segment "The Objects of the Fellowship" inserted between pp. 83 and 83 (from <hi rend="italic">Walt Whitman Fellowship Papers</hi>, 8 [October 1894]).</p>
+  <p>Bright red marbled endpapers, not original. Printed segment "The Objects of the Fellowship" tipped in next to page 83 (from <hi rend="italic">Walt Whitman Fellowship Papers</hi>, 8 [October 1894]).</p>
   <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3854,7 +3854,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Trent Collection, with label pasted to front endpaper. Cambridge University Pitt Club stamps on front endpaper and copyright page. Bound without first 4 pages of preface (pp. [iii]-vi). A index card laid into the volume has the following typescript note: "A freak copy of the second issue of the first edition, lacking the first six pages of preface. A matter for speculation how this same about&#8212;possibly a binding freak. / The letter mentioning O'Connor happened to come with it, but is not necessarily of it."</p>
+<p>Trent Collection, with label pasted to front endpaper. Cambridge University Pitt Club stamps on front endpaper and copyright page. Bound without first 4 pages of preface (pp. [iii]-vi). An index card laid into the volume has the following typescript note: "A freak copy of the second issue of the first edition, lacking the first six pages of preface. A matter for speculation how this came about&#8212;possibly a binding freak. / The letter mentioning O'Connor happened to come with it, but is not necessarily of it."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -3896,7 +3896,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>London label affixed to title page. From Lord Esher's library, with bookplate. Owner signature: "E. Adeline Darby". Pencilled markings throughout. A typewritten note laid into the volume reads: "This is one of the few copies that was sent to England soon after it was printed (note the dealer's slip parted in). This copy was in Lord Esher's famous library until his death, several years ago. It was then sent back to New York for sale and purchased by Professor Gay W. Allen."</p>
+  <p>London label affixed to title page. From Lord Esher's library, with bookplate. Owner signature: "E. Adeline Darby". Penciled markings throughout. A typewritten note laid into the volume reads: "This is one of the few copies that was sent to England soon after it was printed (note the dealer's slip parted in). This copy was in Lord Esher's famous library until his death, several years ago. It was then sent back to New York for sale and purchased by Professor Gay W. Allen."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4022,7 +4022,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Some pencilled markings throughout. Note pasted to front endpaper reads: "This copy of Leaves of Grass was purchased by Dr. William F. Channing of Mr. James T. Fields, at the "Corner Book Store," (Washington and Schools Sts.) Boston,&#8212;upon the recommendation of Mr. Emerson. It became the property of William D. O'Connor and was his till the time of his death. I hearby give it to Mr. Bliss Perry, with my kindest regards&#8212;Ellen M. Calder. June 24, 1906." Ted Genoways comments on this copy: "In reading some material related to WD O'Connor, I came across something to add to the entry on the William F. Channing copy of the 1855 in Berg. In a manuscript memoir at the LC (and published in Florence Bernstein Freedman's WILLIAM DOUGLAS O'CONNOR), Mary Jane (Jeannie) Tarr Channing (wife of William F.) writes: I was spending the summer of 1855 with my friend Mrs. Paulina W. Davis. A letter from a Boston friend said, "I met Mr. Emerson the other day and almost his first words were 'Have you read the new poet?' I did not know of any new poet. He told me a man by the name of Whitman had sent him a most wonderful book. 'Get it at once and read it' he said; 'it is a revelation.' He was so enthusiastic in their praise and [illegible] that I have got a copy; I think you and Mrs. Davis will be interested in it." We were interested in trying to discover what had so profoundly impressed Mr. Emerson, but did not greatly care for it ourselves. This was the very copy of Walt Whitman's poems that Mr. William D. O'Connor first saw and read. So I went looking to try to figure out why Channing was living with Davis. It turns out that Channing had gone to Providence to help Davis plan the Sixth National Woman's Rights Convention. Presumably WF Channing bought the book at the Old Corner Bookstore at her request and sent it to Providence. The copy likely would have been given to O'Connor and Ellen M. Tarr (Channing's sister&#8212;Nelly O'Connor) on September 19 or 20 when both were in Boston from Philadelphia for the convention. Emerson delivered the closing remarks, and several other people we can confirm later read the book were also there. Notably, Martha Coffin Wright in 1856 writes to her husband that Davis's husband, Edward Morris Davis, thought the book was "full of new &amp; beautiful thought." I think it's also worth mentioning that the convention in 1854 began on June 9&#8212;the day that Anthony Burns was arrested. This was why Higginson and the rest were all in Boston to participate in the assault on the courthouse where Burns was held. I just wonder if having the convention one year dissolve into an anti-slavery riot doesn't increase the chances that everyone the next year is discussing a new book that includes a poem condemning the Anthony Burns arrest. And the chances grow significantly when you consider that Emerson is on hand. Paulina Davis doesn't like LG, but her husband Morris does. Jeannie Tarr Channing doesn't like the book, but her sister does. And so on."</p>
+<p>Some penciled markings throughout. Note pasted to front endpaper reads: "This copy of Leaves of Grass was purchased by Dr. William F. Channing of Mr. James T. Fields, at the 'Corner Book Store,' (Washington and Schools Sts.) Boston,&#8212;upon the recommendation of Mr. Emerson. It became the property of William D. O'Connor and was his till the time of his death. I hearby give it to Mr. Bliss Perry, with my kindest regards&#8212;Ellen M. Calder. June 24, 1906." Ted Genoways comments on this copy: "In reading some material related to WD O'Connor, I came across something to add to the entry on the William F. Channing copy of the 1855 in Berg. In a manuscript memoir at the LC (and published in Florence Bernstein Freedman's WILLIAM DOUGLAS O'CONNOR), Mary Jane (Jeannie) Tarr Channing (wife of William F.) writes: "I was spending the summer of 1855 with my friend Mrs. Paulina W. Davis. A letter from a Boston friend said, 'I met Mr. Emerson the other day and almost his first words were "Have you read the new poet?" I did not know of any new poet. He told me a man by the name of Whitman had sent him a most wonderful book. "Get it at once and read it" he said; "it is a revelation." He was so enthusiastic in their praise and [illegible] that I have got a copy; I think you and Mrs. Davis will be interested in it.' We were interested in trying to discover what had so profoundly impressed Mr. Emerson, but did not greatly care for it ourselves. This was the very copy of Walt Whitman's poems that Mr. William D. O'Connor first saw and read." So I went looking to try to figure out why Channing was living with Davis. It turns out that Channing had gone to Providence to help Davis plan the Sixth National Woman's Rights Convention. Presumably WF Channing bought the book at the Old Corner Bookstore at her request and sent it to Providence. The copy likely would have been given to O'Connor and Ellen M. Tarr (Channing's sister&#8212;Nelly O'Connor) on September 19 or 20 when both were in Boston from Philadelphia for the convention. Emerson delivered the closing remarks, and several other people we can confirm later read the book were also there. Notably, Martha Coffin Wright in 1856 writes to her husband that Davis's husband, Edward Morris Davis, thought the book was "full of new &amp; beautiful thought." I think it's also worth mentioning that the convention in 1854 began on June 9&#8212;the day that Anthony Burns was arrested. This was why Higginson and the rest were all in Boston to participate in the assault on the courthouse where Burns was held. I just wonder if having the convention one year dissolve into an anti-slavery riot doesn't increase the chances that everyone the next year is discussing a new book that includes a poem condemning the Anthony Burns arrest. And the chances grow significantly when you consider that Emerson is on hand. Paulina Davis doesn't like LG, but her husband Morris does. Jeannie Tarr Channing doesn't like the book, but her sister does. And so on."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4043,7 +4043,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Fields, James T.">James T. Fields (Corner Book Store, Boston)</persName>; <persName key="Channing, William F.">Dr. William F. Channing</persName>; <persName key="O'Connor, William D.">William D. O'Connor</persName>; <persName key="Calder, Ellen M.">Ellen M. Calder</persName>; <persName key="Perry, Bliss">Bliss Perry</persName></provenance>
+  <provenance><persName key="Channing, William F.">Dr. William F. Channing</persName>; <persName key="O'Connor, William D.">William D. O'Connor</persName>; <persName key="Calder, Ellen M.">Ellen M. Calder</persName>; <persName key="Perry, Bliss">Bliss Perry</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4064,7 +4064,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Some pencilled markings throughout. Ex libris W. T. H. Howe. Newspaper clipping with Whitman's "A Riddle Song" tipped in on frontispiece recto. Tipped in on page 27 is newspaper clipping about "The King's Daughter," "a little story by a girl of eight, printed by her loving father, George Coolidge, of Boston."</p>
+  <p>Some penciled markings throughout. Ex libris W. T. H. Howe. Newspaper clipping with Whitman's "A Riddle Song" tipped in on frontispiece recto. Tipped in on page 27 is newspaper clipping about "The King's Daughter," "a little story by a girl of eight, printed by her loving father, George Coolidge, of Boston."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4085,7 +4085,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Howe, W.T.">W.T. Howe</persName></provenance>
+  <provenance><persName key="Howe, W. T. H.">W. T. H. Howe</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4190,7 +4190,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Some pencilled notations at front of volume. London label affixed to title page. Description of copy on Seven Gables Bookshop letterhead includes the note "Copy for Mrs. Szladits." Reviews proofs and printed R. W. Emerson letter removed and cataloged separately.</p>
+  <p>Some penciled notations at front of volume. London label affixed to title page. Description of copy on Seven Gables Bookshop letterhead includes the note "Copy for Mrs. Szladits." Reviews proofs and printed R. W. Emerson letter removed and cataloged separately.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4211,7 +4211,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Szladits, Mrs.">Mrs. Szladits</persName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4253,7 +4253,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Maynard, Laurens">Laurens Maynard</persName>; <persName key="Morgan, John Pierpont">J. Pierpont Morgan</persName></provenance>
+  <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Maynard, Laurens">Laurens Maynard</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4379,7 +4379,7 @@
  <bindingDesc><p>rebound</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Irwin, Theodore">Theodore Irwin</persName>; <persName key="Morgan, John Pierpont">J. Pierpont Morgan</persName></provenance>
+ <provenance><persName key="Irwin, Theodore">Theodore Irwin</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4400,7 +4400,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>London label affixed to title page. Printed slip with R. W. Emerson letter pasted in on recto of upper marbled flyleaf. Provenance: John Forster (1812&#8211;1876). Forster's marginalia throughout.</p>
+  <p>London label affixed to title page. Printed slip with R. W. Emerson letter pasted in on recto of upper marbled flyleaf. John Forster (1812&#8211;1876), previous owner; Forster's marginalia throughout.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4421,7 +4421,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Forster, John">John Forster (1812-1876)</persName></provenance>
+ <provenance><persName key="Forster, John">John Forster</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4526,7 +4526,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Marginalia on pg. 95.</p>
+<p>Marginalia on page 95.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4610,7 +4610,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Galley proofs of three reviews pasted in at front. Printed slip with transcription of R. W. Emerson letter pasted inside front cover on right side of marbled endpaper.</p>
+  <p>Galley proofs of three reviews (<hi rend="italic">Putnam's Monthly</hi>, <hi rend="italic">The United States Review</hi>, <hi rend="italic">The American Phrenological Journal</hi>) pasted in at front. Printed slip with transcription of R. W. Emerson letter pasted inside front cover on right side of marbled endpaper.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4652,7 +4652,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate "Ex Libris Thornhurst"</p>
+<p>Bookplate "Ex Libris Thornhurst".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4820,7 +4820,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Newspaper clipping "A Death Sonnet for Custer" pasted to front endpaper. Autograph letter from H.K. Brown to Dr. S. Weir Mitchell dated June 5, 1878 tipped in. Tribune clipping with transcription of R. W. Emerson letter pasted onto front flyleaf and dated Oct 10 1855[?] in Whitman's hand. Frontispiece recto inscriptions: bookseller's notes; in pencil, "Yogee&#8212;e"; in pen, "Dr. Weir S. Mitchell compliments of A. K. Brown"; in pen (probably Mitchell's hand), "Given to my son Langdon March 1887".</p>
+<p>Newspaper clipping, "A Death Sonnet for Custer," pasted to front endpaper. Autograph letter from H. K. Brown to Dr. S. Weir Mitchell dated June 5, 1878 tipped in. <hi rend="italic">Tribune</hi> clipping with transcription of R. W. Emerson letter pasted onto front free endpaper and dated Oct 10 1855[?] in Whitman's hand. Frontispiece recto inscriptions: bookseller's notes; in pencil, "Yogee&#8212;e"; in pen, "Dr. Weir S. Mitchell compliments of H. K. Brown"; in pen (probably Mitchell's hand), "Given to my son Langdon March 1887".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4841,7 +4841,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Mitchell, Dr. Silas Weir">Dr. Silas Weir Mitchell</persName>; <persName key="Brown, A.K.">A.K. Brown</persName>; <persName key="Mitchell, Langdon Elwyn">Langdon Elwyn Mitchell</persName></provenance>
+  <provenance><persName key="Mitchell, Dr. Silas Weir">Dr. Silas Weir Mitchell</persName>; <persName key="Brown, H. K.">H. K. Brown</persName>; <persName key="Mitchell, Langdon Elwyn">Langdon Elwyn Mitchell</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -4904,7 +4904,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Leather Bookplate on front pastedown, "Robert Honeyman IV". Stamp in gutter on p.[iii], "Lehigh 20je60".</p>
+<p>Leather bookplate on front pastedown: "Robert Honeyman IV". Stamp in gutter on p.[iii]: "Lehigh 20je60".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4946,7 +4946,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Back free endpaper pencil transcription of p.53, l 3, "wicked"; bookseller's notes, Robert Honeyman notes; Pen annotation, "Hale N.Y."; Stamp in gutter p. [iii] "Lehigh 20 je 60".</p>
+<p>Back free endpaper pencil transcription of page 53, line 3, "wicked". Bookseller's notes, Robert Honeyman notes. Pen annotation: "Hale N.Y." Stamp in gutter p. [iii]: "Lehigh 20 je 60".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -4988,7 +4988,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookseller's label on front pastedown, "Fowler &amp; Wells"; Pencil notation of free verso, "wam"; Stamp on p. [iii] in gutter, "Lehigh 20 je 60".</p>
+<p>Bookseller's label on front pastedown: "Fowler &amp; Wells". Pencil notation on free verso: "wam". Stamp on p. [iii] in gutter: "Lehigh 20 je 60".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5030,7 +5030,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Page 23, line 20: "abode" for "adobe"; Catharine Brooks Yale [author of Abbie Nott and Other Knots] autograph on recto of plate leaf.</p>
+<p>Catharine Brooks Yale [author of <hi rend="italic">Abbie Nott and Other Knots</hi>] autograph on recto of plate leaf.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5072,7 +5072,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate "Francis Wilson". MS facsimile pasted in of poem "To those who've fail'd". Recto of frontispiece: "Mary C. Balch, Febr 6 1857", "Mrs. M.C. Morrison, no. 5 Bond St.", "Francis Wilson 1893", "Laurence Shubert[?]".</p>
+  <p>Bookplate "Francis Wilson". MS facsimile pasted in of poem "To those who've fail'd." Recto of frontispiece: "Mary C. Balch, Febr 6 1857", "Mrs. M.C. Morrison, no. 5 Bond St.", "Francis Wilson 1893", "Laurence Shubert[?]". Pasted in on free front endpaper a review of three books about Whitman (hand dated May 29 1897), by John Burroughs, Thomas Donaldson, and W. S. Kennedy.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5093,7 +5093,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Wilson, Francis">Francis Wilson</persName>; <persName key="Balch, Mary C.">Mary C. Balch</persName>; <persName key="Morrison, Mrs. M.C.">Mrs. M.C. Morrison</persName>; <persName key="Shubert[?], Laurence">Laurence Shubert[?]</persName></provenance>
+  <provenance><persName key="Wilson, Francis">Francis Wilson</persName>; <persName key="Balch, Mary C.">Mary C. Balch</persName>; <persName key="Morrison, Mrs. M. C.">Mrs. M. C. Morrison</persName>; <persName key="Shubert[?], Laurence">Laurence Shubert[?]</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -5198,7 +5198,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Ex Libris stamp, "Estelle Doheny"; Inscribed, "John Burroughs, for His friend Dewitt Miller The Orchard New Rochelle N. York Sept 1901"; Inscribed, "To Clara Barrus - from her friend &amp; comrade John Burroughs July 4th, 1904".</p>
+<p>Ex Libris stamp: "Estelle Doheny". Inscribed: "John Burroughs, for His friend Dewitt Miller The Orchard New Rochelle N. York Sept 1901". Inscribed: "To Clara Barrus&#8212;from her friend &amp; comrade John Burroughs July 4th, 1904".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5324,7 +5324,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Page iv the "nd" in "and" is smudged. Inscription on free endpaper: "A New Year Present To J. William from WmB 1st of 1st Mon 1857 W.W.N.R.F.".</p>
+<p>Page iv the "nd" in "and" is smudged. Inscription on free endpaper: "A New Year Present To J. William from WmB 1st of 1st Mon 1857 W.W.N.R.F."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5345,7 +5345,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance cert="medium"><persName key="William, J.">J. William</persName>; <persName key="B[?], William">William B</persName></provenance>
+  <provenance><persName key="William, J.">J. William</persName>; <persName key="B[?], Wm">Wm B</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -5366,7 +5366,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p>Ownership signature on verso of frontispiece of [Rev.] Jas. F. Clarke, a Unitarian clergyman; later pencil signature above of W.A. White "abt Dec 85" opposite "Leon $13.50" in pencil. Ticket of Fowlers, Wells, &amp; Co., phrenologists &amp; publishers, Boston, inside front cover. In old green morocco solander case in two parts.</p>
+    <p>Ownership signature on verso of frontispiece of [Rev.] Jas. F. Clarke, a Unitarian clergyman; later pencil signature above of W. A. White "abt Dec 85" opposite "Leon $13.50" in pencil. Ticket of Fowlers, Wells, &amp; Co., phrenologists &amp; publishers, Boston, inside front cover. In old green morocco solander case in two parts.</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
@@ -5387,7 +5387,7 @@
     <bindingDesc><p>binding A</p></bindingDesc>
    </physDesc>
    <history>
-    <provenance cert="medium"><persName key="Clarke, James F.">James F. Clarke</persName>; <persName key="White, W. A.">W. A. White</persName></provenance>
+    <provenance><persName key="Clarke, James F.">James F. Clarke</persName>; <persName key="White, W. A.">W. A. White</persName></provenance>
    </history>
   </msDesc>
  </witness>
@@ -5450,7 +5450,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate of Edmund Williams Gosse on front endpaper; Bookplate of Justin G. Turner on front flyleaf; Gift of Newton Taylor.</p>
+<p>Bookplate of Edmund Williams Gosse on front endpaper. Bookplate of Justin G. Turner on front flyleaf. Gift of Newton Taylor.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5492,7 +5492,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscription: on front flyleaf, "from C. Vaux Nov. 1855" [Calvert Vaux 19th c. landscape architect); on back flyleaf, "Emmett Oct. 1918 rebk". Mis-pagination iv to 24, 27-28, 25-26, 31-32, 29-30, 33-95.</p>
+  <p>Inscription (on verso of frontispiece): "from C. Vaux Nov. 1855" [Calvert Vaux 19th c. landscape architect). Inscription (on back free endpaper): "Emmett Oct. 1918 rebk". Bound incorrectly so pagination runs iv to 24, 27&#8211;28, 25&#8211;26, 31&#8211;32, 29&#8211;30, 33&#8211;95.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5513,7 +5513,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance cert="medium"><persName key="Vaux, Calvert">Calvert Vaux</persName>; <persName key="Emmett, ?">[?] Emmett</persName></provenance>
+  <provenance><persName key="Vaux, Calvert">Calvert Vaux</persName>; <persName key="Emmett, ?">[?] Emmett</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -5534,7 +5534,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Howard T. Berman collection. Bookplate: "Ex Libris Frank Fletcher."</p>
+  <p>Howard T. Behrman collection. Bookplate: "Ex Libris Frank Fletcher."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5618,7 +5618,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Presented by: Mrs. George Boker. Insertions: reprinted photographs of Whitman during the Civil War, Camden house; partial blue wrapper from 1855 edition.</p>
+<p>Presented by Mrs. George Boker. Insertions: reprinted photographs of Whitman during the Civil War, Camden house; partial blue wrapper from 1855 edition.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5660,7 +5660,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Rebound, but original in First State. No frontispiece per se, extra-illustrated copy with five portraits see form for details. Ex libris bookplate, "George Robert White".</p>
+<p>Rebound, but original in binding A. No frontispiece per se, extra-illustrated copy with five portraits. Ex libris bookplate: "George Robert White".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5702,7 +5702,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Rebound originally Second State. Ex libris: "Amy Lowell".</p>
+<p>Rebound, originally binding B. Ex libris: "Amy Lowell".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5828,7 +5828,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Page 32 "p" in "grip" is incomplete. Ex libris signature, dated 1855, "Charles Eliot Norton"; Norton's MS poem, "A Leaf of Grass" and printed version tipped in to volume.</p>
+<p>Page 32 "p" in "grip" is incomplete. Ex libris signature, dated 1855: "Charles Eliot Norton". Norton's MS poem "A Leaf of Grass" and printed version tipped into volume.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5891,7 +5891,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><orgName>Newton Hall, Cambridge</orgName>; <persName key="Segur, Anson G.P.">Anson G.P. Segur</persName>; <persName key="Smith, A.C.">A.C. Smith</persName></provenance>
+  <provenance><persName key="Segur, Anson G. P.">Anson G. P. Segur</persName>; <persName key="Smith, A. C.">A. C. Smith</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -5912,7 +5912,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Houghton Collection. Provenance: W.L. Tiffany, 325 So. Ninth St., Minneapolis, Minn. Typewritten on accompanying note: "This copy of the 1st edition of L. of G. belonged to W.L. Tiffany, 325 So. Ninth St., Minneapolis, Minn. whose name and address is written by W. W. in his COMMONPLACE BOOK - Whitman having sent him a circular on February 2, 1878." Auction list note from James F Drake, Inc. also included: "224. WHITMAN (WALT). Leaves of Grass. Frontispiece portrait on plain paper. 4to, original green cloth, decorated in gold and blind, marbled endpapers, gilt edges, with green watered silk protection cover, in full levant morocco solander case. Brooklyn, N. Y., 1855. $3000.00. First edition. First issue, with the gold borders and gilt edges. Fine copy of this excessively rare book." On page iv, the 'n' and 'd' in the word "and" are imperfect. There are question marks on the form about the exact number of flyleaves. The examiner says, "1? Marbled on both sides." Marginalia on p. vi ("Swedenborg"), p. 34 ("I think I could turn...whole earth" passage marked), pp. 52-3 ("Long enough...keep out of the sun"), pp. 84-5 ("The old face...The justified mother of men!"), p. 95 ("Great is wickedness...death is great as life"). Leaf imprint on p. 81.</p>
+<p>Houghton Collection. Provenance: W. L. Tiffany. Typewritten on accompanying note: "This copy of the 1st edition of L. of G. belonged to W.L. Tiffany, 325 So. Ninth St., Minneapolis, Minn. whose name and address is written by W. W. in his COMMONPLACE BOOK&#8212;Whitman having sent him a circular on February 2, 1878." Auction list note from James F Drake, Inc. also included: "224. WHITMAN (WALT). Leaves of Grass. Frontispiece portrait on plain paper. 4to, original green cloth, decorated in gold and blind, marbled endpapers, gilt edges, with green watered silk protection cover, in full levant morocco solander case. Brooklyn, N. Y., 1855. $3000.00. First edition. First issue, with the gold borders and gilt edges. Fine copy of this excessively rare book." On page iv, the 'n' and 'd' in the word "and" are imperfect. Marginalia on p. vi ("Swedenborg"), p. 34 ("I think I could turn...whole earth" passage marked), pp. 52-3 ("Long enough...keep out of the sun"), pp. 84-5 ("The old face...The justified mother of men!"), p. 95 ("Great is wickedness...death is great as life"). Leaf imprint on p. 81.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -5933,7 +5933,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Tiffany, W.L.">W.L. Tiffany</persName></provenance>
+ <provenance><persName key="Tiffany, W. L.">W. L. Tiffany</persName>; <persName key="Houghton, Carolyn Wells">Carolyn Wells Houghton</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -5996,7 +5996,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Smithsonian Deposit Office sticker on front endpaper; pencilled note "By Walt Whitman" on title page; stamp "Smithsonian Institution 5750" on title page. Blank page 96 stamped at foot 'May 3, 1856'. Crotch is "large." </p>
+<p>Smithsonian Deposit Office sticker on front endpaper. Penciled note "By Walt Whitman" on title page. Stamp "Smithsonian Institution 5750" on title page. Blank page 96 stamped at foot "May 3, 1856."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6017,7 +6017,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><orgName>Smithsonian Institution</orgName></provenance>
+  <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6038,7 +6038,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Houghton Collection. Owner inscription on title page is Seth Rogers. Crotch is "large." Bookplate on marbled front endpaper "Carolyn Wells;" Pencilled notes on back flyleaf: "Bequest of Mrs. Carolyn Wells Houghton | May 8, 1942" and "Whitman, Walt" and "PS3201 1855 copy 2 Rare bk. coll." Marginalia on pp. vii-xi and in poetry. Page x is badly printed (lots of stray ink).</p>
+<p>Houghton Collection. Owner inscription on title page is Seth Rogers. Bookplate on marbled front endpaper "Carolyn Wells;" penciled notes on back flyleaf: "Bequest of Mrs. Carolyn Wells Houghton | May 8, 1942" and "Whitman, Walt" and "PS3201 1855 copy 2 Rare bk. coll." Marginalia on pp. vii&#8211;xi and in poetry.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6059,7 +6059,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Rogers, Seth">Seth Rogers</persName>; <persName key="Wells, Carolyn">Carolyn Wells</persName></provenance>
+  <provenance><persName key="Rogers, Seth">Seth Rogers</persName>; <persName key="Houghton, Carolyn Wells">Carolyn Wells Houghton</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6080,7 +6080,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Houghton Collection. Frontispiece printed on an unknown paper, "much thicker than India sheet, creamier, and slightly textured ... has evenly spaced smudge marks on the left edge of the printed sheet."</p>
+<p>Houghton Collection. Frontispiece printed on an unknown paper, "much thicker than India sheet, creamier, and slightly textured . . . has evenly spaced smudge marks on the left edge of the printed sheet."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6122,7 +6122,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>The crotch appears to be a version between the flat and enhanced crotch. There is considerably more shading to the left of the small bulge, but it is not yet fully enlarged. The bottom of the pants is differently engraved than any known version.</p>
+<p></p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6164,7 +6164,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Feinberg Collection. Frontispiece has "heavy emboss." Bookplate of Frank Brewer Bemis.</p>
+  <p>Feinberg Collection. Bookplate of Frank Brewer Bemis.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6206,7 +6206,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Frontispiece has "light emboss." Bookplate of Eugene Field.</p>
+<p>Feinberg Collection. Bookplate of Eugene Field.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6269,7 +6269,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Keelunte, William C.">William C. Keelunte</persName>; <persName key="Groves, John Stuart">John Stuart Groves</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
+  <provenance><persName key="Keelunte[?], William C.">William C. Keelunte[?]</persName>; <persName key="Groves, John Stuart">John Stuart Groves</persName>; <persName key="Feinberg, Charles E.">Charles E. Feinberg</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6290,7 +6290,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Thomas Mosher's copy, with bookplate. Frontispiece has "light emboss."</p>
+<p>Feinberg Collection. Thomas Mosher's copy, with bookplate.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6332,7 +6332,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. Has bookplate of R.M. Bucke, with annotations, including a correction of 'adobe' for 'abode' on p. 23 ("adobe(?) R. M. B."). Author inscription on title page: "Walt Whitman / Camden New Jersey / Oct: 31 1890."</p>
+<p>Feinberg Collection. Bookplate of R.M. Bucke, with annotations, including a correction of 'adobe' for 'abode' on p. 23 ("adobe(?) R. M. B."). Author inscription on title page: "Walt Whitman / Camden New Jersey / Oct: 31 1890."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6374,7 +6374,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Feinberg Collection. A copy associated with a 19th century actress [photo inlaid] but much later than 1855. Interesting unattributed material pasted into the inside back cover&#8212;hard to decipher but later opinions of Whitman by Emerson, Carlyle, and Tennyson, some inscribed, one pasted clipping. All from much later dates. The following notes are written on the flyleaf: "Clarence Cook. / Newburgh. / June 26, 1857." and "Edward Gordon Craig / from Mother / New York / 1900."</p>
+  <p>Feinberg Collection. A copy associated with a nineteenth-century actress [photo inlaid] but much later than 1855. Interesting unattributed material pasted into the inside back cover. Some inscriptions, one pasted clipping. All from much later dates. The following notes are written on the flyleaf: "Clarence Cook. / Newburgh. / June 26, 1857." and "Edward Gordon Craig / from Mother / New York / 1900."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6395,7 +6395,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Cook, Clarence">Clarence Cook</persName>; <persName key="Terry, Ellen">Ellen Terry</persName>; <persName key="Craig, Edward Gordon">Edward Gordon Craig</persName></provenance>
+  <provenance><persName key="Feinberg, Charles E.">Charles E. Feinberg</persName>; <persName key="Cook, Clarence">Clarence Cook</persName>; <persName key="Craig, Edward Gordon">Edward Gordon Craig</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6500,7 +6500,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Tipped in opposite title-page, between the frontispiece and the tissue, is a printing of a frontispiece on heavy white card stock (6 1/2 by 10 inches) signed in blue pencil by Whitman as follows: "Walt Whitman in 1855". There are no other markings.</p>
+<p>Tipped in opposite title page, between the frontispiece and the tissue, is a printing of a frontispiece on heavy white card stock (6 1/2 by 10 inches) signed in blue pencil by Whitman as follows: "Walt Whitman in 1855". There are no other markings.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6542,7 +6542,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Has an armorial book plate, which contains the provenance. The provenance is written in black letters -- Samuel Bancroft Junr. -- though the "Junr." is hard to decipher. At the bottom in Roman type is "Rockford/ Near Wilmington, Delaware."</p>
+<p>Has an armorial book plate, which contains the provenance. The provenance is written in black letters&#8212;Samuel Bancroft Junr.&#8212;though the "Junr." is hard to decipher. At the bottom in Roman type is "Rockford / Near Wilmington, Delaware."</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6584,7 +6584,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>The flyleaf recto bookleaf reads: "The ENGLE Collection Presented by Solton and Julius Engel Columbia University Libraries". "Walt Whitman" signed in Whitman's hand on the title page (??). On title page: "Mr M Allin [?] Xmas 1904". "Moncure D. Conway copy" according to the Columbia University Library catalog.</p>
+  <p>The flyleaf recto bookleaf reads: "The ENGLE Collection Presented by Solton and Julius Engel Columbia University Libraries". "Walt Whitman" signed in Whitman's hand (??) on the title page. On title page: "Mr M Allin [?] Xmas 1904". "Moncure D. Conway copy" according to the Columbia University Library catalog.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6626,7 +6626,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inside cover: Bookplate of William B. Scott. CUL bookplate: presented by Corliss Lamont. Pasted to flyleaf: recto pasted dealer catalog entry. R. W. Emerson letter clipping/scrap pasted to gray laid paper w/ watermark Crown enclosing Brittania (?). Many passages painted over (?) in white, some of these subsequently restored through erasure. Other marginal notes, e.g. pg. 45 lines 3, 6&#8211;7 painted over and subsequently restored through erasure, p. 47 "piddle" painted over in white, "peddle" added super in ms.</p>
+<p>Inside cover: Bookplate of William B. Scott. CUL bookplate: presented by Corliss Lamont. Pasted to flyleaf: recto pasted dealer catalog entry. R. W. Emerson letter clipping/scrap pasted to gray laid paper with watermark Crown enclosing Brittania (?). Many passages painted over (?) in white, some of these subsequently restored through erasure. Other marginal notes, e.g. pg. 45 lines 3, 6&#8211;7 painted over and subsequently restored through erasure, p. 47 "piddle" painted over in white, "peddle" added super in ms.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6710,7 +6710,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Purchased by the Athen&#230;um from bookseller George Whitney, no. 3 Westminster St, Providence, RI. Invoice dated Oct. 29, 1855, lists purchase of <hi rend="italic">Leaves of Grass</hi> for $1.25. The book has been rebound with dark green morocco spine and corners with green and black marble paper. Has gilt lettering on spine "Leaves of Grass" (no other lettering on binding). Binder's sticker inside back cover reads: "Akerman &amp; Co. / Binders / Providence, R.I." The Athen&#230;um's bindery book gives the date of the binding as Feb. 12, 1881 and the cost as $1.35. The title page has been unevenly cut at the bottom of the page and is about ½ an inch shorter than the rest of the text. Endpapers are yellow. Two fly leaves front and back. Portrait is printed on heavier paper which is whiter than the text. There is an additional copy of the same portrait pasted onto a guard sheet opposite the title page of the text, and which lies on top of the printed portrait page. In the top right hand corner of this portrait is Walt Whitman's signature and the year 1855 in blue ink. Some pencilled markings throughout.</p>
+<p>Purchased by the Athen&#230;um from bookseller George Whitney, no. 3 Westminster St, Providence, RI. Invoice dated Oct. 29, 1855, lists purchase of <hi rend="italic">Leaves of Grass</hi>, $1.25. The book has been rebound with dark green morocco spine and corners with green and black marble paper. Has gilt lettering on spine "Leaves of Grass" (no other lettering on binding). Binder's sticker inside back cover reads: "Akerman &amp; Co. / Binders / Providence, R.I." The Athen&#230;um's bindery book gives the date of the binding as Feb. 12, 1881 and the cost as $1.35. The title page has been unevenly cut at the bottom of the page and is about ½ an inch shorter than the rest of the text. Endpapers are yellow. Two fly leaves front and back. Portrait is printed on heavier paper which is whiter than the text. There is an additional copy of the same portrait pasted onto a guard sheet opposite the title page of the text, and which lies on top of the printed portrait page. In the top right hand corner of this portrait is Walt Whitman's signature and the year 1855 in blue ink. Some penciled markings throughout.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6752,7 +6752,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Pencilled ownership inscription on recto of frontispiece: X.A. Willard Nov 1855. Xerxes Addison Willard (1820-1882) was a resident of Little Falls, N.Y.; the book remained in the possession of Addison's daughter, "Mrs. Bibby," until acquired by the American Antiquarian Society on 30 October 1938 (purchased from the bookseller Edward F. Coffin).</p>
+<p>Penciled ownership inscription on recto of frontispiece: X. A. Willard Nov 1855. Xerxes Addison Willard (1820&#8211;1882), a resident of Little Falls, N.Y.; the book remained in the possession of Addison's daughter, "Mrs. Bibby," until acquired by the American Antiquarian Society on 30 October 1938 (purchased from the bookseller Edward F. Coffin).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6773,7 +6773,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Willard, Xerxes Addison">Xerxes Addison Willard (1820-1882)</persName>; <persName key="Coffin, Edward F.">Edward F. Coffin</persName></provenance>
+  <provenance><persName key="Willard, Xerxes Addison">Xerxes Addison Willard</persName>; <persName key="Coffin, Edward F.">Edward F. Coffin</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6794,7 +6794,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>London label affixed to title page. Inscriptions, etc.: title page: ownership inscription of "F.T. Palgrave/1857"; front pastedown: tipped in address from envelope with red-orange U.S. 2-cent stamp (portrait of Andrew Jackson?): "Frederick Locker / 25 Chesham Street / Belgrave Square / London England / SW"; front pastedown: leather booklabel of John and Alice Garrett (from whom the book came to Johns Hopkins University); front pastedown and front free endpaper: remnants of at least two other tipped-in items, at least one of which was probably a dealer's description. Front free endpaper, verso: inscription: "F.Locker / From F.T. Palgrave / June 1868 / This is the original first / edition, printed by the / hand of the Yankee / [illegible] himself." The illegible word looks like : Tappse or Fuppse or Foppse or something like. Recto of frontispiece: printed label, pasted on: "Locker---Mr. Frederick Locker, 25, Chesham-street, S.W., is a director of the / Hand-in-Hand Insurance Society." Paper: Frequent "vatman's tears" throughout (all very small). A (presumably accidental) watermark at pp. 77&#8211;78; possibly caused by a piece of string or other fiber falling onto the web of the papermaking machine? "Deckle edge" at tail of pp. 19&#8211;20 and 21&#8211;22. Seam mark [from the seam in the belt(?) of the papermaking machine] in pp. 19&#8211;20 and 21&#8211;22, perpendicular to the spine, about halfway down the page. Printing evidence: No obvious "gripper marks": i.e., small indentations usually at the foredge of certain pages, which indicate the use of a particular type of printing press. The sewing threads appear to be fairly visible, so that this might be an easy copy to collate. I did not perform a collation, although one may not be able to assume that all copies would collate the same. I suspect it might be worth knowing whether the sheets were imposed for folding as if in quarto or as if in folio. Reading evidence: A few minimal pencil reader's markings in the margins, mostly lines and one cross or plus symbol; occasional underlining. May not be possible to date; could be twentieth-century. Binding evidence: No obvious sewer's mark [usually occurs in the gutter toward the end of some nineteenth-century books, indicative of counting up piece-work for payment of the person who sewed the gatherings.] Other relevant materials in the collection: The Garrett Library also holds (separately) an envelope containing early prospectus and reviews of <hi rend="italic">Leaves of Grass</hi> which I assume are relevant to the 1855 <hi rend="italic">Leaves</hi>, and may possibly have been removed from the front endleaves of our copy at some point (the tears at the top of the items look like they resulted from someone carelessly removing something that was tipped into a book; I have not attempted to do quasi-facsimile transcription): 1. "[Torn - word missing] States review. / Walt Whitman [torn - word missing] Poems." n.d. First line: "An American bard at last! One of the roughs, large, proud, affectionate,," 81.5 x 13.8 cm. I'm assuming this refers to the 1855 edition. 2. "From the Brooklyn Daily Times/Walt Whitman, A Brooklyn Boy. [Torn: Leaves] of Grass: (a volume of Poems, just publis[hed])" n.d. First line: "T[torn: missing]dgement on real poems, one needs an account of [torn: missing]et himself Very" 18 cm x 11.5 cm 3. "From the American Phrenological Journal." [A]n English and an American Poet" 1855. First line: "It is always reserved for second-rate poems immediately to gratify. A" 60.7 x 12 cm.</p>
+  <p>London label affixed to title page. Inscriptions, etc.: title page: ownership inscription of "F.T. Palgrave / 1857"; front pastedown: tipped in address from envelope with red-orange U.S. 2-cent stamp (portrait of Andrew Jackson?): "Frederick Locker / 25 Chesham Street / Belgrave Square / London England / SW"; front pastedown: leather booklabel of John and Alice Garrett (from whom the book came to Johns Hopkins University); front pastedown and front free endpaper: remnants of at least two other tipped-in items, at least one of which was probably a dealer's description. Front free endpaper, verso: inscription: "F. Locker / From F.T. Palgrave / June 1868 / This is the original first / edition, printed by the / hand of the Yankee / [illegible] himself." The illegible word looks like Tappse or Fuppse or Foppse or something like. Recto of frontispiece: printed label, pasted on: "Locker---Mr. Frederick Locker, 25, Chesham-street, S.W., is a director of the / Hand-in-Hand Insurance Society." Paper: frequent "vatman's tears" throughout (all very small). A (presumably accidental) watermark at pp. 77&#8211;78; possibly caused by a piece of string or other fiber falling onto the web of the papermaking machine? "Deckle edge" at tail of pp. 19&#8211;20 and 21&#8211;22. Seam mark [from the seam in the belt(?) of the papermaking machine] in pp. 19&#8211;20 and 21&#8211;22, perpendicular to the spine, about halfway down the page. Printing evidence: No obvious "gripper marks": i.e., small indentations usually at the foredge of certain pages, which indicate the use of a particular type of printing press. The sewing threads appear to be fairly visible, so that this might be an easy copy to collate. I did not perform a collation, although one may not be able to assume that all copies would collate the same. I suspect it might be worth knowing whether the sheets were imposed for folding as if in quarto or as if in folio. Reading evidence: A few minimal pencil reader's markings in the margins, mostly lines and one cross or plus symbol; occasional underlining. May not be possible to date; could be twentieth-century. Binding evidence: No obvious sewer's mark [usually occurs in the gutter toward the end of some nineteenth-century books, indicative of counting up piece-work for payment of the person who sewed the gatherings.] Other relevant materials in the collection: The Garrett Library also holds (separately) a collection of Walt Whitman items, most if not all of which were originally sent by Whitman to Edward Dowden or otherwise gathered by Dowden, and which then passed through the possession of Revere Osler and/or Sir William Osler: 1. envelope containing address portion of envelopes addressed by Walt Whitman to Edward Dowden, plus an autographed photo of Whitman; 2. envelope containing early prospectus and reviews of <hi rend="italic">Leaves of Grass</hi>: possibly referring to the first edition; 3. bound volume containing Whitman proof sheets, &amp;c. 1871&#8211;87; 4. bound volume containing appearances and references to Whitman in magazines, &amp;c., 1862&#8211;1907; 5. bound volume containing <hi rend="italic">Scottish Art Review</hi> for June 1889 with Rhys's article on the photographic portraits of Whitman; 6. bound volume containing newspaper cuttings and reviews of Whitman, 1866&#8211;1892. The envelope listed as no. 2 above contains three items which I assume are relevant to the 1855 <hi rend="italic">Leaves</hi>, and may possibly have been removed from the front endleaves of our copy at some point (the tears at the top of the items look like they resulted from someone carelessly removing something that was tipped into a book; I have not attempted to do quasi-facsimile transcription): 1. "[Torn - word missing] States review. / Walt Whitman [torn - word missing] Poems." n.d. First line: "An American bard at last! One of the roughs, large, proud, affectionate,," 81.5 x 13.8 cm. 2. "From the Brooklyn Daily Times/Walt Whitman, A Brooklyn Boy. [Torn: Leaves] of Grass: (a volume of Poems, just publis[hed])" n.d. First line: "T[torn: missing]dgement on real poems, one needs an account of [torn: missing]et himself Very" 18 cm x 11.5 cm 3. "From the American Phrenological Journal." [A]n English and an American Poet" 1855. First line: "It is always reserved for second-rate poems immediately to gratify. A" 60.7 x 12 cm.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6815,7 +6815,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Palgrave, F.T.">F.T. Palgrave</persName>; <persName key="Locker, Frederick">Frederick Locker</persName>; <persName key="Garrett, John">John Garrett</persName>; <persName key="Garrett, Alice">Alice Garrett</persName></provenance>
+ <provenance><persName key="Palgrave, F. T.">F. T. Palgrave</persName>; <persName key="Locker, Frederick">Frederick Locker</persName>; <persName key="Garrett, John">John Garrett</persName>; <persName key="Garrett, Alice">Alice Garrett</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6836,7 +6836,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscribed on the recto of the frontispiece: "Edmund G. Baker/Oct. 1855." Laid in is a bill from the Boston booksellers A. Williams &amp; Co. to Mr. B.E. Perry, July 6, 1877, for "Leaves of Grass $5.00." This copy went from Perry to his daughter Gertrude Perry Hamilton to her son Baxter Perry Hamilton, to his son Ralph Martin Hamilton, who sold it in 1985 to Robert Horsford. Later sold by him to James Cummins, then sold to William Reese in 2002.</p>
+<p>Inscribed on the recto of the frontispiece: "Edmund G. Baker / Oct. 1855". Laid in is a bill from the Boston booksellers A. Williams &amp; Co. to Mr. B. E. Perry, July 6, 1877, for "Leaves of Grass $5.00." This copy went from Perry to his daughter Gertrude Perry Hamilton to her son Baxter Perry Hamilton, to his son Ralph Martin Hamilton, who sold it in 1985 to Robert Horsford. Later sold by him to James Cummins, then sold to William Reese in 2002.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6857,7 +6857,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Reese, William S.">William S. Reese</persName>; <persName key="Baker, Edmund G.">Edmund G. Baker</persName>; <persName key="Perry, B.E.">B.E. Perry</persName>; <persName key="Hamilton, Gertrude Perry">Gertrude Perry Hamilton</persName>; <persName key="Hamilton, Baxter Perry">Baxter Perry Hamilton</persName>; <persName key="Hamilton, Ralph Martin">Ralph Martin Hamilton</persName>; <persName key="Horsford, Robert">Robert Horsford</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
+  <provenance><persName key="Reese, William S.">William S. Reese</persName>; <persName key="Baker, Edmund G.">Edmund G. Baker</persName>; <persName key="Perry, B. E.">B. E. Perry</persName>; <persName key="Hamilton, Gertrude Perry">Gertrude Perry Hamilton</persName>; <persName key="Hamilton, Baxter Perry">Baxter Perry Hamilton</persName>; <persName key="Hamilton, Ralph Martin">Ralph Martin Hamilton</persName>; <persName key="Horsford, Robert">Robert Horsford</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6878,7 +6878,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Front pastedown with contemporary pencil gift inscription, 'A.G. Montgomery Jnr from his friend A.S. Banks 23rd 1860' followed by note in same hand 'Original Poem by A.S.B./When this you see' and three further short lines (illegible).</p>
+<p>Front pastedown with contemporary pencil gift inscription: "A.G. Montgomery Jnr from his friend A.S. Banks 23rd 1860" followed by note in same hand "Original Poem by A.S.B. / When this you see" and three further short lines (illegible).</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6899,7 +6899,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Montgomery, A.G., Jr.">A.G. Montgomery, Jr</persName>; <persName key="Banks, A.S.">A.S. Banks</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
+  <provenance><persName key="Montgomery, A. G., Jr.">A. G. Montgomery, Jr</persName>; <persName key="Banks, A. S.">A. S. Banks</persName>; <persName key="Cummins, James">James Cummins</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -6920,7 +6920,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>It was compared to the Trent copy at Duke University in 1987. This copy is the equal of that except for one small tear. I am the only owner outside the family that previously owned it.</p>
+<p>It was compared to the Trent copy at Duke University in 1987. This copy is the equal of that except for one small tear. Richard Levy is the only owner outside the family that previously owned it.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6962,7 +6962,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Rebound, with new endpapers and flyleaves and marbling added to edges. Pasted in on the lower left side of one of the front flyleaves is a newspaper catalog clipping that reads: "a first edition of Walt Whitman's 'Leaves of Grass' for $3,400. This last copy was once owned by P. T. Palgrave, who presented it to Frederick Locker." Handwritten in pencil above this clipping in pencil is "Kern sale." Also, at the top of the page, in the upper right hand corner, written in pencil is the notation: "#3224D" or "#3004D." NOTE: The provenance information provided by this clipping may not pertain to this copy mainly because there is no clear evidence, while another copy with the same provenance is full of such evidence. The Nebraska copy is not inscribed by Palgrave or Locker. There is a bookplate bearing the initials “FT,” from which writing in ink has been scraped off, which could be significant. But the Johns Hopkins copy, which has the same biography as the one given for the Nebraska copy, is full of inscriptions that prove its past ownership. Palgrave inscribed the Hopkins copy upon his purchase of the book in 1857, and then again when he gave it to Locker. The bookplate and address of Frederick Locker are pasted into the Hopkins copy. Palgrave’s bookplate is not pasted into the Hopkins copy, so there is no image for comparison with the Nebraska copy. The lack of markings in the Nebraska copy as well as the presence of a bookplate that is absent in the thoroughly inscribed Hopkins copy, not to mention the mistaking of "P.T." for "F.T.", make the Nebraska copy’s supposed ownership dubious.</p>
+<p>Rebound, with new endpapers and marbling added to edges. Pasted in on the lower left side of one of the front pages is a newspaper catalog clipping that reads: "a first edition of Walt Whitman's 'Leaves of Grass' for $3,400. This last copy was once owned by P. T. Palgrave, who presented it to Frederick Locker." Handwritten in pencil above this clipping is "Kern sale." Also, at the top of the page, in the upper right hand corner, written in pencil is the notation: "#3224D" or "#3004D." NOTE: The provenance information provided by this clipping may not pertain to this copy mainly because there is no clear evidence, while another copy with the same provenance is full of such evidence. The Nebraska copy is not inscribed by Palgrave or Locker. There is a bookplate bearing the initials "FT," from which writing in ink has been scraped off, which could be significant. But the Johns Hopkins copy, which has the same biography as the one given for the Nebraska copy, is full of inscriptions that prove its past ownership. Palgrave inscribed the Hopkins copy upon his purchase of the book in 1857, and then again when he gave it to Locker. The bookplate and address of Frederick Locker are pasted into the Hopkins copy. Palgrave's bookplate is not pasted into the Hopkins copy, so there is no image for comparison with the Nebraska copy. The lack of markings in the Nebraska copy as well as the presence of a bookplate that is absent in the thoroughly inscribed Hopkins copy, not to mention the mistaking of "P.T." for "F.T.", make the Nebraska copy's supposed ownership dubious.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -6983,7 +6983,7 @@
  <bindingDesc><p>rebound</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="T., F.">F.T.</persName></provenance>
+ <provenance><persName key="T., F.">F. T.</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7004,7 +7004,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>This particular copy is rebound in contemporary three-quarter red morocco with marbled boards and endpapers. The front cloth cover is bound-in at rear, which is second state. Flyleaves and back cover gone.</p>
+<p>This particular copy is rebound in contemporary three-quarter red morocco with marbled boards and endpapers. The front cloth cover is bound in at rear, which is second state. Flyleaves and back cover gone.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7046,7 +7046,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Bookplate of Carolyn Wells/Bookplate of The Historical Society of Pennsylvania, with typewritten note: "presented by,/estate of Mrs. Wharton Sinkler/May 31, 1977". This copy is on deposit with the Library Company of Philadelphia and is owned by the Historical Society of Philadelphia, located down the block on Locust Street. Along with the bookplates of Carolyn Wells and the Historical Society of Philadelphia, there is a book dealer's description of the copy, with a handwritten description of the copy's provenance by either the same or a subsequent dealer. Also slipped into the copy is a page torn from <hi rend="italic">Memoranda During the War</hi>, providing concise biographical information on Whitman. Pictures are available on file.</p>
+<p>Bookplate of Carolyn Wells. Bookplate of The Historical Society of Pennsylvania, with typewritten note: "presented by, / estate of Mrs. Wharton Sinkler / May 31, 1977". This copy is on deposit with the Library Company of Philadelphia and is owned by the Historical Society of Philadelphia, located down the block on Locust Street. Along with the bookplates of Carolyn Wells and the Historical Society of Philadelphia, there is a book dealer's description of the copy, with a handwritten description of the copy's provenance by either the same or a subsequent dealer. Also slipped into the copy is a page torn from <hi rend="italic">Memoranda During the War</hi>, providing concise biographical information on Whitman. Pictures are available on file.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7067,7 +7067,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Wells, Carolyn">Carolyn Wells</persName>; <persName key="Sinkler, Mrs. Wharton">Mrs. Wharton Sinkler</persName></provenance>
+ <provenance><persName key="Houghton, Carolyn Wells">Carolyn Wells Houghton</persName>; <persName key="Sinkler, Mrs. Wharton">Mrs. Wharton Sinkler</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7088,7 +7088,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Inscription of owner's name on front flyleaf and also written on random pages throughout the book. Name is illegible--E.B. Richmond?</p>
+<p>Inscription of owner's name on front flyleaf and also written on random pages throughout the book. Name is illegible&#8212;E. B. Richmond?</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7109,7 +7109,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Richmond[?], E.B.">E.B. Richmond[?]</persName></provenance>
+ <provenance><persName key="Richmond[?], E. B.">E. B. Richmond[?]</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7151,7 +7151,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><orgName>The Library Company of Philadelphia</orgName></provenance>
+ <provenance></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7172,7 +7172,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>1. Sticker of Fowler, Wells &amp; Co. 142 Washington St., Boston / 2. In pencil: Sam W. Rowse 5 1/2 Tremont Row Boston, Mass. / 3. E.E. Clapp 24 Winter St. Boston, Mass. / 4. E.E. Clapp to Chas Lehr Philadelphia Jan 24/06</p>
+<p>Sticker of Fowler, Wells &amp; Co. 142 Washington St., Boston. Inscriptions: "Sam W. Rowse 5 1/2 Tremont Row Boston, Mass.", "E.E. Clapp 24 Winter St. Boston, Mass." and "E.E. Clapp to Chas Lehr Philadelphia Jan 24/06".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7193,7 +7193,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Rowse, Sam W.">Sam W. Rowse</persName>; <persName key="Clapp, E.E.">E.E. Clapp</persName>; <persName key="Lehr, Charles">Charles Lehr</persName></provenance>
+ <provenance><persName key="Rowse, Sam W.">Sam W. Rowse</persName>; <persName key="Clapp, E. E.">E. E. Clapp</persName>; <persName key="Lehr, Charles">Charles Lehr</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7340,7 +7340,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Housed in modern blue-green cloth slipcase. Inserts by Whitman and others mounted on endpapers: R. W. Emerson letter, dated in this printed version, "Concord, Mass'tts, 21 July, 1855"; three galley proofs of Whitman's reviews of his own work: "Walt Whitman and his Poems," from the <hi rend="italic">United States Review</hi>; "Walt Whitman, a Brooklyn Boy," from the <hi rend="italic">Brooklyn Daily Times</hi>; and "An English and an American Poet [Tennyson and Whitman]," from the <hi rend="italic">American Phrenological Journal</hi> (Myerson E1178-1180); galley proof of Charles Eliot Norton's review of <hi rend="italic">Leaves of Grass</hi>, from <hi rend="italic">Putnam's Monthly</hi>, for September [1855]; and news clipping, headed "Philadelphia, March 29 [1892]: Walt Whitman dead [or dies?], close of the life work of a good old man"; includes drawing of Whitman seated in a rocking chair. There is a card from the Hay Library pasted on the inside front cover (left, marbled page) which lists the following information about this copy: "First issue of the first edition. Whitman's own desk copy, containing galley proofs of Whitman's reviews of the edition. It also contains an excessively rare leaflet printing of Emerson's letter, with the note: "Copy for the convenience of private reading only". The marble end-papers are one of the points of the first issue." There are several inscriptions in the text. At the top of the first preface page there is an inscription by Walt Whitman which reads: "Tho D. Smith. / Presented by the Author. / Brooklyn N.Y. / 1855." On the title page an inscription in the top right corner has been erased (there is information about this in an enclosed letter&#8212;see below). On the inside flyleaf, on the right side, there is an inscription written in pencil that reads as follows: "Obituary&#8212;Unknown, Nov. 7th / Brooklyn Daily Times / Putnam's Monthly / Am. Phrenological Journal / United States Review / Ralph Waldo Emerson / &amp; several autographs, <hi rend="underline">mysteriously</hi> missing&#8212;from the fly leaves of this Volume&#8212;which was handed to the writer on his departure for the West, in 1855&#8212;This copy being the last of the edition, and from his table, / T. D. Smith. / June 27 / 04". On the opposite flyleaf, a piece of paper with a revised selection from the poems has been pasted. The selection, titled "Animals," does not appear to be in Whitman's hand. It reads as follows: "I think I could turn and live with animals, they are so plain and self contented, / I stand and look at them long and long. / They do not sweat and whine about their condition, / They do not lie awake in the dark and weep for their sins, / They do not make me sick discussing their duty to God, / Not one is dissatisfied, not one is demented with the mania of owning things, / Not one kneels to another nor to his kind that lived a thousand years ago / Not one is respectable or unhappy over the whole earth. / Walt Whitman." Finally, there is a letter pasted into this edition that provides information about its provenance. The letter identifies this copy as Whitman's original desk copy that was given as a gift to Thomas Smith in 1855. A transcription of the handwritten letter is as follows: "279 Liberty St. / November 18th 1931 / Prof. Emory Holloway / My dear Mr. Holloway, / You ask for some history of my "Leaves of Grass" and I find myself rather vague as to my personal knowledge of it, as I inherited it amongst the personal effects of my son,&#8212;and only child&#8212; / My father-in-law, Thomas [illeg.] Smith, a bookman in Brooklyn, in 1855, was an intimate friend of Walt Whitman, and, on the occasion of his paying the Poet a farewell visit before leaving Brooklyn Whitman took the book from his desk and presented it as a parting gift. Note is made of the incident on a front page&#8212;I do not know who wrote the inscription, nor do I know who erased it, but my father-in-law prized the book and told me it would be valuable. Mr. Smith's written comment would indicate that he felt that some one had tampered with it,&#8212;some papers and autographs missing, but he never mentioned it to me. It would seem likely that the newspaper clippings &amp;c. had been pasted in by Whitman as it was his desk copy. I am truly sorry that I cannot give you a more lucid account but it was all before my time. The deaths of both my husband and son have closed the family record, as they were the last of their race. If you wish to send this with the book for inspection, do so. I hope it may prove useful. / Very Sincerely / Marie L. Huntsmith[?]".</p>
+  <p>Housed in modern blue-green cloth slipcase. Inserts by Whitman and others mounted on endpapers: R. W. Emerson letter, dated in this printed version "Concord, Mass'tts, 21 July, 1855"; three galley proofs of Whitman's reviews of his own work: "Walt Whitman and his Poems," from the <hi rend="italic">United States Review</hi>; "Walt Whitman, a Brooklyn Boy," from the <hi rend="italic">Brooklyn Daily Times</hi>; and "An English and an American Poet [Tennyson and Whitman]," from the <hi rend="italic">American Phrenological Journal</hi> (Myerson E1178&#8211;1180); galley proof of Charles Eliot Norton's review of <hi rend="italic">Leaves of Grass</hi>, from <hi rend="italic">Putnam's Monthly</hi>, for September [1855]; and news clipping, headed "Philadelphia, March 29 [1892]: Walt Whitman dead [or dies?], close of the life work of a good old man"; includes drawing of Whitman seated in a rocking chair. There is a card from the Hay Library pasted on the inside front cover (left, marbled page) which lists the following information about this copy: "First issue of the first edition. Whitman's own desk copy, containing galley proofs of Whitman's reviews of the edition. It also contains an excessively rare leaflet printing of Emerson's letter, with the note: 'Copy for the convenience of private reading only.' The marble end-papers are one of the points of the first issue." There are several inscriptions in the text. At the top of the first preface page there is an inscription [. . .] which reads: "Tho D. Smith. / Presented by the Author. / Brooklyn N.Y. / 1855." On the title page an inscription in the top right corner has been erased (there is information about this in an enclosed letter&#8212;see below). On the inside flyleaf, on the right side, there is an inscription written in pencil that reads as follows: "Obituary&#8212;Unknown, Nov. 7th / Brooklyn Daily Times / Putnam's Monthly / Am. Phrenological Journal / United States Review / Ralph Waldo Emerson / &amp; several autographs, <hi rend="underline">mysteriously</hi> missing&#8212;from the fly leaves of this Volume&#8212;which was handed to the writer on his departure for the West, in 1855&#8212;This copy being the last of the edition, and from his table, / T. D. Smith. / June 27 / 04". On the opposite flyleaf, a piece of paper with a revised selection from the poems has been pasted. The selection, titled "Animals," does not appear to be in Whitman's hand. It reads as follows: "I think I could turn and live with animals, they are so plain and self contented, / I stand and look at them long and long. / They do not sweat and whine about their condition, / They do not lie awake in the dark and weep for their sins, / They do not make me sick discussing their duty to God, / Not one is dissatisfied, not one is demented with the mania of owning things, / Not one kneels to another nor to his kind that lived a thousand years ago / Not one is respectable or unhappy over the whole earth. / Walt Whitman." Finally, there is a letter pasted into this edition that provides information about its provenance. The letter identifies this copy as Whitman's original desk copy that was given as a gift to Thomas Smith in 1855. A transcription of the handwritten letter is as follows: "279 Liberty St. / November 18th 1931 / Prof. Emory Holloway / My dear Mr. Holloway, / You ask for some history of my 'Leaves of Grass' and I find myself rather vague as to my personal knowledge of it, as I inherited it amongst the personal effects of my son,&#8212;and only child&#8212; / My father-in-law, Thomas [illeg.] Smith, a bookman in Brooklyn, in 1855, was an intimate friend of Walt Whitman, and, on the occasion of his paying the Poet a farewell visit before leaving Brooklyn Whitman took the book from his desk and presented it as a parting gift. Note is made of the incident on a front page&#8212;I do not know who wrote the inscription, nor do I know who erased it, but my father-in-law prized the book and told me it would be valuable. Mr. Smith's written comment would indicate that he felt that some one had tampered with it,&#8212;some papers and autographs missing, but he never mentioned it to me. It would seem likely that the newspaper clippings &amp;c. had been pasted in by Whitman as it was his desk copy. I am truly sorry that I cannot give you a more lucid account but it was all before my time. The deaths of both my husband and son have closed the family record, as they were the last of their race. If you wish to send this with the book for inspection, do so. I hope it may prove useful. / Very Sincerely / Marie L. Huntsmith[?]".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7466,7 +7466,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Title page and following pages partly loose; pages 89-90 loose. Some pencilled notes and markings. There is a mounted clipping from the <hi rend="italic">New York Sun</hi>, March 19th, 1876. The article mentions the opinions of William D. O'Connor, and an inscription on the clipping reads:/ "N.Y. Sun March 19th 1876 / Friend O'Connor: How do you like this for a <hi rend="underline">rub</hi>? / N York March 20 1876. / John McCrone". There is a bookplate inside the volume that reads: "Ex Libris / Thomas Jefferson McKee". There is also a bookplate from Brown that notes: "Bought at the McKee sale / November, 1900 / Price: $41. / The Gift of Chancellor Goddard". Housed in blue-green cloth slipcase.</p>
+  <p>Title page and following pages partly loose; pages 89&#8211;90 loose. Some penciled notes and markings. There is a mounted clipping from the <hi rend="italic">New York Sun</hi>, March 19th, 1876. The article mentions the opinions of William D. O'Connor, and an inscription on the clipping reads: "N.Y. Sun March 19th 1876 / Friend O'Connor: How do you like this for a <hi rend="underline">rub</hi>? / N York March 20 1876. / John McCrone". There is a bookplate inside the volume that reads: "Ex Libris / Thomas Jefferson McKee". There is also a bookplate from Brown that notes: "Bought at the McKee sale / November, 1900 / Price: $41. / The Gift of Chancellor Goddard". Housed in blue-green cloth slipcase.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7487,7 +7487,7 @@
  <bindingDesc><p>binding B</p></bindingDesc>
  </physDesc>
  <history>
- <provenance cert="low"><persName key="O'Connor, William D.">William D. O'Connor[?]</persName>; <persName key="McKee, Thomas Jefferson">Thomas Jefferson McKee</persName></provenance>
+ <provenance><persName key="McKee, Thomas Jefferson">Thomas Jefferson McKee</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7508,7 +7508,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Ms. note in pencil inside cover: "N.B. get Walden&#8212;? who printed it&#8212;"; more pencilled notes scattered through text. Armorial bookplate of Henry B. Anthony. Binding is under stress, particularly in the area of the preface, but it is not broken. Housed in blue-green cloth slipcase.</p>
+  <p>Manuscript note in pencil inside cover: "N.B. get Walden&#8212;? who printed it&#8212;"; more penciled notes scattered through text. Armorial bookplate of Henry B. Anthony. Binding is under stress, particularly in the area of the preface, but it is not broken. Housed in blue-green cloth slipcase.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7592,7 +7592,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Dealer's handwritten note on flyleaf: $400. 3rd issue, the first to contain the press notice. Ex libris copy: Bookplate of Frank Maier, "American Authors," depicting a globe and an open book containing the names Poe, Irving, Lowell, Whitman, Holmes, and Bryant. On front endpaper is pasted a printed entry from a dealer's catalog: 451. WHITMAN (WALT). Leaves of Grass. First Edition. Portrait (in first state) on India paper. Royal 8vo. Original figured and gilt cloth, uncut. Brooklyn, N.Y., 1855. Contains the four pages of Press Notices. With the exception of a small tear on the inner margin of title, a FINE COPY OF THIS RARE VOLUME. Laid in is an article from "The Conservator," April, 1892, "At the Graveside of Walt Whitman," by John Burroughs, R.G. Ingersoll, etc. [This article is no longer laid into the book.]</p>
+<p>Dealer's handwritten note on flyleaf: $400. 3rd issue, the first to contain the press notice. Ex libris copy: Bookplate of Frank Maier, "American Authors," depicting a globe and an open book containing the names Poe, Irving, Lowell, Whitman, Holmes, and Bryant. On front endpaper is pasted a printed entry from a dealer's catalog: 451. WHITMAN (WALT). Leaves of Grass. First Edition. Portrait (in first state) on India paper. Royal 8vo. Original figured and gilt cloth, uncut. Brooklyn, N.Y., 1855. Contains the four pages of Press Notices. With the exception of a small tear on the inner margin of title, a FINE COPY OF THIS RARE VOLUME. Laid in is an article from "The Conservator," April, 1892, "At the Graveside of Walt Whitman," by John Burroughs, R. G. Ingersoll, etc. [This article is no longer laid into the book.]</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7676,7 +7676,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Author's inscription: "C.G. Rosenberg from W.W." Two inscriptions of Samuel Hollyer ([assumed to be] engraver of frontis.), 1855 and N.Y. April 1897. Bookplate of Frederic Robert Halsey on inside of front cover. Spine has been repaired. W. J. Linton wood-engraving of Whitman cut out and mounted to back of frontispiece. Some pencilled markings throughout.</p>
+<p>Author's inscription: "C. G. Rosenberg from W.W." Two inscriptions of Samuel Hollyer (possible engraver of frontis.), 1855 and N.Y. April 1897. Bookplate of Frederic Robert Halsey on inside of front cover. Spine has been repaired. W. J. Linton wood-engraving of Whitman cut out and mounted to back of frontispiece. Some penciled markings throughout.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7697,7 +7697,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Rosenberg, C.G.">C.G. Rosenberg</persName>; <persName key="Halsey, Frederic Robert">Frederic Robert Halsey</persName></provenance>
+ <provenance><persName key="Hollyer, Samuel">Samuel Hollyer</persName>; <persName key="Rosenberg, C. G.">C. G. Rosenberg</persName>; <persName key="Halsey, Frederic Robert">Frederic Robert Halsey</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7781,7 +7781,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
-  <provenance><persName key="Miller, Matthew">Matthew Miller</persName>; <persName key="Brown, M.S.[?]">M.S.[?] Brown</persName>; <persName key="Targ, William">William Targ</persName>; <persName key="Targ, Roslyn">Roslyn Targ</persName></provenance>
+  <provenance><persName key="Miller, Matthew">Matthew Miller</persName>; <persName key="Brown, M. S.[?]">M. S.[?] Brown</persName>; <persName key="Targ, William">William Targ</persName>; <persName key="Targ, Roslyn">Roslyn Targ</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7802,7 +7802,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>London label affixed to title page. Includes printed slip with transcription of R. W. Emerson letter.</p>
+  <p>London label affixed to title page. Reviews pasted to front endpaper, including printed slip with transcription of R. W. Emerson letter.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7844,7 +7844,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p>Owner signature on title page: "Mrs. Brown"</p>
+<p>Owner signature on title page: "Mrs. Brown".</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7886,7 +7886,7 @@
  </msItem>
  </msContents>
  <physDesc>
-<p></p>
+  <p>Jonathan Skinne (ownership inscription dated May 1856 from Monteagle House); N. G. Benedict (gift inscription to); Mary Crake (bookplate). Sotheby's NY, Jun 4, 2013, lot 169.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7907,7 +7907,7 @@
  <bindingDesc><p>binding A</p></bindingDesc>
  </physDesc>
  <history>
- <provenance></provenance>
+ <provenance><persName key="Skinne, Jonathan">Jonathan Skinne</persName>; <persName key="Benedict, N. G.">N. G. Benedict</persName>; <persName key="Crake, Mary">Mary Crake</persName></provenance>
  </history>
  </msDesc>
  </witness>
@@ -7928,7 +7928,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Provenance: signature of Thomas Bucher dated October 1855. First gathering reinserted, minor repairs at gutter. Half morocco case. Seller Inventory # ABE-1487622387286.</p>
+  <p>Signature of Thomas Bucher dated October 1855. First gathering reinserted, minor repairs at gutter. Half morocco case.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -7953,48 +7953,6 @@
  </history>
  </msDesc>
  </witness>
-  <witness xml:id="PC_02">
- <msDesc>
- <msIdentifier>
-<repository>B &amp; L Rootenberg Rare Books, ABAA (for sale 2018)</repository>
-<idno></idno>
- </msIdentifier>
- <msContents>
- <msItem> 
- <bibl> 
- <author>Walt Whitman</author>
- <title>Leaves of Grass</title>
- <date cert="high" when="1855">1855</date>
- <pubPlace>Brooklyn, New York</pubPlace>
- </bibl>
- </msItem>
- </msContents>
- <physDesc>
-  <p>Half morocco on marbled boards with original front cover bound inside (at the back). First edition, first issue binding (BAL's and Myerson's Binding A), first state of the frontispiece portrait (on heavy paper), second state of the copyright page as usual, second state of p. iv. Seller Inventory # 13707.</p>
- <objectDesc form="codex">
- <supportDesc>
- <support> </support>
- <extent>
- <dimensions unit="inch">
- <height></height>
- <width></width>
- </dimensions>
- </extent>
- <collation></collation>
- </supportDesc>
- <layoutDesc>
- <layout rend="copyright">state B</layout> 
- <layout rend="frontispiece">state A</layout> 
- <layout rend="reviews"></layout> 
- </layoutDesc>
- </objectDesc>
- <bindingDesc><p>binding A</p></bindingDesc>
- </physDesc>
- <history>
- <provenance></provenance>
- </history>
- </msDesc>
- </witness>
   <witness xml:id="PC_03">
  <msDesc>
  <msIdentifier>
@@ -8012,7 +7970,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>In the first state of the text and binding (green cloth, triple gilt fillet border on each cover, marbled endpapers, blind-tooled floral designs on each cover, a.e.g.). Whitman's portrait (with tissue guard) is on card stock. Line 2 of p .49 reads "And the night is for you and me and all" and on the title page verso is the 1855 copyright statement.  Spine cracked and text with occasional foxing, two large brown marks on the fly, and a small ink stain on p.vi-vii. Ex-bookseller (George W. Sutton, 14 Chambers St., New York) sticker on back pastedown. Front free endpaper to p.iv loose from binding. Otherwise in nice condition. Includes 2 letters from the bookseller Bernard M. Rosenthal to Sensui Shoji, who purchased the book from him in 1980, one stating that a previous owner of the book was Caroline Boeing Poole. Also includes two sketches by an unknown artist on loose paper (one portrait signed in pencil "E.M. Bates"). In quarter morocco case and with other Japanese ephemera relating to the book.</p>
+  <p>Spine cracked and text with occasional foxing, two large brown marks on the fly, and a small ink stain on p.vi&#8211;vii. Ex-bookseller (George W. Sutton, 14 Chambers St., New York) sticker on back pastedown. Front free endpaper to p. iv loose from binding. Otherwise in nice condition. Includes two letters from the bookseller Bernard M. Rosenthal to Sensui Shoji, who purchased the book from him in 1980, one stating that a previous owner of the book was Caroline Boeing Poole. Also includes two sketches by an unknown artist on loose paper (one portrait signed in pencil "E.M. Bates"). In quarter morocco case and with other Japanese ephemera relating to the book.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -8054,7 +8012,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>This copy has been recased, reversing old repairs and closing some tears to the cloth near the spine that would otherwise have gotten worse. Small blank margin of the frontispiece portrait chipped and renewed. The title page is frayed at the edges and with some large tears, which have all now been professionally secured. Internal contents show some smudges and wear, but the book is complete and in its original binding. Housed in a custom slipcase with chemise. Seller Inventory # 1533.</p>
+  <p>This copy has been recased. Internal contents show some smudges and wear, but the book is complete and in its original binding. Housed in a custom slipcase with chemise.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -8096,7 +8054,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>288 x 200 mm. (11 3/8 x 7 3/4"). xii, 95 pp. FIRST EDITION, First Issue (BAL's and Myerson's Binding "A"); First State of the frontispiece portrait (on heavy paper); second state of the copyright page, as usual; second state of p. iv ). Original publisher's green cloth, covers with gilt frames, gilt titling, and decoration in blind, flat spine titled in gilt, marbled endpapers, the binding with extensive refurbishing and very skillful repairs (see below). Housed in a green quarter morocco box. Frontispiece portrait of the author, original tissue guard. Some variations in color to boards (because of refurbishing), the gilt with variable degrees of brightness (visible but rather dulled on the spine, a bit less than bright on the front cover, and with original luster on the back), but the expertly restored binding entirely solid and certainly agreeable enough. Isolated marginal smudges, otherwise A FINE COPY INTERNALLY, the text clean, smooth, and fresh. Laid in is a very thorough printed delineation of the repairs (which involved the partial incorporation of a backstrip from a later facsimile cover) performed on the book by Lyn R. Jacobs. FIRST EDITION, First Issue (BAL's and Myerson's Binding "A"); Firs. Seller Inventory # CFB1703.</p>
+  <p>Original publisher's green cloth, covers with gilt frames, gilt titling, and decoration in blind, flat spine titled in gilt, marbled endpapers, the binding with extensive refurbishing and very skillful repairs (see below). Housed in a green quarter morocco box. Frontispiece portrait of the author, original tissue guard. Some variations in color to boards (because of refurbishing), the gilt with variable degrees of brightness (visible but rather dulled on the spine, a bit less than bright on the front cover, and with original luster on the back), but the expertly restored binding entirely solid and certainly agreeable enough. Laid in is a very thorough printed delineation of the repairs (which involved the partial incorporation of a backstrip from a later facsimile cover) performed on the book by Lyn R. Jacobs.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -8138,7 +8096,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Copy signed Walt Whitman on a laid in signature. No writing, marks or bookplates. Some binding repair. Housed in a custom clamshell slipcase for preservation. Seller Inventory # ABE-19244844778.</p>
+  <p>Copy signed Walt Whitman on a laid in signature. No writing, marks or bookplates. Some binding repair. Housed in a custom clamshell slipcase for preservation.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -8180,7 +8138,7 @@
  </msItem>
  </msContents>
  <physDesc>
-  <p>Quarto, late-19th-century three-quarter green morocco gilt, raised bands, marbled boards and endpapers. Housed in a custom cloth chemise and full morocco pull-off case. This copy was rebound sometime after 1880 by renowned bookbinder James MacDonald, born and trained in Scotland, who became one of the premier bookbinders in the United States, flourishing between 1880-1910. Second state of copyright page, with printed copyright notice. In this copy, the portrait has been trimmed to 3-1/4 by 5-1/2 inches and mounted onto heavy stock, which does not conform with any of the states of the frontispiece described by Myerson; this was possibly done at an early date, perhaps at the time of binding, as this leaf has since been remounted and rehinged. Seller Inventory # 101640.</p>
+  <p>Housed in a custom cloth chemise and full morocco pull-off case. This copy was rebound sometime after 1880 by renowned bookbinder James MacDonald, born and trained in Scotland, who became one of the premier bookbinders in the United States, flourishing between 1880&#8211;1910. In this copy, the portrait has been trimmed to 3-1/4 by 5-1/2 inches and mounted onto heavy stock; this was possibly done at an early date, perhaps at the time of binding, as this leaf has since been remounted and rehinged.</p>
  <objectDesc form="codex">
  <supportDesc>
  <support> </support>
@@ -8264,7 +8222,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p>A series of 47 individual leaves from the 1855 <hi rend="italic">Leaves of Grass</hi> were bound by Bennett Book Studios, Inc. in New York in 1930 and sold separately.</p>
+    <p>A series of 47 individual leaves from a copy of the 1855 <hi rend="italic">Leaves of Grass</hi> were bound by Bennett Book Studios, Inc. in New York in 1930 and sold separately.</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
@@ -8348,7 +8306,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p>Bookplates of Albert Thorndike and J.K. Lilly. Bookseller's label of Fowlers, Wells &amp; Co., Phrenologists &amp; Publishers, Boston.</p>
+    <p>Bookplates of Albert Thorndike and J. K. Lilly. Bookseller's label of Fowlers, Wells &amp; Co., Phrenologists &amp; Publishers, Boston.</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
@@ -8432,7 +8390,7 @@
     </msItem>
    </msContents>
    <physDesc>
-    <p>Rebound in full nottled calf, gilt edges, by Rivière &amp; Son [1890&#8211;1900?]. Rebacked, old spine mounted, covers rubbed. Includes printed version of R. W. Emerson letter.</p>
+    <p>Rebound in full mottled calf, gilt edges, by Rivière &amp; Son [1890&#8211;1900?]. Rebacked, old spine mounted, covers rubbed. Includes printed version of R. W. Emerson letter.</p>
     <objectDesc form="codex">
      <supportDesc>
       <support> </support>
