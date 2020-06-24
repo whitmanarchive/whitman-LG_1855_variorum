@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/vr_0930a.json",
+  "@type": "sc:Manifest",
+  "label": "\"Wealth\" narrower spacing",
+  "description": [
+    {
+      "@value": "\"Wealth\" narrower spacing (vr_0930a)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Special Collections, The University of Iowa Libraries",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0930a-cropped.json",
+          "@type": "sc:Canvas",
+          "label": "\"Wealth\" narrower spacing",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/annotation/vr_0930a-cropped.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 626,
+                "height": 163,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0930a-cropped.json"
+            }
+          ],
+          "width": 626,
+          "height": 163
+        },
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0930a.json",
+          "@type": "sc:Canvas",
+          "label": "\"Wealth\" narrower spacing",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/annotation/vr_0930a.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2312,
+                "height": 3315,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.100.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0930a.json"
+            }
+          ],
+          "width": 2312,
+          "height": 3315
+        }
+      ]
+    }
+  ]
+}
