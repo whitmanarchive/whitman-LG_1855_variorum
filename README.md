@@ -3,7 +3,8 @@
 - [Overview](#overview)
 - [Setup](#setup)
   - [Configuration](#configuration)
-- [Variorum Generation](#variorum-generation)
+- [Variorum Generation and Updates](#variorum-generation-and-updates)
+  - [Development vs Production](#development-vs-production)
   - [Works](#works)
   - [IIIF Manifests](#iiif-manifests)
   - [HTML](#html)
@@ -54,7 +55,7 @@ Update this file if you want to check more files for associated works.
 
 This has a lengthy name so that hopefully it doesn't need much explaining!  Update this file if you would like more pages to be highlighting in the Leaves of Grass viewer along the left-hand side.
 
-## Variorum Generation
+## Variorum Generation and Updates
 
 Please refer to the below sections for more information about scripts and behavior. For those who just can't wait, you can run the following to regenerate everything possible:
 
@@ -64,6 +65,37 @@ bundle exec post -x html,iiif
 ```
 
 This will generate a list of works and files which reference them, manifests for the 1855 Leaves of Grass and snippets for comparison, as well as the variorum HTML itself.
+
+When you are done, commit your changes with git:
+
+```
+# view changes
+git status
+
+# add files
+git add output/[environment]
+
+git commit -m "[message]"
+git push origin [branchname]
+```
+
+### Development vs Production
+
+You may regenerate the development and production environments from either server, but be aware that because the TEI files for related works may differ on each server, it is recommended that you regenerate IIIF / HTML on the respective servers per environment.
+
+Regardless of the server, the process will be:
+
+1. Log in to server and navigate to whitman-LG_1855_variorum directory
+2. `git status` to check for any local changes and verify your branch
+3. `git pull origin [branchname]`
+4. Make your changes to the scripts or source files
+5. `bundle exec post -x html,iiif -e [environment]`
+6. Check that things are working on the website
+7. If you changed scripts or TEI, `git add [files]`. Always `git add output/[environment]` to track your updates to generated files
+8. `git commit -m "[message"]
+9. `git push origin [branchname]`
+
+It is recommended that you make your changes on the development server, test it out, then push those changes.  Pull to the production server and regenerate the IIIF then HTML.  Commit and push the resulting changes to the HTML and you're done!
 
 ### Works
 

@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/vr_0060b.json",
+  "@type": "sc:Manifest",
+  "label": "\"nothing can\"",
+  "description": [
+    {
+      "@value": "\"nothing can\" (vr_0060b)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Rare Book Collection, The Louis Round Wilson Special Collections Library, University of North Carolina at Chapel Hill",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0060b-cropped.json",
+          "@type": "sc:Canvas",
+          "label": "\"nothing can\"",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/annotation/vr_0060b-cropped.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1229,
+                "height": 646,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0060b-cropped.json"
+            }
+          ],
+          "width": 1229,
+          "height": 646
+        },
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0060b.json",
+          "@type": "sc:Canvas",
+          "label": "\"nothing can\"",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/annotation/vr_0060b.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 7829,
+                "height": 10914,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Func_nhg.00003.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/production/iiif/snippets/canvas/vr_0060b.json"
+            }
+          ],
+          "width": 7829,
+          "height": 10914
+        }
+      ]
+    }
+  ]
+}
