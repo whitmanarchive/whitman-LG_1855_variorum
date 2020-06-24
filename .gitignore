@@ -1,5 +1,6 @@
 .DS_Store
 config/private.yml
+config/private.xsl
 /logs/*
 
 # scripts/.xslt-datura is populated by the datura gem and should not be tracked / edited

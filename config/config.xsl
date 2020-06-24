@@ -17,11 +17,8 @@
   <xsl:param name="iiif_fullsize_end">full/full/0/default.jpg</xsl:param>
   <xsl:param name="iiif_thumb_end">full/!150,150/0/default.jpg</xsl:param>
 
-  <xsl:variable name="environment">development</xsl:variable>
+  <!-- for site url and environment info, see private.xsl -->
 
-  <xsl:variable name="siteroot">https://whitman-dev.unl.edu/</xsl:variable>
-  <xsl:variable name="externalfileroot">http://whitmanarchive.org/</xsl:variable>
-  
   <!-- XML File Paths -->
   <xsl:param name="nbPathRoot">
     <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/</xsl:text>

@@ -3,6 +3,7 @@
   xpath-default-namespace="http://www.whitmanarchive.org/namespace">
 
   <xsl:import href="../../config/config.xsl"/>
+  <xsl:import href="../../config/private.xsl"/>
   <xsl:import href="_datura_overrides.xsl"/>
   <xsl:import href="_name_reference.xsl"/>
   <xsl:import href="_mss.xsl"/>
