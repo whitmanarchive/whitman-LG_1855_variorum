@@ -233,10 +233,10 @@
             <note type="project" target="bd_0040b">State B frontispiece. Printed on thin China paper which is mounted on an inserted sheet of heavy paper.</note>
          </app>
          <app type="graphical_variant">
-            <!--flat-->
+            <!--unenhanced-->
             <rdg xml:id="gr_0010a" facs="uva_nhg.00024_cropped.jpg" wit="#UNCCH_02 #UTA_06 #UTA_07 #UVa_07 #UVa_08 #LC_05 #LC_06 #LC_07 #LC_08 #LC_10 #LC_13 #LC_09 #TTU_01 #NYPL_06 #NYPL_07"/>
             <!--enhanced-->
-            <rdg xml:id="gr_0010b" facs="ppp.00271.007_cropped.jpg" wit="#KSU_01 #UNCCH_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #DU_04 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #LC_14 #PA_01 #HL_02 #PC_03 #PC_04 #UNL_01 #PU_01 #PU_03 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #WFU_01 #WFU_02"/>
+            <rdg xml:id="gr_0010b" facs="ppp.00271.007_cropped.jpg" wit="#KSU_01 #UNCCH_01 #UTA_01 #UTA_02 #UTA_03 #UTA_04 #UTA_05 #UVa_01 #UVa_02 #UVa_03 #UVa_04 #UVa_05 #UVa_06 #UVa_09 #UVa_10 #DU_01 #DU_02 #DU_03 #DU_04 #UI_01 #BC_01 #LC_01 #LC_02 #LC_03 #LC_04 #LC_11 #LC_12 #LC_14 #PA_01 #HL_02 #PC_03 #UNL_01 #PU_01 #PU_03 #NYHS_01 #NYPL_08 #NYPL_09 #NYPL_10 #NYPL_11 #NYPL_12 #WFU_01 #WFU_02"/>
             <note type="project" target="#gr_0010a">These copies feature a frontispiece image without the enhanced crotch. Genoways has noted slight variations in the frontispiece images printed from this version of the engraving, which he argues probably preceded the enhanced version ("One goodshaped and wellhung man," 98–100).</note>
             <note type="project" target="#gr_0010b">These copies feature a frontispiece image with an enhanced crotch. See Ted Genoways, "'One goodshaped and wellhung man': Accented Sexuality and the Uncertain Authorship of the Frontispiece to the 1855 Edition of <hi rend="italic">Leaves of Grass</hi>," in Susan Belasco, Ed Folsom, and Kenneth M. Price, eds., <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi> (Lincoln: University of Nebraska Press, 2007), 87–123.</note>
          </app>
