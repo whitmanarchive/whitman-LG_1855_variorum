@@ -31,7 +31,7 @@
             <div class="relation_num_docs" style="width:24%"/>
             </div>
           </div>
-          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, along with links to transcriptions. The red and green lines offer a visualization of the relations. The green line corresponds to the number of related manuscripts or notebooks. The red line corresponds to the total number of related text segments from those manuscripts and notebooks. For more about how we have determined relations, see our
+          <p>Clicking on "relations" displays related text from Whitman's early manuscripts and notebooks, along with links to transcriptions. The red and blue lines offer a visualization of the relations. The blue line corresponds to the number of related manuscripts or notebooks. The red line corresponds to the total number of related text segments from those manuscripts and notebooks. For more about how we have determined relations, see our
             <a target="_blank">
               <xsl:attribute name="href">
                 <xsl:value-of select="$siteroot"/>
@@ -77,15 +77,12 @@
           <xsl:when test="/TEI/@xml:id='ppp.01879'">
             <div class="v_instructions_key">
               <h2>A Note on the Text</h2>
-              <p>The images provided as thumbnails before each page correspond to the insertion in a copy in the Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia. For a complete list of copies that include the reviews insertion, see "
-                <a target="_blank">
+              <p>The images provided as thumbnails before each page correspond to the insertion in a copy in the Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia. For a complete list of copies that include the reviews insertion, see "<a target="_blank">
                   <xsl:attribute name="href">
                     <xsl:value-of select="$siteroot"/>
                     <xsl:text>published/LG/1855/variorum/main.html#pt_0020a</xsl:text>
                   </xsl:attribute>
-                  <xsl:text>Reviews and extracts</xsl:text>
-                </a>
-                " in the main text or visit the
+                  <xsl:text>Reviews and extracts</xsl:text></a>" in the main text or visit the
                 <a target="_blank">
                   <xsl:attribute name="href">
                     <xsl:value-of select="$siteroot"/>
