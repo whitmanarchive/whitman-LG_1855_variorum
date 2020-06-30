@@ -49,6 +49,7 @@
             <change when="2019-06-04" who="#nhg">created</change>
         </revisionDesc>
     </teiHeader>
+    <!--Certainty levels listed below correspond to our level of certainty that the described manuscript or notebook line is a version of the printed line.-->
     <text>
         <body>
             <ab>
