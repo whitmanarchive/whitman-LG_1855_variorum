@@ -53,7 +53,7 @@
   <body>
    <div1 type="section">
     <head type="main-authorial">The 1855 <hi rend="italic">Leaves of Grass</hi>: A Bibliography of Copies</head>
-    <p>This bibliography, based on data originally compiled by Ed Folsom, includes information from a census of all known extant copies of the first (1855) edition of Whitman's <hi rend="italic">Leaves of Grass</hi>. In some cases, copy descriptions have been added or updated since the census as new information has become available. Information about bindings and states corresponds to the bindings and states listed in <hi rend="italic">Bibliography of American Literature</hi>, vol. 9., ed. Michael Winship (New Haven: Yale University Press, 1991), 31&#8211;32. Where they differ, corresponding states in Joel Myerson, <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), are listed in parentheses within the extended descriptions. What is described in relation to the frontispiece as an "embossed frame" is likely a plate-mark or the impression made by the edge of the engraving plate. For more information, or to download a spreadsheet with the raw data from the census, see Ed Folsom, "<ref target="https://doi.org/10.13008/2153-3695.1816">The Census of the 1855 <hi rend="italic">Leaves of Grass</hi>: A Preliminary Report</ref>," <hi rend="italic">Walt Whitman Quarterly Review</hi> 24.2 (Fall 2006): 71&#8211;84.</p>
+    <p>This bibliography, based on data originally compiled by Ed Folsom, includes information from a census of all known extant copies of the first (1855) edition of Whitman's <hi rend="italic">Leaves of Grass</hi>. In some cases, copy descriptions have been added or updated since the census as new information has become available. Information about bindings and states corresponds to the bindings and states listed in <hi rend="italic">Bibliography of American Literature</hi>, vol. 9., ed. Michael Winship (New Haven: Yale University Press, 1991), 31&#8211;32. Where they differ, corresponding states in Joel Myerson, <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), are listed in parentheses within the extended descriptions. What is described in relation to the frontispiece as an embossed frame may be a plate-mark or the impression made by the edge of the engraving plate. For more information, or to download a spreadsheet with the raw data from the census, see Ed Folsom, "<ref target="https://doi.org/10.13008/2153-3695.1816">The Census of the 1855 <hi rend="italic">Leaves of Grass</hi>: A Preliminary Report</ref>," <hi rend="italic">Walt Whitman Quarterly Review</hi> 24.2 (Fall 2006): 71&#8211;84.</p>
    </div1>
    
    <div1 type="bibliography">
@@ -7313,7 +7313,7 @@
  </supportDesc>
  <layoutDesc>
  <layout rend="copyright">state B</layout> 
- <layout rend="frontispiece">state A, no embossed frame (plate mark)</layout> 
+ <layout rend="frontispiece">state A, no embossed frame</layout> 
  <layout rend="reviews">No bound-in insert</layout> 
  </layoutDesc>
  </objectDesc>
