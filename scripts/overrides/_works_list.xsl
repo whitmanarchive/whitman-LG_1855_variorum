@@ -83,7 +83,7 @@
               </xsl:attribute>
               <xsl:text>View Periodical Version</xsl:text>
             </a>
-            <a class="v_review_links" target="_blank" href="http://juxtacommons.org/shares/0TT1pc">Compare to Periodical Version (in Juxta)</a>
+            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/resurg.html">Compare to Periodical Version (in Juxta)</a>
           </ul>
           
         </xsl:if>
