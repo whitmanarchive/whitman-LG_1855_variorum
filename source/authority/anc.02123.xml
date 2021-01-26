@@ -8416,6 +8416,48 @@
    </history>
   </msDesc>
  </witness>
+ <witness xml:id="PC_21">
+  <msDesc>
+   <msIdentifier>
+    <repository>At auction: Doyle, New York (September 30, 2020, lot 186)</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>London label affixed to title page. Includes printed version of R. W. Emerson letter. In addition to the Emerson letter, this copy contains four printed reviews hand-pasted to the front pastedown and endpaper. They are: "An English and American Poet" from The American Phrenological Journal; "Walt Whitman and His Poems" from The United States Review; "Walt Whitman, a Brooklyn Boy" from The Brooklyn Daily Times; and "Walt Whitman's Leaves of Grass" from Putnam's Monthly for September. Henry Reeve (1813-1895), editor of the Edinburgh Review, armorial bookplate at rear. George M. Williamson, noted Whitman correspondent and collector, sold in his sale Anderson Galleries, 30-31 January 1908, lot 1107. Sold Anderson Galleries, 29 &amp; 30 April 1909, lot 421: "The Williamson copy, with printed slip affixed to title." Sir Herbert Leon, armorial bookplate at front, sold in his sale Sotheby's 21 July 1937, lot 773. The buyer is recorded as Maggs according to Rare Book Hub; Parke Bernet, 3 March 1938, lot 230 ("An exceedingly fine copy. The G.M. Williamson copy with the armorial bookplates of Herbert S. Leon and Henry Reeve.") This is likely the copy listed in Scribner's catalogue 116, item 374. The book was acquired via Scribner's in 1938 by collector Duncan Cranford, and the book has descended in his family. Cranford pencilled and signed a short note to the verso of the front free endpaper.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A, no embossed frame</layout> 
+      <layout rend="reviews">No bound-in insert</layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Reeve, Henry">Henry Reeve</persName>; <persName key="Williamson, George M.">George M. Williamson</persName>; <persName key="Leon, Sir Herbert">Sir Herbert Leon</persName>; <persName key="Cranford, Duncan">Duncan Cranford</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
 </listWit>
    </div1>
   </body>
