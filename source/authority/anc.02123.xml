@@ -8458,6 +8458,90 @@
    </history>
   </msDesc>
  </witness>
+ <witness xml:id="PC_22">
+  <msDesc>
+   <msIdentifier>
+    <repository>At auction: Sotheby's (2022, lot 116)</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Signed by Whitman below the frontispiece portrait. Worcester Academy acquired this copy in 1911, as part of a bequest by John Savary, class of 1852. Savary had served as an Assistant in the Library of Congress from 1871 until his retirement in 1897, thereafter devoting his retirement to scholarship and collecting. Ownership inscription to the front free endpaper reading "John Savary"; annotation in pencil reading, "Oct. 12 1887 | autograph | written". Annotations in pencil throughout the text, including commentary, clarifying terminology, and making minor corrections (e.g. correcting "abode" to "adobe").</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A, no embossed frame</layout> 
+      <layout rend="reviews">No bound-in insert</layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>binding B</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Savary, John">John Savary</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="PC_23">
+  <msDesc>
+   <msIdentifier>
+    <repository>Whitmore Rare Books</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Bookplate of William Targ to front pastedown. Discreet stamp to lower corner of title page: "Bulkeley Norwich."</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A, no embossed frame</layout> 
+      <layout rend="reviews">No bound-in insert</layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Targ, William">William Targ</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
 </listWit>
    </div1>
   </body>
