@@ -8542,6 +8542,90 @@
    </history>
   </msDesc>
  </witness>
+ <witness xml:id="PC_24">
+  <msDesc>
+   <msIdentifier>
+    <repository>At auction: Freeman's (8 June 2023, lot 64)</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Includes bookplate of American collector Thomas Winthrop Streeter (loose), bookplates of Arthur Swann and Haven O'More (on front endpaper).</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A, embossed frame</layout> 
+      <layout rend="reviews">No bound-in insert</layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Streeter, Thomas Winthrop">Thomas Winthrop Streeter</persName>; <persName key="Swann, Arthur">Arthur Swann</persName>; <persName key="O'More, Haven">Haven O'More</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
+ <witness xml:id="PC_25">
+  <msDesc>
+   <msIdentifier>
+    <repository>At auction: Christie's (15 June 2023, lot 141)</repository>
+    <idno></idno>
+   </msIdentifier>
+   <msContents>
+    <msItem> 
+     <bibl> 
+      <author>Walt Whitman</author>
+      <title>Leaves of Grass</title>
+      <date cert="high" when="1855">1855</date>
+      <pubPlace>Brooklyn, New York</pubPlace>
+     </bibl>
+    </msItem>
+   </msContents>
+   <physDesc>
+    <p>Includes bookplate of Howard Motley Hayes and stamp of Lenox Library, New York Public Library. Sale (of copy) Christie's New York, 14 December 2000, lot 148. Sold with printed Emerson letter with repaired holes at top and margin, bookplate (to chemise) Jerome Kern. No evidence described that the printed letter was attached to or associated with the copy. Sale (of letter) Anderson Galleries, 21-24 January 1929, lot 1438.</p>
+    <objectDesc form="codex">
+     <supportDesc>
+      <support> </support>
+      <extent>
+       <dimensions unit="inch">
+        <height></height>
+        <width></width>
+       </dimensions>
+      </extent>
+      <collation></collation>
+     </supportDesc>
+     <layoutDesc>
+      <layout rend="copyright">state B</layout> 
+      <layout rend="frontispiece">state A</layout> 
+      <layout rend="reviews"></layout> 
+     </layoutDesc>
+    </objectDesc>
+    <bindingDesc><p>binding A</p></bindingDesc>
+   </physDesc>
+   <history>
+    <provenance><persName key="Hayes, Howard Motley">Howard Motley Hayes</persName>; <persName key="New York Public Library">New York Public Library</persName></provenance>
+   </history>
+  </msDesc>
+ </witness>
 </listWit>
    </div1>
   </body>
