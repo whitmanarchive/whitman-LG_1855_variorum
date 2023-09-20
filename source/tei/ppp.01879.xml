@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules_mss.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="ppp.01879"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ppp.01879"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt> 
@@ -12,7 +12,8 @@
                 <editor role="general">Kenneth M. Price</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                     <persName xml:id="nhg">Nicole Gray</persName>
+                     <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -85,6 +86,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+           <change who="#km" when="2023-09-20">updated work relations encoding</change>
             <change who="#nhg" when="2019-07-18">created new file from ppp.00271_var.xml</change>
         </revisionDesc>
     </teiHeader>
@@ -102,9 +104,9 @@
          </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review">
-               <relations>
-                  <work ref="xxx.00892" cert="high"/>
-               </relations>
+               
+                  <note type="work_relations" target="xxx.00892" cert="high"/>
+               
                <byline rend="right">From the Brooklyn Daily Times.</byline>
                <head type="main-authorial">WALT WHITMAN, A BROOKLYN BOY.</head>
                <ab><hi rend="italic">Leaves of Grass</hi>, A volume of Poems, just published.</ab>
@@ -125,9 +127,9 @@
             </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review"> 
-               <relations>
-                  <work ref="xxx.00893" cert="high"/>
-               </relations>
+               
+                  <note type="work_relations" target="xxx.00893" cert="high"/>
+               
                <byline rend="right">From the United States Review.</byline>
                <head type="main-authorial">WALT WHITMAN AND HIS POEMS.</head> 
                <p>An American bard at last! <seg xml:id="rev08">One of the roughs, large, proud, affectionate, eating, drinking, and breeding, his costume manly and free, his face sunburnt and bearded, his postures strong and erect, his voice bringing hope and prophecy to the generous races of young and old.</seg> We shall cease shamming and be what we really are. <seg xml:id="rev11">We shall start an athletic and defiant literature.</seg> We realize now how it is, and what was most lacking. The interior American republic shall also be declared free and independent.</p>
@@ -148,9 +150,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                           <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"I celebrate myself,</l>
                               <l>And what I assume you shall assume,</l>
@@ -169,9 +171,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"I believe in the flesh and the appetites,</l>
                               <l>Seeing hearing and feeling are miracles, and each part and<lb/> tag of me is a miracle.</l>
@@ -196,9 +198,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"Long enough have you dreamed contemptible dreams,</l>
                               <l>Now I wash the gum from your eyes,</l>
@@ -265,9 +267,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"The press of my foot to the earth springs a hundred <choice><orig>affec-<lb/>tions</orig><reg>affections</reg></choice>,</l>
                               <l>They scorn the best I can do to relate them.</l>
@@ -299,9 +301,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"When the psalm sings instead of singer,</l>
                               <l>When the script preaches instead of the preacher,</l>
@@ -382,9 +384,9 @@
             </div1>
             <milestone unit="undeclared" rend="horbar-short-center"/>
             <div1 type="review">
-               <relations>
-                  <work ref="xxx.00798" cert="high"/>
-               </relations>
+               
+                  <note type="work_relations" target="xxx.00798" cert="high"/>
+               
                <byline rend="right">From the American Phrenological Journal.</byline>
                <head type="main-authorial">AN ENGLISH AND AN AMERICAN POET.</head>
                
@@ -441,9 +443,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <l>"I am the poet of the body,</l>
                            <l>And I am the poet of the soul.</l>
                         </lg>
@@ -471,9 +473,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"The friendly and flowing savage . . . . Who is he?</l>
                               <l>Is he waiting for civilization, or past it and mastering it?</l>
@@ -505,9 +507,9 @@
                   <floatingText>
                      <body>
                         <lg type="poem">
-                           <relations>
-                              <work ref="xxx.00048" cert="absolute"/>
-                           </relations>
+                           
+                              <note type="work_relations" target="xxx.00048" cert="high"/>
+                           
                            <lg type="linegroup">
                               <l>"I too am not a bit tamed—I too am untranslatable;</l>
                               <l>I sound my barbaric yawp over the roofs of the world."</l>
