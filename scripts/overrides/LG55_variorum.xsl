@@ -56,12 +56,12 @@
           media="all"/>
         <link href="../../../source/assets/css/body.css" rel="stylesheet" type="text/css"
           media="all"/>
-       <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
-          media="all"/> 
+      <!--  <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
+          media="all"/> -->
         
       <script language="javascript" src="../../../source/assets/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
         <script language="javascript" src="../../../source/assets/jquery-3.4.1.min.js"><xsl:text>&#x0020;</xsl:text></script>
-        <script language="javascript" src="../../../source/assets/javascript/variorum.js"><xsl:text>&#x0020;</xsl:text></script>  <!-- -->
+        <script language="javascript" src="../../../source/assets/javascript/variorum.js"><xsl:text>&#x0020;</xsl:text></script> 
         
         
       </head>
