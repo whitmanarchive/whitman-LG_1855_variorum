@@ -11,7 +11,7 @@
   <xsl:import href="_works_list.xsl"/>
   <xsl:import href="_key.xsl"/>
   
-  <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
+  <xsl:output method="xhtml" indent="no" encoding="UTF-8" media-type="text/html"/>
 
   <!-- variables -->
   <!-- TODO pull dynamically from mss -->
@@ -52,16 +52,16 @@
         <!--<link href="{$site_url}css/banner.css" rel="stylesheet" type="text/css" media="all" />-->
         
         
-       <link href="../../../source/assets/reset-min.css" rel="stylesheet" type="text/css"
+        <link href="../../../source/assets/reset-min.css" rel="stylesheet" type="text/css"
           media="all"/>
-        <link href="../../../source/assets/css/body.css" rel="stylesheet" type="text/css"
+        <link href="../../../source/assets/body.css" rel="stylesheet" type="text/css"
           media="all"/>
-      <!--  <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
-          media="all"/> -->
+        <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
+          media="all"/>
         
-      <script language="javascript" src="../../../source/assets/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="../../../source/assets/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
         <script language="javascript" src="../../../source/assets/jquery-3.4.1.min.js"><xsl:text>&#x0020;</xsl:text></script>
-        <script language="javascript" src="../../../source/assets/javascript/variorum.js"><xsl:text>&#x0020;</xsl:text></script> 
+        <script language="javascript" src="../../../source/assets/variorum.js"><xsl:text>&#x0020;</xsl:text></script>
         
         
       </head>
@@ -111,25 +111,6 @@
             </div>
             <xsl:copy-of select="//div[@class = 'variorum_key']"/>
           </div>
-          
-          <xsl:choose>
-            <xsl:when test="$pagetype = 'image_compare'">
-              <xsl:copy-of select="//div[@class='viewer_surround']"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:copy-of select="//div[@id = 'variorum_body']"/>
-            </xsl:otherwise>
-          </xsl:choose>
-          
-          
-        </div>
-        
-        <xsl:choose>
-          <xsl:when test="$pagetype = 'image_compare'"/>
-          <xsl:otherwise>
-            <div class="back_to_top"><a href="#top">Top ↑</a></div>
-          </xsl:otherwise>
-        </xsl:choose>
         
         <!-- END ADD VARIORUM HEADER -->
     <div>
@@ -155,6 +136,28 @@
      </div>
         
         <!-- ADD VARIORUM END HTML -->
+        
+        
+        
+          <xsl:choose>
+            <xsl:when test="$pagetype = 'image_compare'">
+              <xsl:copy-of select="//div[@class='viewer_surround']"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:copy-of select="//div[@id = 'variorum_body']"/>
+            </xsl:otherwise>
+          </xsl:choose>
+          
+          
+        </div>
+        
+        <xsl:choose>
+          <xsl:when test="$pagetype = 'image_compare'"/>
+          <xsl:otherwise>
+            <div class="back_to_top"><a href="#top">Top ↑</a></div>
+          </xsl:otherwise>
+        </xsl:choose>
+        
         
       </body>
     </html>

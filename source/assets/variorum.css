@@ -105,7 +105,6 @@ button {
   border: none; 
   cursor: pointer;
   font: inherit;
-  /*text-decoration: underline;*/
   color: #174589;
   display: inline-block;
 }
@@ -155,9 +154,6 @@ body {
   margin-right: -220px;
 }
 
-/* for math: .tei_div_preface and 
-.tei_lg_poem have a 10px border */
-
 .v_container {
   margin-right: 220px;
 }
@@ -194,7 +190,6 @@ body {
 
   #variorum_body {
     margin-right: 0;
-    /*padding-right: 20px;*/
   }
 
   .tei_div_preface, .tei_lg_poem {
@@ -254,9 +249,6 @@ Main Grid (used for <l> and <seg>)
   border-color: #c4b8ca;
 }
 
-.v_container:hover .v_line_link span {
-}
-
 .v_container:hover .v_line_link span:after {
   content: "🔗 "; 
 }
@@ -289,7 +281,6 @@ Main Grid (used for <l> and <seg>)
   padding: 0 10px 0 0;
   float: left;
 }
-
 
 /* --------------
 Related Text from Manuscripts
@@ -378,27 +369,9 @@ for when .overstrike > .supralinear */
   text-decoration: line-through;
 }
 
-/* .overstrike 80px 10px 80px;
-  text-align: left;
-} */
-
 /* --------------
 Printed Text (Copy) Variations
 -------------- */
-
-/*  Layout (delete before end)
-.tei_app
-  .variant_viewer_link
-    .variant_viewer_view
-  .tei_rdg
-    .variant_text
-    .variant_note
-    .variant_image_container
-      .variant_image
-      .variant_image_citation
-    .variant_open_all
-      button.open_all_rdg
-*/
 
 .v_close_tei_app {
   position: absolute;
@@ -536,7 +509,6 @@ should look for a better way to do this */
 /* Seperate rules for inline and display classes so javascript 
    can hit on inline only */
 
-
 .inline_tei_rdg, 
 .inline_tei_rdg_drift,
 .inline_tei_rdg_display,
@@ -551,7 +523,6 @@ should look for a better way to do this */
 .inline_tei_rdg_key {
   display: inline-block;
 }
-
 
 .inline_tei_rdg_binding, .inline_tei_rdg_binding_display {
   background-color: #e9f7ef;
@@ -592,7 +563,6 @@ should look for a better way to do this */
   padding: .2em;
   margin-bottom: .2em
 }
-
 
 /* --------------
 Related Works
@@ -687,30 +657,6 @@ Review
 .v_review_links:first-child {
   margin-bottom: 1em;
 }
-
-/* --------------
-Unused (Karin will investigate)
--------------- */
-
-/*.variorumBlock {
-  display: inline-block;
-  height: 10px;
-  margin: 0 0 3px 3px;
-  padding: 0;
-  width:10px;
-}
-
-.variorumBlock a {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-.variorum_version {
-  background: red;
-  font-weight: 800;
-}*/
-
 
 /* if this isn't at the bottom it breaks :) */
 .tei_app span .hide, .tei_rdg span .hide, .hide, .tei_rdg_wit.hide {
@@ -831,84 +777,3 @@ Header
     background-color: orange;
   }
 }
-
-
-/* ------------
- * Lazy loading
- * ------------ */
-
-/* Lazy loading object-fit wrapper */
-.lazyload-img-wrapper {
-  display: inline-block;
-  position: relative;
-}
-
-.lazyload-img-wrapper:before {
-  content: "";
-  height: 0;
-  padding-bottom: 100%;
-  width: 100%;
-}
-
-.lazyload-img-wrapper img.lazyload {
-  display: block;
-  font-family: "object-fit: contain";
-  height: 100%;
-  left: 0;
-  object-fit: contain;
-  position: absolute;
-  top: 0;
-  transition: 400ms transform;
-  width: 100%;
-}
-
-.lazyload-img-wrapper:hover img.lazyload {
-  transform: scale(1.1);
-}
-
-
-/* Lazy loading blur */
-img.lazyload.ls-blur-up-is-loading,
-img.lazyload:not([src]) {
-  visibility: hidden;
-}
-
-.ls-blur-up-img,
-img.lazyload {
-  display: block;
-  font-family: "blur-up: auto", "object-fit: cover";
-  height: 100%;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 100%;
-} 
-
-.ls-blur-up-img {
-  filter: blur(10px);
-  opacity: 1;
-  transition: opacity 1000ms, filter 1500ms;
-}
-
-.ls-blur-up-img.ls-inview.ls-original-loaded {
-  filter: blur(5px);
-  opacity: 0;
-}
-
-
-/* Customization to display images when no JavaScript */
-.nojs img.lazyload {
-  display: inline;
-  height: auto;
-  position: relative;
-  width: auto;
-}
-
-
-/* Fix display in IE 9+ */
-img.lazyloaded {
-  position: relative !important;
-  visibility: visible !important;
-}
-
