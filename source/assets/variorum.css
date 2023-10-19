@@ -1,0 +1,914 @@
+/* This file should only be applied to the variorum
+ and any other pages that are outside
+the whitman template */
+
+/* Colors
+
+Whitman colors
+
+#131374 whitman blue
+#0e0640 darker blue
+
+Variant boxes
+
+#fbefd3 yellowish highlight
+#fae2aa yellowish highlight selected
+#eca700 yellowish highlight border
+
+#e9f7ef light green highlight
+#a9dfbf light green highlight selected
+#52BE80 light green highlight border
+
+#FADBD8 light red highlight
+#F5B7B1 light red highlight selected
+#D98880 light red highlight border
+
+Relations
+
+#e3e3e3 background
+#9a9a9a border
+#d60022 top bar
+#4eb8db bottom bar
+
+Related Manuscripts
+
+#cbe0e1 box
+#9bc0c2 box border
+#24862e green line
+#8c2700 red line
+*/
+
+/* --------------
+General and TEI 
+---------------- */
+                  
+body, p {
+  font-family: 'Source Sans Pro', "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+  line-height: 1.7em;
+}
+
+a, .fakelink {
+  color: #131374;
+}
+
+.fakelink_rev {
+  line-height: 1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p, .paragraph {
+  display: block;
+}
+
+th {
+  position: relative;
+}
+
+div#body {
+  font-size: 1.2em;
+  text-align: center;
+  background-color: rgb(230,230,230);
+}
+
+.tei_fw {
+  padding: 0px 50px 20px 50px;
+  display: inline-block;
+} 
+
+.tei_fw_preface {
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.teiFigure, 
+.floatingText {
+  display: block;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;  
+  padding: 10px;
+}
+
+th {
+  border: 1px solid black;  
+  padding: 10px;
+}
+
+button {
+  background: none;
+  border: none; 
+  cursor: pointer;
+  font: inherit;
+  /*text-decoration: underline;*/
+  color: #174589;
+  display: inline-block;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+/* --------------
+General Layout Rules
+Some of these are repeated below
+-------------- */
+
+html, body, div#body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+.back_to_top a {
+  background: #fff;
+  font-size: 1.3em;
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  padding: .4em .7em;
+  font-weight: 800;
+}
+
+ .back_to_top a:hover {
+  background-color: #131374;
+  color: #fff;
+} 
+
+#variorum_body {
+  margin-right: 220px;
+  padding-left: 20px;
+  background-color: #fff;
+  padding-bottom: 14em;
+  max-width: 110em;
+}
+
+.tei_div_preface, .tei_lg_poem {
+  margin-right: -220px;
+}
+
+/* for math: .tei_div_preface and 
+.tei_lg_poem have a 10px border */
+
+.v_container {
+  margin-right: 220px;
+}
+
+.mss_links {
+  width: 170px;
+  max-height: 45vh;
+  position: sticky;
+}
+
+/* These rules are to center content */
+.tei_div_preface .teiFigure,
+.tei_lg_poem .teiFigure {
+  margin-right: 200px;
+}
+
+.v_container .tei_div_preface .teiFigure,
+.v_container .tei_lg_poem .teiFigure,
+.v_container .teiFigure,
+.v_container .teiFigure {
+  margin-right: 0;
+}
+
+.tei_fw + .tei_fw {
+  margin-right: 200px;
+}
+
+.v_container .tei_fw + .tei_fw,
+.v_container .tei_fw + .tei_fw {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 800px)  {
+
+  #variorum_body {
+    margin-right: 0;
+    /*padding-right: 20px;*/
+  }
+
+  .tei_div_preface, .tei_lg_poem {
+    margin-right: 0;
+  }
+
+  .v_container {
+    margin-right: 0;
+  }
+
+  .mss_links {
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+
+  /* These rules are to uncenter content */
+  .tei_div_preface .teiFigure,
+  .tei_lg_poem .teiFigure {
+    margin-right: 0;
+  }
+
+  .tei_fw + .tei_fw {
+    margin-right: 0;
+  }
+}
+
+/* Lines */
+
+.v_seg .variorum_content {
+  max-width: 65em;
+  padding-left: 10px;
+}
+
+.v_line .variorum_content {
+  padding-left: 120px;
+} 
+
+/* --------------
+Main Grid (used for <l> and <seg>)
+-------------- */
+
+.v_container {
+  border: solid 1px transparent;
+  display: grid;
+  grid-template-columns: 6em 3em auto 3em;
+  text-align: left;
+}
+
+.v_container:hover, .v_container.text_highlight {
+  background-color: #ecf2e8;
+  border: solid 1px #b8d3a4;
+}
+
+.v_container.v_container_selected {
+  background-color: lavender;
+  border-color: #c4b8ca;
+}
+
+.v_container:hover .v_line_link span {
+}
+
+.v_container:hover .v_line_link span:after {
+  content: "🔗 "; 
+}
+
+.v_container:hover .v_line_link {
+  text-align: center;
+}
+
+.v_corresp {
+  border-right: solid 1px #aaa;
+}
+
+.v_xmlid {
+  text-align: right;
+}
+
+/* Changing grid for reviews page */
+
+.v_reviews .v_container,
+.v_reviews .v_corresp,
+.v_reviews .v_xmlid,
+.v_reviews .variorum_content {
+  display: inline;
+  margin: 0; padding: 0;
+}
+
+.v_reviews .v_corresp {
+  display: inline-block;
+  margin: 0 10px 0 -90px; 
+  padding: 0 10px 0 0;
+  float: left;
+}
+
+
+/* --------------
+Related Text from Manuscripts
+-------------- */
+
+/* Some table styles are in body.css */
+
+.certainty_low {
+  background-color: rgb(240, 240, 240);
+}
+
+.open_all {
+  float: right;
+  font-size: 0.75em;
+  padding: 5px;
+}
+
+.relation_num {
+  background-color: #d60022; 
+  height: .3em;
+  margin-bottom: 2px;
+}
+
+.relation_num_docs {
+  background-color: #4eb8db;
+  height: .3em;
+}
+
+.relation_bg {
+  background-color: #e3e3e3;
+  border: #9a9a9a solid 0.5px;
+  width: 153%;
+}
+
+.relation_bg_rev {
+  background-color: #e6e6e6;
+  width: 115.5%;
+}
+
+.relation_bg_key {
+  background-color: #e6e6e6;
+}
+
+.relation_data {
+  margin: .5em 230px 1.5em 0;
+}
+
+.review .relation_data {
+  width: 100%;
+}
+
+.relation_data table {
+  width: 100%;
+}
+
+.relation_text {
+  width: 90%;
+  text-align: left;
+}
+
+.relation_link {
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.review {
+  padding: 13px 240px 10px 100px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px)  {
+  .review {
+    padding-right: 20px;
+  }
+}
+
+/* There is a class being set in the javascript file 
+for when .overstrike > .supralinear */
+.noline {
+  text-decoration: none;
+}
+
+/* Applying the line through to the supralinear element */
+.overstrike > .supralinear {
+  text-decoration: line-through;
+}
+
+/* .overstrike 80px 10px 80px;
+  text-align: left;
+} */
+
+/* --------------
+Printed Text (Copy) Variations
+-------------- */
+
+/*  Layout (delete before end)
+.tei_app
+  .variant_viewer_link
+    .variant_viewer_view
+  .tei_rdg
+    .variant_text
+    .variant_note
+    .variant_image_container
+      .variant_image
+      .variant_image_citation
+    .variant_open_all
+      button.open_all_rdg
+*/
+
+.v_close_tei_app {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tei_app {
+  border: solid 3px #aaa;
+  border-bottom: none;
+  margin: .3em .5em 0 0;
+  line-height: 1.2em;
+  background-color: #fff;
+  position: relative !important;
+}
+
+/* fixing text offsets */
+.v_container.v_line .tei_app  {
+  margin-left: -120px
+}
+
+.v_container.v_seg .tei_app {
+  padding-left: -10px;
+}
+
+/* A sort of fix for "Leaves" after line 51
+should look for a better way to do this */
+.tei_fw .tei_app {
+  text-align: left;
+  margin-right: 210px
+}
+
+.v_prev_next {
+  text-align: center;
+  padding: .3em;
+}
+
+.variant_viewer_link {
+  margin-bottom: .2em;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+.variant_viewer_link:after {
+  content: " →";
+}
+
+.tei_rdg {
+  border-bottom: solid 3px #aaa;
+}
+
+.variant_text {
+  text-align: center;
+}
+
+.variant_text_click {
+  cursor: pointer;
+}
+
+.tei_rdg > span, .variant_viewer_link {
+  display: block;
+  padding: .3em .4em;
+}
+
+.variant_note {
+  color: rgb(120,120,120);
+  text-align: left;
+}
+
+.tei_rdg .variant_image_container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.variant_image {
+  margin-right: 1em;
+}
+
+.variant_image img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.variant_image_citation {
+  max-width: 90%; /* display hack, could probably target these better with media queries */
+}
+
+.variant_open_all {
+  text-align: center;
+}
+
+.variant_open_all > button, .variant_open_all > a {
+  border: solid 1px #aaa;
+  margin: 0 .3em;
+  padding: .1em .4em;
+  display: inline-block;
+}
+
+.variant_open_all > button:hover, .variant_open_all > a:hover {
+  background-color: rgb(230,230,230);
+}
+
+.variant_open_all > button::after {
+  content: " ↑";
+}
+
+.variant_open_all > button.open_all_closed::after {
+  content: " ↓";
+}
+
+.variant_open_all > a::after {
+  content: " →";
+}
+
+.tei_rdg_wit {
+  background-color: rgb(230,230,230); 
+  text-align: left;
+}
+
+.tei_rdg_wit a {
+  min-width: 5em;
+}
+
+.tei_rdg_wit > a {
+  display: inline-block;
+}
+
+.inline_tei_rdg {
+  background-color: rgb(215,235,225);
+}
+
+/* Inline variant text styling /*
+
+/* Seperate rules for inline and display classes so javascript 
+   can hit on inline only */
+
+
+.inline_tei_rdg, 
+.inline_tei_rdg_drift,
+.inline_tei_rdg_display,
+.inline_tei_rdg_drift_display {
+  display: inline;
+  min-width: 1em;
+  text-align: left;
+}
+
+.inline_tei_rdg_binding, 
+.inline_tei_rdg_binding_display,
+.inline_tei_rdg_key {
+  display: inline-block;
+}
+
+
+.inline_tei_rdg_binding, .inline_tei_rdg_binding_display {
+  background-color: #e9f7ef;
+  border-bottom: dotted 2px #52BE80;
+}
+
+.inline_tei_rdg_binding_display.variant_text_indicator, 
+.inline_tei_rdg_binding:hover,
+.inline_tei_rdg_binding.text_highlight {
+  background-color: #a9dfbf;
+}
+
+.inline_tei_rdg, .inline_tei_rdg_display {
+  background-color: #fbefd3;
+  border-bottom: dashed 2px #eca700;
+}
+
+.inline_tei_rdg_display.variant_text_indicator, 
+.inline_tei_rdg:hover,
+.inline_tei_rdg.text_highlight {
+  background-color: #fae2aa;
+}
+
+.inline_tei_rdg_drift, .inline_tei_rdg_drift_display {
+  background-color: #FADBD8;
+  border-bottom: double 3px #D98880;
+}
+
+.inline_tei_rdg_drift_display.variant_text_indicator, 
+.inline_tei_rdg_drift:hover,
+.inline_tei_rdg_drift.text_highlight {
+  background-color: #F5B7B1;
+}
+
+.inline_tei_rdg_binding_display,
+.inline_tei_rdg_display,
+.inline_tei_rdg_drift_display {
+  padding: .2em;
+  margin-bottom: .2em
+}
+
+
+/* --------------
+Related Works
+-------------- */
+
+.tei_div_preface {
+  border-right: 10px solid #24862e;
+}
+
+.tei_lg_poem, .tei_lg_poem_key {
+  border-right: 10px solid #8c2700;
+}
+
+.tei_lg_poem_key {
+  display: inline-block;
+  float: right;
+}
+
+.tei_lg_poem_even {
+  border-right: 10px solid #eca700;
+}
+
+.tei_reviews {
+  border-right: 10px solid #24862e;
+}
+
+.mss_links, .mss_links_key {
+  background-color: #cbe0e1;
+  border: solid 2px #9bc0c2;
+  float: right;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: .5em;
+  text-align: left;
+  top: 0;
+}
+
+.mss_links_key {
+  width: 150px;
+}
+
+.mss_links_title {
+    color: #8c2700;
+}
+
+.mss_links_subtitle {
+    color: gray;
+}
+
+#body .mss_links_list {
+  font-size: .9em;
+  list-style: none;
+  margin-left: 0;
+}
+
+#body .mss_links_list li {
+  margin: 0;
+  padding: 0;
+}
+
+#body .mss_links_list_per {
+  border-top: solid 2px #9bc0c2;
+  font-size: .9em;
+  list-style: none;
+  margin-left: 0;
+}
+
+/* --------------
+Review
+-------------- */
+
+.tei_l_review, .tei_l_review span {
+  text-align: left;
+}
+
+.tei_div1_type_review {
+  text-align: left;
+}
+
+.tei_div1_type_review .tei_seg,
+.tei_div1_type_review span {
+  line-height: 1.2em;
+  margin: .5em 0;
+}
+
+.v_review_links {
+  line-height: 1.1em;
+  display: inline-block;
+  font-size: .9em;
+}
+
+.v_review_links:first-child {
+  margin-bottom: 1em;
+}
+
+/* --------------
+Unused (Karin will investigate)
+-------------- */
+
+/*.variorumBlock {
+  display: inline-block;
+  height: 10px;
+  margin: 0 0 3px 3px;
+  padding: 0;
+  width:10px;
+}
+
+.variorumBlock a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.variorum_version {
+  background: red;
+  font-weight: 800;
+}*/
+
+
+/* if this isn't at the bottom it breaks :) */
+.tei_app span .hide, .tei_rdg span .hide, .hide, .tei_rdg_wit.hide {
+  display: none;
+}
+
+/* --------------
+Header
+-------------- */
+
+.variorum_header {
+  background-color: #131374;
+  justify-content: space-between;
+  text-align: left;
+  z-index: 100;
+}
+
+.variorum_header h1, 
+.variorum_header > a, 
+.v_header_options a {
+  color: #fff;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.variorum_header > h1 {
+  display: inline-block;
+  font-size: 2em;
+  padding: .5em .5em .3em .5em;
+}
+
+.v_header_options {
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  padding: .2em .5em;
+}
+
+.v_show_hide {
+  text-align: right;
+  flex-grow: 2;
+}
+
+.v_header_return {
+  background-color: #131374;
+  float: right;
+  padding: 0 .9em .3em .5em;
+  text-align: right;
+}
+
+.v_header_return a {
+  color: #fff;
+}
+
+/* Key */
+
+.v_page_key {
+  background-color: rgb(230,230,230);
+  text-align: left;
+  padding: .5em;
+}
+
+.v_page_key_inner {
+  display: grid;
+  grid-template-columns: 25% 23% 30% 22%;
+  font-size: .9em;
+  line-height: 1.1em;
+}
+
+.v_page_key_inner > div {
+  border: solid 1px black;
+  padding: 0px 5px;
+}
+
+.key_related_example {
+  background-color: #ffffff; 
+  border: solid 1px #aaa; 
+  padding: 3px
+}
+
+.key_related_example > .relation_link {
+  text-decoration: none;
+}
+
+/* Key Typography */
+
+#body .v_page_key_inner h2 {
+  font-size: 1em !important;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+#body .v_page_key_inner p {
+  line-height: 1.1em;
+}
+
+.variorum_header button {
+  color: #fff;
+}
+
+.v_header_options a {
+  margin: 0 .5em;
+  padding: .1em .3em;
+}
+
+.v_header_options a.selected {
+  background-color: #6155a5;
+}
+
+/* Highlighting of Previous / Next Variants */
+
+.blink {
+  animation: blinker 1s linear 2;
+}
+
+@keyframes blinker {
+  50% {
+    background-color: orange;
+  }
+}
+
+
+/* ------------
+ * Lazy loading
+ * ------------ */
+
+/* Lazy loading object-fit wrapper */
+.lazyload-img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.lazyload-img-wrapper:before {
+  content: "";
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.lazyload-img-wrapper img.lazyload {
+  display: block;
+  font-family: "object-fit: contain";
+  height: 100%;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  transition: 400ms transform;
+  width: 100%;
+}
+
+.lazyload-img-wrapper:hover img.lazyload {
+  transform: scale(1.1);
+}
+
+
+/* Lazy loading blur */
+img.lazyload.ls-blur-up-is-loading,
+img.lazyload:not([src]) {
+  visibility: hidden;
+}
+
+.ls-blur-up-img,
+img.lazyload {
+  display: block;
+  font-family: "blur-up: auto", "object-fit: cover";
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+} 
+
+.ls-blur-up-img {
+  filter: blur(10px);
+  opacity: 1;
+  transition: opacity 1000ms, filter 1500ms;
+}
+
+.ls-blur-up-img.ls-inview.ls-original-loaded {
+  filter: blur(5px);
+  opacity: 0;
+}
+
+
+/* Customization to display images when no JavaScript */
+.nojs img.lazyload {
+  display: inline;
+  height: auto;
+  position: relative;
+  width: auto;
+}
+
+
+/* Fix display in IE 9+ */
+img.lazyloaded {
+  position: relative !important;
+  visibility: visible !important;
+}
+
