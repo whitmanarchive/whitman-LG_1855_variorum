@@ -1,13 +1,10 @@
 # 1855 Leaves of Grass Variorum
 
-- [Overview](#overview)
-- [Setup](#setup)
-  - [Configuration](#configuration)
-- [Variorum Generation and Updates](#variorum-generation-and-updates)
-  - [Development vs Production](#development-vs-production)
-  - [Works](#works)
-  - [IIIF Manifests](#iiif-manifests)
-  - [HTML](#html)
+This repo shares its Ruby gem dependencies with all other Whitman data
+repos via the
+[Gemfile](https://github.com/whitmanarchive/whitman-scripts/blob/main/Gemfile)
+in the [whitman-scripts
+repo](https://github.com/whitmanarchive/whitman-scripts)
 
 ## Overview
 
