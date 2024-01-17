@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem "datura", git: "https://github.com/CDRH/datura.git", tag: "v0.1.6"
+gem "datura", git: "https://github.com/CDRH/datura.git", branch: "new_fields"
 
 # using stanford supported version of iiif-presentation gem
-gem 'iiif-presentation', github: 'sul-dlss/osullivan', ref: '1f3c9fd96d34fc67405bd412f6470bef8ca3a455'
-
+gem 'iiif-presentation', '~> 1.2'
+gem "byebug"
+gem "pdf-reader"
