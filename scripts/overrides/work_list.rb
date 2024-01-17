@@ -92,16 +92,15 @@ class Datura::DataManager
   end
 
   def locate_file(file)
-    cocoon_root = File.join(@options["collection_dir"], "..", "..", "..", "cocoon", "whitmanarchive")
+    data_root = File.join(@options["collection_dir"], "..")
     types = {
-      "marg" => "manuscripts/marginalia/tei",
-      "marg-anno" => "manuscripts/marginalia/tei-annotations",
-      "mss" => "manuscripts/tei",
-      "nb" => "manuscripts/notebooks/tei"
+      "marg" => "whitman-marginalia/source/tei",
+      "mss" => "whitman-manuscripts/source/tei",
+      "nb" => "whitman-notebooks/source/tei"
     }
     # scour the directories looking for the matching file
     types.each do |type, location|
-      tei_dir = File.join(cocoon_root, location)
+      tei_dir = File.join(data_root, location)
       file_path = File.join(tei_dir, file)
       if File.file?(file_path)
         return [ file_path, type ]
