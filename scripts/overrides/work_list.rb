@@ -24,9 +24,9 @@ class Datura::DataManager
       next if path.nil?
 
       xml = File.open(path) { |f| Nokogiri::XML(f).remove_namespaces! }
-      works = xml.xpath("/TEI//relations/work")
+      works = xml.xpath("/TEI//notesStmt/note[@type='work_relations']")git
       works.each do |work|
-        ref = work["ref"]
+        ref = work["target"]
         certainty = work["certainty"] || work["cert"] || "not_marked"
         if ref
           obj = { id: file, certainty: certainty, type: type }
@@ -49,7 +49,6 @@ class Datura::DataManager
 
     # output the list as JSON
     # puts work_ids.to_json
-
     # create XML document with list of referenced works
     builder = Nokogiri::XML::Builder.new do |xml|
       xml.works {
