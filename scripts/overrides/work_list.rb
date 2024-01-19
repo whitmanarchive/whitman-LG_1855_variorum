@@ -24,7 +24,7 @@ class Datura::DataManager
       next if path.nil?
 
       xml = File.open(path) { |f| Nokogiri::XML(f).remove_namespaces! }
-      works = xml.xpath("/TEI//notesStmt/note[@type='work_relations']")git
+      works = xml.xpath("/TEI//notesStmt/note[@type='work_relations']")
       works.each do |work|
         ref = work["target"]
         certainty = work["certainty"] || work["cert"] || "not_marked"
