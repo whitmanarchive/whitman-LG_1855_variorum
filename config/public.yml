@@ -21,30 +21,30 @@ default:
   variables_html:
     siteroot: https://whitmanarchive.org/
     externalfileroot: http://whitmanarchive.org/
-    nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
-    msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
-    margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
-    variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
-    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
-    msPathHTMLRoot: manuscripts/transcriptions/
-    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
-    margPathHTMLRoot: manuscripts/marginalia/transcriptions/
-    variorumPathHTMLRoot: published/LG/1855/related/
+    nbPathRoot: /var/local/www/collections/whitman-notebooks/source/tei/
+    msPathRoot: /var/local/www/collections/whitman-manuscripts/source/tei/
+    margPathRoot: /var/local/www/collections/whitman-marginalia/source/tei/
+    variorumPathRoot: /var/local/www/collections/whitman-LG_1855_variorum/source/authority/
+    nbPathHTMLRoot: /var/local/www/collections/whitman-notebooks/output/production/html/
+    msPathHTMLRoot: /var/local/www/collections/whitman-manuscripts/output/production/html/
+    margAnnoPathHTMLRoot: /var/local/www/collections/whitman-marginalia/output/production/html/
+    margPathHTMLRoot: /var/local/www/collections/whitman-marginalia/output/production/html/
+    variorumPathHTMLRoot: /var/local/www/collections/whitman-LG_1855_variorum/output/production/html/
 
 development:
   data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
   variables_html:
     siteroot: https://whitman-dev.unl.edu/
     externalfileroot: http://whitmanarchive.org/
-    nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
-    msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
-    margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
+    nbPathRoot: /var/local/www/data/collections/whitman-notebooks/source/tei/
+    msPathRoot: /var/local/www/data/collections/whitman-manuscripts/source/tei/
+    margPathRoot: /var/local/www/data/collections/whitman-marginalia/source/tei/
     variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
-    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
-    msPathHTMLRoot: manuscripts/transcriptions/
-    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
-    margPathHTMLRoot: manuscripts/marginalia/transcriptions/
-    variorumPathHTMLRoot: published/LG/1855/related/
+    nbPathHTMLRoot: /var/local/www/data/collections/whitman-notebooks/output/development/html/
+    msPathHTMLRoot: /var/local/www/data/collections/whitman-manuscripts/output/development/html/
+    margAnnoPathHTMLRoot: /var/local/www/data/collections/whitman-marginalia/output/development/html/
+    margPathHTMLRoot: /var/local/www/data/collections/whitman-marginalia/output/development/html/
+    variorumPathHTMLRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/output/development/html/
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file
