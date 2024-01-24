@@ -14,7 +14,7 @@ config/private.xsl
 !/output/production/iiif
 
 # including dev output
-!/output/development
-/output/development/*
-!/output/development/html
-!/output/development/iiif
+!/test/development
+/test/development/*
+!/test/development/html
+!/test/development/iiif
