@@ -21,16 +21,16 @@
 
   <!-- XML File Paths -->
   <xsl:param name="nbPathRoot">
-    <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/</xsl:text>
+    <xsl:text>../../../whitman-notebooks/source/tei/</xsl:text>
   </xsl:param>
   <xsl:param name="msPathRoot">
-    <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/tei/</xsl:text>
+    <xsl:text>../../../whitman-manuscripts/source/tei/</xsl:text>
   </xsl:param>
   <xsl:param name="margPathRoot">
-    <xsl:text>/var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/</xsl:text>
+    <xsl:text>../../../whitman-marginalia/source/tei/</xsl:text>
   </xsl:param>
   <xsl:param name="variorumPathRoot">
-    <xsl:text>/var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/</xsl:text>
+    <xsl:text>../../source/authority/</xsl:text>
   </xsl:param>
   
   <!-- HTML paths -->
