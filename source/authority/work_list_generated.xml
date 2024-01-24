@@ -2,199 +2,347 @@
 <works>
   <files>
     <!--The following files were not found in any of the cocoon tei locations-->
-    <missing id="amh.00008.xml"/>
-    <missing id="duk.00001.xml"/>
-    <missing id="duk.00003.xml"/>
-    <missing id="duk.00006.xml"/>
-    <missing id="duk.00007.xml"/>
-    <missing id="duk.00008.xml"/>
-    <missing id="duk.00018.xml"/>
-    <missing id="duk.00026.xml"/>
-    <missing id="duk.00027.xml"/>
-    <missing id="duk.00029.xml"/>
-    <missing id="duk.00032.xml"/>
-    <missing id="duk.00044.xml"/>
-    <missing id="duk.00051.xml"/>
-    <missing id="duk.00097.xml"/>
-    <missing id="duk.00104.xml"/>
-    <missing id="duk.00119.xml"/>
-    <missing id="duk.00120.xml"/>
-    <missing id="duk.00128.xml"/>
-    <missing id="duk.00130.xml"/>
-    <missing id="duk.00148.xml"/>
-    <missing id="duk.00159.xml"/>
-    <missing id="duk.00162.xml"/>
-    <missing id="duk.00164.xml"/>
-    <missing id="duk.00258.xml"/>
-    <missing id="duk.00259.xml"/>
-    <missing id="duk.00260.xml"/>
-    <missing id="duk.00261.xml"/>
-    <missing id="duk.00262.xml"/>
-    <missing id="duk.00263.xml"/>
-    <missing id="duk.00264.xml"/>
-    <missing id="duk.00293.xml"/>
-    <missing id="duk.00296.xml"/>
-    <missing id="duk.00297.xml"/>
-    <missing id="duk.00298.xml"/>
-    <missing id="duk.00302.xml"/>
-    <missing id="duk.00303.xml"/>
-    <missing id="duk.00304.xml"/>
-    <missing id="duk.00305.xml"/>
-    <missing id="duk.00787.xml"/>
-    <missing id="duk.00789.xml"/>
-    <missing id="duk.00797.xml"/>
-    <missing id="duk.00800.xml"/>
-    <missing id="duk.00877.xml"/>
-    <missing id="duk.00878.xml"/>
-    <missing id="duk.00883.xml"/>
-    <missing id="duk.00885.xml"/>
-    <missing id="duk.00886.xml"/>
-    <missing id="duk.00887.xml"/>
-    <missing id="duk.00888.xml"/>
-    <missing id="duk.00889.xml"/>
-    <missing id="duk.00905.xml"/>
-    <missing id="duk.00938.xml"/>
-    <missing id="duk.00942.xml"/>
-    <missing id="duk.00945.xml"/>
-    <missing id="loc.00005.xml"/>
-    <missing id="loc.00013.xml"/>
-    <missing id="loc.00024.xml"/>
-    <missing id="loc.00025.xml"/>
-    <missing id="loc.00042.xml"/>
-    <missing id="loc.00141.xml"/>
-    <missing id="loc.00142.xml"/>
-    <missing id="loc.00158.xml"/>
-    <missing id="loc.00162.xml"/>
-    <missing id="loc.00163.xml"/>
-    <missing id="loc.00264.xml"/>
-    <missing id="loc.00346.xml"/>
-    <missing id="loc.00354.xml"/>
-    <missing id="loc.00387.xml"/>
-    <missing id="loc.00389.xml"/>
-    <missing id="loc.00483.xml"/>
-    <missing id="loc.00507.xml"/>
-    <missing id="loc.01019.xml"/>
-    <missing id="loc.05314.xml"/>
-    <missing id="loc.05334.xml"/>
-    <missing id="loc.05354.xml"/>
-    <missing id="loc.05544.xml"/>
-    <missing id="loc.05589.xml"/>
-    <missing id="loc.05704.xml"/>
-    <missing id="loc.05705.xml"/>
-    <missing id="loc.05935.xml"/>
-    <missing id="loc.07421.xml"/>
-    <missing id="loc.07512.xml"/>
-    <missing id="loc.07869.xml"/>
-    <missing id="med.00726.xml"/>
-    <missing id="med.00729.xml"/>
-    <missing id="med.00737.xml"/>
-    <missing id="med.00741.xml"/>
-    <missing id="med.00746.xml"/>
-    <missing id="med.00782.xml"/>
-    <missing id="med.00901.xml"/>
-    <missing id="med.00902.xml"/>
-    <missing id="med.00903.xml"/>
-    <missing id="med.00904.xml"/>
-    <missing id="med.00909.xml"/>
-    <missing id="med.00910.xml"/>
-    <missing id="med.00911.xml"/>
-    <missing id="nyp.00019.xml"/>
-    <missing id="nyp.00022.xml"/>
-    <missing id="nyp.00023.xml"/>
-    <missing id="nyp.00024.xml"/>
-    <missing id="nyp.00025.xml"/>
-    <missing id="nyp.00026.xml"/>
-    <missing id="nyp.00029.xml"/>
-    <missing id="nyp.00052.xml"/>
-    <missing id="nyp.00057.xml"/>
-    <missing id="nyp.00061.xml"/>
-    <missing id="nyp.00063.xml"/>
-    <missing id="nyp.00078.xml"/>
-    <missing id="nyp.00079.xml"/>
-    <missing id="nyp.00085.xml"/>
-    <missing id="nyp.00088.xml"/>
-    <missing id="nyp.00089.xml"/>
-    <missing id="nyp.00095.xml"/>
-    <missing id="nyp.00097.xml"/>
-    <missing id="nyp.00100.xml"/>
-    <missing id="nyp.00101.xml"/>
-    <missing id="nyp.00102.xml"/>
-    <missing id="nyp.00106.xml"/>
-    <missing id="nyp.00110.xml"/>
-    <missing id="nyp.00112.xml"/>
-    <missing id="nyp.00113.xml"/>
-    <missing id="nyp.00116.xml"/>
-    <missing id="nyp.00119.xml"/>
-    <missing id="nyp.00122.xml"/>
-    <missing id="nyp.00125.xml"/>
-    <missing id="nyp.00129.xml"/>
-    <missing id="nyp.00510.xml"/>
-    <missing id="nyp.00511.xml"/>
-    <missing id="nyp.00523.xml"/>
-    <missing id="nyp.00524.xml"/>
-    <missing id="nyp.00549.xml"/>
-    <missing id="nyp.00732.xml"/>
-    <missing id="nyp.00733.xml"/>
-    <missing id="nyp.00734.xml"/>
-    <missing id="nyp.00735.xml"/>
-    <missing id="nyp.00736.xml"/>
-    <missing id="nyp.00742.xml"/>
-    <missing id="prc.00127.xml"/>
-    <missing id="prc.00128.xml"/>
-    <missing id="rut.00010.xml"/>
-    <missing id="rut.00023.xml"/>
-    <missing id="rut.00024.xml"/>
-    <missing id="rut.00025.xml"/>
-    <missing id="tex.00001.xml"/>
-    <missing id="tex.00002.xml"/>
-    <missing id="tex.00030.xml"/>
-    <missing id="tex.00031.xml"/>
-    <missing id="tex.00057.xml"/>
-    <missing id="tex.00079.xml"/>
-    <missing id="tex.00088.xml"/>
-    <missing id="tex.00321.xml"/>
-    <missing id="tul.00002.xml"/>
-    <missing id="tul.00011.xml"/>
-    <missing id="uva.00133.xml"/>
-    <missing id="uva.00134.xml"/>
-    <missing id="uva.00137.xml"/>
-    <missing id="uva.00238.xml"/>
-    <missing id="uva.00249.xml"/>
-    <missing id="uva.00250.xml"/>
-    <missing id="uva.00251.xml"/>
-    <missing id="uva.00254.xml"/>
-    <missing id="uva.00256.xml"/>
-    <missing id="uva.00257.xml"/>
-    <missing id="uva.00258.xml"/>
-    <missing id="uva.00260.xml"/>
-    <missing id="uva.00261.xml"/>
-    <missing id="uva.00262.xml"/>
-    <missing id="uva.00263.xml"/>
-    <missing id="uva.00264.xml"/>
-    <missing id="uva.00265.xml"/>
-    <missing id="uva.00269.xml"/>
-    <missing id="uva.00270.xml"/>
-    <missing id="uva.00273.xml"/>
-    <missing id="uva.00278.xml"/>
-    <missing id="uva.00280.xml"/>
-    <missing id="uva.00283.xml"/>
-    <missing id="uva.00287.xml"/>
-    <missing id="uva.00516.xml"/>
-    <missing id="uva.00560.xml"/>
-    <missing id="uva.00561.xml"/>
-    <missing id="uva.00562.xml"/>
-    <missing id="uva.00565.xml"/>
-    <missing id="uva.00566.xml"/>
-    <missing id="uva.00568.xml"/>
-    <missing id="uva.00570.xml"/>
-    <missing id="uva.00600.xml"/>
-    <missing id="uva.00601.xml"/>
-    <missing id="uva.00602.xml"/>
-    <missing id="uva.00603.xml"/>
-    <missing id="yal.00138.xml"/>
-    <missing id="yal.00441.xml"/>
-    <missing id="yal.00452.xml"/>
-    <missing id="yal.00483.xml"/>
   </files>
   <!--This file was generated with the data repo command 'bundle exec post -x html'-->
+  <work id="xxx.00048">
+    <item id="duk.00001.xml" type="mss" certainty="high"/>
+    <item id="duk.00006.xml" type="mss" certainty="high"/>
+    <item id="duk.00007.xml" type="mss" certainty="high"/>
+    <item id="duk.00018.xml" type="mss" certainty="high"/>
+    <item id="duk.00051.xml" type="mss" certainty="high"/>
+    <item id="duk.00260.xml" type="mss" certainty="high"/>
+    <item id="duk.00261.xml" type="mss" certainty="high"/>
+    <item id="duk.00262.xml" type="mss" certainty="high"/>
+    <item id="duk.00787.xml" type="mss" certainty="high"/>
+    <item id="duk.00797.xml" type="mss" certainty="high"/>
+    <item id="duk.00800.xml" type="mss" certainty="high"/>
+    <item id="duk.00883.xml" type="mss" certainty="high"/>
+    <item id="duk.00942.xml" type="mss" certainty="high"/>
+    <item id="loc.00042.xml" type="mss" certainty="high"/>
+    <item id="loc.00507.xml" type="mss" certainty="high"/>
+    <item id="loc.01019.xml" type="mss" certainty="high"/>
+    <item id="loc.05705.xml" type="mss" certainty="high"/>
+    <item id="med.00901.xml" type="mss" certainty="high"/>
+    <item id="med.00902.xml" type="mss" certainty="high"/>
+    <item id="med.00903.xml" type="mss" certainty="high"/>
+    <item id="nyp.00023.xml" type="mss" certainty="high"/>
+    <item id="nyp.00063.xml" type="mss" certainty="high"/>
+    <item id="nyp.00078.xml" type="mss" certainty="high"/>
+    <item id="nyp.00079.xml" type="mss" certainty="high"/>
+    <item id="nyp.00122.xml" type="mss" certainty="high"/>
+    <item id="nyp.00510.xml" type="mss" certainty="high"/>
+    <item id="nyp.00511.xml" type="mss" certainty="high"/>
+    <item id="nyp.00549.xml" type="mss" certainty="high"/>
+    <item id="nyp.00733.xml" type="mss" certainty="high"/>
+    <item id="prc.00127.xml" type="mss" certainty="high"/>
+    <item id="rut.00025.xml" type="mss" certainty="high"/>
+    <item id="tex.00002.xml" type="mss" certainty="high"/>
+    <item id="tex.00030.xml" type="mss" certainty="high"/>
+    <item id="tex.00057.xml" type="mss" certainty="high"/>
+    <item id="tex.00088.xml" type="mss" certainty="high"/>
+    <item id="uva.00250.xml" type="mss" certainty="high"/>
+    <item id="uva.00254.xml" type="mss" certainty="high"/>
+    <item id="uva.00261.xml" type="mss" certainty="high"/>
+    <item id="uva.00262.xml" type="mss" certainty="high"/>
+    <item id="uva.00263.xml" type="mss" certainty="high"/>
+    <item id="uva.00264.xml" type="mss" certainty="high"/>
+    <item id="uva.00280.xml" type="mss" certainty="high"/>
+    <item id="uva.00561.xml" type="mss" certainty="high"/>
+    <item id="uva.00568.xml" type="mss" certainty="high"/>
+    <item id="uva.00570.xml" type="mss" certainty="high"/>
+    <item id="uva.00601.xml" type="mss" certainty="high"/>
+    <item id="yal.00483.xml" type="mss" certainty="high"/>
+    <item id="amh.00008.xml" type="mss" certainty="low"/>
+    <item id="duk.00008.xml" type="mss" certainty="low"/>
+    <item id="duk.00026.xml" type="mss" certainty="low"/>
+    <item id="duk.00029.xml" type="mss" certainty="low"/>
+    <item id="duk.00104.xml" type="mss" certainty="low"/>
+    <item id="duk.00128.xml" type="mss" certainty="low"/>
+    <item id="duk.00159.xml" type="mss" certainty="low"/>
+    <item id="duk.00162.xml" type="mss" certainty="low"/>
+    <item id="duk.00258.xml" type="marg" certainty="low"/>
+    <item id="duk.00263.xml" type="mss" certainty="low"/>
+    <item id="duk.00293.xml" type="mss" certainty="low"/>
+    <item id="duk.00296.xml" type="mss" certainty="low"/>
+    <item id="duk.00297.xml" type="mss" certainty="low"/>
+    <item id="duk.00298.xml" type="mss" certainty="low"/>
+    <item id="duk.00304.xml" type="mss" certainty="low"/>
+    <item id="loc.00013.xml" type="mss" certainty="low"/>
+    <item id="loc.00162.xml" type="mss" certainty="low"/>
+    <item id="loc.00387.xml" type="mss" certainty="low"/>
+    <item id="loc.05334.xml" type="mss" certainty="low"/>
+    <item id="med.00726.xml" type="mss" certainty="low"/>
+    <item id="med.00904.xml" type="mss" certainty="low"/>
+    <item id="med.00909.xml" type="mss" certainty="low"/>
+    <item id="med.00910.xml" type="mss" certainty="low"/>
+    <item id="med.00911.xml" type="mss" certainty="low"/>
+    <item id="nyp.00052.xml" type="mss" certainty="low"/>
+    <item id="nyp.00057.xml" type="mss" certainty="low"/>
+    <item id="nyp.00085.xml" type="mss" certainty="low"/>
+    <item id="nyp.00088.xml" type="mss" certainty="low"/>
+    <item id="nyp.00089.xml" type="mss" certainty="low"/>
+    <item id="nyp.00102.xml" type="mss" certainty="low"/>
+    <item id="nyp.00112.xml" type="mss" certainty="low"/>
+    <item id="nyp.00113.xml" type="mss" certainty="low"/>
+    <item id="nyp.00116.xml" type="mss" certainty="low"/>
+    <item id="nyp.00119.xml" type="mss" certainty="low"/>
+    <item id="nyp.00734.xml" type="mss" certainty="low"/>
+    <item id="nyp.00742.xml" type="mss" certainty="low"/>
+    <item id="tex.00031.xml" type="mss" certainty="low"/>
+    <item id="tul.00011.xml" type="mss" certainty="low"/>
+    <item id="uva.00133.xml" type="mss" certainty="low"/>
+    <item id="uva.00137.xml" type="mss" certainty="low"/>
+    <item id="uva.00238.xml" type="mss" certainty="low"/>
+    <item id="uva.00251.xml" type="mss" certainty="low"/>
+    <item id="uva.00256.xml" type="mss" certainty="low"/>
+    <item id="uva.00258.xml" type="mss" certainty="low"/>
+    <item id="uva.00265.xml" type="mss" certainty="low"/>
+    <item id="uva.00269.xml" type="mss" certainty="low"/>
+    <item id="uva.00273.xml" type="mss" certainty="low"/>
+    <item id="uva.00278.xml" type="mss" certainty="low"/>
+    <item id="uva.00287.xml" type="mss" certainty="low"/>
+    <item id="uva.00600.xml" type="mss" certainty="low"/>
+    <item id="uva.00602.xml" type="mss" certainty="low"/>
+    <item id="yal.00138.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00231">
+    <item id="duk.00003.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00616">
+    <item id="duk.00027.xml" type="mss" certainty="high"/>
+    <item id="duk.00097.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00121">
+    <item id="duk.00032.xml" type="mss" certainty="high"/>
+    <item id="duk.00259.xml" type="mss" certainty="high"/>
+    <item id="duk.00029.xml" type="mss" certainty="low"/>
+    <item id="duk.00104.xml" type="mss" certainty="low"/>
+    <item id="duk.00889.xml" type="mss" certainty="low"/>
+    <item id="nyp.00029.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00115">
+    <item id="duk.00044.xml" type="mss" certainty="high"/>
+    <item id="loc.01019.xml" type="mss" certainty="high"/>
+    <item id="med.00904.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00119">
+    <item id="duk.00263.xml" type="mss" certainty="high"/>
+    <item id="duk.00264.xml" type="mss" certainty="high"/>
+    <item id="duk.00051.xml" type="mss" certainty="low"/>
+    <item id="duk.00148.xml" type="mss" certainty="low"/>
+    <item id="duk.00261.xml" type="mss" certainty="low"/>
+    <item id="duk.00262.xml" type="mss" certainty="low"/>
+    <item id="duk.00886.xml" type="mss" certainty="low"/>
+    <item id="loc.00013.xml" type="mss" certainty="low"/>
+    <item id="loc.01019.xml" type="mss" certainty="low"/>
+    <item id="nyp.00029.xml" type="mss" certainty="low"/>
+    <item id="nyp.00057.xml" type="mss" certainty="low"/>
+    <item id="nyp.00733.xml" type="mss" certainty="low"/>
+    <item id="tex.00057.xml" type="mss" certainty="low"/>
+    <item id="tex.00079.xml" type="mss" certainty="low"/>
+    <item id="tex.00088.xml" type="mss" certainty="low"/>
+    <item id="tul.00011.xml" type="mss" certainty="low"/>
+    <item id="uva.00251.xml" type="mss" certainty="low"/>
+    <item id="uva.00263.xml" type="mss" certainty="low"/>
+    <item id="uva.00516.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00418">
+    <item id="duk.00261.xml" type="mss" certainty="high"/>
+    <item id="uva.00251.xml" type="mss" certainty="high"/>
+    <item id="duk.00051.xml" type="mss" certainty="low"/>
+    <item id="loc.00013.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00526">
+    <item id="med.00729.xml" type="mss" certainty="high"/>
+    <item id="med.00741.xml" type="mss" certainty="high"/>
+    <item id="med.00746.xml" type="mss" certainty="high"/>
+    <item id="tex.00057.xml" type="mss" certainty="high"/>
+    <item id="tex.00088.xml" type="mss" certainty="high"/>
+    <item id="duk.00128.xml" type="mss" certainty="low"/>
+    <item id="duk.00130.xml" type="mss" certainty="low"/>
+    <item id="duk.00159.xml" type="mss" certainty="low"/>
+    <item id="duk.00263.xml" type="mss" certainty="low"/>
+    <item id="duk.00297.xml" type="mss" certainty="low"/>
+    <item id="duk.00302.xml" type="mss" certainty="low"/>
+    <item id="duk.00303.xml" type="mss" certainty="low"/>
+    <item id="duk.00800.xml" type="mss" certainty="low"/>
+    <item id="duk.00888.xml" type="mss" certainty="low"/>
+    <item id="loc.00387.xml" type="mss" certainty="low"/>
+    <item id="loc.00389.xml" type="mss" certainty="low"/>
+    <item id="loc.00483.xml" type="nb" certainty="low"/>
+    <item id="loc.01019.xml" type="mss" certainty="low"/>
+    <item id="loc.05314.xml" type="mss" certainty="low"/>
+    <item id="med.00726.xml" type="mss" certainty="low"/>
+    <item id="med.00737.xml" type="mss" certainty="low"/>
+    <item id="med.00782.xml" type="mss" certainty="low"/>
+    <item id="med.00903.xml" type="mss" certainty="low"/>
+    <item id="prc.00127.xml" type="mss" certainty="low"/>
+    <item id="rut.00010.xml" type="mss" certainty="low"/>
+    <item id="rut.00023.xml" type="mss" certainty="low"/>
+    <item id="tex.00031.xml" type="mss" certainty="low"/>
+    <item id="uva.00137.xml" type="mss" certainty="low"/>
+    <item id="uva.00238.xml" type="mss" certainty="low"/>
+    <item id="uva.00283.xml" type="mss" certainty="low"/>
+    <item id="uva.00287.xml" type="mss" certainty="low"/>
+    <item id="uva.00601.xml" type="mss" certainty="low"/>
+    <item id="yal.00138.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00052">
+    <item id="duk.00878.xml" type="mss" certainty="high"/>
+    <item id="duk.00128.xml" type="mss" certainty="low"/>
+    <item id="duk.00297.xml" type="mss" certainty="low"/>
+    <item id="nyp.00085.xml" type="mss" certainty="low"/>
+    <item id="nyp.00116.xml" type="mss" certainty="low"/>
+    <item id="nyp.00524.xml" type="mss" certainty="low"/>
+    <item id="nyp.00734.xml" type="mss" certainty="low"/>
+    <item id="tex.00088.xml" type="mss" certainty="low"/>
+    <item id="uva.00249.xml" type="mss" certainty="low"/>
+    <item id="uva.00269.xml" type="mss" certainty="low"/>
+    <item id="uva.00287.xml" type="mss" certainty="low"/>
+    <item id="yal.00483.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00113">
+    <item id="duk.00128.xml" type="mss" certainty="high"/>
+    <item id="duk.00797.xml" type="mss" certainty="low"/>
+    <item id="loc.00162.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00221">
+    <item id="duk.00789.xml" type="mss" certainty="high"/>
+    <item id="med.00746.xml" type="mss" certainty="high"/>
+    <item id="duk.00128.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00419">
+    <item id="duk.00130.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00264">
+    <item id="tex.00030.xml" type="mss" certainty="high"/>
+    <item id="uva.00256.xml" type="mss" certainty="high"/>
+    <item id="uva.00257.xml" type="mss" certainty="high"/>
+    <item id="uva.00258.xml" type="mss" certainty="high"/>
+    <item id="uva.00260.xml" type="mss" certainty="high"/>
+    <item id="duk.00258.xml" type="marg" certainty="low"/>
+    <item id="duk.00260.xml" type="mss" certainty="low"/>
+    <item id="duk.00787.xml" type="mss" certainty="low"/>
+    <item id="duk.00883.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00114">
+    <item id="duk.00262.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00250">
+    <item id="duk.00264.xml" type="mss" certainty="high"/>
+    <item id="nyp.00097.xml" type="mss" certainty="high"/>
+    <item id="nyp.00100.xml" type="mss" certainty="high"/>
+    <item id="tex.00079.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00271">
+    <item id="duk.00905.xml" type="mss" certainty="high"/>
+    <item id="tex.00321.xml" type="mss" certainty="high"/>
+    <item id="uva.00562.xml" type="mss" certainty="high"/>
+    <item id="uva.00566.xml" type="mss" certainty="high"/>
+    <item id="duk.00797.xml" type="mss" certainty="low"/>
+    <item id="nyp.00110.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.01167">
+    <item id="duk.00877.xml" type="mss" certainty="high"/>
+    <item id="duk.00878.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00110">
+    <item id="duk.00886.xml" type="mss" certainty="high"/>
+    <item id="nyp.00110.xml" type="mss" certainty="high"/>
+    <item id="nyp.00057.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00266">
+    <item id="duk.00889.xml" type="mss" certainty="high"/>
+    <item id="loc.00042.xml" type="mss" certainty="high"/>
+    <item id="tul.00002.xml" type="mss" certainty="high"/>
+    <item id="nyp.00025.xml" type="mss" certainty="low"/>
+    <item id="tex.00057.xml" type="mss" certainty="low"/>
+    <item id="yal.00138.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.01165">
+    <item id="duk.00938.xml" type="mss" certainty="high"/>
+    <item id="loc.07869.xml" type="mss" certainty="high"/>
+    <item id="nyp.00735.xml" type="mss" certainty="high"/>
+    <item id="prc.00128.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00798">
+    <item id="duk.00945.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00001">
+    <item id="loc.00142.xml" type="nb" certainty="high"/>
+  </work>
+  <work id="xxx.00741">
+    <item id="loc.00264.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00893">
+    <item id="loc.00387.xml" type="mss" certainty="low"/>
+    <item id="loc.05314.xml" type="mss" certainty="low"/>
+    <item id="nyp.00019.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00243">
+    <item id="loc.01019.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00232">
+    <item id="med.00729.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00259">
+    <item id="nyp.00110.xml" type="mss" certainty="high"/>
+    <item id="tex.00057.xml" type="mss" certainty="high"/>
+    <item id="uva.00565.xml" type="mss" certainty="high"/>
+    <item id="yal.00452.xml" type="mss" certainty="high"/>
+    <item id="med.00904.xml" type="mss" certainty="low"/>
+    <item id="uva.00516.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00157">
+    <item id="med.00904.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00149">
+    <item id="nyp.00024.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00892">
+    <item id="nyp.00061.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00522">
+    <item id="nyp.00106.xml" type="mss" certainty="high"/>
+    <item id="nyp.00736.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00226">
+    <item id="uva.00265.xml" type="mss" certainty="high"/>
+    <item id="nyp.00119.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.01169">
+    <item id="nyp.00119.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00116">
+    <item id="nyp.00122.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00054">
+    <item id="nyp.00122.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00111">
+    <item id="nyp.00510.xml" type="mss" certainty="high"/>
+    <item id="uva.00249.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.00186">
+    <item id="nyp.00549.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00195">
+    <item id="nyp.00549.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00225">
+    <item id="nyp.00549.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00148">
+    <item id="rut.00023.xml" type="mss" certainty="low"/>
+  </work>
+  <work id="xxx.01166">
+    <item id="tex.00001.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00120">
+    <item id="uva.00133.xml" type="mss" certainty="high"/>
+  </work>
+  <work id="xxx.00015">
+    <item id="uva.00560.xml" type="mss" certainty="high"/>
+    <item id="uva.00278.xml" type="mss" certainty="low"/>
+  </work>
 </works>
