@@ -20,7 +20,7 @@ default:
   tei_html_xsl: scripts/overrides/LG55_variorum.xsl
   variables_html:
     siteroot: https://whitmanarchive.org/
-    externalfileroot: http://whitmanarchive.org/
+    externalfileroot: https://whitmanarchive.org/
     nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
     msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
     margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
@@ -30,21 +30,12 @@ default:
     margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
     variorumPathHTMLRoot: published/LG/1855/related/
+  api_version: "2.0"
+  es_index: whitman-api_v2
+  threads: 5
 
 development:
-  data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
-  variables_html:
-    siteroot: https://whitman-dev.unl.edu/
-    externalfileroot: http://whitmanarchive.org/
-    nbPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/notebooks/tei/
-    msPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/tei/
-    margPathRoot: /var/local/www/cocoon/whitmanarchive/manuscripts/marginalia/tei/
-    variorumPathRoot: /var/local/www/data/collections/whitman-LG_1855_variorum/source/authority/
-    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
-    msPathHTMLRoot: manuscripts/transcriptions/
-    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
-    margPathHTMLRoot: manuscripts/marginalia/transcriptions/
-    variorumPathHTMLRoot: published/LG/1855/related/
+  es_index: api_v2
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file

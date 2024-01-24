@@ -18,3 +18,7 @@ config/private.xsl
 /output/test/*
 !/output/test/html
 !/output/test/iiif
+
+# Ignore Gemfile(.lock) to use whitman-scripts Gemfile
+Gemfile
+Gemfile.lock
