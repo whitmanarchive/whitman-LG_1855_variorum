@@ -30,11 +30,15 @@ default:
     margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
     margPathHTMLRoot: manuscripts/marginalia/transcriptions/
     variorumPathHTMLRoot: published/LG/1855/related/
+  api_version: "2.0"
+  es_index: whitman-api_v2
+  threads: 5
 
 development:
   data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
   variables_html:
     siteroot: https://whitman-dev.unl.edu/
+  es_index: api_v2
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file
