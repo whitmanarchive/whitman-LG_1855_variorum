@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0060a.json",
+  "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0060a.json",
   "@type": "sc:Manifest",
   "label": "\"nothing ca\"",
   "description": [
@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a-cropped.json",
+          "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a-cropped.json",
           "@type": "sc:Canvas",
           "label": "\"nothing ca\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.013_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0060a-cropped.json",
+              "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0060a-cropped.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a-cropped.json"
+              "on": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a-cropped.json"
             }
           ],
           "width": 394,
           "height": 207
         },
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a.json",
+          "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a.json",
           "@type": "sc:Canvas",
           "label": "\"nothing ca\"",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.013.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0060a.json",
+              "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0060a.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a.json"
+              "on": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0060a.json"
             }
           ],
           "width": 2339,

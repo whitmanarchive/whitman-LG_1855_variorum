@@ -1,0 +1,1582 @@
+/* CSS Document */
+
+body {
+	background: #cbcbcb;
+	text-align: center;
+	color: #242D35;
+	font-family: "Arial", Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-size: 14px;
+}
+
+a:link {
+	text-decoration: underline;
+	color: #174589;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #242D35;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+table {
+	padding: 5px;
+}
+
+td {
+	padding-right: 5px;
+}
+
+
+div#document {
+	max-width: 830px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	/* Add these later for wider site */
+	/*max-width:1200px;
+	padding: 0 20px;*/
+}
+
+div#body {
+	padding: 10px 30px 45px 30px;
+	background: white;
+	height: 100%;
+}
+
+.inline_p {
+	display:inline;
+}
+
+/*Markup that still has old styling encoded into the HTML*/
+
+#oldMarkup {
+	margin-left: 140px;
+}
+
+/* Section/Document heading */
+
+div.bodyHead {
+	padding: 10px 30px 10px 30px;
+	background: #E9E9E9;
+}
+
+div.bodyHead h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: #2c4054;
+	line-height: 1.5em;
+}
+
+div.bodyHead h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 1.3em;
+	padding-left: 0;
+	font-family: "Arial Unicode MS", "Arial", Helvetica, sans-serif;
+	color: #4f6b79;
+}
+
+div.bodyHead h3 {
+	margin: 0;
+	padding: 0;
+}
+
+div.bodyHead p.breadCrumbs {
+	font-size: .8em;
+	padding-bottom: 0;
+	padding-top: 3px;
+}
+
+div.bodyHead p.breadCrumbs a:link, div.bodyHead p.breadCrumbs a:visited {
+	color: #4f6b79;
+	text-decoration: none;
+}
+
+div.bodyHead p.breadCrumbs a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/* for EAD items within a series */
+div.indivItemSeries {
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+#body h2 {
+	font-size: 1.6em;
+	padding: 15px 0 0 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.7em;
+}
+
+#body h3 {
+	font-size: 1.1em;
+	padding: 15px 10px 0 0;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5em;
+}
+
+#body h4 {
+	font-size: 1em;
+	padding: 25px 20px 0 0;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+#body h5 {
+	font-size: 1em;
+	padding: 15px 10px 0 0;
+	font-style: italic;
+	line-height: 1.3em;
+}
+
+h2 a, h2 a:link,  h2 a:visited, h1 a, h1 a:link,  h1 a:visited {
+	text-decoration: none;
+	color: #174589;
+}
+
+h2 a:hover, h1 a:hover {
+	color: black
+}
+
+#body ul {
+	margin-left: 2em;
+}
+
+#body li {
+	padding-bottom: 10px;
+}
+
+#body ul, #body p {
+	line-height: 1.5em;
+	padding: 15px 10px 5px 0;
+}
+
+#body p {
+	text-indent: 0;
+}
+
+#body p.hangingIndent {
+	text-indent: -2em;
+	margin-left: 2em;
+}
+
+#body .bibliography p {
+	text-indent: 0;
+	/*font-size: .93em;*/ /* Why make smaller? -KMD */
+}
+
+em {
+	font-weight: inherit;
+	font-style: italic;
+}
+
+div.docList {
+	margin: 10px 50px 50px 50px;
+}
+
+#body div.docList h3 {
+	padding: 15px 0 0 0;
+}
+
+#body div.docList ul {
+	margin-bottom: 10px;
+	margin-left: 1em;
+	padding-top: 5px;
+}
+
+#body div.docList li {
+	padding-bottom: 0;
+}
+
+#body blockquote,
+#body .blockquote {
+	padding: 13px 80px 10px 80px;
+}
+
+#body blockquote p {
+	text-indent: 0;
+	color: #444444;
+	line-height: 1.8em;
+	/*font-size: .93em;*/ /* Why make blockquotes smaller? -KMD */
+	padding-bottom: 10px;
+}
+
+span.ead {
+    margin-left: 0;
+}
+
+#body div.halfCol {
+	margin-bottom: 20px;
+	width: 50%;
+	float: left
+}
+
+#body div.afterword {
+	margin-top: 30px;
+	padding-top: 5px;
+	border-top: solid 1px #B7D1DC;
+}
+
+#body div.afterword p {
+	text-indent: 0;
+	/*font-size: .93em;*/ /* Why make blockquotes smaller? -KMD */
+}
+
+strong {
+	font-weight: bold;
+}
+
+#body p.navRight {
+	float: right;
+	padding-top: 10px;
+}
+
+/*For Encyclopedia metadata*/
+
+div.fieldName {
+	font-weight: normal;
+	color: #777777;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: -5px;
+}
+
+/*For rossetti */
+
+div.INDENTED {
+	text-indent: 1em;
+}
+
+/*For LOG page images */
+
+#body p.image {
+	margin: 0;
+	padding: 0;
+}
+
+#body span.pageImage {
+	display: block;
+	margin: 10px 10px 17px 10px;
+	text-align: center;
+	font-size: .9em;
+}
+
+/*For LOG TOC */
+
+#body ul.logTOC {
+	margin-left: 30px;
+	line-height: 1.4em;
+}
+
+#body ul.logTOC li {
+	margin: 0;
+	padding: 0;
+}
+
+#body ul.logTOC li.section {
+	padding-top: 7px;
+	font-weight: bold;
+}
+
+#body ul.logTOC li.smallPoem {
+	font-size: .9em;
+}
+
+#body ul.logTOC li.smallIndented {
+	font-size: .9em;
+	text-indent: 2em;
+}
+
+.caps {
+	text-transform: capitalize;
+}
+
+/*For LOG page flipper */
+
+#body div.bigImage {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto
+}
+
+#body div.bigImage p {
+	text-indent: 0;
+}
+
+/*For Manuscripts descriptive lists */
+
+#body div.section {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#body div.section h3 {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+#body div.section p {
+	padding-top: 7px;
+	text-indent: 0;
+	margin-left: 30px;
+}
+
+#body div.section li {
+	padding-bottom: 5px;
+}
+
+/*For Manuscript notebooks image links */
+
+div.imageLink {
+	text-align: right;
+	font-size: .71em;
+}
+
+div.list1 {
+	list-style: none;
+}
+
+div.underline {
+	text-decoration: underline;
+}
+
+/*For biography blockquotes*/
+
+div.indented {
+	margin-left: 3em;
+}
+
+
+/* New context menu*/
+
+#body div.subMenu a, #body div.subMenu ul, #body div.subMenu h3, #body div.subMenu li {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#body div.subMenu {
+	float: left;
+	width: 185px;
+	margin-top: 15px;
+}
+
+#body div.subMenu li {
+	padding-bottom: 15px;
+}
+
+#body div.subMenu li a {
+	display: block;
+	line-height: 1.4em;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0;
+}
+
+/* margin on bottom to compensate for 1px border*/
+
+div.subMenuTarget {
+	padding-left: 200px;
+}
+
+/* Main text of section */
+
+p img.leftFigure {
+	padding: 0 20px 20px 0;
+	float: left;
+	clear: both;
+}
+
+#body blockquote.spotlight {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 15px;
+	padding: 15px 0 10px 0;
+	clear: both;
+}
+
+#body blockquote.spotlight p {
+	padding: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+div#footerMenu {
+	text-align: left;
+	font-family: "Arial Unicode MS", "Arial", Helvetica, sans-serif;
+	font-size: .75em;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: #E9E9E9;
+	padding: 0;
+	padding-top: 10px;
+}
+
+div#footerMenu p {
+	text-align: center;
+	color: #5d5f79;
+	line-height: 1em;
+	margin: 0;
+	padding: 10px 5px 10px 5px;
+}
+
+div#footerMenu p#copy {
+	margin: 0;
+	padding: 7px;
+	line-height: normal;
+	background: #1d1e76;
+	text-align: center;
+	color: #E9E9E9;
+	margin-top: 25px;
+}
+
+#body ul.mainSectionMenu {
+	list-style: none;
+	margin: 20px 30px 60px 30px;
+	padding: 0;
+}
+
+#body ul.mainSectionMenu h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+#body ul.mainSectionMenu p.scope {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 15px 10px;
+	border: solid 1px #eff4fa;
+	font-size: .9em;
+}
+
+#body ul.mainSectionMenu li {
+	padding: 10px 20px 15px 20px;
+}
+
+#body ul.NewsItems {
+	list-style: none;
+	margin: 20px 20px 60px 20px;
+	padding: 0;
+}
+
+#body ul.NewsItems h3 {
+	font-weight: normal;
+	border-bottom: solid 1px #b2bdcc;
+	margin-bottom: 0;
+}
+
+#body ul.NewsItems li {
+	margin-bottom: 30px;
+}
+
+div.metadata {
+	border: solid 1px #CCCCCC;
+	padding: 5px 10px 10px 10px;
+	margin: 5px 10px 10px 10px;
+}
+
+div.metadata p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+ul.contentsMenu li {
+	margin: 0;
+	padding: 0;
+	border-bottom: dashed 1px #CCCCCC;
+	padding-bottom: 5px;
+}
+
+li.nobullet {
+	text-decoration: none;
+}
+
+dl {
+	padding: 10px;
+}
+
+dd.notes {
+	padding: 10px 0 0 20px;
+	font-size: .9em;
+}
+
+dd.notes2 {
+	padding: 0 0 0 20px;
+	font-size: .9em;
+}
+
+span.notes {
+	font-size: .9em;
+}
+
+td.lines {
+	padding: 4px 0 4px 0;
+}
+
+span.MS_add_supra {
+	vertical-align: super;
+}
+
+span.MS_add_del_supra {
+	vertical-align: super;
+	text-decoration: line-through;
+}
+
+/* Gallery */
+
+div.gallery p.nav {
+	color: #CCCCCC;
+}
+
+div.gallery table {
+	border-collapse: collapse;
+}
+
+div.gallery th, div.gallery td {
+	vertical-align: top;
+	padding: 10px 0 10px 15px;
+	border-bottom: solid 1px #CCCCCC;
+	font-size: .9em;
+	text-align: left;
+}
+
+div.gallery td.n {
+	width: 2em;
+}
+
+div.gallery td.preview {
+	width: 164px;
+}
+
+div.gallery td.photog {
+	width: 14em;
+}
+
+div.gallery td.place {
+	width: 8em;
+}
+
+div.gallery td.year {
+	width: 6em;
+}
+
+div.gallery td.view {
+	width: 4em;
+}
+
+div.gallery a.unselected:link, div.gallery a.unselected:visited {
+	background: url(../shared/down_unselected.gif) bottom right no-repeat;
+	padding-right: 15px;
+}
+
+div.gallery a.selected_descending:link, div.gallery a.selected_descending:visited {
+	background: url(../shared/up_selected.gif) bottom right no-repeat;
+	padding-right: 15px;
+}
+
+div.gallery a.selected_ascending:link, div.gallery a.selected_ascending:visited {
+	background: url(../shared/down_selected.gif) bottom right no-repeat;
+	padding-right: 15px;
+}
+
+.images_gallery_view img {
+  max-width: 100%; 
+  max-width: 180px; 
+}
+
+/* pop-up for Stacey's handwriting tool pages */
+
+.thumbnail {
+	position: relative;
+	z-index: 0;
+}
+
+.thumbnail:hover {
+	background-color: transparent;
+	z-index: 50;
+}
+
+.thumbnail span {
+
+/*CSS for enlarged image*/ position: absolute;
+	background-color: lightyellow;
+	padding: 5px;
+	left: -1000px;
+	border: 1px dashed gray;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img {
+
+/*CSS for enlarged image*/ border-width: 0;
+	padding: 2px;
+}
+
+.thumbnail:hover span {
+
+/*CSS for enlarged image on hover*/ visibility: visible;
+	top: -175px;
+	left: 60px;
+/*position where enlarged image should offset horizontally */
+}
+
+/* Liz test for superscript */
+
+sup {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	position: relative;
+	bottom: 1ex;
+}
+
+/* Site Tour added Oct 29, 2012  -kd */
+
+img.tour_001 {
+	float: left;
+	margin: 0 10px 0 6px;
+}
+
+img.tour_002 {
+	margin: 10px 10px 0 0;
+}
+
+img.tour_003 {
+	margin: 10px 0 0 10px;
+}
+
+img.tour_004 {
+	margin: 10px 0 0 200px;
+}
+
+img.tour_005 {
+	margin: 10px 0 0 100px;
+}
+
+img.tour_006 {
+	margin: 10px 0 0 100px;
+}
+
+img.tour_007 {
+	margin: 10px 0 0 10px;
+}
+
+img.tour_008 {
+	margin: 10px 0 0 100px;
+}
+
+img.tour_009 {
+	margin: 10px 0 0 100px;
+}
+
+.tour_container h4 {
+	clear: both;
+}
+
+
+/* =====================
+SOLR/Search results
+======================== */
+
+
+.search_box, .callout {
+	border: double 3px #aaa;
+	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+}
+
+.search_box a {
+	padding: .2em;
+}
+
+#body .search_box h3,
+#body .search_box p {
+	padding: 0;
+	margin: 5px 0 5px 0;
+}
+
+.search_selected {
+	text-decoration: none;
+	font-weight: 800;
+	color: #000;
+	background-color: #e9e9e9;
+}
+
+/* For clicking on table headers to sort */
+td.search_selected {
+	background-color: transparent;
+	padding-right: 5px;
+}
+
+td.search_selected a {
+	display: inline-block;
+	background-color: #e9e9e9;
+}
+
+#body ul.search_facets { margin:0; padding:0; list-style-type: none;}
+
+.search_facets li {
+	display:inline-block; 
+	border:solid 1px #aaa; 
+	padding:.5em .5em 0 .5em; 
+	margin:0;
+	line-height: 1.2em;}
+
+.search_facets li.selected {
+	background-color: #20207e;
+}
+
+.search_facets li.selected a {
+	color:#fff;
+}
+
+.search_facets li a { 
+	text-decoration: none;
+	}
+
+.search .search_facets li {
+    display:block;
+}
+
+/* ======================
+TEI Rules
+========================= */
+
+.teiHead				{font-weight: normal; font-size: 1.3em;}
+.teiSubHead 			{}
+.refAB					{text-align: right; margin-right: 30px;}
+.teiTitle 				{font-size: .86em;}
+.teiTable 				{border: 0;}
+.teiNote 				{font-size: .71em;}
+.teiLine 				{}
+.teiFigure 				{}
+.teiLineGroupinQuote 	{margin-right: 50px;}
+.teiLineGroup 			{margin-right: 300px;}
+.teiQuoteLineGroup		{padding-left: 50px; margin-right: 100px;}
+.teiEpigraph 			{margin-left: 70px; margin-right: 100px;}
+.teiSeg 				{white-space: nowrap}
+.teiOverwrite 			{color:#FFCC00; text-decoration: line-through;}
+.teiTitlePart 			{margin: 1em 0 0 0; text-align: center;} /* LOG */
+.teiTitlePartMain 		{font-size: 4em !important; line-height: 1.2em !important;}  /* LOG */
+.teiTrailer				{text-align: center; margin: 0 0 5em 0;}
+.teiByline 				{font-size: .8em; text-align: center;}
+.teiTOC 				{}
+.teiAuthorial 			{font-size: .8em;}
+.teiTrailer				{margin-left: 40px;}
+.teiBibl 				{margin: 10px 0 10px 20px;}	
+.teiDscHead  			{}	
+.teiPB 					{padding-right: 20px; padding-bottom: 10px; float: left;}
+.teiFigure 				{}
+.teiLineBreak {margin-left: 60px;}
+.teiEmph {}
+.teiFloatingText {}
+ 
+/* ======================
+Other Rules
+========================= */
+
+.italic 				{font-style: italic;}
+.fontNormal 			{font-weight: normal}
+.bold 					{font-weight: bold}
+#body .noBulletList 	{list-style-type: none}
+#body .simpleList 		{list-style-type: none; margin: 0; padding: 0;}
+.simpleList li 			{}
+.noTextDecoration		{text-decoration: none; font-weight: normal; font-style: normal;}
+.rendRight				{text-align: right;}
+.rendLeft				{text-align: left;}
+.rendCenter				{text-align: center;}
+.important				{color: red;}
+.smallcaps 				{font-size: .8em}
+.horbar-full 			{width: 100%}
+.horbar-short-center 	{width: 10%; margin: auto;}
+.underline 				{text-decoration: underline}
+.doubleUnderline 		{border: 0 none inherit; border-bottom: medium double #000000;}
+.floatLeft 				{float: left; clear: left}  
+.floatRight 			{float: right;}
+.textCenter 			{text-align: center;}
+.figDesc				{font-size: .8em;}
+.largeText				{font-size: 1.2em;}
+.handshift				{font-family: Georgia, "Times New Roman", Times, serif;}
+.overstrike 			{text-decoration: line-through;}
+.overwrite 				{color:#FFCC00;text-decoration: line-through;}
+.smalltext 				{font-size: .71em;}
+.inquote				{margin-left: -70px;}
+.notinquote				{margin-left: 0;}
+.metadata_toggle 		{line-height: .1;}
+.spacer 				{padding: 1em 0}
+.navigation 			{font-size: .8em;}
+.indent					{margin-left: 20px;}
+.indent1 				{margin-left: 40px;}
+.indent2 				{margin-left: 80px;}
+.indent3 				{margin-left: 120px;}
+.indent4 				{margin-left: 160px;}
+.footnote				{}
+.aboutLink 				{text-align: right; line-height: .1; font-size: .8em;}
+.hr						{height: 1px; color: #000; margin: auto;}
+.thumbnailDisplay
+
+/*----------------*/
+
+
+
+/* PUBLISHED */
+
+.published .workList 	{width: 250px;}
+.margin_left_neg_30 	{margin-left: -30px;} /* I cannot find an instance of this but am leaving it in just in case -KMD */
+.padding_left_0			{padding-left: 0;}
+.padding_left_10px		{padding-left: 10px;}
+
+/* LOG */
+
+.LOGImprint 			{width:250px; border: 0;  margin: auto; text-align: center;}
+.LOGPage 				{text-align: justify; font-size: .9em;}			 
+.books_lg .LOG_TOC		{font-size: .8em; margin: 2em 0 0 0;}
+.books_lg .teiLine 		{font-size: .8em;}
+.books_lg .teiLineGroup {margin-right: 0; white-space: nowrap;}
+.books_lg .teiLineGroup .LOGLinegroup sup {font-size: .57em; letter-spacing: 1px; font-style: normal; }
+.books_lg  .teiHead 	{text-align: center; font-family: sans-serif !important; margin-top: 2em;}
+.books_linegroup_number {font-size: .7em; vertical-align: super; padding-right: .5em;}
+
+/* PERIODICALS */
+
+.periodicalsIntroHead 	{text-align: center;}
+
+div.periodicals_padded {padding-bottom: 10px;
+padding-top:10px;}
+
+.closer {padding-top: 25px;}
+
+.periodicals-poem-main-level {padding-bottom: 25px;}
+
+.periodicals_indent {margin-left: 35px;}
+
+.periodicals_indent2 {margin-left: 55px;}
+
+.periodicals_indent3 {margin-left: 75px;}
+
+.periodicals_indent4 {margin-left: 95px;}
+
+.periodicals_indent24 {margin-left: 215px;}
+
+div.periodicals_section {padding-bottom: 15px;}
+
+/* FICTION */
+
+.fictionNotes {position: relative;
+    bottom: 0.6em;
+    font-size: 0.8em;
+}
+.fictionEpigraphs {margin-left:20px;
+    margin-right:20px;    
+}
+.fictionEpigraphsBibl {margin-left:40px;}
+
+.fictionFloatingText {display:block;
+	margin-left: 40px;}
+	
+.fictionHangingIndent {
+	margin-left: -2em;
+}
+	
+/*for mouseovers*/
+.hidden {
+    display:none;
+}
+a:hover > .shown {
+    display:none;
+}
+a:hover > .hidden {
+    display:inline;
+}
+
+/* TRANSLATIONS */
+.translations-notinquote {margin-left: -50px;}
+.blockquote-translations-notinquote {margin-left: -85px;}
+.translations-teiLine {padding-left: 25px ;
+    text-indent: -25px ;}
+ .translations-spanish-teiLine {text-indent: 25px;
+     }
+ .translations-note-inlist {
+     margin-left: 50px;
+ }
+ .translations-footnote {
+     font-size: 9pt;
+ }
+ .translations-pb-within-line {
+     margin-left: -30px;
+ } 
+ .translations-footnote-inblockquote {
+     margin-left: -80px;
+ }
+
+/* COMMENTARY */
+
+.diciples teiHead {font-size: 1.1em; font-weight: bold; text-align: center}
+.criticism teiHead 			{text-align: center;}
+.criticism .teiLineGroup1 { margin-left: 50px}
+.criticism sup 			{line-height: 0em; text-decoration: underline}
+.criticism .teiBibl 			{margin: 0;}
+
+/* MANUSCRIPTS */
+
+.manuscripts .teiDscHead 	{color: #000084; text-align: center;}
+.metamark {color: green}
+.delSpan {background-color: #D0D0D0}
+.milestone {text-align: center; color: gray; vertical-align: top}
+.supplied {color: DarkTurquoise}
+.unclear {color: #999999}
+.pasteover {background-color: #D0D0D0}
+.floatingText {margin-left: 70px}
+.supralinear {vertical-align:super;}
+.interlinear {vertical-align:super;}
+.infralinear {vertical-align:sub;}
+.erasure {background-color:gray; color:white;}
+.inline {color: brown}
+
+/* CORRESPONDENCE */
+
+.correspondence .hr 		{width:20%; margin: auto}
+.correspondence .indent2 {padding-left: 10px}
+.correspondence .teiFigure 	{margin-left: 100px}
+
+/*progress[value] {
+    /\*-webkit-appearance: none; 
+    -moz-appearance: none;*\/
+    width: 139px;
+    height: 14px;
+    /\*background-color: #d3d3d3; border: none;
+    color: green;*\/
+}*/
+
+/* MULTIMEDIA */
+
+.multimedia .teiHead {font-size: 1.1em; font-weight: bold; text-align: center}
+.multimedia .teiSubHead {line-height: 0; margin-top:1.5em; font-weight: bold;}
+
+/* ANCILLARY */
+
+.ancillary .teiHead 			{text-align: center;}
+.ancillaryAdd 			{color:#000;}
+.aboutQuestion {font-weight: bold;}
+
+.ancillary_doc table {
+	margin-top: 1em;
+}
+
+.ancillary_doc td {
+	border: solid 1px #aaa;
+	padding: .5em;
+}
+
+.ancillary_table_fixed {
+    margin-top: 1em;
+    table-layout: fixed;
+    width: 750px;
+}
+
+.ancillary_table_fixed td {
+    border: solid 1px #aaa;
+	padding: .5em;
+}
+
+.ancillary_table_head {
+    background-color: #D0D0D0;
+}
+
+.ancillary_img {
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.ancillary_img_small {
+    max-width: 500px; 
+    max-height: 270px;
+}
+
+/* ABOUT */
+
+.about .teiEmph 				{text-decoration: underline}
+.about .teiEpigraph 			{margin-left: 70px; margin-right: 100px;}
+.about .teiFloatingText 		{font-weight: bold; font-style: normal; margin-left: 40px}
+.about .teiLineGroup 			{margin-right: 0; font-weight: bold; font-style: normal}
+.about .teiLine 				{margin-left: 50px; line-height: 1.5}
+.about .teiEpigraph 			{margin-left: 20px; margin-right: 20px; line-height: 1.5}
+.about .teiFigure 			{padding-left: 30px}
+.about .teiSubHead 			{font-weight: bold; font-size: .64em;}
+.about td 			{width:300px;border-bottom:solid 1px;padding:5px 5px 10px 0px}
+.about sup 				{text-decoration: underline}
+
+/* DICIPLES */
+
+.diciples .navigation 			{font-size: .71em; color: #003366; text-align: center}
+.camdenDocImprintSub {width: 200px; text-align: center; background-color: red}
+
+
+/* Temporary, decide later whether to refine and keep*/
+
+.layout_a {
+	width: 34%; float: right;
+}
+
+.layout_b {
+	width: 62%; float:left;
+}
+
+/* if we want marginalia to NOT be side by side */
+/*.marginalia .layout_a, 
+.marginalia .layout_b {
+    width:100%;
+    float:none;
+}*/
+
+#body .search_results_list {
+	margin: 1em 0 1em 0;
+	padding: 0;
+}
+
+ #body .search_results_list li {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+	margin-bottom: .6em;
+/*Hanging indent, if we go that route:*/
+/*	margin-left: 2em;
+	text-indent: -2em;*/
+}
+
+
+.search #body .search_results_list li {
+	border:solid 1px #aaa;
+	margin-bottom: .5em;
+	padding: .5em .5em;
+	line-height:1.2em;
+	overflow: auto;
+	
+}
+
+.search_results_type { 
+    /*display:block;
+    background-color: #1e1f79;
+    margin: .2em -.5em -.5em -.5em;
+    padding: .2em .5em;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;*/
+    float:right;
+    display: inline-block;
+    background-color: #8a8a8a;
+    padding: .3em;
+    color: #fff;
+    margin: -.5em -.5em .5em 0;
+   
+    }
+
+.document_sort {
+	
+	margin: 10px 0 10px 0;
+	border:  solid #aaa 1px;
+	padding: .5em .5em 0 .5em;
+}
+
+#body .document_sort p {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+
+
+
+/* Marginalia */
+
+.frontByline            {} 
+.marginalia_highlight   {background-color: #CC99FF;}
+.marginalia_pasteon     {padding:5px 10px; border:1px solid #000; background-color:#E9E9E9; clear:both; margin-bottom:20px;}
+.marginalia_laidin     {padding:5px 10px; border:1px solid #000; clear:both; margin-bottom:20px;}
+.marginalia_page_image  {min-height:50px; min-width: 50px;}
+.annotations_underline {border-bottom: 1px solid blue;}
+.annotations_hand {color: blue;
+	font-family: "Arial", Helvetica, sans-serif;}
+.marginalia_index_indent {
+    padding:5px 5px 0px 30px;
+    text-indent: -2em;
+	margin-left: 2em;
+}
+
+/*Extra TEI elements*/
+.marginalia_head {margin: 10px 0px 10px 20px; font-weight: bold}
+.marginalia_teiLine {margin-left: 50px; line-height: 1.5}
+.marginalia_topright {margin-left:300px}
+
+/*Whitman's Hand*/
+.h1, .marginalia_hand, .marginalia_hand li {
+	font-weight: bold;
+	border: 3px double #3748b7;
+	border-right: none;
+	border-left: none;
+	padding: 0px;
+	background-color: #FFFFFF;
+	
+}
+
+.h1 .marginalia_hand {
+	font-weight: bold;
+	border: none;
+	
+}
+
+.highlight {
+	/*background-color:#aaa;*/ 
+	font-weight:normal; 
+	color:#000; 
+	border: solid 1px #aaa; 
+	/*padding:  0px 2px;*/
+	border-right: none;
+	border-left:  none;
+	background-color: #f4f4f4;
+	
+}
+
+span.marginalia_hand span.highlight {
+	font-weight: bold;
+	border: 3px double #3748b7;
+	border-right: none;
+	border-left: none;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+/*  Marginalia Handlist  */
+.handlist_table tr {
+    display:block;
+}
+.handlist_title {
+    font-weight: 800;
+}
+.handlist_data_row {
+    border-bottom: 2px solid #aaa;
+}
+.handlist_author, .handlist_pubdate, .handlist_readdate, .handlist_evidence, .handlist_link, .handlist_notes, .handlist_copy, .handlist_frontis, .handlist_abbr, .handlist_binding, .handlist_reviews, .handlist_call {
+    display:block; 
+    margin-left: 4em;
+}
+
+.handlist_collapse {
+  display: none;
+}
+	
+.no-decoration {font-weight: normal; font-style: normal;}
+
+/*Other Hands*/
+/*.h2 {color:green; font-weight:900;}
+.h3 {color:blue; font-weight:900;}
+.h4 {color:yellow; font-weight:900;}*/
+
+
+
+.callout {background-color:#E9E9E9}
+
+.layout_left {
+	width: 55%; 
+	float: left;
+	overflow:auto;
+	clear: both;
+}
+
+.layout_right {
+	width: 40%; float:right;
+	height: auto;
+	overflow:auto;
+}
+
+.container {
+	
+	overflow: auto;
+}
+
+table.search_results_list {width:100%;}
+
+/*label (Brett's doing)*/
+.label_right {
+text-align:right
+}
+
+/*horbars in Gems from WW (more of Brett's doing)*/
+.Gems_horbar {
+text-align:center
+}
+
+
+
+/* added this template to style the EAD work titles */
+.eadworktitle {font-size:1.5em; padding-bottom:10px; padding-top:5px; line-height:25px;}
+
+/* added this template to style the EAD series titles */
+h3.series {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+/* Image Gallery Additions by KMD May 5, 2015
+*/
+
+.images_file {
+    margin: 10px 0;
+}
+.images_file img {
+    max-width:100%;
+    border: solid #aaa 2px
+}
+
+.gallery_description {
+    border: solid 1px #aaa;
+    border-right: none;
+    border-left: none;
+    padding: 0 10px;
+}
+
+.gallery_work {
+    border: solid 1px #aaa;
+    padding:10px;
+    margin:10px 0;
+    overflow:auto;
+}
+
+.gallery_work_metadata {
+    width:65%;
+    float:left;
+}
+
+
+.gallery_work_image {
+    border-left: solid 2px #aaa;
+    padding-left: 1em;
+    width: 30%;
+    float:right;
+}
+
+.images_gallery_view {
+    width:192px;
+    height:300px;
+    display:inline-block;
+    float:left;
+    text-align:center;
+}
+
+.images_gallery_view img {
+    
+}
+
+.gallery_intro_link,
+.gallery_search,
+.gallery_view {
+    border-bottom: solid #aaa 1px;
+    margin:10px;
+    padding:10px 10px 15px 10px !important;
+   
+}
+
+
+dl.ead_view {
+    padding: 0.5em;
+    margin-right: .2em;
+    
+  }
+dl.ead_view  dt {
+    float: left;
+    clear: left;
+    width: 170px;
+    text-align: right;
+    font-weight: bold;
+    
+  }
+dl.ead_view  dt:after {
+    content: ": ";
+  }
+ dl.ead_view   dd {
+    margin: 0 0 0 180px;
+    padding: 0 0 0.5em 0;
+  }
+
+/*For Traubel*/
+
+.traubel_anchor {
+    font-family: Arial, Arial, Helvetica;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.traubel_note {
+    font-size: .95em;
+}
+
+.traubel_pagebreak {
+    display: block;
+    text-align: center;
+    width: 765px;
+}
+
+.traubel_pagebreak_letter {
+    display: block;
+    text-align: center;
+    width: 560px;
+}
+
+.traubel_pagebreak_p {
+    display: block;
+    text-align: center;
+    width: 765px;
+}
+
+.traubel_pagebreak_letter_p {
+    display: block;
+    text-align: center;
+    width: 590px;
+}
+
+.traubel_text {
+    font-size: .95em;
+}
+
+.traubel_title {
+    font-size: 1.5em;
+    font-family: Arial;
+	padding: 15px 0 0 0;
+	line-height: 1.7em;
+}
+
+.traubel_letter {
+	padding: 15px 90px 5px 90px;
+	display: block;
+	line-height: 1.5em;
+}
+
+.traubel_poem {
+    line-height: 1.5em;
+}
+
+img.centerFig {
+    display: block;
+    margin: 0 auto;
+}
+
+.traubel_head {
+    font-size: 1em;
+	font-style: italic;
+	line-height: 1.2em;
+	text-align: center; 
+	display: block;
+}
+
+.foreignFloatingText {
+	padding: 15px 50px 15px 50px;
+	display: block;
+	line-height: 1.5em;
+}
+
+.lineHeight {
+    line-height: 1.5em;
+}
+
+/* Popups */
+
+/* NOTE these may no longer be in use after they were replaced in the bibliography
+ * but it looks like P5 notebooks either may use some of them, so leaving for now
+ * Recommend removal during migration to new system (Jessica D, Apr 2020) */
+
+.popup-overlay {
+    visibility:hidden;
+}
+
+.popup-content {
+    visibility:hidden;
+    width: 500px;
+    background: #ffffff;
+    text-align: left;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    padding: 8px 8px 8px 8px;
+    position: absolute;
+}
+
+.popup-overlay.active {
+    visibility:visible;
+}
+
+.popup-content.active {
+    visibility:visible;
+}
+
+.popup_click {
+    color: #174589;
+    text-decoration: underline;
+}
+
+.close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+
+/* ------------
+ * Bibliography
+ * ------------ */
+
+.bib_more_info {
+  background: #e1e1e1;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  // start with more_info collapsed
+  display: none;
+  padding: 8px 8px 8px 8px;
+  text-align: left;
+  width: 90%;
+  cursor: pointer;
+}
+
+.bib_more_info_close {
+  background-color: #ccc;
+  border: black solid 2px;
+  border-radius: 6px;
+  float: right;
+  padding: 5px 10px;
+}
+
+.bib_more_info_close:hover {
+  background-color: grey;
+  // try to make this look a bit more like a link
+  cursor: pointer;
+}
+
+.bib_more_info_open {
+  color: #174589;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ------------
+ * Lazy loading
+ * ------------ */
+
+/* Lazy loading object-fit wrapper */
+.lazyload-img-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.lazyload-img-wrapper:before {
+  content: "";
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.lazyload-img-wrapper img.lazyload {
+  display: block;
+  font-family: "object-fit: contain";
+  height: 100%;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  transition: 400ms transform;
+  width: 100%;
+}
+
+.lazyload-img-wrapper:hover img.lazyload {
+  transform: scale(1.1);
+}
+
+
+/* Lazy loading blur */
+img.lazyload.ls-blur-up-is-loading,
+img.lazyload:not([src]) {
+  visibility: hidden;
+}
+
+.ls-blur-up-img,
+img.lazyload {
+  display: block;
+  font-family: "blur-up: auto", "object-fit: cover";
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+} 
+
+.ls-blur-up-img {
+  filter: blur(10px);
+  opacity: 1;
+  transition: opacity 1000ms, filter 1500ms;
+}
+
+.ls-blur-up-img.ls-inview.ls-original-loaded {
+  filter: blur(5px);
+  opacity: 0;
+}
+
+
+/* Customization to display images when no JavaScript */
+.nojs img.lazyload {
+  display: inline;
+  height: auto;
+  position: relative;
+  width: auto;
+}
+
+
+/* Fix display in IE 9+ */
+img.lazyloaded {
+  position: relative !important;
+  visibility: visible !important;
+}
+
+/* Fixes line wrap on staff page */
+#body p.credit-description {
+	padding-top: 0;
+	margin-top:0;
+}
+.credit-person {
+	display: flex;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+@media (max-width: 500px) {
+	.credit-person
+	{
+		flex-direction: column;
+	}
+}

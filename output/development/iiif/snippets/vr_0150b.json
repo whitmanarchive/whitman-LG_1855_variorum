@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0150b.json",
+  "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/vr_0150b.json",
   "@type": "sc:Manifest",
   "label": "Running head \"es\" spacing wider",
   "description": [
@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b-cropped.json",
+          "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b-cropped.json",
           "@type": "sc:Canvas",
           "label": "Running head \"es\" spacing wider",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01021_cropped.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0150b-cropped.json",
+              "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0150b-cropped.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,20 +39,20 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b-cropped.json"
+              "on": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b-cropped.json"
             }
           ],
           "width": 614,
           "height": 211
         },
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b.json",
+          "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b.json",
           "@type": "sc:Canvas",
           "label": "Running head \"es\" spacing wider",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01021.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0150b.json",
+              "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/vr_0150b.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -67,7 +67,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b.json"
+              "on": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/vr_0150b.json"
             }
           ],
           "width": 2792,

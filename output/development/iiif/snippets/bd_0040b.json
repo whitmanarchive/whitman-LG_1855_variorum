@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0040b.json",
+  "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/bd_0040b.json",
   "@type": "sc:Manifest",
   "label": "State B frontispiece",
   "description": [
@@ -18,13 +18,13 @@
       "label": "No Label Yet",
       "canvases": [
         {
-          "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0040b.json",
+          "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0040b.json",
           "@type": "sc:Canvas",
           "label": "State B frontispiece",
           "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00024.jpg/full/!150,150/0/default.jpg",
           "images": [
             {
-              "@id": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/bd_0040b.json",
+              "@id": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/annotation/bd_0040b.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -39,7 +39,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://whitman-dev.unl.edu/media/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0040b.json"
+              "on": "http://localhost:9999/data/whitman-LG_1855_variorum/output/development/iiif/snippets/canvas/bd_0040b.json"
             }
           ],
           "width": 2487,
