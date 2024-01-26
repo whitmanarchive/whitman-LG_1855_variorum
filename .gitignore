@@ -19,6 +19,9 @@ config/private.xsl
 !/output/test/html
 !/output/test/iiif
 
-# Ignore Gemfile(.lock) to use whitman-scripts Gemfile
+# Ignore Gemfile(.lock), .ruby-* to use whitman-scripts files
 Gemfile
 Gemfile.lock
+.ruby-gemset
+.ruby-version
+
