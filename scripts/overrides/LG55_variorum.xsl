@@ -866,19 +866,19 @@
 
   <xsl:template match="div1[@type='review']">
       <div class="tei_div_preface">
-        <xsl:if test="descendant::work[@ref='xxx.00798']">
+        <xsl:if test="descendant::note[@target='xxx.00798']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/aeaap.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
-        <xsl:if test="descendant::work[@ref='xxx.00892']">
+        <xsl:if test="descendant::note[@target='xxx.00892']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwabb.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
-        <xsl:if test="descendant::work[@ref='xxx.00893']">
+        <xsl:if test="descendant::note[@target='xxx.00893']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwahp.html">Compare to Periodical Version (in Juxta)</a>
