@@ -10,7 +10,7 @@
        I am not an SVN user, so just be sure to move it out eventually!
   -->
   
-  
+
   <xsl:template name="mss_links">
     <xsl:param name="label">unlabeled</xsl:param>
     <xsl:param name="work_id"/>
