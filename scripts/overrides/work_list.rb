@@ -130,5 +130,4 @@ class Datura::DataManager
     end
     files
   end
-
 end
