@@ -24,9 +24,9 @@ class Datura::DataManager
       next if path.nil?
 
       xml = File.open(path) { |f| Nokogiri::XML(f).remove_namespaces! }
-      works = xml.xpath("/TEI//relations/work")
+      works = xml.xpath("/TEI//notesStmt/note[@type='work_relations']")
       works.each do |work|
-        ref = work["ref"]
+        ref = work["target"]
         certainty = work["certainty"] || work["cert"] || "not_marked"
         if ref
           obj = { id: file, certainty: certainty, type: type }
@@ -49,7 +49,6 @@ class Datura::DataManager
 
     # output the list as JSON
     # puts work_ids.to_json
-
     # create XML document with list of referenced works
     builder = Nokogiri::XML::Builder.new do |xml|
       xml.works {
@@ -92,20 +91,21 @@ class Datura::DataManager
   end
 
   def locate_file(file)
-    cocoon_root = File.join(@options["collection_dir"], "..", "..", "..", "cocoon", "whitmanarchive")
+    cocoon_root = File.join(@options["collection_dir"].gsub("\/whitman-LG_1855_variorum",""))
     types = {
-      "marg" => "manuscripts/marginalia/tei",
-      "marg-anno" => "manuscripts/marginalia/tei-annotations",
-      "mss" => "manuscripts/tei",
-      "nb" => "manuscripts/notebooks/tei"
+      "marg" => "/whitman-marginalia/source/tei",
+      "marg-anno" => "/whitman-marginalia/source/tei",
+      "mss" => "/whitman-manuscripts/source/tei",
+      "nb" => "/whitman-notebooks/source/tei"
     }
     # scour the directories looking for the matching file
     types.each do |type, location|
-      tei_dir = File.join(cocoon_root, location)
+      tei_dir = File.join(data_root, location)
       file_path = File.join(tei_dir, file)
       if File.file?(file_path)
         return [ file_path, type ]
       end
+      puts file_path
     end
     # if you made it this far, then the file is missing!
     @not_found << file
@@ -129,5 +129,4 @@ class Datura::DataManager
     end
     files
   end
-
 end

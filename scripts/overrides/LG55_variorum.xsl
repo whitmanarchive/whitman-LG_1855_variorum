@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-  xpath-default-namespace="http://www.whitmanarchive.org/namespace">
+  xpath-default-namespace="http://www.tei-c.org/ns/1.0">
 
   <xsl:import href="../../config/config.xsl"/>
   <xsl:import href="../../config/private.xsl"/>
@@ -11,16 +11,108 @@
   <xsl:import href="_works_list.xsl"/>
   <xsl:import href="_key.xsl"/>
   
-  <xsl:output method="xml" indent="yes" encoding="UTF-8" media-type="text/html"/>
+  <xsl:output method="xhtml" indent="no" encoding="UTF-8" media-type="text/html"/>
 
   <!-- variables -->
   <!-- TODO pull dynamically from mss -->
   <xsl:variable name="mss_max_count">18</xsl:variable>
   <xsl:variable name="mss_max_count_docs">18</xsl:variable>
+  
+  
+  <xsl:variable name="pagetype"><xsl:text>main_variorum</xsl:text></xsl:variable>
+  <!-- if ppp.01880 main_variorum if anc.02145||anc.02143||anc.02142|||anc.02141||anc.02138 books_lg-->
+  <xsl:variable name="site_url"/>
 
   <!-- BEGIN: HTML OUTPUT STRUCTURE -->
   <xsl:template match="/">
     <!-- the variorum header is being applied in html_wrapper_LG55_variorum.xsl in cocoon/whitmanarchive/xslt -->
+    
+    <!-- ADDING VARIORUM HEADER -->
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" id="top">
+      <head>
+        <!-- LG Variorum Global site tag (gtag.js) - Google Analytics -->
+        <script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-9601708-1"><xsl:text>&#x0020;</xsl:text></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', 'UA-9601708-1');
+        </script>
+        <title>Published Works - Books by Whitman - Leaves of Grass (1855) Variorum</title>
+        
+        
+        <link
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;display=swap"
+          rel="stylesheet"/>
+        
+        
+        
+        <!--<link href="{$site_url}css/banner.css" rel="stylesheet" type="text/css" media="all" />-->
+        
+        
+        <link href="../../../source/assets/reset-min.css" rel="stylesheet" type="text/css"
+          media="all"/>
+        <link href="../../../source/assets/body.css" rel="stylesheet" type="text/css"
+          media="all"/>
+        <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
+          media="all"/>
+        
+        <script language="javascript" src="../../../source/assets/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="../../../source/assets/jquery-3.4.1.min.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="../../../source/assets/variorum.js"><xsl:text>&#x0020;</xsl:text></script>
+        
+        
+      </head>
+      <body>
+        <div id="body">
+          
+          
+          
+          <div class="variorum_header">
+            <h1><!--<a href="{$siteroot}" title="Home"><img alt="The Walt Whitman Archive" src="{$siteroot}shared/h1_bg.jpg" /></a>--><a
+              href="{$siteroot}" title="Go to Whitman Archive Home"><img style="width: 50px;"
+                alt="Walt Whitman Archive Logo"
+                src="{$siteroot}shared/WWA_logo.gif"/></a><em>Leaves of
+                  Grass</em> (1855) Variorum</h1>
+            <span class="v_header_return"><a href="{$siteroot}">Go to <em>Whitman Archive</em> home</a></span>
+            <div class="v_header_options">
+              <a>
+                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/index.html</xsl:text></xsl:attribute>
+                <xsl:text>Menu</xsl:text>
+              </a>
+              <a>
+                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/main.html</xsl:text></xsl:attribute>
+                <xsl:if test="$pagetype = 'main_variorum'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
+                <xsl:text>Main Text</xsl:text>
+              </a>
+              <a>
+                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/reviews.html</xsl:text></xsl:attribute>
+                <xsl:if test="$pagetype = 'reviews'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
+                <xsl:text>Reviews and Extracts</xsl:text>
+              </a>
+              <a>
+                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>/published/LG/1855/variorum/comparison_viewer.html</xsl:text></xsl:attribute>
+                <xsl:if test="$pagetype = 'image_compare'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
+                <xsl:text>Image Comparison Viewer</xsl:text>
+              </a>
+              <xsl:choose>
+                <xsl:when test="$pagetype = 'image_compare'">
+                  
+                </xsl:when>
+                <xsl:otherwise>
+                  <span class="v_show_hide">
+                    <button class="v_show_key">hide key</button>
+                  </span>
+                </xsl:otherwise>
+              </xsl:choose>
+              
+            </div>
+            <xsl:copy-of select="//div[@class = 'variorum_key']"/>
+          </div>
+        
+        <!-- END ADD VARIORUM HEADER -->
     <div>
       <div class="variorum_key">
         <xsl:call-template name="key"/>
@@ -42,6 +134,35 @@
         </xsl:if>
       </div>
      </div>
+        
+        <!-- ADD VARIORUM END HTML -->
+        
+        
+        
+          <xsl:choose>
+            <xsl:when test="$pagetype = 'image_compare'">
+              <xsl:copy-of select="//div[@class='viewer_surround']"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:copy-of select="//div[@id = 'variorum_body']"/>
+            </xsl:otherwise>
+          </xsl:choose>
+          
+          
+        </div>
+        
+        <xsl:choose>
+          <xsl:when test="$pagetype = 'image_compare'"/>
+          <xsl:otherwise>
+            <div class="back_to_top"><a href="#top">Top ↑</a></div>
+          </xsl:otherwise>
+        </xsl:choose>
+        
+        
+      </body>
+    </html>
+        
+        <!-- END ADD VARIORUM END HTML -->
   </xsl:template>
   <!-- END: OUTPUT -->
 
@@ -745,19 +866,19 @@
 
   <xsl:template match="div1[@type='review']">
       <div class="tei_div_preface">
-        <xsl:if test="descendant::work[@ref='xxx.00798']">
+        <xsl:if test="descendant::note[@target='xxx.00798']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/aeaap.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
-        <xsl:if test="descendant::work[@ref='xxx.00892']">
+        <xsl:if test="descendant::note[@target='xxx.00892']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwabb.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
-        <xsl:if test="descendant::work[@ref='xxx.00893']">
+        <xsl:if test="descendant::note[@target='xxx.00893']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">View Periodical Version</a><br/>
             <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwahp.html">Compare to Periodical Version (in Juxta)</a>
