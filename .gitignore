@@ -13,8 +13,15 @@ config/private.xsl
 !/output/production/html
 !/output/production/iiif
 
-# including dev output
-!/test/development
-/test/development/*
-!/test/development/html
-!/test/development/iiif
+# including test output
+!/output/test
+/output/test/*
+!/output/test/html
+!/output/test/iiif
+
+# Ignore Gemfile(.lock), .ruby-* to use whitman-scripts files
+Gemfile
+Gemfile.lock
+.ruby-gemset
+.ruby-version
+
