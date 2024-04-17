@@ -91,7 +91,7 @@ class Datura::DataManager
   end
 
   def locate_file(file)
-    cocoon_root = File.join(@options["collection_dir"].gsub("\/whitman-LG_1855_variorum",""))
+    data_root = File.join(@options["collection_dir"].gsub("\/whitman-LG_1855_variorum",""))
     types = {
       "marg" => "/whitman-marginalia/source/tei",
       "marg-anno" => "/whitman-marginalia/source/tei",
