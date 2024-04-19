@@ -1,0 +1,82 @@
+/* CSS for mirador Viewer */
+
+/* Colors
+#131374 whitman blue
+#0e0640 darker blue
+#24862e green
+#b8d3a4 lighter green
+#eca700 orangish
+#8c2700 dark red
+
+#fbefd3 yellowish highlight
+#fae2aa yellowish highlight selected (darker)
+
+#ecf2e8 light greyish green line highlight
+
+#cbe0e1 greyish blue 
+9bc0c2 darker of above
+*/
+
+html, body {
+  height: 100%;
+}
+
+div#body {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#snippet_navigation {
+  padding: .5em;
+  display: block;
+}
+
+#snippet_navigation a {
+  margin: .2em .2em;
+  display: inline-block;
+  border: solid 1px #aaa;
+  padding: .1em .2em;
+  background-color: #fff;
+}
+
+#snippet_navigation a.active {
+  background-color: #fae2aa;
+}
+
+.prev_next {
+  display: none;
+}
+
+#snippet_navigation .prev_next a {
+  background-color: #131374;
+  color: #fff;
+}
+
+#snippet_navigation .prev_next a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+#snippet_navigation a:hover {
+  background-color: #131374;
+  color: #fff;
+}
+
+iframe#mirador_viewer_window, #iframe_holder, .viewer_surround, .page_content {
+  height: 100%;
+  width: 100%;
+}
+
+iframe#mirador_viewer_window {
+  border: none;
+}
+
+#iframe_holder {
+  display: flex;
+}
+
+.viewer_surround {
+  display: flex;
+  flex-flow: column;
+}
