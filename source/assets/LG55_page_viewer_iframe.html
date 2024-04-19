@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></meta>
+  </head>
+  <body>
+    <!-- apparently I need to add CSS here? -->
+    <link rel="stylesheet" type="text/css" href="https://whitmanarchive.org/mirador/2/mirador/css/mirador-combined.css"></link>
+    <link rel="stylesheet" type="text/css" href="https://whitmanarchive.org/mirador/2/mirador/plugins/shareButtons/shareButtons.min.css"></link>
+    <!--Show/hide crop tool-->
+    <!--<link rel="stylesheet" type="text/css" href="https://whitmanarchive.org/mirador/2/mirador/plugins/imageCropper/imageCropper.min.css"></link>-->
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: absolute;
+     }
+      /* Hides annotation button */
+    .mirador-osd-annotations-layer {
+      display: none !important;
+    }
+    </style>
+
+    <div id="viewer"></div>
+
+    <script src="https://whitmanarchive.org/mirador/2/mirador/mirador.js">&#160;</script>
+    <script src="https://whitmanarchive.org/mirador/2/mirador/plugins/shareButtons/shareButtons.min.js">&#160;</script>
+    <!--<script src="https://whitmanarchive.org/mirador/2/mirador/plugins/imageCropper/imageCropper.min.js">&#160;</script>-->
+    <script type="text/javascript">
+
+     $(function() {
+       var hostname = window.location.hostname;
+       // default to always using production unless if this is the dev server
+       var environment = (hostname == "whitman-dev.unl.edu") ? "development" : "production";
+       var dataPath = "https://"+hostname+"/media/data/whitman-LG_1855_variorum/output/"+environment+"/iiif/"
+
+       myMiradorInstance = Mirador({
+         id: "viewer",
+         layout: "1x1",
+         buildPath: "mirador/",
+         data: [
+          { manifestUri: dataPath+"leaves_of_grass.json", location: "Leaves of Grass 1855" }
+         ],
+         windowObjects: [{
+           loadedManifest: dataPath+"leaves_of_grass.json",
+           canvasID: dataPath+"canvas/ppp.00271.001.jpg-leaf001r.json",
+           viewType: "ImageView"
+         }],
+         annotationEndpoint: {
+           name:"Local Storage",
+           module: "LocalStorageEndpoint" },
+
+         // ImageCropper addition
+         imageCropper: {
+           // Activate the cropping selection frame for every window in Mirador, default is false
+           activeOnStart: false,
+           // Define the number of decimals in the relative region coordinates, default is 5
+           roundingPrecision: 3,
+           // Show a license link defined in the containing manifest, default is false
+           showLicense: true,
+           // Display an info that the website containing the Mirador instance is left by clicking on the share buttons, default is false
+           showShareButtonsInfo: true
+         }
+       });
+     });
+    </script>
+  </body>
+</html>
