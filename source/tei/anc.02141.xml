@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anc.02141">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Documents Related to the 1855 <hi rend="italic">Leaves of Grass</hi>: Binding Records</title> 
+                <author>Nicole Gray</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>anc.02141</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P. O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>The text encoding and content of this document was created and/or prepared by the <title level="m">Walt Whitman Archive</title> and is licensed under a <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> (CC BY 4.0). Any reuse of these materials should credit the <title level="m">Walt Whitman Archive</title>.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Written for <hi rend="italic">The Walt Whitman Archive</hi>. First published on the <hi rend="italic">Archive</hi> in 2020.</p> 
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-06-02" who="#nhg">created file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="ancillary-variorum">
+        <body>
+            <div1 type="section" xml:id="production">
+                <head type="sub">Binding Records</head>
+                <p>Much of what is known about the various bindings of the 1855 <hi rend="italic">Leaves of Grass</hi> has been derived from close examination of the copies, but there is at least one surviving document that provides additional information about both the timing and the cost of the binding work, as well as the total number of copies. A binder's statement written by Charles Jenkins shows copies of the 1855 <hi rend="italic">Leaves of Grass</hi> bound in several stages. 
+                    <figure>
+                        <graphic url="loc_js.00567.jpg"/>
+                        <head>Figure.</head> 
+                        <figDesc>Binder's statement. Charles E. Feinberg Collection, Library of Congress, Washington, D.C.</figDesc>
+                    </figure>
+                    The stages of binding listed in Jenkins's statement include:<note xml:id="n1" type="authorial" resp="#nhg">Information about bindings has been supplemented by a transcription and explanation of this statement in White and summaries in Winship and Myerson.</note> 
+                    <list>
+                        <item>June 1855: 200 copies at 32 cents each (probably cloth)</item>
+                        <item>July 1855: 137 copies at 58 cents each (probably cloth) and 46 copies in "boards mounted" at 18 cents each</item>
+                        <item>December 1855: 169 copies in cloth at 22 cents each and 150 copies in paper at 2 cents each</item>
+                        <item>January 1856: 93 copies in "cloth plain" at 22 cents each</item>
+                    </list></p>
+                <p>Bindings in June and July 1855 were probably binding A, with gilt edges and goldstamped ornaments. Cloth bindings in December 1855 and January 1856 were probably binding B, with blindstamped ornaments.<note xml:id="n2" type="authorial" resp="#nhg">This is based on the lower cost of the later bindings and the probable date of the reviews and extracts insertion, which was bound into some copies in bindings B and C. For more about the reviews and extracts, see the <ref target="../intro.html#reviews">introduction to the variorum</ref>. For a complete list and description of bindings, see Winship and Myerson. See also Folsom, 18. Some copies in binding B, probably from the same batch of either December 1855 or January 1856 bindings, feature reversed blind-stamped ornaments in the center of the front and back covers. All copies so far observed to have this ornament reversal also include the eight-page insertion of reviews and extracts that Whitman had printed and bound into some copies. More examination would need to be done of copies with binding B to determine whether this is a consistent phenomenon.</note> Binding C includes both copies bound in "boards mounted" in July 1855 and copies bound in paper wrappers in December.<note xml:id="n8" type="authorial">Most surviving paper bindings have deteriorated, and many copies originally in binding C may have been rebound. The University of Virginia copy used to illustrate binding C in the variorum (<ref target="../../bibliography/index.html#UVa_07">UVa_07</ref>) is in boards, but the binding for that copy has been repaired, and the boards probably are not original.</note> Jenkins, a Brooklyn bookbinder, evidently subcontracted the job to Davies &amp; Hands after the first round of (cloth-bound) copies.<note xml:id="n6" type="authorial">See Folsom, 11.</note> Jenkins wrote the following note to Whitman on the statement: "You will see that I have charged you only 32 cts for the Leaves bound by me. The amount of the bill of Davies &amp; Hands over what it would have been at the same price is only about $30. They are not in condition to be able to let their accounts lay uncollected without embarrassment, and my means are invested so that the money is actually needed."<note xml:id="n7" type="authorial">Jenkins's math is incorrect in a couple of places in this statement, including a sizable difference in the cost of 169 copies bound in cloth in December 1855: at 22 cents per copy, this should have been $37.18 rather than the listed $26.18. If this statement reflects the amount that was eventually paid and no additional copies were bound, the total paid for binding was $201.32.</note> Based on this statement, scholars have concluded that 795 was likely the total number of copies printed.<note xml:id="n5" type="authorial">White, 353. Whitman varied in his reports of how many copies were printed. In his public letter to Emerson, published in the 1856 <hi rend="italic">Leaves of Grass</hi>, he wrote: "I printed a thousand copies, and they readily sold" (346). An 1856 announcement in <hi rend="italic">Life Illustrated</hi> stated that the "first edition of a thousand copies rapidly disappeared" (Allen, 178). In a <ref target="../../../../../biography/correspondence/tei/loc.04931.html">March 31, 1885</ref>, letter to unidentified correspondents, however, Whitman wrote: "The first Leaves of Grass was printed in 1855 in Brooklyn New York&#8212;small quarto 9 by 12 inches, 95 pages&#8212;in the type called 'English'&#8212;was not stereotyped&#8212;800 copies were struck off on a hand press by Andrew Rome, in whose job office the work was all done&#8212;the author himself setting some of the type."</note></p>
+                
+            </div1>
+            
+            <div1 type="bibliography">
+                
+                <head type="main-authorial">Bibliography</head>
+                
+                <listBibl>
+                    <bibl>Allen, Gay Wilson. <hi rend="italic">The Solitary Singer: A Critical Biography of Walt Whitman</hi>. New York: Macmillan Company, 1955.</bibl>
+                    <bibl>Folsom, Ed. "What We're Still Learning about the 1855 <hi rend="italic">Leaves of Grass</hi> 150 Years Later." <hi rend="italic">Leaves of Grass: The Sesquicentennial Essays</hi>, ed. Susan Belasco, Ed Folsom, and Kenneth M. Price. Lincoln, NE: University of Nebraska Press, 2007. 1&#8211;32.</bibl>   
+                    <bibl>Myerson, Joel. <hi rend="italic">Walt Whitman: A Descriptive Bibliography</hi> (Pittsburgh: University of Pittsburgh Press, 1993), 12&#8211;22.</bibl>
+                    
+                    <bibl>White, William. "The First (1855) 'Leaves of Grass': How Many Copies?" <hi rend="italic">Papers of the Bibliographical Society of America</hi> 57.3 (1963): 352&#8211;4.</bibl>
+                    <bibl>Winship, Michael. "Walt Whitman." <hi rend="italic">Bibliography of American Literature</hi>, Vol. 9 (New Haven: Yale University Press, 1991), 31&#8211;2.</bibl>
+                    
+                    <bibl>Whitman, Walt. <hi rend="italic">Leaves of Grass</hi>. Brooklyn, NY: Fowler &amp; Wells, 1856.</bibl>
+                </listBibl>
+            </div1>
+        </body>
+    </text>
+</TEI>
