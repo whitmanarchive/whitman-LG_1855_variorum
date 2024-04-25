@@ -24,12 +24,6 @@
   <!-- For display in TEI framework, have changed all namespace declarations to http://www.tei-c.org/ns/1.0. If different (e.g. Whitman), will need to change -->
   <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="no"/>
   
-  <xsl:template match="/" priority="5"><sss>
-    <xsl:value-of select="substring-before(substring-before(tokenize(base-uri(.), '/')[last()], '.xml'),'.')" use-when="substring-before(substring-before(tokenize(base-uri(.), '/')[last()], '.xml'),'.')='ppp'"/>
-   zzz
-    </sss>
-  </xsl:template>
-  
   <!-- add overrides for this section here -->
   
   
