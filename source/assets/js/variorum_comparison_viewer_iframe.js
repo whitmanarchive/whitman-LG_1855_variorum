@@ -16,9 +16,8 @@ function qs(key) {
 // draw the mirador viewer
 $(function() {
   var hostname = window.location.hostname;
-  // default to always using production unless if this is the dev server
-  var environment = (hostname == "whitman-dev.unl.edu") ? "development" : "production";
-  var dataPath = "https://"+hostname+"/media/data/whitman-LG_1855_variorum/output/"+environment+"/iiif/"
+  // changed link to relative
+  var dataPath = "../iiif/"
 
 
   idList = qs("ids");
