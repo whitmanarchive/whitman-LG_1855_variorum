@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/vr_0560b.json",
+  "@type": "sc:Manifest",
+  "label": "\"waiting for you\"",
+  "description": [
+    {
+      "@value": "\"waiting for you\" (vr_0560b)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Special Collections, The University of Iowa Libraries",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0560b-cropped.json",
+          "@type": "sc:Canvas",
+          "label": "\"waiting for you\"",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/vr_0560b-cropped.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 432,
+                "height": 184,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0560b-cropped.json"
+            }
+          ],
+          "width": 432,
+          "height": 184
+        },
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0560b.json",
+          "@type": "sc:Canvas",
+          "label": "\"waiting for you\"",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/vr_0560b.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2296,
+                "height": 3401,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.063.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0560b.json"
+            }
+          ],
+          "width": 2296,
+          "height": 3401
+        }
+      ]
+    }
+  ]
+}
