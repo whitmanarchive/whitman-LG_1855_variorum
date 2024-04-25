@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/bd_0090c.json",
+  "@type": "sc:Manifest",
+  "label": "Binding C",
+  "description": [
+    {
+      "@value": "Binding C (bd_0090c)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Clifton Waller Barrett Library of American Literature, Albert and Shirley Small Special Collections Library, University of Virginia",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0090c.json",
+          "@type": "sc:Canvas",
+          "label": "Binding C",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00012.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/bd_0090c.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00012.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2601,
+                "height": 3580,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fuva_nhg.00012.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0090c.json"
+            }
+          ],
+          "width": 2601,
+          "height": 3580
+        }
+      ]
+    }
+  ]
+}

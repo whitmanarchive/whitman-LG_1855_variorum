@@ -17,8 +17,8 @@ function qs(key) {
 
 $(function () {
   var hostname = window.location.hostname;
-  var viewerUrl = "https://"+hostname+"/published/LG/1855/variorum/comparison_viewer.html";
-  var iFrameUrl = "https://"+hostname+"/published/LG/1855/variorum/comparison_viewer_iframe.html";
+  var viewerUrl = "comparison_viewer.html";
+  var iFrameUrl = "comparison_viewer_iframe.html";
 
   var nav = document.getElementById("snippet_navigation");
   var iframeholder = document.getElementById("iframe_holder");

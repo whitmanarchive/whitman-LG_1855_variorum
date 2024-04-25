@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/vr_0320a.json",
+  "@type": "sc:Manifest",
+  "label": "\"my love-grip;\" ",
+  "description": [
+    {
+      "@value": "\"my love-grip;\"  (vr_0320a)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Special Collections, The University of Iowa Libraries",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0320a-cropped.json",
+          "@type": "sc:Canvas",
+          "label": "\"my love-grip;\" ",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039_cropped.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/vr_0320a-cropped.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039_cropped.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1032,
+                "height": 190,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039_cropped.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0320a-cropped.json"
+            }
+          ],
+          "width": 1032,
+          "height": 190
+        },
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0320a.json",
+          "@type": "sc:Canvas",
+          "label": "\"my love-grip;\" ",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/vr_0320a.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2263,
+                "height": 3353,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Fppp.00271.039.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/vr_0320a.json"
+            }
+          ],
+          "width": 2263,
+          "height": 3353
+        }
+      ]
+    }
+  ]
+}

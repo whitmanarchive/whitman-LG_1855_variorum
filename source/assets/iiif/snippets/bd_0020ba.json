@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/bd_0020ba.json",
+  "@type": "sc:Manifest",
+  "label": "Yellow endpaper (Binding B)",
+  "description": [
+    {
+      "@value": "Yellow endpaper (Binding B) (bd_0020ba)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Charles E. Feinberg Collection of Walt Whitman, Library of Congress, Washington, D.C.",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0020ba.json",
+          "@type": "sc:Canvas",
+          "label": "Yellow endpaper (Binding B)",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01030.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/bd_0020ba.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01030.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2690,
+                "height": 3799,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01030.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0020ba.json"
+            }
+          ],
+          "width": 2690,
+          "height": 3799
+        }
+      ]
+    }
+  ]
+}
