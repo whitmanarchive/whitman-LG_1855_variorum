@@ -76,6 +76,10 @@ git commit -m "[message]"
 git push origin [branchname]
 ```
 
+## Statics Assets
+
+A number of pages which need to be generated statically are in the source/assets folder, including main.html, reviews.html, and comparison_viewer.html (along with required JS and CSS files). If pages need to be regenerated from the, please note that the corresponding html files must be moved out of output/[environment]/html into source/assets and renamed accordingly. main.html is generated as ppp.01879 and reviews.html is generated as ppp.01880.
+
 ### Development vs Production
 
 You may regenerate the development and production environments from either server, but be aware that because the TEI files for related works may differ on each server, it is recommended that you regenerate IIIF / HTML on the respective servers per environment.
