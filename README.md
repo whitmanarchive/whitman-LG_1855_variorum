@@ -78,7 +78,7 @@ git push origin [branchname]
 
 ## Statics Assets
 
-A number of pages which need to be generated statically are in the source/assets folder, including main.html, reviews.html, and comparison_viewer.html (along with required JS and CSS files). If pages need to be regenerated from the, please note that the corresponding html files must be moved out of output/[environment]/html into source/assets and renamed accordingly. main.html is generated as ppp.01879 and reviews.html is generated as ppp.01880.
+A number of pages which need to be generated statically are in the source/assets folder, including main.html, reviews.html, and comparison_viewer.html and other html files. There are folders for css, js, the iiif manifest, (static) images, juxta files (for the comparison viewer), Mirador and other vendor. Files need to be in the proper place in the file hierarchy so that they can be loaded by the static html pages. If pages need to be regenerated from the xml (with `post -x html`), please note that the corresponding html files must be moved out of output/[environment]/html into source/assets and renamed accordingly. main.html is generated as ppp.01879 and reviews.html is generated as ppp.01880.
 
 ### Development vs Production
 
