@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/bd_0020aa.json",
+  "@type": "sc:Manifest",
+  "label": "Marbled endpaper (Binding A)",
+  "description": [
+    {
+      "@value": "Marbled endpaper (Binding A) (bd_0020aa)",
+      "@language": "en"
+    }
+  ],
+  "attribution": "Carolyn Wells Houghton Whitman Collection, Library of Congress, Washington, D.C.",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "No Label Yet",
+      "canvases": [
+        {
+          "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0020aa.json",
+          "@type": "sc:Canvas",
+          "label": "Marbled endpaper (Binding A)",
+          "thumbnail": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg/full/!150,150/0/default.jpg",
+          "images": [
+            {
+              "@id": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/annotation/bd_0020aa.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2437,
+                "height": 3508,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://whitmanarchive.org/iiif/2/published%2FLG%2Ffigures%2Floc_nhg.01207.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://whitmanarchive.org/media/data/whitman-LG_1855_variorum/output/test3/iiif/snippets/canvas/bd_0020aa.json"
+            }
+          ],
+          "width": 2437,
+          "height": 3508
+        }
+      ]
+    }
+  ]
+}

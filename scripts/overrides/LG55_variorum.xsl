@@ -19,7 +19,13 @@
   <xsl:variable name="mss_max_count_docs">18</xsl:variable>
   
   
-  <xsl:variable name="pagetype"><xsl:text>main_variorum</xsl:text></xsl:variable>
+  <xsl:variable name="pagetype">
+    <xsl:choose>
+      <xsl:when test="/TEI/@xml:id='ppp.01879'"><xsl:text>reviews</xsl:text></xsl:when>
+      <xsl:when test="/TEI/@xml:id='ppp.01880'"><xsl:text>main_variorum</xsl:text></xsl:when>
+    </xsl:choose>
+  
+  </xsl:variable>
   <!-- if ppp.01880 main_variorum if anc.02145||anc.02143||anc.02142|||anc.02141||anc.02138 books_lg-->
   <xsl:variable name="site_url"/>
 
@@ -47,21 +53,13 @@
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;display=swap"
           rel="stylesheet"/>
         
+        <link href="css/reset-min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/body.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/variorum.css" rel="stylesheet" type="text/css" media="all"/>
         
-        
-        <!--<link href="{$site_url}css/banner.css" rel="stylesheet" type="text/css" media="all" />-->
-        
-        
-        <link href="../../../source/assets/reset-min.css" rel="stylesheet" type="text/css"
-          media="all"/>
-        <link href="../../../source/assets/body.css" rel="stylesheet" type="text/css"
-          media="all"/>
-        <link href="../../../source/assets/variorum.css" rel="stylesheet" type="text/css"
-          media="all"/>
-        
-        <script language="javascript" src="../../../source/assets/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
-        <script language="javascript" src="../../../source/assets/jquery-3.4.1.min.js"><xsl:text>&#x0020;</xsl:text></script>
-        <script language="javascript" src="../../../source/assets/variorum.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="js/lazysizes-bundle.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="js/jquery-3.4.1.min.js"><xsl:text>&#x0020;</xsl:text></script>
+        <script language="javascript" src="js/variorum.js"><xsl:text>&#x0020;</xsl:text></script>
         
         
       </head>
@@ -74,7 +72,7 @@
             <h1><!--<a href="{$siteroot}" title="Home"><img alt="The Walt Whitman Archive" src="{$siteroot}shared/h1_bg.jpg" /></a>--><a
               href="{$siteroot}" title="Go to Whitman Archive Home"><img style="width: 50px;"
                 alt="Walt Whitman Archive Logo"
-                src="{$siteroot}shared/WWA_logo.gif"/></a><em>Leaves of
+                src="images/WWA_logo.gif"/></a><em>Leaves of
                   Grass</em> (1855) Variorum</h1>
             <span class="v_header_return"><a href="{$siteroot}">Go to <em>Whitman Archive</em> home</a></span>
             <div class="v_header_options">
@@ -83,17 +81,17 @@
                 <xsl:text>Menu</xsl:text>
               </a>
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/main.html</xsl:text></xsl:attribute>
+                <xsl:attribute name="href"><xsl:text>main.html</xsl:text></xsl:attribute>
                 <xsl:if test="$pagetype = 'main_variorum'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
                 <xsl:text>Main Text</xsl:text>
               </a>
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/reviews.html</xsl:text></xsl:attribute>
+                <xsl:attribute name="href"><xsl:text>reviews.html</xsl:text></xsl:attribute>
                 <xsl:if test="$pagetype = 'reviews'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
                 <xsl:text>Reviews and Extracts</xsl:text>
               </a>
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>/published/LG/1855/variorum/comparison_viewer.html</xsl:text></xsl:attribute>
+                <xsl:attribute name="href"><xsl:text>comparison_viewer.html</xsl:text></xsl:attribute>
                 <xsl:if test="$pagetype = 'image_compare'"><xsl:attribute name="class">selected</xsl:attribute></xsl:if>
                 <xsl:text>Image Comparison Viewer</xsl:text>
               </a>
@@ -640,7 +638,7 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:attribute>
-        <xsl:variable name="work_id" select="descendant::relations/work/@ref"/>
+        <xsl:variable name="work_id" select="descendant::note[@type = 'work_relations']/@target"/>
         <xsl:variable name="poem_name">
           <xsl:call-template name="poem_by_id">
             <xsl:with-param name="work_id" select="$work_id"/>
@@ -869,19 +867,19 @@
         <xsl:if test="descendant::note[@target='xxx.00798']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00014.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/aeaap.html">Compare to Periodical Version (in Juxta)</a>
+            <a class="v_review_links" target="_blank" href="juxta/shares/aeaap.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
         <xsl:if test="descendant::note[@target='xxx.00892']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00013.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwabb.html">Compare to Periodical Version (in Juxta)</a>
+            <a class="v_review_links" target="_blank" href="juxta/shares/wwabb.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
         <xsl:if test="descendant::note[@target='xxx.00893']">
           <div class="mss_links">
             <a class="v_review_links" target="_blank" href="{$siteroot}/criticism/reviews/lg1855/anc.00176.html">View Periodical Version</a><br/>
-            <a class="v_review_links" target="_blank" href="https://whitmanarchive.org/archive/juxta/shares/wwahp.html">Compare to Periodical Version (in Juxta)</a>
+            <a class="v_review_links" target="_blank" href="juxta/shares/wwahp.html">Compare to Periodical Version (in Juxta)</a>
           </div>
         </xsl:if>
       

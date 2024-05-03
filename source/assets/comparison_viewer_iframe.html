@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+   
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" type="text/css" href="mirador/2/mirador/css/mirador-combined.css"></link>
+    <link rel="stylesheet" type="text/css" href="mirador/2/mirador/plugins/shareButtons/shareButtons.min.css"></link>
+    <!--Shows/hides crop tool--> 
+    <link rel="stylesheet" type="text/css" href="mirador/2/mirador/plugins/imageCropper/imageCropper.min.css"></link> 
+    <style>
+    /* Hides annotation button */
+    .mirador-osd-annotations-layer {
+      display: none !important;
+    }
+    /* Hides bottom navigational thumbnails */
+    .bottomPanel, .mirador-osd-toggle-bottom-panel {
+      display: none !important;
+    }
+  </style>
+    
+    <title>Mirador Viewer</title>
+  </head>
+  <body>
+    
+    <div id="viewer"></div>
+    
+    <script src="mirador/2/mirador/mirador.js"> </script>
+    <!-- <script src="https://cdrhmedia.unl.edu/mirador/2/mirador/plugins/share  Buttons/shareButtons.min.js">&#160;</script> -->
+    <!--Shows/hides crop tool-->  
+    <script src="mirador/2/mirador/plugins/imageCropper/imageCropper.min.js"> </script> 
+    <script src="js/variorum_comparison_viewer_iframe.js"> </script>
+  </body> 
+</html>
