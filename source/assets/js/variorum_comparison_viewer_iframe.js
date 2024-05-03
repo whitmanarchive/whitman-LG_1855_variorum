@@ -17,7 +17,7 @@ function qs(key) {
 $(function() {
   var hostname = window.location.hostname;
   // changed link to relative
-  var dataPath = "../iiif/"
+  var dataPath = "iiif/"
 
 
   idList = qs("ids");
