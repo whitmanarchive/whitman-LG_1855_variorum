@@ -638,7 +638,7 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:attribute>
-        <xsl:variable name="work_id" select="descendant::relations/work/@ref"/>
+        <xsl:variable name="work_id" select="descendant::note[@type = 'work_relations']/@target"/>
         <xsl:variable name="poem_name">
           <xsl:call-template name="poem_by_id">
             <xsl:with-param name="work_id" select="$work_id"/>
