@@ -77,7 +77,7 @@
             <span class="v_header_return"><a href="{$siteroot}">Go to <em>Whitman Archive</em> home</a></span>
             <div class="v_header_options">
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="$site_url"/><xsl:text>published/LG/1855/variorum/index.html</xsl:text></xsl:attribute>
+                <xsl:attribute name="href"><xsl:text>../1855/variorum/</xsl:text></xsl:attribute>
                 <xsl:text>Menu</xsl:text>
               </a>
               <a>
