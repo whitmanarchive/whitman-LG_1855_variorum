@@ -36,23 +36,23 @@
   <!-- HTML paths -->
   <xsl:param name="nbPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/notebooks/transcriptions/</xsl:text>
+    <xsl:text>item/</xsl:text>
   </xsl:param>
   <xsl:param name="msPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/transcriptions/</xsl:text>
+    <xsl:text>item/</xsl:text>
   </xsl:param>
   <xsl:param name="margAnnoPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/marginalia/annotations/</xsl:text>
+    <xsl:text>item/</xsl:text>
   </xsl:param>
   <xsl:param name="margPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>manuscripts/marginalia/transcriptions/</xsl:text>
+    <xsl:text>item/</xsl:text>
   </xsl:param>
   <xsl:param name="variorumPathHTMLRoot">
     <xsl:value-of select="$siteroot"/>
-    <xsl:text>published/LG/1855/related/</xsl:text>
+    <xsl:text>item/</xsl:text>
   </xsl:param>
   
 
