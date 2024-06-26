@@ -8,24 +8,15 @@ repo](https://github.com/whitmanarchive/whitman-scripts)
 
 ## Overview
 
-This data repository houses the XSLT and Ruby scripts used to create all the components of the 1855 Leaves of Grass variorum. It also has several XML files which are integral to the variorum, but the bulk of the TEI which it relies on can be found in the Whitman Archive's Cocoon site (manuscripts, marginalia, marginalia annotations, notebooks).
+This data repository houses the XSLT and Ruby scripts used to create all the components of the 1855 Leaves of Grass variorum. It also has two XML files which are integral to the variorum: the "main" file (ppp.01880) and the "reviews" file (ppp.01879).
 
 Some of the outputs of scripts available in this repository are the actual HTML of the variorum, a list of works, and IIIF manifests.
 
-*Currently, the Whitman development server is calling the XSLT scripts from Cocoon!*  This means that changes you make to code on the server should show up right away, but it also means that you are pulling variables from `config.xsl` rather than `public.yml`, so be aware of that discrepancy! Regardless of whether this code is on the dev or production server, the variorum is being generated via the XSLT in the `scripts` directory.
+Because the variorum was set up in Cocoon, variables are still being pulled from `config.xsl` rather than `public.yml`, so be aware of that discrepancy! Regardless of whether this code is on the dev or production server, the variorum is being generated via the XSLT in the `scripts` directory.
 
 ## Setup
 
 For information about how to set up this repository and its scripts, please visit [datura](https://github.com/CDRH/datura).  You will need Ruby, Datura, Saxon-HE, and gems required by the Datura software to run these scripts.
-
-Due to these scripts needing access to TEI-XML located in the Whitman Archive's cocoon site, this repository must be located relative to the cocoon site as follows:
-
-```
-same_dir/cocoon/whitmanarchive
-same_dir/data/collections/whitman-variorum
-```
-
-You will also need to allow your web server to serve files in the `output` directory, since that is where all of the IIIF manifests and HTML are placed after generation.
 
 ### Configuration
 
@@ -38,7 +29,7 @@ There are several configurable pieces in this repository.
 
 *config/public.yml*
 
-This file contains the paths for the IIIF manifests regardless of environment.  It also has variables for the XSLT when using pregenerated HTML for the variorum (for example, on production).
+This file contains the paths for the IIIF manifests regardless of environment. It also has variables for the XSLT when using pregenerated HTML for the variorum (for example, on production).
 
 *config/config.xsl*
 
@@ -76,9 +67,9 @@ git commit -m "[message]"
 git push origin [branchname]
 ```
 
-## Statics Assets
+## Static Assets
 
-A number of pages which need to be generated statically are in the source/assets folder, including main.html, reviews.html, and comparison_viewer.html and other html files. There are folders for css, js, the iiif manifest, (static) images, juxta files (for the comparison viewer), Mirador and other vendor. Files need to be in the proper place in the file hierarchy so that they can be loaded by the static html pages. If pages need to be regenerated from the xml (with `post -x html`), please note that the corresponding html files must be moved out of output/[environment]/html into source/assets and renamed accordingly. main.html is generated as ppp.01879 and reviews.html is generated as ppp.01880.
+A number of pages which need to be generated statically are in the source/assets folder, including main.html, reviews.html, and comparison_viewer.html and other html files. There are folders for css, js, the iiif manifest, (static) images, juxta files (for the comparison viewer), Mirador and other vendor. Files need to be in the proper place in the file hierarchy so that they can be loaded by the static html pages. If pages need to be regenerated from the xml (with `post -x html`), please note that the corresponding html files must be moved out of output/[environment]/html into source/assets and renamed accordingly. main.html is generated as ppp.01880 and reviews.html is generated as ppp.01879.
 
 ### Development vs Production
 
@@ -100,7 +91,7 @@ It is recommended that you make your changes on the development server, test it 
 
 ### Works
 
-To update those TEI files (in cocoon) which are being searched for works, please edit `source/authority/files_with_works.txt`, then re-run the HTML post script. Results will be output to `source/authority/work_list_generated.xml` and the variorum will be updated.
+To update those TEI files which are being searched for works, please edit `source/authority/files_with_works.txt`, then re-run the HTML post script. Results will be output to `source/authority/work_list_generated.xml` and the variorum will be updated.
 
 `bundle exec post -x html`
 
@@ -127,7 +118,3 @@ bundle exec post -x iiif
 The snippets process also creates a JS file, `output/[environment]/manifests/snippets/index.js` which contains information about how to relate all of the manifests.
 
 If you are pulling the data repository changes to the server that the pages which use the manifests are calling, you should see the changes upon hard refreshing.
-
-### HTML
-
-The variorum is currently set up to run in two ways:  either on-the-fly in cocoon using XSL variables OR as pregenerated HTML using variables from `config/public.yml`.
