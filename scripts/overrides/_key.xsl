@@ -80,13 +80,13 @@
               <p>The images provided as thumbnails before each page correspond to the insertion in a copy in the Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia. For a complete list of copies that include the reviews insertion, see "<a target="_blank">
                   <xsl:attribute name="href">
                     <xsl:value-of select="$siteroot"/>
-                    <xsl:text>published/LG/1855/variorum/main.html#pt_0020a</xsl:text>
+                    <xsl:text>published-writings/leaves-of-grass/1855-variorum/main.html#pt_0020a</xsl:text>
                   </xsl:attribute>
                   <xsl:text>Reviews and extracts</xsl:text></a>" in the main text or visit the
                 <a target="_blank">
                   <xsl:attribute name="href">
                     <xsl:value-of select="$siteroot"/>
-                    <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
+                    <xsl:text>item/anc.02123</xsl:text>
                   </xsl:attribute>
                   <xsl:text>bibliography of copies</xsl:text>
                 </a>.
@@ -101,7 +101,7 @@
                 <a target="_blank">
                   <xsl:attribute name="href">
                     <xsl:value-of select="$siteroot"/>
-                    <xsl:text>published/LG/1855/variorum/intro.html</xsl:text>
+                    <xsl:text>item/anc.02135</xsl:text>
                   </xsl:attribute>
                   <xsl:text>introduction to the variorum</xsl:text>
                 </a>.
@@ -123,7 +123,7 @@
               <a target="_blank">
                 <xsl:attribute name="href">
                   <xsl:value-of select="$siteroot"/>
-                  <xsl:text>published/LG/1855/variorum/intro.html</xsl:text>
+                  <xsl:text>item/anc.02135</xsl:text>
                 </xsl:attribute>
                 <xsl:text>introduction to the variorum</xsl:text>
               </a>.

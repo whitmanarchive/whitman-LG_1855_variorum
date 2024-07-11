@@ -70,11 +70,19 @@
           
           <div class="variorum_header">
             <h1><!--<a href="{$siteroot}" title="Home"><img alt="The Walt Whitman Archive" src="{$siteroot}shared/h1_bg.jpg" /></a>--><a
-              href="{$siteroot}" title="Go to Whitman Archive Home"><img style="width: 50px;"
+              href="{$siteroot}" title="Back to landing page"><img style="width: 50px;"
                 alt="Walt Whitman Archive Logo"
                 src="images/WWA_logo.gif"/></a><em>Leaves of
                   Grass</em> (1855) Variorum</h1>
-            <span class="v_header_return"><a href="{$siteroot}">Go to <em>Whitman Archive</em> home</a></span>
+            <span class="v_header_return">
+              <a> 
+                <xsl:attribute name="href">
+                  <xsl:value-of select="$siteroot"/>
+                  <xsl:text>published-writings/leaves-of-grass/1855/variorum</xsl:text>
+                </xsl:attribute>
+                <xsl:text>>Back to landing page</xsl:text>
+              </a>
+            </span>
             <div class="v_header_options">
               <a>
                 <xsl:attribute name="href"><xsl:text>../1855/variorum/</xsl:text></xsl:attribute>
@@ -205,7 +213,7 @@
             <xsl:sort select="ancestor::linkGrp/@corresp" order="ascending"/>
             <xsl:variable name="fileID" select="ancestor::linkGrp/@corresp"/>
             <xsl:variable name="fileIDhtml"
-              select="concat(substring-before($fileID, '.xml'), '.html')"/>
+              select="substring-before($fileID, '.xml')"/>
             <xsl:variable name="msID"
               select="substring-after(substring-after(@target, '#'), '#')"/>
             <xsl:variable name="nbPath" select="concat($nbPathRoot, $fileID)"/>
@@ -404,7 +412,7 @@
           <a target="_blank">
             <xsl:attribute name="href">
               <xsl:value-of select="$siteroot"/>
-              <xsl:text>published/LG/1855/variorum/comparison_viewer.html?base=</xsl:text>
+              <xsl:text>published-writings/leaves-of-grass/1855-variorum/comparison_viewer.html?base=</xsl:text>
               <xsl:value-of select="substring(@xml:id,1,7)"/>
             </xsl:attribute>
             <span class="variant_viewer_view">View side-by-side images (new window)</span>
@@ -516,7 +524,7 @@
         <a target="_blank" rel="nofollow noreferrer">
           <xsl:attribute name="href">
             <xsl:value-of select="$siteroot"/>
-            <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
+            <xsl:text>item/anc.02123</xsl:text>
             <xsl:text>#</xsl:text>
             <xsl:for-each select="$wits">
               <xsl:sort select="."/>
@@ -537,7 +545,7 @@
           <a target="_blank" rel="nofollow noreferrer">
             <xsl:attribute name="href">
               <xsl:value-of select="$siteroot"/>
-              <xsl:text>published/LG/1855/bibliography/index.html</xsl:text>
+              <xsl:text>item/anc.02123</xsl:text>
               <xsl:text>#</xsl:text>
               <xsl:value-of select="substring-after(., '#')"/>
             </xsl:attribute>

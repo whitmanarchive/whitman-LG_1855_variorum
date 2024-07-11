@@ -57,7 +57,6 @@
                 </xsl:when>
               </xsl:choose>
               <xsl:value-of select="$id"/>
-              <xsl:text>.html</xsl:text>
             </xsl:variable>
 
             <li>
@@ -79,7 +78,7 @@
             <a class="v_review_links" target="_blank">
               <xsl:attribute name="href">
                 <xsl:value-of select="$siteroot"/>
-                <xsl:text>published/periodical/poems/per.00088.html</xsl:text>
+                <xsl:text>item/per.00088</xsl:text>
               </xsl:attribute>
               <xsl:text>View Periodical Version</xsl:text>
             </a>
