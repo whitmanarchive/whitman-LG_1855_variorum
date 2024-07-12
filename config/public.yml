@@ -25,11 +25,11 @@ default:
     msPathRoot: ../../../whitman-manuscripts/source/tei/
     margPathRoot: ../../../whitman-marginalia/source/tei/
     variorumPathRoot: ../../source/authority/
-    nbPathHTMLRoot: manuscripts/notebooks/transcriptions/
-    msPathHTMLRoot: manuscripts/transcriptions/
-    margAnnoPathHTMLRoot: manuscripts/marginalia/annotations/
-    margPathHTMLRoot: manuscripts/marginalia/transcriptions/
-    variorumPathHTMLRoot: published/LG/1855/related/
+    nbPathHTMLRoot: item/
+    msPathHTMLRoot: item/
+    margAnnoPathHTMLRoot: item/
+    margPathHTMLRoot: item/
+    variorumPathHTMLRoot: item/
   api_version: "2.0"
   es_index: whitman-api_v2
   threads: 5
