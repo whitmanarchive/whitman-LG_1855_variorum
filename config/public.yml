@@ -7,11 +7,11 @@
 
 default:
   collection: whitman-LG_1855_variorum
-  data_base: https://whitmanarchive.org/media  # (do not include /data/ in path)
-  media_base: https://whitmanarchive.org/media
+  data_base: https://servername.unl.edu/media  # (do not include /data/ in path)
+  media_base: https://servername.unl.edu/media
 
   # iiif settings
-  iiif_base: https://whitmanarchive.org/iiif/2
+  iiif_base: https://servername.unl.edu/iiif/2
   # only applies to TEI, for snippets alter CSV
   iiif_fig_dir: "published%2FLG%2Ffigures%2F"
   iiif_fullsize_end: "full/full/0/default.jpg"
@@ -35,10 +35,10 @@ default:
   threads: 5
 
 development:
-  data_base: https://whitman-dev.unl.edu/media  # (do not include /data/ in path)
+  data_base: https://servername.unl.edu/media  # (do not include /data/ in path)
   variables_html:
-    siteroot: https://whitman-dev.unl.edu/
-  es_index: api_v2
+    siteroot: https://servername.unl.edu/
+  es_index: whitman-api_v2
 
 # production:
   # limit processed files by adding allowed ids on newlines in a file
